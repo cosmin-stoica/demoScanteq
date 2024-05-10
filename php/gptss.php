@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
      $url = 'https://api.openai.com/v1/threads';
 
-     $apiKey = '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'; // Sostituisci con la tua chiave API di OpenAI
+
 
 
      $data = [
@@ -75,7 +75,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id = $responseArray['id'];
     
     /*$url = 'https://api.openai.com/v1/threads/' . $id . '/messages';
-    $apiKey = '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'; // Sostituisci con la tua chiave API di OpenAI
 
 
     $data = [
