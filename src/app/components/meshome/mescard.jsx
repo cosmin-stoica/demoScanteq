@@ -65,7 +65,7 @@ const MesCard = () => {
                                             </p>
 
 
-                                            <p class="card-contentMAIM">La gestione delle lavorazioni, delle commesse,
+                                            <p class="card-contentMAIM">La cosss gestione delle lavorazioni, delle commesse,
                                                 dei componenti e delle informazioni ausiliarie ti consente un controllo totale
                                                 della produzione anche da remoto. Puoi creare cicli di lavoro e inviarli direttamente
                                                 nella rete aziendale, rendendoli facilmente accessibili dalle tue postazioni.</p>
