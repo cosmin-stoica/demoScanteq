@@ -1,0 +1,638 @@
+.cardAdmindiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardAdmin {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 50px;
+    color: var(--primary);
+  }
+  
+  .cardAdmin::before,
+  .cardAdmin::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: var(--primary);
+    transition: all 0.5s;
+  }
+  
+  .cardAdmin::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .cardAdmin::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .cardAdmin:hover::before,
+  .cardAdmin:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .cardAdmin:hover:after {
+    content: "Avanti";
+    color:white;
+}
+
+#tableattivita{
+  width: 100%; /* Imposta la larghezza della tabella in base al contenuto */
+  border-collapse: collapse; /* Unisce i bordi delle celle */
+  background-color: white;
+}
+
+#tableattivita td{
+  max-width: 10%;
+}
+
+.perlatable{
+  max-width: 100%;
+  height: 100%;
+}
+
+
+.paneattivitafull{
+  width: 100%;
+  height: 100vh;
+}
+
+.esciattivitabutton{
+  position: absolute;
+  top:100px;
+  right:20px;
+}
+
+.esciattivitabutton{
+  border:none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+}
+
+.esciattivitabutton:hover{
+  background-color: black;
+  color:white;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+}
+
+.esciattivitabutton:not(:hover){
+  transition: all 0.5s ease;
+}
+
+
+.divApertoAttivita {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 85%;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border: 4px solid var(--primary);
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.4);
+  overflow: auto;
+}
+
+.divApertoAttivita h5{
+  padding-top: 10px;
+}
+
+.stato-concluso {
+  background-color: green;
+}
+
+.stato-incorso{
+  background-color: yellow;
+}
+
+.divApertoAttivita h2{
+  color:white;
+}
+
+.infoattivitadiv{
+  background-color: var(--primary);
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.infoattivitadiv div{
+  width: 100%;
+  height: 100%;
+}
+
+.textareadescrizione{
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background-color: rgb(235, 235, 235);
+  padding-bottom: 0px;
+}
+
+
+.textareadescrizione p{
+  padding: 10px;
+  word-break: break-word;
+  font-size: 20px;
+  width: 90%;
+  height: 100%;
+  overflow: auto;
+  white-space:break-spaces;
+}
+
+.textareadescrizione textarea{
+  width: 100%;
+  height: 400px;
+}
+
+
+.allegatidiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  color:black;
+}
+.allegatidiv i{
+  color:black;
+  font-size: 40px;
+}
+
+.perflex2elementi p{
+  color:black;
+  margin-right: 10px;
+}
+
+.perflex2elementi {
+  display: flex;
+  justify-content: space-between; /* Distribuisce lo spazio uniformemente, mettendo il massimo spazio tra gli elementi */
+  align-items: center; /* Centra gli elementi verticalmente all'interno del contenitore */
+  width: 100%; /* Imposta la larghezza del contenitore, può essere adattata a seconda delle necessità */
+}
+
+
+#tableazioni{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+
+.descrizionestyle{
+  width: 100%;
+  white-space: nowrap;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+.datastyle{
+  white-space: nowrap;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+.perflexcolumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.pertableazionidiv{
+  width: 90%;
+  overflow-x: auto;
+}
+
+.vediattivitabutton{
+  background-color: white;
+  border:none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.vediattivitabutton:hover{
+  background-color: var(--primary);
+  color:white;
+  transition: all 0.3s ease;
+}
+
+.vediattivitabutton:not(:hover){
+  transition: all 0.3s ease; 
+}
+
+.bottoniattivitacontrols{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottoniattivitacontrols div{
+  width: 90%;
+
+}
+
+.bottoniattivitacontrols button{
+  background-color: white;
+  border:solid 2px var(--primary);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.bottoniattivitacontrols button:hover{
+  background-color: var(--primary);
+  color:white;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  border:solid 2px white;
+}
+
+.bottoniattivitacontrols button:not(:hover){
+  transition: all 0.3s ease; 
+}
+
+.inserisciattivitapane{
+  width: 85%;
+}
+
+#descrizioneinputform{
+  height: 100px;
+}
+
+
+
+
+
+
+
+.paneticketcrea{
+  width: 100%;
+ padding-top: 120px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 70px;
+}
+
+
+.formCrea {
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 75%;
+  padding: 20px;
+  width: 80%;
+}
+
+.titleCrea {
+  color: #383838;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitleCrea {
+  color: #383838;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.inputCrea {
+  background-color: #c8c8c8;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #000000;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: white;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.iLabelCrea {
+  color: #000000;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.inputCrea:focus ~ .cut {
+  transform: translateY(8px);
+}
+
+.iLabelCrea {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.inputCrea:not(:focus) ~ .iLabelCrea {
+  color: #717171;
+}
+
+.inputCrea:focus ~ .iLabelCrea {
+  color: #000000;
+}
+
+
+.submitCrea {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100%;
+}
+
+.submitCrea:active {
+  background-color: #06b;
+}
+
+
+
+
+
+
+.file-upload-form {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.file-upload-label input {
+  display: none;
+}
+.file-upload-label svg {
+  height: 50px;
+  fill: var(--primary);
+  margin-bottom: 20px;
+}
+.file-upload-label {
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 30px 70px;
+  border-radius: 40px;
+  border: 2px dashed var(--primary);
+  box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.719);
+  transition: all 0.3s ease-in-out;
+}
+
+.file-upload-label:hover{
+  background-color: rgb(213, 213, 213);
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.file-upload-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.browse-button {
+  background-color: var(--primary);
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.3s;
+}
+.browse-button:hover {
+  background-color: rgb(14, 14, 14);
+}
+
+.perflexpaddingtop{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 330px;
+}
+
+#contenutoinput{
+  height: 350px;
+  margin-top: 4px;
+}
+
+.fileselezionatidiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fileselezionatidiv li{
+  color:#383838;
+}
+
+.fileselezionatidiv button{
+  border:none;
+  border-radius: 7px;
+  background-color: var(--primary);
+  color:white;
+}
+
+/*.infodivmessaggi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+}*/
+
+
+.barrainfo{
+  background-color: var(--primary);
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.barrainfo button{
+  margin-right: 10px;
+  background-color: white;
+  border:none;
+  border-radius: 4px;
+  height: 30px;
+}
+
+.barrainfo button:hover{
+  background-color: var(--primary);
+  color:white;
+  transition: all 0.3s ease;
+}
+
+.barrainfo button:not(:hover){
+  transition: all 0.3s ease;
+}
+ 
+.barrainfo p{
+  color:white;
+  position:absolute;
+  top: 50%; /* Posiziona il bordo superiore del paragrafo al 50% dell'altezza del genitore */
+  left: 50%; /* Posiziona il bordo sinistro del paragrafo al 50% della larghezza del genitore */
+  transform: translate(-50%, -50%); 
+}
+
+ @media screen and (max-width:380px) {
+
+  .barrainfo p{
+    background-color: red;
+    display: none;
+  }
+  
+ }
+
+.eliminaattivitabutton{
+  border:none;
+  background-color: rgb(154, 8, 8);
+  color:white;
+  border-radius: 2px;
+}
+
+.eliminaattivitabutton:hover{
+  background-color: black;
+  color:white;
+  transition: all 0.2s ease;
+}
+
+.eliminaattivitabutton:not(:hover){
+  transition: all 0.2s ease;
+}
+
+.perlatable{
+  width: 100%;
+}
+
+
+
+@media screen and (max-width:500px) {
+  .cardAdmin{
+    padding: 15px;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .esciattivitabutton{
+    right:3px;
+  }
+
+  .strumentidiv button{
+    margin-top: 10px;
+  }
+
+  .infoattivitadiv{
+    flex-direction: column;
+  }
+}
+
+.perlatable{
+  width: 100%;
+  overflow-x: auto;
+}
+
+
+.maxwitdh100{
+  width: 100%;
+}
+
+.barrainfo div{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 90%;
+}
