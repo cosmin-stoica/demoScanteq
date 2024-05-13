@@ -25,11 +25,7 @@ function AutoIndustriale() {
                     <JobHeaderMasp></JobHeaderMasp>
                 </div>
             </div>
-            {/*<div id="containertracciabilità" className="section-full p-t100 p-b70 mobile-page-padding">
-                <div className="container">
-                    {/*<IndCont6/>
-                </div>
-            </div>*/}
+          
             <div id="containerinterfaccia" className="section-full p-t100 p-b70 mobile-page-padding">
                 {/*<IndCont2/>  */}
                 {/*<JobCards></JobCards>*/}

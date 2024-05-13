@@ -27,7 +27,7 @@ export const bannerData = {
         crumb: "Imagina",
     },
      autoindustriale: {
-        background: "images/banner/industriale.jpg",
+        background: "images/banner/automazionedue.jpg",
         title: "Piattaforma MASP",
         crumb: "Piattaforma MASP",
     },
