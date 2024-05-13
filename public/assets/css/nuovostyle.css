@@ -2019,8 +2019,40 @@ section.cardJob {
   border-radius: 5px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   transition: all 0.3s ease-in-out;
+  width: 300px;
+  height: 350px;
+  text-align: center;
 }
 
 .header-job-card i{
   font-size: 100px;
+}
+
+.header-job-card h1{
+  padding-top: 20px;
+  color:#0f4bb9;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 1000;
+}
+
+.header-job-card p{
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+}
+
+.div-header-job-card{
+  color:black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+}
+
+.containerjobheadermasp{
+  background-color: white;
+  padding-bottom: 100px;
 }

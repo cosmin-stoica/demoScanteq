@@ -20,15 +20,9 @@ function AutoIndustriale() {
                     {<IndCont11 />}
                 </div>
     </div>*/}
-            <div id="containertabella" className="section-full p-t100 p-b70 mobile-page-padding padding-bottom70px">
+            <div className="section-full p-t100 p-b70 mobile-page-padding containerjobheadermasp">
                 <div className="container">
                     <JobHeaderMasp></JobHeaderMasp>
-                </div>
-            </div>
-
-            <div id="containertabella" className="section-full p-t100 p-b70 mobile-page-padding padding-bottom70px">
-                <div className="container">
-                    <IndCont5 />
                 </div>
             </div>
             {/*<div id="containertracciabilità" className="section-full p-t100 p-b70 mobile-page-padding">
