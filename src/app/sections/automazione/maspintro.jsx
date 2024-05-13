@@ -67,10 +67,7 @@ function MaspIntro() {
                                                     predeterminato di una serie di operazioni, denominate Job, che rappresentano
                                                     passaggi effettuati dalla parte software, elettronica ed elettromeccanica,
                                                     con o senza intervento dell’operatore, necessari per raggiungere un risultato
-                                                    finale. I Job, altamente personalizzabili attraverso file di configurazione,
-                                                    si classificano in tre categorie principali: Montaggio, per le operazioni di
-                                                    assemblaggio, Collaudo, per la realizzazione di test vari e Ausiliari, per il
-                                                    supporto ai processi operativi.
+                                                    finale.  Questi Job, altamente configurabili, sono suddivisi in sei categorie: Automazione e Assemblaggio, Collaudo Componenti Automobilistici, Controllo di Qualità e Verifica, Gestione della Produzione e Logistica, Gestione delle Postazioni e delle Procedure, e Sistemi di Controllo Elettronico per Sedili.
                                                 </p>
                                                 <p class="card-contentMAIM">I vantaggi principali dell’utilizzo della piattaforma
                                                     MASP includono la condotta guidata delle operazioni e la loro personalizzazione,
