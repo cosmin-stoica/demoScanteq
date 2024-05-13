@@ -7,7 +7,7 @@ const jobs = [
       "Il Job Avvitatura impiega avvitatori con centraline elettroniche per serrare viti, controllando la coppia e l'angolo, con l’opzione di aggiungere un braccio di reazione con gestione delle posizioni.",
     imgSrc: "images/jobs/avvitatura.png",
   },
-  {
+  /*{
     id: 2,
     title: "Pick To Light",
     category: "Automazione e Assemblaggio",
@@ -22,32 +22,32 @@ const jobs = [
     description:
       "Il Job Robot impiega un robot collaborativo che esegue in modo efficiente e preciso delle operazioni specifiche preconfigurate e selezionate con comandi via protocollo TCP-IP.",
     imgSrc: "images/jobs/robot.png",
-  },
-  {
+  },*/
+  /*{
     id: 4,
     title: "Cintura",
     category: "Collaudo Componenti Automobilistici",
     description:
       "Il Job Cintura verifica il corretto funzionamento delle cinture di sicurezza automobilistiche misurando la resistenza o la corrente assorbita dalla stessa, sia con che senza la linguetta inserita.",
     imgSrc: "images/jobs/cintura.png",
-  },
+  },*/
   {
-    id: 5,
+    id: 2,
     title: "Airbag",
-    category: "Collaudo Componenti Automobilistici",
+    category: "Collaudo Componenti Automotive",
     description:
       "Il Job Airbag controlla l'impianto airbag iniettando una bassa corrente nel circuito per prevenire detonazioni accidentali e misurando la tensione sulla resistenza per verificare che rispetti valori prestabiliti.        ",
     imgSrc: "images/jobs/bag.png",
   },
-  {
+  /*{
     id: 6,
     title: "Sensore di presenza DPD-SBR",
     category: "Collaudo Componenti Automobilistici",
     description:
       "Il Job DPD-SBR controlla il corretto funzionamento del sensore di presenza passeggero dei  sedili auto, verificando che lo stato di attivazione sia quello corretto in base al peso caricato.        ",
     imgSrc: "images/jobs/dpd-sbr.png",
-  },
-  {
+  },*/
+  /*{
     id: 7,
     title: "Dimensionale",
     category: "Controllo di Qualità e Verifica",
@@ -62,9 +62,9 @@ const jobs = [
     description:
       "Il Job Motore consiste nel monitorare la corrente di picco o media che un motore DC assorbe durante un periodo di tempo definito, controllando che i valori ottenuti rientrino nei limiti prestabiliti.  ",
     imgSrc: "images/jobs/motore.png",
-  },
+  },*/
   {
-    id: 9,
+    id: 3,
     title: "Visione",
     category: "Controllo di Qualità e Verifica",
     description:
@@ -87,14 +87,14 @@ const jobs = [
       "Il Job Manutenzione consente la segnalazione di problemi alla postazione, indicati come 'Macchina operativa', che permette ancora lavorazione o 'Macchina ferma', che blocca il ciclo produttivo.      ",
     imgSrc: "images/jobs/manutenzione.png",
   },
-  {
+  /*{
     id: 12,
     title: "Stampa",
     category: "Gestione della Produzione e Logistica",
     description:
       "Il Job Stampa consente di creare etichette personalizzate, configurabili in termini di dimensione, disposizione di bordi o linee, testi semplici o con dati di lavorazione, codici a barre e loghi caricati da file.      ",
     imgSrc: "images/jobs/stampa.png",
-  },
+  },*/
   {
     id: 13,
     title: "Bloccaggio",
@@ -103,7 +103,7 @@ const jobs = [
       "Il Job Bloccaggio gestisce flessibilmente lo spostamento di un cilindro pneumatico usando elettrovalvole per controllare il movimento avanti e indietro, monitorando le due posizioni con sensori proximity.      ",
     imgSrc: "images/jobs/bloccaggio.png",
   },
-  {
+ /* {
     id: 14,
     title: "Paranco",
     category: "Gestione delle Postazioni e delle Procedure",
@@ -117,8 +117,8 @@ const jobs = [
   category: "Gestione delle Postazioni e delle Procedure",
   description:
     "Il Job Input-Output gestisce l'attivazione e la disattivazione sequenziale e temporizzata delle uscite di controllo della postazione basata sullo stato degli ingressi e sui parametri di configurazione.    ",
-  imgSrc: "images/jobs/centraline.png",
-},
+  imgSrc: "images/jobs/inputoutput.png",
+},*/
 {
     id: 16,
     title: "ECU-Sedili",
@@ -127,7 +127,7 @@ const jobs = [
       "Il Job SCU configura e verifica i sedili auto gestiti da centraline elettroniche con bus CAN. Esegue diagnostiche avanzate, analizza i Serial Number hardware e software e calibra le movimentazioni",
     imgSrc: "images/jobs/sedili.png",
   },
-  {
+ /* {
     id: 17,
     title: "OCS-Bodysense",
     category: "Sistemi di Controllo Elettronico per Sedili",
@@ -142,7 +142,7 @@ const jobs = [
     description:
       "Il Job ECU-Heater gestisce centraline elettroniche dotate di interfaccia LIN per termofori automotive, inviando comandi per l'attivazione e, successivamente, verificando la corrente assorbita.",
     imgSrc: "images/jobs/heater.png",
-  },
+  },*/
 ];
 
 export default jobs;

@@ -1341,7 +1341,8 @@ section.cardJob {
 
 .iconahomejobs {
   width: auto;
-  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
 }
 
 #homeautomazionedivcolor {
@@ -1848,7 +1849,7 @@ section.cardJob {
  .jobBox{
   background-color: rgb(255, 255, 255);
   width: 300px;
-  height: 300px;
+  height: 320px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1877,6 +1878,7 @@ section.cardJob {
   text-transform: uppercase;
   color:#0f4bb9;
   font-weight: 500;
+  text-align: center;
  }
 
  .descrizionejobBox{
@@ -2010,3 +2012,15 @@ section.cardJob {
 
 }
 
+
+
+.header-job-card{
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-job-card i{
+  font-size: 100px;
+}

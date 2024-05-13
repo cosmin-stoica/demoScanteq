@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import React, { useEffect } from 'react';
 
 function IndCont5() {
+
     useEffect(() => {
         // Quando il componente viene montato
         const squares = document.querySelectorAll(".square");
@@ -36,15 +37,7 @@ function IndCont5() {
 operazioni di avvitatura, rivettatura, montaggio seeger e utilizzo di robot
 collaborativi. Il Pick to Light e il Barcode fanno parte di questa tipologia in
 quanto il primo permette di prelevare i componenti con condotta guidata e il
-secondo di controllare il codice prima che esso venga montato.
-<br></br>
-<br></br>- Barcode
-<br></br>- Pick to Light
-<br></br>- Avvitatura 
-<br></br>- Avvitatura a chiave
-<br></br>- Rivettatura
-<br></br>- Montaggio seeger
-<br></br>- Robot collaborativo</p>
+secondo di controllare il codice prima che esso venga montato.</p>
             </div>
             <div className="square">
             <span className="sx-text-primary"><i id="iconind" className="flaticon-monitor-1" /></span>
@@ -53,18 +46,6 @@ secondo di controllare il codice prima che esso venga montato.
 la verifica di resistenze elettriche e correnti assorbite da componenti elettronici
 come termofori, motorini DC, airbag, sensori TPS e di presenza, rami cintura e
 killer-switch. L’ultima operazione effettua la verifica dimensionale.
-<br></br>
-<br></br>- Carico manuale
-<br></br>- Carico
-<br></br>- Coppia 
-<br></br>- Motore 
-<br></br>- Cintura 
-<br></br>- Airbag 
-<br></br>- Temoforo 
-<br></br>- Killer-Switch 
-<br></br>- TPS 
-<br></br>- Sensore di presenza DPD-SBR 
-<br></br>- Dimensionale 
 </p>
             </div>
             <div className="square ">
@@ -78,15 +59,6 @@ Avendo funzione sia di montaggio che collaudo, il Job visione permette di
 effettuare controlli visivi automatici tramite gestione di telecamere montate
 sulla postazione, grazie ad algoritmi di visione proprietari, con la possibilità di
 archiviare l’immagine.
-<br></br>
-<br></br>- Oggettivazione  
-<br></br>- Bloccaggio 
-<br></br>- Timer 
-<br></br>- Visione 
-<br></br>- Jump 
-<br></br>- Stampa 
-<br></br>- Centraline CAN
-<br></br>- Centraline LIN
 </p>
             </div>
         </div>

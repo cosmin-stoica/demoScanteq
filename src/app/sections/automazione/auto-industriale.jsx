@@ -9,16 +9,23 @@ import IndCont5 from "../IT blogs/detail/ind-cont5";
 import IndCont6 from "../IT blogs/detail/ind-cont6";
 import JobCards from "./jobcards";
 import JobCardsDef from "./jobcardsDef";
+import JobHeaderMasp from "./JobHeaderMasp";
 function AutoIndustriale() {
     return (
         <>
             {<Banner _data={bannerData.autoindustriale} />}
             {/* SECTION CONTENT START */}
-            <div id="cont22" className="section-full p-t100 p-b70 mobile-page-padding">
+            {/*<div id="cont22" className="section-full p-t100 p-b70 mobile-page-padding">
                 <div className="container">
                     {<IndCont11 />}
                 </div>
+    </div>*/}
+            <div id="containertabella" className="section-full p-t100 p-b70 mobile-page-padding padding-bottom70px">
+                <div className="container">
+                    <JobHeaderMasp></JobHeaderMasp>
+                </div>
             </div>
+
             <div id="containertabella" className="section-full p-t100 p-b70 mobile-page-padding padding-bottom70px">
                 <div className="container">
                     <IndCont5 />
