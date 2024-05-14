@@ -4,7 +4,7 @@ import { bannerData } from "../../../globals/banner";
 import SectionCaseStudy1 from "../home/index/section-case-study1";
 import SectionAboutCompany1 from "../home/index/section-about-company1";
 import SectionClients2 from "../home/index2/section-clients2";
-import { Clienti } from "../../components/clienti/clienti";
+import NewClienti from "../../components/clienti/newClienti";
 import SectionWhyChooseUs2 from "../home/index2/section-why-choose-us2";
 import HomeAutomazione from "./homeautomazione";
 import MaspImaginaNew from "../home/index/maspimaginanew";

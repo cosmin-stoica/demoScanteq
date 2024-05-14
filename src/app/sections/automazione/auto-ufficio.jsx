@@ -3,7 +3,7 @@ import Banner from "../common/bannerautoufficio";
 import SectionBlogDetailInner from "../IT blogs/detail/section-blog-detail-Inner";
 import SectionAboutCompany1 from "../home/index/section-about-company1";
 import SectionClients2 from "../home/index2/section-clients2";
-import { Clienti } from "../../components/clienti/clienti";
+import NewClienti from "../../components/clienti/newClienti";
 import SectionWhyChooseUs2 from "../home/index2/section-why-choose-us2";
 
 

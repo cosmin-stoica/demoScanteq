@@ -24,7 +24,7 @@ function SectionServices1() {
                                                 <span className="sx-text-primary"><i className="flaticon-monitor-1" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <h4 className="sx-tilte">Project Management</h4>
+                                                <h4 className="sx-tilte">Project, Product Management</h4>
                                                 <p>Gli esperti di Scanteq per prestazioni e affidabilità superiori nel tuo progetto.</p>
                                                 <div className="sx-center-btn">
                                                     <NavLink to="/services" className="site-button-circle">

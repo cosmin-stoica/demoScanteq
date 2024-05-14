@@ -20,7 +20,7 @@ function SectionServices2() {
                                             <span className="sx-text-primary"><i className="flaticon-monitor" /></span>
                                         </div>
                                         <div className="icon-content">
-                                         <h4 className="sx-tilte">Project Management </h4>
+                                         <h4 className="sx-tilte">Project, Product Management </h4>
                                             <NavLink to="/services" className="sx-why-ch-category">Real Specialist</NavLink>
                                             <div className="sx-about-bx3-content">
                                                 <p>Gli esperti di Scanteq per prestazioni e affidabilità superiori nel tuo progetto.</p>

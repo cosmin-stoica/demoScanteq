@@ -10,7 +10,6 @@ import PricingPage from "../app/components/company/pricing";
 import TestimonialsPage from "../app/components/company/testimonials";
 import WhyChooseUsPage from "../app/components/company/why-choose-us";
 import MissionVisionPage from "../app/components/IT solutions/mission-vision";
-import ServicesPage from "../app/components/IT solutions/services/services";
 import ServicesDetailPage from "../app/components/IT solutions/services/detail";
 import Portfolio1Page from "../app/components/IT solutions/portfolio/portfolio1";
 import Portfolio2Page from "../app/components/IT solutions/portfolio/portfolio2";
@@ -27,7 +26,6 @@ import AutoUfficio from "../app/sections/automazione/auto-ufficio";
 import AutoHome from "../app/sections/automazione/autohome";
 import AutoIndustriale from "../app/sections/automazione/auto-industriale";
 import Leadership from "../app/components/IT blogs/leadership";
-import Login from "../app/sections/common/login";
 import Home from "../app/components/home/home";
 import AdminHome from "../app/components/home/adminhome";
 import Tracciabilita from "../app/components/home/tracciabilita";
@@ -52,7 +50,6 @@ import AnalysisHome from "../app/components/maintenance/analysishome";
 import AnalisiDinamica from "../app/components/maintenance/analisidinamica";
 import MesHome from "../app/components/mes/meshome";
 import GestioneCommesse from "../app/components/mes/gestionecommesse";
-import { AppProvider } from "../app/components/maintenance/AppContext";
 import GestioneLavorazioni from "../app/components/mes/gestionelavorazioni";
 import GestioneComponenti from "../app/components/mes/gestionecomponenti";
 import GestioneInfoAusiliarie from "../app/components/mes/gestioneinfoausiliarie";
@@ -62,13 +59,11 @@ import PickGestionePostazioni from "../app/components/picktoimage/pickgestionepo
 import PickPanoramica from "../app/components/picktoimage/pickpanoramica";
 import PickingHome from "../app/components/picking/pickinghome";
 import PickingScreen from "../app/components/picking/pickingscreen";
-import PickingPev from "../app/components/picking/pickingprev";
-import TicketScanteq from "../app/components/contactus/ticketscanteq";
 import TicketSingolo from "../app/components/contactus/ticketsingolo";
 import LoginDeploy from "../app/sections/common/logindeploy";
-import AttivitaPage from "../app/components/contactus/attivita";
 import AttivitaAdmin from "../app/components/contactus/attivitaAdmin";
 import AreaPersonale from "../app/components/contactus/areapersonale";
+import ServiziHome from "../app/components/servizi/services";
 
 
 function PrivateRoute2({ children }) {
@@ -106,7 +101,7 @@ function AppRoutes() {
                 <Route path="/pricing" element={<PricingPage />} />
                 <Route path="/leadership" element={<Leadership />} />
                 <Route path="/mission" element={<MissionVisionPage />} />
-                <Route path="/services" element={<ServicesPage />} />
+                <Route path="/services" element={<ServiziHome></ServiziHome>} />
                 <Route path="/services/detail" element={<ServicesDetailPage />} />
                 <Route path="/portfolio" element={<Portfolio1Page />} />
                 <Route path="/portfolio2" element={<Portfolio2Page />} />

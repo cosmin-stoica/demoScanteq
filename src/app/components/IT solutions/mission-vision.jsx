@@ -5,7 +5,7 @@ import SectionVideo3 from "../../sections/company/pricing/section-video3";
 import SectionVideo2 from "../../sections/home/index2/section-video2";
 import SectionTeam1 from "../../sections/home/index2/section-team1";
 import SectionWhyChooseUs2 from "../../sections/home/index2/section-why-choose-us2";
-import { Clienti } from "../clienti/clienti";
+import  NewClienti  from "../clienti/newClienti";
 import { bannerData } from "../../../globals/banner";
 import { video } from "../../../globals/data";
 import { useEffect } from "react";
@@ -23,7 +23,7 @@ function MissionVisionPage() {
             <SectionAboutCompany4 />
             <SectionOurInfo2/ >
             <SectionVideo2 />
-            <Clienti></Clienti>
+            <NewClienti></NewClienti>
             <SectionWhyChooseUs2></SectionWhyChooseUs2>
 
         </>

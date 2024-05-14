@@ -29,7 +29,7 @@ function SectionWhyChooseUs1() {
                                                 <span className="sx-text-primary"><i className="flaticon-data" /></span>
     </div>*/}
                                             <div id="panecomp" className="icon-content">
-                                               <h4 className="sx-tilte">Project Management</h4>
+                                               <h4 className="sx-tilte">Project, Product Management</h4>
                                                 <p>Gli specialisti di Scanteq nello sviluppo di soluzioni per l'elettronica e la tecnologia dell'informazione possono assistervi in tutte le fasi dello sviluppo di un nuovo prodotto, dalla definizione delle specifiche alla produzione, consentendovi di ottimizzare le architetture hardware e software, garantendo un lancio perfetto in termini di prestazioni, prezzo e affidabilità. Il nostro team lavorerà in stretta collaborazione con voi, assicurando di adottare sempre un approccio trasparente e professionale. Sappiamo che i vostri standard sono elevati. Lo sono anche i nostri!
 </p>
                                             </div>
