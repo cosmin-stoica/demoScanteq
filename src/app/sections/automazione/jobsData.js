@@ -40,7 +40,7 @@ const jobs = [
     description_Home:
       "Il Job Avvitatura a Chiave impiega chiavi dinamometriche elettroniche per realizzare avvitature monitorando coppia e angolo, eventualmente controllando le posizioni con dispositivi ad ultrasuoni.      ",
     description_MASP: "",
-    imgSrc: "images/jobs/avvitaturachiave.png",
+    imgSrc: "images/jobs/avvitatura.png",
     home: false,
     screenSrc: "images/jobs/avvitaturachiavemasp.png",
   },
@@ -90,7 +90,7 @@ const jobs = [
     category: "Collaudo Componenti Automotive",
     description_Home:
       "Il Job Rilascio Cintura verifica le cinture di sicurezza automobilistiche applicando una tensione controllata attraverso una slitta con motore stepper e cella di carico. Un tastatore misura la forza di sgancio.",
-    imgSrc: "images/jobs/rilasciocintura.png",
+    imgSrc: "images/jobs/cintura.png",
     home: false,
     screenSrc: "images/jobs/rilasciocinturamasp.png",
   },
@@ -108,7 +108,7 @@ const jobs = [
     category: "Collaudo Componenti Automotive",
     description_Home:
       "Il Job Termoforo controlla il termoriscaldatore, verificando se la corrente assorbita o la resistenza del riscaldatore, assieme alla resistenza del sensore di temperatura siano validi.",
-    imgSrc: "images/jobs/termoforo.png",
+    imgSrc: "images/jobs/heater.png",
     home: false,
     screenSrc: "images/jobs/termoforomasp.png",
   },
@@ -167,7 +167,7 @@ const jobs = [
       "Il Job Carico verifica se la forza di picco, misurata tramite una cella di carico collocata nella parte anteriore di una slitta motorizzata, resti all'interno di un intervallo di riferimento predefinito.",
     imgSrc: "images/jobs/carico.png",
     home: false,
-    screenSrc: "images/jobs/caricomasap.png",
+    screenSrc: "images/jobs/caricomasp.png",
   },
   {
     title: "Coppia",
@@ -215,7 +215,7 @@ const jobs = [
     screenSrc: "images/jobs/qualitamasp.png",
   },
   {
-    title: "Quality-Wall",
+    title: "Quality Wall",
     category: "Controllo di Qualità e Verifica",
     description_Home:
       "Il Job Quality-Wall valuta la qualità del prodotto con un'immagine e un messaggio per guidare l'operatore nel dare un voto e scegliere la categoria di non conformità da registrare in un report.",
@@ -293,7 +293,7 @@ const jobs = [
     screenSrc: "images/jobs/parancomasp.png",
   },
   {
-    title: "Input-Output",
+    title: "Input Output",
     category: "Gestione delle Postazioni e delle Procedure",
     description_Home:
       "Il Job Input-Output gestisce l'attivazione e la disattivazione sequenziale e temporizzata delle uscite di controllo della postazione basata sullo stato degli ingressi e sui parametri di configurazione.",
@@ -332,7 +332,7 @@ const jobs = [
     screenSrc: "images/jobs/scumasp.png",
   },
   {
-    title: "OCS-Bodysense",
+    title: "OCS Bodysense",
     category: "Unità di Controllo Elettronico per Automotive",
     description_Home:
       "Il Job OCS-Bodysense gestisce centraline elettroniche per sedili auto con tecnologia OCS (Occupant Classification Sensing), eseguendo configurazioni, calibrazioni e verifiche della corretta rilevazione di pesi.",
@@ -341,7 +341,7 @@ const jobs = [
     screenSrc: "images/jobs/ocsbodysensemasp.png",
   },
   {
-    title: "ECU-Heater",
+    title: "ECU Heater",
     category: "Unità di Controllo Elettronico per Automotive",
     description_Home:
       "Il Job ECU-Heater gestisce centraline elettroniche dotate di interfaccia LIN per termofori automotive, inviando comandi per l'attivazione e, successivamente, verificando la corrente assorbita.",
@@ -350,7 +350,7 @@ const jobs = [
     screenSrc: "images/jobs/heatermasp.png",
   },
   {
-    title: "ECU-Massaggiante",
+    title: "ECU Massaggiante",
     category: "Unità di Controllo Elettronico per Automotive",
     description_Home:
       "Il Job ECU-Massaggiante controlla centraline elettroniche con interfaccia LIN per il sistema di massaggio dei sedili auto, trasmettendo comandi di attivazione e monitorando le risposte ricevute.",

@@ -15,11 +15,11 @@ function AutoIndustriale() {
         <>
             {<Banner _data={bannerData.autoindustriale} />}
             {/* SECTION CONTENT START */}
-            {/*<div id="cont22" className="section-full p-t100 p-b70 mobile-page-padding">
+            <div id="cont22" className="section-full p-t100 p-b70 mobile-page-padding">
                 <div className="container">
                     {<IndCont11 />}
                 </div>
-    </div>*/}
+    </div>
             <div className="section-full p-t100 p-b70 mobile-page-padding containerjobheadermasp">
                 <div className="container">
                     <JobHeaderMasp></JobHeaderMasp>

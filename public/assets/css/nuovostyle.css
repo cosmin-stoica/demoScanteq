@@ -1229,14 +1229,19 @@ section.cardJob {
 }
 
 .titolobannerjob {
-  font-size: 5vw;
+  font-size: 4vw;
+  width: 100%;
   color: white;
   position: absolute;
   z-index: 900;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .BannerJob:hover .primopbanner {
@@ -1279,7 +1284,7 @@ section.cardJob {
 
 .bannerjobicon {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
@@ -1294,12 +1299,10 @@ section.cardJob {
 }
 
 .BannerJob:hover .titolobannerjob {
-  background-color: white;
-  color: black;
   padding: 7px;
-  font-size: 25px;
-  transition: all 0.4s ease;
-  border: solid 1px black;
+  font-size: 2vw;
+  top:15%;
+  transition: all 0.8s ease;
 }
 
 .margin-bottom100 {
@@ -1330,16 +1333,38 @@ section.cardJob {
     width: 20%;
   }
 
-  .BannerJob p {
-    font-size: 3vw;
-  }
-
   .titolobannerjob {
-    font-size: 10vw;
+    font-size: 5vw;
   }
 
   .BannerJob:hover .titolobannerjob {
     font-size: 4vw;
+  }
+
+  .primopbanner{
+    font-size:13px;
+  }
+
+  .secondopbanner{
+    font-size: 13px;
+  }
+
+
+}
+
+@media screen and (max-width:630px) {
+  .primopbanner{
+    display: none;
+  }
+
+  .secondopbanner{
+    display: none;
+  }
+
+  
+  .titolobannerjob {
+    font-size: 6vw;
+    width: 100%;
   }
 
 }

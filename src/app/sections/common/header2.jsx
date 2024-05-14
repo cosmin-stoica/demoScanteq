@@ -141,16 +141,16 @@ function Header2() {
                                     <li>
                                         <NavLink to="/about-us">Chi siamo</NavLink>
                                         <ul className="sub-menu">
-                                            <li><NavLink to="/services">Servizi</NavLink></li>
                                             <li><NavLink to="/mission">Vision</NavLink></li>
                                             <li><NavLink to="/leadership">Leadership</NavLink></li>
                                         </ul>
                                     </li>
-                                 
+
                                     <li>
                                         <NavLink to="/masp">MASP</NavLink>
                                         <ul className="sub-menu">
                                             {/*<li><NavLink to="/masp">Piattaforma MASP</NavLink></li>*/}
+                                            <li><NavLink to="/masp">MASP</NavLink></li>
                                             <li><NavLink to="/supervisor">Supervisor</NavLink></li>
                                             <li><NavLink to="/mes">Mes</NavLink></li>
                                         </ul>
@@ -184,6 +184,10 @@ function Header2() {
                                             <li><NavLink to="/blogs/detail">Blog Detail</NavLink></li>
                                         </ul>
 </li>*/}
+
+                                    <li>
+                                        <NavLink to="/services">Servizi</NavLink>
+                                    </li>
                                     <li onClick={handleTicketClick}><NavLink to="/areapersonale">Area personale</NavLink></li>
                                     {/*<li className="loginli" onClick={handleSupervisorClick}><NavLink to="/login">Supervisor</NavLink></li>}*/}
                                     <li><NavLink to="/contact-us">Contattaci</NavLink></li>
