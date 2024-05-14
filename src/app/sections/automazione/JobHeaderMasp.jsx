@@ -4,9 +4,7 @@ const JobHeaderMasp = () => {
 
     return (<>
         <div className="section-full wow fadeInRight" data-wow-duration="2000ms">
-            <div className="titolocond ">
-                <h1>Categorie di Operazioni</h1>
-            </div>
+        <h1 className="TitoloCapitolo">Categorie di Operazioni</h1>
         </div>
 
         <div className="desccond">

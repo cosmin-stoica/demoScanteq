@@ -1283,18 +1283,19 @@ section.cardJob {
 }
 
 .bannerjobicon {
+  font-size: 150px;
+  color:white;
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-  filter: brightness(0) invert(1) grayscale(1) opacity(0);
-  width: 200px;
+  filter: opacity(0);
   transition: all 0.4s ease;
 }
 
 .BannerJob:hover .bannerjobicon {
-  filter: brightness(0) invert(1) grayscale(1) opacity(1);
+  filter:opacity(1);
   transition: all 0.4s ease;
 }
 
@@ -2226,4 +2227,9 @@ section.cardJob {
 
 .servizio-card-img{
   z-index: 100;
+}
+
+.caratteristiche-card{
+  width: 530px;
+  height: 100%;
 }

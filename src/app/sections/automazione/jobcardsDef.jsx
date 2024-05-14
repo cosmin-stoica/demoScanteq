@@ -9,8 +9,7 @@ function JobCardsDef() {
             <div className="perflexcolumn marginmenotop200">
 
                 <BannerJob
-                    img="images/banner/automazione.png"
-                    icon="images/jobs/collaudoICON.png"
+                    icon="flaticon-development"
                     title="Automazione e Assemblaggio"
                     primoP="
                     Questi job comprendono tecnologie e processi progettati per automatizzare e ottimizzare le operazioni di assemblaggio industriale. L'obiettivo è ridurre il tempo e gli sforzi manuali richiesti, integrando soluzioni avanzate come robotica e intelligenza artificiale."
@@ -39,11 +38,11 @@ function JobCardsDef() {
 
 
                 <BannerJob
-                    img="images/collaudo2.jpg"
-                    icon="images/jobs/montaggioICON.png"
+                    icon="flaticon-skills"
                     title="Collaudo Componenti Automotive"
-                    primoP="Queste operazioni includono prove di avvitatura per garantire l'installazione corretta delle viti, misurando coppia e angolo. Sistemi come bracci di reazione con encoder o ultrasuoni assicurano l'accuratezza della posizione dell'avvitatura."
-                    secondoP="L'impiego di robot permette azioni precise e veloci, mentre i codici a barre verificano l'uso corretto dei componenti tramite scansione."
+                    primoP="
+                    Questi job verificano la sicurezza e il funzionamento di elementi come cinture di sicurezza e airbag. L'obiettivo è assicurarsi che tutti i componenti critici funzionino correttamente."
+                    secondoP="Inoltre, garantiscono la conformità agli standard di sicurezza, assicurando che i veicoli rispettino le normative e offrano la massima protezione ai passeggeri."
                 ></BannerJob>
 
 
@@ -68,11 +67,10 @@ function JobCardsDef() {
 
 
                 <BannerJob
-                    img="images/collaudo2.jpg"
-                    icon="images/jobs/ausiliarieICON.png"
+                    icon="flaticon-touch"
                     title="Unità di Controllo Elettronico per Automotive"
-                    primoP="Le operazioni che possono svolgere entrambe le categorie elencate oppure non ricadano particolarmente in nessuna di esse sono dette “ausiliari”."
-                    secondoP="Le operazioni ausiliari, che possono essere trasversali alle categorie principali o non rientrare specificamente in nessuna di esse, aggiungono flessibilità e supporto al processo complessivo."
+                    primoP="Questi job gestiscono e verificano le centraline elettroniche con bus CAN/LIN delle autovetture. Assicurano che tutti i sistemi elettronici siano correttamente integrati e comunicino in modo efficace."
+                    secondoP="Inoltre, garantiscono il corretto funzionamento delle centraline, monitorando le prestazioni e identificando eventuali anomalie. Questo contribuisce a mantenere elevati standard di sicurezza e affidabilità del veicolo."
                 ></BannerJob>
 
                 {jobs.filter(job => job.category === "Unità di Controllo Elettronico per Automotive").map(job => (
@@ -96,11 +94,10 @@ function JobCardsDef() {
 
 
                 <BannerJob
-                    img="images/collaudo2.jpg"
-                    icon="images/jobs/ausiliarieICON.png"
+                    icon="flaticon-data"
                     title="Controllo di Qualità e Verifica"
-                    primoP="Le operazioni che possono svolgere entrambe le categorie elencate oppure non ricadano particolarmente in nessuna di esse sono dette “ausiliari”."
-                    secondoP="Le operazioni ausiliari, che possono essere trasversali alle categorie principali o non rientrare specificamente in nessuna di esse, aggiungono flessibilità e supporto al processo complessivo."
+                    primoP="Questi job assicurano la qualità dei componenti con misurazioni, controllo del carico, verifica della coppia e ispezione visiva. Utilizzano procedure rigorose per garantire che ogni componente soddisfi gli standard richiesti."
+                    secondoP="Rilevano difetti con tecnologie avanzate, permettendo di identificare e correggere problemi in modo tempestivo. Questo assicura che i prodotti finali siano affidabili e di alta qualità."
                 ></BannerJob>
 
                 {jobs.filter(job => job.category === "Controllo di Qualità e Verifica").map(job => (
@@ -127,11 +124,10 @@ function JobCardsDef() {
 
 
                 <BannerJob
-                    img="images/collaudo2.jpg"
-                    icon="images/jobs/ausiliarieICON.png"
+                    icon="flaticon-supply-chain"
                     title="Gestione della Produzione e Logistica"
-                    primoP="Le operazioni che possono svolgere entrambe le categorie elencate oppure non ricadano particolarmente in nessuna di esse sono dette “ausiliari”."
-                    secondoP="Le operazioni ausiliari, che possono essere trasversali alle categorie principali o non rientrare specificamente in nessuna di esse, aggiungono flessibilità e supporto al processo complessivo."
+                    primoP="Questi job ottimizzano flussi e operazioni attraverso il monitoraggio logistico, la gestione della manutenzione e la reportistica. Queste attività garantiscono un funzionamento efficiente e organizzato."
+                    secondoP="Inoltre, includono la stampa di etichette personalizzate, facilitando l'identificazione e la tracciabilità dei prodotti. Questo contribuisce a migliorare la gestione complessiva e la precisione operativa."
                 ></BannerJob>
 
                 {jobs.filter(job => job.category === "Gestione della Produzione e Logistica").map(job => (
@@ -155,11 +151,11 @@ function JobCardsDef() {
 
 
                 <BannerJob
-                    img="images/collaudo2.jpg"
-                    icon="images/jobs/ausiliarieICON.png"
+                    icon="flaticon-employee"
                     title="Gestione delle Postazioni e delle Procedure"
-                    primoP="Le operazioni che possono svolgere entrambe le categorie elencate oppure non ricadano particolarmente in nessuna di esse sono dette “ausiliari”."
-                    secondoP="Le operazioni ausiliari, che possono essere trasversali alle categorie principali o non rientrare specificamente in nessuna di esse, aggiungono flessibilità e supporto al processo complessivo."
+                    primoP="
+                    Questi job automatizzano e coordinano le operazioni delle postazioni di lavoro. Implementano tecnologie avanzate per gestire in modo efficiente le attività quotidiane."
+                    secondoP="Inoltre, ottimizzano le procedure per migliorare l'efficienza e la produttività complessiva. Questo approccio sistematico garantisce un funzionamento più fluido e risultati migliori."
                 ></BannerJob>
 
                 {jobs.filter(job => job.category === "Gestione delle Postazioni e delle Procedure").map(job => (

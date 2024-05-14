@@ -1,7 +1,7 @@
 import React from "react";
 import ItodoImage from "../../elements/itodo-img";
 
-function BannerJob({ img, icon, title, primoP, secondoP }) {
+function BannerJob({icon, title, primoP, secondoP }) {
 
     return (
         <>
@@ -19,7 +19,7 @@ function BannerJob({ img, icon, title, primoP, secondoP }) {
                 </p>
 
              
-                <ItodoImage className="bannerjobicon" src={icon}></ItodoImage>
+                <i className={`bannerjobicon ${icon}`}></i>
 
             </div>
         </>

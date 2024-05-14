@@ -165,7 +165,7 @@ const jobs = [
     category: "Controllo di Qualità e Verifica",
     description_Home:
       "Il Job Carico verifica se la forza di picco, misurata tramite una cella di carico collocata nella parte anteriore di una slitta motorizzata, resti all'interno di un intervallo di riferimento predefinito.",
-    imgSrc: "images/jobs/carico.png",
+    imgSrc: "images/jobs/caricomanuale.png",
     home: false,
     screenSrc: "images/jobs/caricomasp.png",
   },
@@ -219,7 +219,7 @@ const jobs = [
     category: "Controllo di Qualità e Verifica",
     description_Home:
       "Il Job Quality-Wall valuta la qualità del prodotto con un'immagine e un messaggio per guidare l'operatore nel dare un voto e scegliere la categoria di non conformità da registrare in un report.",
-    imgSrc: "images/jobs/qualitywall.png",
+    imgSrc: "images/jobs/qualita.png",
     home: false,
     screenSrc: "images/jobs/qualitywallmasp.png",
   },
