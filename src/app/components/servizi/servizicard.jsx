@@ -47,8 +47,8 @@ const ServiziCard = () => {
                             </div>
 
                             <div className="servizio-card-lista-lowerdiv">
-                                <div className="servizio-card-lista-lowerdiv-title">Progettazione del Prodotto</div>
                                 <i className="flaticon-engineer primolista" />
+                                <div className="servizio-card-lista-lowerdiv-title">Progettazione del Prodotto</div>
                                 <ul>
                                     <li>Concetti (Architetture di hardware, Firmware e Software)</li>
                                     <li>Sviluppo di hardware, Firmware e Software</li>

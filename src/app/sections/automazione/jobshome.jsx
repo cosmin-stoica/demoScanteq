@@ -1,6 +1,6 @@
 import React from "react";
 import ItodoImage from "../../elements/itodo-img";
-import jobs from "./jobsData";
+import jobs from "../../../globals/DataTEXT/jobsData";
 
 
 function JobsHome() {
