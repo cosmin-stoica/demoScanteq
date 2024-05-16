@@ -3302,3 +3302,10 @@ section.cardJob {
   font-size: 75px;
   color:var(--primary);
 }
+
+.masp-card-img-tracciabilita{
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

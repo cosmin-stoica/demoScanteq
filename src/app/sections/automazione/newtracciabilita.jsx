@@ -9,7 +9,7 @@ const NewTracciabilita = () => {
                 <div className="tracciabilita-div-inner">
                     <i className="flaticon-smart-contracts"></i>
                     <p>
-La piattaforma MASP (Mounting Assistance Software Platform) garantisce una tracciabilità completa delle operazioni durante il ciclo di lavoro. Il sistema registra tutte le informazioni fondamentali, assicurando una dettagliata tracciabilità di ogni fase del processo di lavorazione e collaudo.
+                        La piattaforma MASP (Mounting Assistance Software Platform) garantisce una tracciabilità completa delle operazioni durante il ciclo di lavoro. Il sistema registra tutte le informazioni fondamentali, assicurando una dettagliata tracciabilità di ogni fase del processo di lavorazione e collaudo.
                     </p>
                 </div>
                 <div className="tracciabilita-div-inner">
