@@ -1,6 +1,7 @@
 const maspDataIntro = [
   {
     margin: false,
+    fade: "Left", 
     titolo: "Interfaccia Utente",
     immagineSrc: "images/masp/principale.png",
     altSrc: "Interfaccia Utente",
@@ -19,6 +20,7 @@ const maspDataIntro = [
   },
   {
     margin: true,
+    fade: "Right", 
     titolo: "Autenticazione degli Utenti",
     immagineSrc: "images/masp/login.png",
     altSrc: "Autenticazione degli Utenti",
@@ -37,6 +39,7 @@ const maspDataIntro = [
   },
   {
     margin: true,
+    fade: "Left", 
     titolo: "Avvio della Lavorazione",
     immagineSrc: "images/masp/avviolavorazione.png",
     altSrc: "Avvio della Lavorazione",
@@ -60,6 +63,7 @@ const maspDataIntro = [
   },
   {
     margin: true,
+    fade: "Right",
     titolo: "Pannelli della Diagnostica",
     immagineSrc: "images/masp/diagnostica.png",
     altSrc: "Pannelli della Diagnostica",
@@ -83,6 +87,7 @@ const maspDataIntro = [
   },
   {
     margin: true,
+    fade: "Left", 
     titolo: "Implementazione delle Operazioni tramite Job",
     immagineSrc: "images/masp/lavorazione.png",
     altSrc: "Implementazione delle Operazioni tramite Job",

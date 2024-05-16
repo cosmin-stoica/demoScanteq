@@ -5,7 +5,6 @@ const CaratteristicheMASP = () => {
     return (<>
         <div className="section-full wow fadeInRight" data-wow-duration="2000ms">
             
-                <h1 className="TitoloCapitolo">Caratteristiche Principali</h1>
         </div>
         <div className="div-header-job-card">
 

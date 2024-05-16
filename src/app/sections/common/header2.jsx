@@ -50,9 +50,9 @@ function Header2() {
                     <div className="main-bar">
                         <div className="container clearfix">
                             <div className="logo-header">
-                                <div className="logo-header-inner logo-header-one">
+                                <div className="logo-header-inner logo-header-one zindex1 ">
                                     <NavLink to="/">
-                                        <ItodoImage id='logoscanteq' src="images/logowhite.png" alt="#" />
+                                        <ItodoImage  id='logoscanteq' src="images/logowhite.png" alt="#" />
                                     </NavLink>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ function Header2() {
                             {/* MAIN NAVIGATION */}
                             <div className="header-nav navbar-collapse collapse d-flex justify-content-center collapse ">
                                 <ul className=" nav navbar-nav ">
-                                    <li className="active">
+                                    <li className="active zindex100">
                                         <NavLink to="/">Home</NavLink>
                                     </li>
                                     <li>
@@ -147,10 +147,12 @@ function Header2() {
                                     </li>
 
                                     <li>
-                                        <NavLink to="/masp">MASP</NavLink>
+                                        <NavLink>MASP</NavLink>
                                         <ul className="sub-menu">
                                             {/*<li><NavLink to="/masp">Piattaforma MASP</NavLink></li>*/}
-                                            <li><NavLink to="/masp">MASP</NavLink></li>
+                                            <li><NavLink to="/masp-caratteristiche">Caratteristiche</NavLink></li>
+                                            <li><NavLink to="/masp-operazioni">Operazioni</NavLink></li>
+                                            <li><NavLink to="/masp-tracciabilita">Tracciabilita</NavLink></li>
                                             <li><NavLink to="/supervisor">Supervisor</NavLink></li>
                                             <li><NavLink to="/mes">Mes</NavLink></li>
                                         </ul>
@@ -162,12 +164,12 @@ function Header2() {
 
 
                                     <li>
-                                        <NavLink to="/automazione-ufficio">Hardware</NavLink>
+                                        <NavLink to="/incostruzione">Hardware</NavLink>
                                         <ul className="sub-menu">
-                                            <li><NavLink to="/hardware-solutions"> Unità di controllo (PC)</NavLink></li>
-                                            <li><NavLink to="/schede-hardware">Schede per automazione</NavLink></li>
-                                            <li><NavLink to="/mes">Scheda di controllo digitale</NavLink></li>
-                                            <li><NavLink to="/mes">Scheda Imagina</NavLink></li>
+                                            <li><NavLink to="/incostruzione"> Unità di controllo (PC)</NavLink></li>
+                                            <li><NavLink to="/incostruzione">Schede per automazione</NavLink></li>
+                                            <li><NavLink to="/incostruzione">Scheda di controllo digitale</NavLink></li>
+                                            <li><NavLink to="/incostruzione">Scheda Imagina</NavLink></li>
                                         </ul>
 
                                     </li>

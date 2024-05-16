@@ -824,7 +824,7 @@
   flex-direction: row;
 }
 
-.secondapartetesto{
+.secondapartetesto {
   width: 100%;
 }
 
@@ -1089,7 +1089,7 @@ section.cardJob {
 
 .JobCardDiv {
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
-  padding:40px;
+  padding: 40px;
   transition: all 0.3s ease-in-out;
   width: 80%;
   display: flex;
@@ -1176,7 +1176,7 @@ section.cardJob {
 }
 
 .secondapartejob h1 {
-  color:#535353;
+  color: #535353;
   font-size: 25px;
 }
 
@@ -1284,7 +1284,7 @@ section.cardJob {
 
 .bannerjobicon {
   font-size: 150px;
-  color:white;
+  color: white;
   position: absolute;
   top: 60%;
   left: 50%;
@@ -1295,14 +1295,14 @@ section.cardJob {
 }
 
 .BannerJob:hover .bannerjobicon {
-  filter:opacity(1);
+  filter: opacity(1);
   transition: all 0.4s ease;
 }
 
 .BannerJob:hover .titolobannerjob {
   padding: 7px;
   font-size: 2vw;
-  top:15%;
+  top: 15%;
   transition: all 0.8s ease;
 }
 
@@ -1313,6 +1313,7 @@ section.cardJob {
 .margin-top100 {
   margin-top: 100px;
 }
+
 .margin-top50 {
   margin-top: 50px;
 }
@@ -1342,11 +1343,11 @@ section.cardJob {
     font-size: 4vw;
   }
 
-  .primopbanner{
-    font-size:13px;
+  .primopbanner {
+    font-size: 13px;
   }
 
-  .secondopbanner{
+  .secondopbanner {
     font-size: 13px;
   }
 
@@ -1354,15 +1355,15 @@ section.cardJob {
 }
 
 @media screen and (max-width:630px) {
-  .primopbanner{
+  .primopbanner {
     display: none;
   }
 
-  .secondopbanner{
+  .secondopbanner {
     display: none;
   }
 
-  
+
   .titolobannerjob {
     font-size: 6vw;
     width: 100%;
@@ -1509,14 +1510,14 @@ section.cardJob {
   .per-maspintro-div {
     flex-direction: column;
   }
-  
+
 }
 
 @media screen and (max-width:900px) {
-  .margintop-100{
+  .margintop-100 {
     margin-top: -100px;
   }
-  
+
 }
 
 
@@ -1539,11 +1540,11 @@ section.cardJob {
   height: 65px;
   width: auto;
   position: absolute;
-  left:20px;
-  top:10px;
+  left: 20px;
+  top: 10px;
 }
 
-.CardMaimTitleTop{
+.CardMaimTitleTop {
   font-size: 30px;
   font-weight: 700;
 }
@@ -1553,29 +1554,29 @@ section.cardJob {
     height: 65px;
     width: auto;
     position: relative;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
   }
-  
 
-  .CardMaimTitleTop{
+
+  .CardMaimTitleTop {
     display: none;
   }
 }
 
 
-.bottoneRead{
+.bottoneRead {
   background-color: white;
-  color:black;
+  color: black;
   padding: 20px;
   font-size: 17px;
   border-radius: 30px;
   transition: all 0.2s ease;
 }
 
-.bottoneRead:hover{
+.bottoneRead:hover {
   background-color: var(--primary);
-  color:white;
+  color: white;
   transition: all 0.2s ease;
 }
 
@@ -1586,38 +1587,38 @@ section.cardJob {
     margin-bottom: -70px;
   }
 
-  .automazioneScritte{
+  .automazioneScritte {
     margin-bottom: 350px;
   }
 
-  .immagineBanner{
+  .immagineBanner {
     width: 500px;
     height: 100%;
     position: absolute;
-    right:100px;
-    top:170px;
+    right: 100px;
+    top: 170px;
   }
 }
 
-.TitoloCapitolo{
+.TitoloCapitolo {
   padding: 10px;
   width: 100%;
   text-align: center;
-  color:black;
+  color: black;
   font-weight: 900;
   margin-bottom: 20px;
 }
 
-.leoperazionititolo{
+.leoperazionititolo {
   font-size: 20px;
   font-weight: 900;
-  color:black;
+  color: black;
   padding-top: 60px;
   padding-bottom: 15px;
 }
 
 @media screen and (min-width:990px) {
-  .aumentMarginTop{
+  .aumentMarginTop {
     margin-top: -100px;
   }
 }
@@ -1626,16 +1627,16 @@ section.cardJob {
   white-space: nowrap;
 }
 
-#imaginaContent{
+#imaginaContent {
   flex-direction: column;
 }
 
-.perflexImagina{
+.perflexImagina {
   display: flex;
   flex-direction: row;
 }
 
-.sopraBox{
+.sopraBox {
   background-color: rgb(255, 255, 255);
   height: auto;
   min-width: 100%;
@@ -1646,13 +1647,13 @@ section.cardJob {
   padding-bottom: 20px;
 }
 
-#piattaformap{
+#piattaformap {
   margin-top: 20px;
   text-align: center;
 }
 
 
-#seemoreUpgrade{
+#seemoreUpgrade {
   cursor: pointer;
   margin-top: 1rem;
   display: inline-block;
@@ -1672,24 +1673,24 @@ section.cardJob {
 }
 
 
-.perleschedeDiv{
+.perleschedeDiv {
   width: 80%;
   display: flex;
   flex-direction: column;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   margin-bottom: 70px;
-  padding: 20px; 
+  padding: 20px;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.perleschedeDiv img{
+.perleschedeDiv img {
   width: 35%;
   height: 35%;
 }
 
-.divintermezzo{
+.divintermezzo {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
@@ -1697,7 +1698,7 @@ section.cardJob {
   align-items: center;
 }
 
-.divintermezzo p{
+.divintermezzo p {
   padding-left: 15px;
   font-size: 17px;
   width: 100%;
@@ -1705,37 +1706,37 @@ section.cardJob {
 }
 
 @media screen and (max-width:1100px) {
-  .divintermezzo{
+  .divintermezzo {
     flex-direction: column;
-   
+
   }
 
-  .perleschedeDiv img{
+  .perleschedeDiv img {
     width: 50%;
     height: 50%;
   }
 
-  .divintermezzo p{
-  width: 100%;
+  .divintermezzo p {
+    width: 100%;
   }
 }
 
- .divpppp{
+.divpppp {
   padding: 10px;
   display: flex;
   flex-direction: column;
- }
+}
 
- .titoloscheda{
+.titoloscheda {
   font-size: 20px;
   font-weight: 800;
- }
+}
 
- .textgrande{
+.textgrande {
   font-size: 50px;
- }
+}
 
- .cardPartner{
+.cardPartner {
   width: 100%;
   background-color: white;
   border-radius: 15px;
@@ -1743,22 +1744,22 @@ section.cardJob {
   padding: 15px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   margin-top: 30px;
- }
+}
 
 
- .imageDivPartner{
+.imageDivPartner {
   width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
- }
+}
 
- .imageDivPartner img{
+.imageDivPartner img {
   height: 120px;
   width: auto;
- }
+}
 
- .testoDivPartner{
+.testoDivPartner {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1766,32 +1767,32 @@ section.cardJob {
   align-items: center;
   font-size: 18px;
   padding: 20px;
- }
+}
 
- .containerpartnergrosso{
+.containerpartnergrosso {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- }
+}
 
- @media screen and (max-width:1100px) {
+@media screen and (max-width:1100px) {
 
-  .cardPartner{
+  .cardPartner {
     flex-direction: column;
   }
 
-  .imageDivPartner{
+  .imageDivPartner {
     width: 100%;
   }
 
-  .testoDivPartner{
+  .testoDivPartner {
     margin-top: 25px;
     text-align: center;
   }
- }
+}
 
- .clientefinalediv{
+.clientefinalediv {
   margin-top: 50px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   width: 100%;
@@ -1805,58 +1806,62 @@ section.cardJob {
   text-align: center;
   position: relative;
   background-color: white;
- }
+}
 
- .primapartecliente{
+.primapartecliente {
   font-size: 25px;
   font-weight: 700;
   min-width: 100%;
   word-break: break-word;
   padding-bottom: 10px;
- }
+}
 
- .logoparte{
+.logoparte {
   display: flex;
   flex-direction: row;
   width: 100%;
-  align-items: center;    
-  justify-content: center; 
-  flex-wrap: nowrap;        /* Impedisce agli elementi di andare a capo */
-  gap: 20px; 
- }
-
- .logoparte img{
-  flex: 1;                  /* Assegna a tutte le immagini la stessa flessibilità */
-  max-width: 15%;          /* Impedisce alle immagini di superare la loro dimensione massima */
-  height: auto;             /* Mantiene il rapporto proporzionale altezza/larghezza */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  /* Impedisce agli elementi di andare a capo */
+  gap: 20px;
 }
 
-.iconaclienti{
+.logoparte img {
+  flex: 1;
+  /* Assegna a tutte le immagini la stessa flessibilità */
+  max-width: 15%;
+  /* Impedisce alle immagini di superare la loro dimensione massima */
+  height: auto;
+  /* Mantiene il rapporto proporzionale altezza/larghezza */
+}
+
+.iconaclienti {
   position: absolute;
-  top:-10px;
+  top: -10px;
   width: 80px;
-  left:-40px;
+  left: -40px;
 }
 
 @media screen and (max-width:1000px) {
 
-  .logoparte{
+  .logoparte {
     flex-direction: column;
-    gap:40px;
+    gap: 40px;
     padding-top: 20px;
   }
 
-  .logoparte img{
+  .logoparte img {
     max-width: 40%;
   }
 }
 
 @media screen and (max-width:620px) {
 
-  .iconaclienti{
+  .iconaclienti {
     width: 35px;
     left: 5px;
-    top:5px;
+    top: 5px;
   }
 
 
@@ -1864,20 +1869,20 @@ section.cardJob {
 }
 
 
-.menomargin{
+.menomargin {
   margin-top: -40px;
- }
+}
 
- .menomarginclienti{
+.menomarginclienti {
   margin-top: -20px;
- }
+}
 
- .scrittaparte{
+.scrittaparte {
   padding-top: 10px;
- }
+}
 
 
- .jobBox{
+.jobBox {
   background-color: rgb(255, 255, 255);
   width: 300px;
   height: 320px;
@@ -1888,61 +1893,61 @@ section.cardJob {
   border-radius: 10px;
   flex-direction: column;
   padding: 15px;
- }
+}
 
- .jobBoxesDiv{
+.jobBoxesDiv {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  gap: 20px; 
- }
+  gap: 20px;
+}
 
- .titolojobBox{
+.titolojobBox {
   font-weight: 500;
   font-size: 18px;
   padding-top: 10px;
- }
-
- .categoriajobBox{
-  text-transform: uppercase;
-  color:#0f4bb9;
-  font-weight: 500;
-  text-align: center;
- }
-
- .descrizionejobBox{
-  text-align: center;
-  font-size: 15px;
- }
-
-.iconserviceshome{
-  font-size: 70px;
-  color:#0f4bb9;
 }
 
-#servicesdiv{
+.categoriajobBox {
+  text-transform: uppercase;
+  color: #0f4bb9;
+  font-weight: 500;
+  text-align: center;
+}
+
+.descrizionejobBox {
+  text-align: center;
+  font-size: 15px;
+}
+
+.iconserviceshome {
+  font-size: 70px;
+  color: #0f4bb9;
+}
+
+#servicesdiv {
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
-.primaparteconimg{
+.primaparteconimg {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.navlinkschedaencoder{
+.navlinkschedaencoder {
   width: 75%;
 }
 
-.navlinkschedacora{
+.navlinkschedacora {
   width: 55%;
 }
 
 
-.riquadroTestoClientiFinali{
+.riquadroTestoClientiFinali {
   width: 100%;
   background-color: white;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
@@ -1955,7 +1960,7 @@ section.cardJob {
 
 }
 
-#schedecontainer{
+#schedecontainer {
   background-color: rgb(250, 250, 250);
   padding-top: 200px;
   padding-bottom: 100px;
@@ -1966,22 +1971,22 @@ section.cardJob {
   flex-direction: row;
 }
 
-#mibawidth{
+#mibawidth {
   height: 100px;
   width: auto;
- }
+}
 
 
- .perglihubdiv{
+.perglihubdiv {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
- }
+}
 
- .supervisor-category-card{
+.supervisor-category-card {
   background-color: white;
   width: 100%;
   height: 100%;
@@ -1989,47 +1994,47 @@ section.cardJob {
   border-radius: 5px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   transition: all 0.3s ease-in-out;
- }
+}
 
- .supervisor-category-card:hover{
-  scale:1.1;
+.supervisor-category-card:hover {
+  scale: 1.1;
   transition: all 0.3s ease-in-out;
- }
+}
 
- .supervisor-category-card p{
- text-align: center;
- }
+.supervisor-category-card p {
+  text-align: center;
+}
 
-.supervisor-category-card i{
+.supervisor-category-card i {
   font-size: 100px;
 }
 
- .supervisor-category-card h1{
-  color:#535353;
+.supervisor-category-card h1 {
+  color: #535353;
   font-size: 18px;
   font-weight: 700;
- }
+}
 
- .supervisor-iconbox{
+.supervisor-iconbox {
   width: 100%;
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
- }
+}
 
- #zindex10{
+#zindex10 {
   z-index: 2;
- }
+}
 
- #zindex1{
+#zindex1 {
   z-index: 1;
- }
+}
 
- 
+
 @media screen and (max-width:1100px) {
 
-  .supervisor-category-card{
+  .supervisor-category-card {
     margin-top: 20px;
   }
 
@@ -2037,7 +2042,7 @@ section.cardJob {
 
 @media screen and (max-width:880px) {
 
-  .perglihubdiv{
+  .perglihubdiv {
     flex-direction: column;
   }
 
@@ -2045,7 +2050,7 @@ section.cardJob {
 
 
 
-.header-job-card{
+.header-job-card {
   padding: 15px;
   border-radius: 5px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
@@ -2055,28 +2060,27 @@ section.cardJob {
   text-align: center;
 }
 
-.header-job-card i{
+.header-job-card i {
   font-size: 100px;
 }
 
 
-.header-job-card h1{
+.header-job-card h1 {
   padding-top: 20px;
-  color:#0f4bb9;
+  color: #0f4bb9;
   text-transform: uppercase;
   width: 100%;
   font-size: 17px;
   font-weight: 1000;
 }
 
-.header-job-card p{
+.header-job-card p {
   text-align: center;
   width: 100%;
-  font-size: 15px;
+  font-size: 17px;
 }
 
-.div-header-job-card{
-  color:black;
+.div-header-job-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2084,12 +2088,12 @@ section.cardJob {
   gap: 40px;
 }
 
-.containerjobheadermasp{
+.containerjobheadermasp {
   background-color: white;
   padding-bottom: 100px;
 }
 
-.servizio-card-upper{
+.servizio-card-upper {
   padding: 40px;
   border-radius: 15px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
@@ -2098,60 +2102,60 @@ section.cardJob {
   position: relative;
 }
 
-.servizio-card{
+.servizio-card {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.servizio-card p{
+.servizio-card p {
   font-size: 16px;
 }
 
-.servizio-card-img{
+.servizio-card-img {
   width: 35%;
   height: 35%;
   border-radius: 15px;
 }
 
-.servizio-card-secondaparte{
+.servizio-card-secondaparte {
   padding-left: 20px;
 }
 
-.servizio-card-title{
+.servizio-card-title {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-.servizio-card-lista ul{
+.servizio-card-lista ul {
   height: 100%;
   width: 100%;
   font-size: 17px;
-  list-style-type:none;
+  list-style-type: none;
 }
 
 
 
-.servizio-card-lista{
+.servizio-card-lista {
   width: 100%;
   height: 100%;
-  color:#535353;
+  color: #535353;
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 
-.servizio-card-lista li{
-  color:#535353;
+.servizio-card-lista li {
+  color: #535353;
   height: 100%;
 }
 
-.servizio-card-lista-lowerdiv{
+.servizio-card-lista-lowerdiv {
   width: 100%;
-  height:100%;
+  height: 100%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
   padding: 20px;
   border-radius: 15px;
@@ -2163,98 +2167,100 @@ section.cardJob {
   text-align: center;
 }
 
-.servizio-card-lista-lowerdiv-title{
+.servizio-card-lista-lowerdiv-title {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 20px;
-  color:#6e6e6e;
+  color: #6e6e6e;
 }
 
 
-.primolista{
+.primolista {
   font-size: 100px;
-  color:var(--primary);
-  
+  color: var(--primary);
+
 }
 
 
-.secondalista{
+.secondalista {
   font-size: 60px;
-  color:var(--primary);
+  color: var(--primary);
 }
 
 
 .servizio-card-lista-lowerdiv {
-  flex: 1 1 200px; /* Flessibile in larghezza, ma con una larghezza minima di 200px */
-  margin: 10px; /* Aggiungi margine tra gli elementi */
+  flex: 1 1 200px;
+  /* Flessibile in larghezza, ma con una larghezza minima di 200px */
+  margin: 10px;
+  /* Aggiungi margine tra gli elementi */
 }
 
 
 
 
 @media screen and (max-width:1100px) {
-  .servizio-card{
+  .servizio-card {
     flex-direction: column;
   }
 
-  .servizio-card-img{
+  .servizio-card-img {
     width: 100%;
     margin-bottom: 20px;
   }
 }
 
-.circuitcard{
+.circuitcard {
   position: absolute;
   width: 30%;
-  bottom:0;
-  left:0;
+  bottom: 0;
+  left: 0;
   z-index: 1;
 }
 
 
-.servizio-card-secondaparte{
+.servizio-card-secondaparte {
   z-index: 100;
 }
 
-.servizio-card-lista-lowerdiv{
+.servizio-card-lista-lowerdiv {
   z-index: 100;
   background-color: rgb(255, 255, 255);
 }
 
-.servizio-card-lista{
+.servizio-card-lista {
   z-index: 100;
 }
 
-.servizio-card-img{
+.servizio-card-img {
   z-index: 100;
 }
 
-.caratteristiche-card{
+.caratteristiche-card {
   width: 530px;
   height: 100%;
 }
 
 
 @media screen and (max-width:580px) {
-  .caratteristiche-card{
+  .caratteristiche-card {
     width: 300px;
   }
 
 }
 
-.masp-card-per-img{
+.masp-card-per-img {
   max-width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.masp-card-img{
+.masp-card-img {
   width: 100%;
   height: auto;
 }
 
-.masp-card-title{
+.masp-card-title {
   width: 100%;
   height: 100%;
   display: flex;
@@ -2262,7 +2268,7 @@ section.cardJob {
   font-size: 35px;
 }
 
-.masp-card-secondaparte-div{
+.masp-card-secondaparte-div {
   width: 100%;
   background-color: white;
   padding: 15px;
@@ -2273,7 +2279,7 @@ section.cardJob {
   margin-top: 10px;
 }
 
-.masp-card-secondaparte-div p{
+.masp-card-secondaparte-div p {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -2281,22 +2287,1018 @@ section.cardJob {
 }
 
 
-.masp-card-secondaparte-div-divi{
+.masp-card-secondaparte-div-divi {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-right: 10px;
-  color:var(--primary);
+  color: var(--primary);
 }
 
-.masp-card-secondaparte-div i{
+.masp-card-secondaparte-div i {
   font-size: 50px;
 }
 
-.servizio-card-secondapartemasp{
+.servizio-card-secondapartemasp {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.servizio-card-secondapartemasp p {
+  font-size: 17px;
+}
+
+@media screen and (max-width:1100px) {
+  .masp-card-per-img {
+    max-width: 100%;
+
+  }
+
+  .masp-card-img {
+    width: 45%;
+  }
+}
+
+.paneincostruzione {
+  background-color: rgb(16, 16, 16);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.paneincostruzione p {
+  font-size: 35px;
+  color: var(--white);
+}
+
+
+.loader {
+  --duration: 3s;
+  --primary: rgba(39, 94, 254, 1);
+  --primary-light: #2f71ff;
+  --primary-rgba: rgba(39, 94, 254, 0);
+  width: 200px;
+  height: 320px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+@media (max-width: 480px) {
+  .loader {
+    zoom: 0.44;
+  }
+}
+
+.loader:before,
+.loader:after {
+  --r: 20.5deg;
+  content: "";
+  width: 320px;
+  height: 140px;
+  position: absolute;
+  right: 32%;
+  bottom: -11px;
+  /* change the back groung color on switching from light to dark mood */
+  background: rgb(16, 16, 16);
+  transform: translateZ(200px) rotate(var(--r));
+  -webkit-animation: mask var(--duration) linear forwards infinite;
+  animation: mask var(--duration) linear forwards infinite;
+}
+
+.loader:after {
+  --r: -20.5deg;
+  right: auto;
+  left: 32%;
+}
+
+.loader .ground {
+  position: absolute;
+  left: -50px;
+  bottom: -120px;
+  transform-style: preserve-3d;
+  transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+}
+
+.loader .ground div {
+  transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  width: 200px;
+  height: 200px;
+  background: var(--primary);
+  background: linear-gradient(45deg, var(--primary) 0%, var(--primary) 50%, var(--primary-light) 50%, var(--primary-light) 100%);
+  transform-style: preserve-3d;
+  -webkit-animation: ground var(--duration) linear forwards infinite;
+  animation: ground var(--duration) linear forwards infinite;
+}
+
+.loader .ground div:before,
+.loader .ground div:after {
+  --rx: 90deg;
+  --ry: 0deg;
+  --x: 44px;
+  --y: 162px;
+  --z: -50px;
+  content: "";
+  width: 156px;
+  height: 300px;
+  opacity: 0;
+  background: linear-gradient(var(--primary), var(--primary-rgba));
+  position: absolute;
+  transform: rotateX(var(--rx)) rotateY(var(--ry)) translate(var(--x), var(--y)) translateZ(var(--z));
+  -webkit-animation: ground-shine var(--duration) linear forwards infinite;
+  animation: ground-shine var(--duration) linear forwards infinite;
+}
+
+.loader .ground div:after {
+  --rx: 90deg;
+  --ry: 90deg;
+  --x: 0;
+  --y: 177px;
+  --z: 150px;
+}
+
+.loader .box {
+  --x: 0;
+  --y: 0;
+  position: absolute;
+  -webkit-animation: var(--duration) linear forwards infinite;
+  animation: var(--duration) linear forwards infinite;
+  transform: translate(var(--x), var(--y));
+}
+
+.loader .box div {
+  background-color: var(--primary);
+  width: 48px;
+  height: 48px;
+  position: relative;
+  transform-style: preserve-3d;
+  -webkit-animation: var(--duration) ease forwards infinite;
+  animation: var(--duration) ease forwards infinite;
+  transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+}
+
+.loader .box div:before,
+.loader .box div:after {
+  --rx: 90deg;
+  --ry: 0deg;
+  --z: 24px;
+  --y: -24px;
+  --x: 0;
+  content: "";
+  position: absolute;
+  background-color: inherit;
+  width: inherit;
+  height: inherit;
+  transform: rotateX(var(--rx)) rotateY(var(--ry)) translate(var(--x), var(--y)) translateZ(var(--z));
+  filter: brightness(var(--b, 1.2));
+}
+
+.loader .box div:after {
+  --rx: 0deg;
+  --ry: 90deg;
+  --x: 24px;
+  --y: 0;
+  --b: 1.4;
+}
+
+.loader .box.box0 {
+  --x: -220px;
+  --y: -120px;
+  left: 58px;
+  top: 108px;
+}
+
+.loader .box.box1 {
+  --x: -260px;
+  --y: 120px;
+  left: 25px;
+  top: 120px;
+}
+
+.loader .box.box2 {
+  --x: 120px;
+  --y: -190px;
+  left: 58px;
+  top: 64px;
+}
+
+.loader .box.box3 {
+  --x: 280px;
+  --y: -40px;
+  left: 91px;
+  top: 120px;
+}
+
+.loader .box.box4 {
+  --x: 60px;
+  --y: 200px;
+  left: 58px;
+  top: 132px;
+}
+
+.loader .box.box5 {
+  --x: -220px;
+  --y: -120px;
+  left: 25px;
+  top: 76px;
+}
+
+.loader .box.box6 {
+  --x: -260px;
+  --y: 120px;
+  left: 91px;
+  top: 76px;
+}
+
+.loader .box.box7 {
+  --x: -240px;
+  --y: 200px;
+  left: 58px;
+  top: 87px;
+}
+
+.loader .box0 {
+  -webkit-animation-name: box-move0;
+  animation-name: box-move0;
+}
+
+.loader .box0 div {
+  -webkit-animation-name: box-scale0;
+  animation-name: box-scale0;
+}
+
+.loader .box1 {
+  -webkit-animation-name: box-move1;
+  animation-name: box-move1;
+}
+
+.loader .box1 div {
+  -webkit-animation-name: box-scale1;
+  animation-name: box-scale1;
+}
+
+.loader .box2 {
+  -webkit-animation-name: box-move2;
+  animation-name: box-move2;
+}
+
+.loader .box2 div {
+  -webkit-animation-name: box-scale2;
+  animation-name: box-scale2;
+}
+
+.loader .box3 {
+  -webkit-animation-name: box-move3;
+  animation-name: box-move3;
+}
+
+.loader .box3 div {
+  -webkit-animation-name: box-scale3;
+  animation-name: box-scale3;
+}
+
+.loader .box4 {
+  -webkit-animation-name: box-move4;
+  animation-name: box-move4;
+}
+
+.loader .box4 div {
+  -webkit-animation-name: box-scale4;
+  animation-name: box-scale4;
+}
+
+.loader .box5 {
+  -webkit-animation-name: box-move5;
+  animation-name: box-move5;
+}
+
+.loader .box5 div {
+  -webkit-animation-name: box-scale5;
+  animation-name: box-scale5;
+}
+
+.loader .box6 {
+  -webkit-animation-name: box-move6;
+  animation-name: box-move6;
+}
+
+.loader .box6 div {
+  -webkit-animation-name: box-scale6;
+  animation-name: box-scale6;
+}
+
+.loader .box7 {
+  -webkit-animation-name: box-move7;
+  animation-name: box-move7;
+}
+
+.loader .box7 div {
+  -webkit-animation-name: box-scale7;
+  animation-name: box-scale7;
+}
+
+@-webkit-keyframes box-move0 {
+  12% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  25%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move0 {
+  12% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  25%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale0 {
+  6% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  14%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale0 {
+  6% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  14%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes box-move1 {
+  16% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  29%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move1 {
+  16% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  29%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale1 {
+  10% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  18%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale1 {
+  10% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  18%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes box-move2 {
+  20% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  33%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move2 {
+  20% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  33%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale2 {
+  14% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  22%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale2 {
+  14% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  22%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes box-move3 {
+  24% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  37%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move3 {
+  24% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  37%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale3 {
+  18% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  26%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale3 {
+  18% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  26%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes box-move4 {
+  28% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  41%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move4 {
+  28% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  41%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale4 {
+  22% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  30%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale4 {
+  22% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  30%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes box-move5 {
+  32% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  45%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move5 {
+  32% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  45%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale5 {
+  26% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  34%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale5 {
+  26% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  34%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes box-move6 {
+  36% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  49%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move6 {
+  36% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  49%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale6 {
+  30% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  38%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale6 {
+  30% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  38%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes box-move7 {
+  40% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  53%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@keyframes box-move7 {
+  40% {
+    transform: translate(var(--x), var(--y));
+  }
+
+  53%,
+  52% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, -32px);
+  }
+
+  90%,
+  100% {
+    transform: translate(0, 188px);
+  }
+}
+
+@-webkit-keyframes box-scale7 {
+  34% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  42%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@keyframes box-scale7 {
+  34% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+  }
+
+  42%,
+  100% {
+    transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  }
+}
+
+@-webkit-keyframes ground {
+
+  0%,
+  65% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  }
+
+  75%,
+  90% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(1);
+  }
+
+  100% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  }
+}
+
+@keyframes ground {
+
+  0%,
+  65% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  }
+
+  75%,
+  90% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(1);
+  }
+
+  100% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  }
+}
+
+@-webkit-keyframes ground-shine {
+
+  0%,
+  70% {
+    opacity: 0;
+  }
+
+  75%,
+  87% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ground-shine {
+
+  0%,
+  70% {
+    opacity: 0;
+  }
+
+  75%,
+  87% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes mask {
+
+  0%,
+  65% {
+    opacity: 0;
+  }
+
+  66%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mask {
+
+  0%,
+  65% {
+    opacity: 0;
+  }
+
+  66%,
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.masp-prequel-div {
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+
+  background-color: white;
+}
+
+.masp-prequel-div-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.masp-prequel-div-img img {
+  width: 100%;
+
+}
+
+.masp-prequel-div-parteP {
+  padding: 30px;
+  font-size: 17px;
+}
+
+.masp-btn-avanti {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+
+@media (max-width: 780px) {
+  .masp-prequel-div {
+    flex-direction: column;
+  }
+
+  .masp-prequel-div-img img{
+    width: 50%;
+  }
+}
+
+@media (max-width: 470px) {
+  .masp-prequel-div-img img{
+    width: 100%;
+  }
+}
+
+.header2-logohead{
+  width: 30px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	float: left;
+	width: 100px;
+	height: 70px;
+	vertical-align: middle;
+	padding: 0;
+	font-size: 36px;
+	color: var(--primary);
+	margin: 0px;
+	position: absolute;
+	z-index: 1;
+  background-color: red;
+}
+
+.header2-logohead img{
+  width: 50%;
+  filter: brightness(100);
+}
+
+.tracciabilita-div{
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.tracciabilita-div-inner{
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+
+.tracciabilita-div-inner p{
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+}
+
+.tracciabilita-div-inner i{
+  font-size: 75px;
+  color:var(--primary);
 }

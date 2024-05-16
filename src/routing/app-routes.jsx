@@ -24,7 +24,6 @@ import Schede from "../app/components/IT solutions/portfolio/schede";
 import Home2Page from "../app/components/home/index2";
 import AutoUfficio from "../app/sections/automazione/auto-ufficio";
 import AutoHome from "../app/sections/automazione/autohome";
-import AutoIndustriale from "../app/sections/automazione/auto-industriale";
 import Leadership from "../app/components/IT blogs/leadership";
 import Home from "../app/components/home/home";
 import AdminHome from "../app/components/home/adminhome";
@@ -64,6 +63,10 @@ import LoginDeploy from "../app/sections/common/logindeploy";
 import AttivitaAdmin from "../app/components/contactus/attivitaAdmin";
 import AreaPersonale from "../app/components/contactus/areapersonale";
 import ServiziHome from "../app/components/servizi/services";
+import InCostruzione from "../app/components/incostruzione/incostruzione";
+import MaspCaratteristiche from "../app/sections/automazione/maspcaratteristiche";
+import MaspOperazioni from "../app/sections/automazione/maspoperazioni";
+import MaspTracciabilita from "../app/sections/automazione/masptracciabilita";
 
 
 function PrivateRoute2({ children }) {
@@ -114,7 +117,6 @@ function AppRoutes() {
                 <Route path="/hardware-solutions" element={<Hardware />} />
                 <Route path="/schede-hardware" element={<Schede />} />
                 <Route path="/automazione" element={<AutoHome />} />
-                <Route path="/masp" element={<AutoIndustriale />} />
                 <Route path="/imagina" element={<AutoUfficio />} />
                 <Route path="/login" element={<LoginDeploy></LoginDeploy>} />
                 <Route path="/supervisor" element={<TracciaHome/>}/>
@@ -285,6 +287,12 @@ function AppRoutes() {
                 <Route path="/ticketscanteq" element={<TicketSingolo></TicketSingolo>} />
                 <Route path="/attivita" element={<AttivitaAdmin></AttivitaAdmin>} />
                 <Route path="/areapersonale" element={<AreaPersonale></AreaPersonale>} />
+                <Route path="/incostruzione" element={<InCostruzione></InCostruzione>} />
+
+                <Route path="/masp-caratteristiche" element={<MaspCaratteristiche></MaspCaratteristiche>} />
+                <Route path="/masp-operazioni" element={<MaspOperazioni></MaspOperazioni>} />
+                <Route path="/masp-tracciabilita" element={<MaspTracciabilita></MaspTracciabilita>} />
+                
             </Routes>
         
     );

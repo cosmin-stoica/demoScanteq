@@ -51,10 +51,10 @@ HEADER (top part of page)
 	color: var(--primary);
 	margin: 0px;
 	position: relative;
-	z-index: 11;
+	z-index: 1;
 }
 
-.header-style2 .logo-header-inner {display: table-cell;vertical-align: middle;height: 100%;}
+.header-style2 .logo-header-inner {display: table-cell;vertical-align: middle;height: 10%;}
 .header-style2 .logo-header-inner img {max-width: 100px;max-height: 100%;}
 
 /*-------------------------------------

@@ -3225,7 +3225,7 @@ ol.list-num-count.list-outline-none > li:before {
   line-height: 20px;
   text-transform: capitalize;
   color: var(--secondary-light);
-  background-color: var(--primary);
+  background-color: rgb(255, 255, 255);
   border-radius: 100px;
   padding: 25px 60px;
   display: inline-flex;
@@ -3235,24 +3235,26 @@ ol.list-num-count.list-outline-none > li:before {
 .sx-breadcrumb li {
   padding: 0;
   margin-right: 10px;
-  color: var(--white);
+  color: black;
   position: relative;
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
 }
 
+
 .sx-breadcrumb li a {
-  color: var(--white);
+  color: black;
   opacity: 0.7;
 }
 
 .sx-breadcrumb li a:hover {
-  color: var(--title-color);
+  color: var(--primary);
+  font-size: 900;
 }
 
 .sx-breadcrumb li:last-child {
-  color: var(--white);
+  color: black;
 }
 
 .sx-breadcrumb li:first-child a i {
@@ -3280,7 +3282,7 @@ ol.list-num-count.list-outline-none > li:before {
   content: "\f178";
   margin-left: 12px;
   font-family: "FontAwesome";
-  color: var(--white);
+  color: black;
   font-size: 13px;
   font-weight: normal;
 }
