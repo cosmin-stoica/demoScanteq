@@ -11,13 +11,10 @@ const SupervisorHomeComm = () => {
             <Banner _data={bannerData.tracciabilita} />
             <div className="panesupervisorcomm bgwhite section-full p-t110 mobile-page-padding">
                 <IntroSupervisor></IntroSupervisor>
-            </div>
-
-            <div className="panesupervisorcomm bggrey section-full p-t110 mobile-page-padding">
                 <HubPrequel></HubPrequel>
             </div>
 
-            <div className="panesupervisorcomm bgwhite section-full p-t110 mobile-page-padding">
+            <div className="panesupervisorcomm bggrey section-full p-t110 mobile-page-padding">
                 <HubDeclaration></HubDeclaration>
             </div>
         </>

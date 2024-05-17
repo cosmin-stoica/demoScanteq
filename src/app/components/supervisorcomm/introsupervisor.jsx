@@ -6,6 +6,9 @@ const IntroSupervisor = () => {
         <>
 
             <div className="container">
+                <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
+                    <h1 className="TitoloCapitolo">Monitoraggio Avanzato</h1>
+                </div>
                 <div className="section-full wow fadeInRight" data-wow-duration="1500ms">
 
                     <div className="masp-prequel-div">
@@ -13,7 +16,7 @@ const IntroSupervisor = () => {
                             <ItodoImage src="/images/supervisor/SupervisorLogo.png"></ItodoImage>
                         </div>
                         <div className="masp-prequel-div-parteP">
-                            <p>{supervisorDataIntro[0].descrizione1Intro}</p>
+                            <p className="upper-supervisor-p">{supervisorDataIntro[0].descrizione1Intro}</p>
                             <p>{supervisorDataIntro[0].descrizione2Intro}</p>
                         </div>
                     </div>

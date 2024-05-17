@@ -1,5 +1,10 @@
 export const bannerData = {
 
+    mes:{
+        background: "images/banner/mes.jpg",
+        title: "Mes",
+        crumb: "Mes"
+    },
     picking:{
         background: "images/banner/picking.jpg",
         title: "Picking",

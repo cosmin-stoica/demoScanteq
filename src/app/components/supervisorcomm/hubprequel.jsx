@@ -6,10 +6,6 @@ const HubPrequel = () => {
     return (
         <>
             <div className="container">
-
-                <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                    <h1 className="TitoloCapitolo">Monitoraggio Avanzato</h1>
-                </div>
                 <div className="hub-prequel-div-upper margin-top50">
 
                     <div className="section-full wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">

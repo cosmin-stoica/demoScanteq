@@ -67,6 +67,7 @@ import MaspCaratteristiche from "../app/sections/automazione/maspcaratteristiche
 import MaspOperazioni from "../app/sections/automazione/maspoperazioni";
 import MaspTracciabilita from "../app/sections/automazione/masptracciabilita";
 import SupervisorHomeComm from "../app/components/supervisorcomm/supervisorhomecomm";
+import MesComm from "../app/components/mescomm/mescomm";
 
 
 function PrivateRoute2({ children }) {
@@ -132,7 +133,7 @@ function AppRoutes() {
           }/>
 
                 <Route
-          path="/mes"
+          path="/mes-home"
           element={
             
               <MesHome />
@@ -292,7 +293,7 @@ function AppRoutes() {
                 <Route path="/masp-caratteristiche" element={<MaspCaratteristiche></MaspCaratteristiche>} />
                 <Route path="/masp-operazioni" element={<MaspOperazioni></MaspOperazioni>} />
                 <Route path="/masp-tracciabilita" element={<MaspTracciabilita></MaspTracciabilita>} />
-                
+                <Route path="/mes" element={<MesComm></MesComm>}></Route>
             </Routes>
         
     );
