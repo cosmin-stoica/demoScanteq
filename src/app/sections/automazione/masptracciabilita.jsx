@@ -17,12 +17,6 @@ function MaspTracciabilita() {
                 </div>
             </div>
 
-  
-            <div id="containertracciabilità" className="section-full p-t100 p-b70 mobile-page-padding">
-                <div className="container">
-                    <IndCont4 />
-                </div>
-            </div>
         </>
     )
 }

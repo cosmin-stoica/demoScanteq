@@ -1,7 +1,8 @@
 import React from "react";
 import ItodoImage from "../../elements/itodo-img";
 import BannerJob from "./BannerJob";
-import jobs from "../../../globals/DataTEXT/jobsData";
+import jobs from "../../../globals/DataTEXT/Masp/jobsData";
+import { NavLink } from "react-router-dom";
 
 function JobCardsDef() {
     return (
@@ -176,7 +177,10 @@ function JobCardsDef() {
                     </div>
                 ))}
 
-
+                <div className="width100 perflex margin-top100">
+                    <NavLink to="/masp-caratteristiche"><button className="masp-btn-indietro">Indietro</button></NavLink>
+                    <NavLink to="/masp-tracciabilita"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                </div>
 
 
             </div>

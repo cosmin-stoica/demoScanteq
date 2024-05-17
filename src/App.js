@@ -29,7 +29,7 @@ function App() {
       } else {
         // Se l'utente non è autenticato, reindirizza solo se non si trova su una pagina specifica
         const currentPath = window.location.pathname;
-        const allowedPaths = ['/', '', "/picking", "/about-us", "/mission", "/leadership", "/portfolio", "/services", "/hardware-solutions", "/schede-hardware", "/supervisor", "/automazione", "/masp", "/imagina", "/contact-us", "/login"]; // Aggiungi i percorsi consentiti
+        const allowedPaths = ['/', '', "/masp-caratteristiche", "/masp-operazioni", "/masp-tracciabilita", "/mes", "/incostruzione", "/picking", "/about-us", "/mission", "/leadership", "/portfolio", "/services", "/hardware-solutions", "/schede-hardware", "/supervisor", "/automazione", "/masp", "/imagina", "/contact-us", "/login"]; // Aggiungi i percorsi consentiti
         if (!allowedPaths.includes(currentPath)) {
           navigate('/login');
         } else {

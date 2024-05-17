@@ -1,5 +1,5 @@
 import ItodoImage from "../../elements/itodo-img";
-import maspDataIntro from "../../../globals/DataTEXT/maspDataIntro";
+import maspDataIntro from "../../../globals/DataTEXT/Masp/maspDataIntro";
 import { NavLink } from "react-router-dom";
 
 const IntroMasp = () => {
@@ -31,7 +31,7 @@ const IntroMasp = () => {
                     </div>
                 </div>
             ))}
-            <div className="width100 perflex margin-top50">
+            <div className="width100 perflex margin-top100">
                 <NavLink to="/masp-operazioni"><button className="masp-btn-avanti">Avanti</button></NavLink>
             </div>
         </>

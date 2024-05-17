@@ -3232,6 +3232,7 @@ section.cardJob {
   border-radius: 5px;
   background-color: var(--primary);
   color: var(--white);
+  width: 100px;
 }
 
 
@@ -3240,41 +3241,41 @@ section.cardJob {
     flex-direction: column;
   }
 
-  .masp-prequel-div-img img{
+  .masp-prequel-div-img img {
     width: 50%;
   }
 }
 
 @media (max-width: 470px) {
-  .masp-prequel-div-img img{
+  .masp-prequel-div-img img {
     width: 100%;
   }
 }
 
-.header2-logohead{
+.header2-logohead {
   width: 30px;
-	display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-	float: left;
-	width: 100px;
-	height: 70px;
-	vertical-align: middle;
-	padding: 0;
-	font-size: 36px;
-	color: var(--primary);
-	margin: 0px;
-	position: absolute;
-	z-index: 1;
+  float: left;
+  width: 100px;
+  height: 70px;
+  vertical-align: middle;
+  padding: 0;
+  font-size: 36px;
+  color: var(--primary);
+  margin: 0px;
+  position: absolute;
+  z-index: 1;
   background-color: red;
 }
 
-.header2-logohead img{
+.header2-logohead img {
   width: 50%;
   filter: brightness(100);
 }
 
-.tracciabilita-div{
+.tracciabilita-div {
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   width: 100%;
   padding: 30px;
@@ -3282,7 +3283,7 @@ section.cardJob {
   display: flex;
 }
 
-.tracciabilita-div-inner{
+.tracciabilita-div-inner {
   width: 100%;
   text-align: center;
   padding: 15px;
@@ -3292,20 +3293,170 @@ section.cardJob {
 }
 
 
-.tracciabilita-div-inner p{
+.tracciabilita-div-inner p {
   font-size: 17px;
   width: 100%;
   text-align: center;
 }
 
-.tracciabilita-div-inner i{
+.tracciabilita-div-inner i {
   font-size: 75px;
-  color:var(--primary);
+  color: var(--primary);
 }
 
-.masp-card-img-tracciabilita{
+.masp-card-img-tracciabilita {
   max-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.masp-card-secondaparte-div-imgstampa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.masp-card-secondaparte-div-imgstamp div {
+  justify-content: center;
+  align-items: center;
+}
+
+.masp-card-secondaparte-div-imgstamp img {
+  margin: 20px;
+  width: 70%;
+}
+
+@media (max-width: 1000px) {
+  .masp-card-secondaparte-div-imgstampa{
+    flex-direction: column;
+  }
+}
+.masp-btn-indietro {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: black;
+  color: var(--white);
+  margin-right: 20px;
+  width: 100px;
+}
+
+.masp-btn-indietro, .masp-btn-avanti{
+  transition: all 0.2s ease-in-out;
+}
+
+.masp-btn-indietro:hover, .masp-btn-avanti:hover{
+  color:black;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.bgwhite{
+  background-color: white;
+}
+
+.bggrey{
+  background-color: rgb(248, 248, 248);
+}
+
+
+.hub-prequel-div-upper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+
+.hub-prequel-div-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+}
+
+.hub-prequel-div-inner p{
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.hub-prequel-div-inner i{
+  font-size: 90px;
+  color:var(--primary);
+}
+
+.supervisor-hub-prequel-descrizione-generale{
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  margin-top: 70px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.supervisor-hub-prequel-descrizione-generale p{
+  text-align: center;
+}
+
+.masp-card-per-img i{
+  font-size: 200px;
+  color:var(--primary);
+  background-color: white;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.postazioni-supervisorcomm-div-upper{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.tracctable-preview-upper{
+  background-color: white;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.tracctable-preview {
+  table-layout: auto;
+  width: 100%;
+  color: black;
+  border: 2px solid white;
+
+}
+
+.paneanalisiscegli-preview{
+
+  border-radius: 15px;
+  margin-top: 50px;
+  display: flex;
+  
+}
+
+.titolo-supervisor-preview{
+  font-size: 21px;
+  font-weight: 800;
 }

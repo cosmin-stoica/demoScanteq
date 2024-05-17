@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
 import React, { useEffect } from 'react';
-import Banner from "../../sections/common/banner";
-import { bannerData } from "../../../globals/banner";
-import TracciaUno from "./tracciauno";
-import TracciaDue from "./tracciadue";
-import TracciaTre from "./tracciatre";
-import TracciaQuattro from "./tracciaquattro";
+import Banner from "../../../sections/common/banner";
+import { bannerData } from "../../../../globals/banner";
+import TracciaUno from "./traccia/tracciauno";
+import TracciaDue from "./traccia/tracciadue";
+import TracciaTre from "./traccia/tracciatre";
+import TracciaQuattro from "./traccia/tracciaquattro";
 
 function TracciaHome() {
     return (

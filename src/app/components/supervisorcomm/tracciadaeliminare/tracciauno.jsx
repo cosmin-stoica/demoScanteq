@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import ItodoImage from "../../elements/itodo-img";
+import ItodoImage from "../../../elements/itodo-img";
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';

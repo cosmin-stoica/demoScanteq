@@ -1,5 +1,6 @@
-import tracciabilitaDataIntro from "../../../globals/DataTEXT/tracciabilitaDataIntro";
+import tracciabilitaDataIntro from "../../../globals/DataTEXT/Masp/tracciabilitaDataIntro";
 import ItodoImage from "../../elements/itodo-img";
+import { NavLink } from "react-router-dom";
 
 const FormatiTraccia = () => {
     return (
@@ -32,22 +33,30 @@ const FormatiTraccia = () => {
             <div className={`section-full wow fadeInRight`} data-wow-duration="1500ms">
                 <div className={`servizio-card-upper margin-top100`}>
                     <div className="servizio-card-title masp-card-title width100 perflex">
-                        Titolo
+                        Esempio di etichette
                     </div>
-                    <div className="servizio-card">
+                    <div className="">
                         <div className="masp-card-per-img">
                             <ItodoImage className="masp-card-img-tracciabilita" src="" alt="" />
                         </div>
-                        <div className="servizio-card-secondapartemasp">
-                            <div className="masp-card-secondaparte-div">
+                        <div className="">
+                            <div className="masp-card-secondaparte-div-imgstampa">
                                 <ItodoImage src="images/masp/tracciabilita/16.png"></ItodoImage>
+                                <div className="perflexcolumn">
                                 <ItodoImage src="images/masp/tracciabilita/17.png"></ItodoImage>
                                 <ItodoImage src="images/masp/tracciabilita/18.png"></ItodoImage>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div className="width100 perflex margin-top100">
+                    <NavLink to="/masp-operazioni"><button className="masp-btn-indietro">Indietro</button></NavLink>
+                    <NavLink to="/supervisor"><button className="masp-btn-avanti">Avanti</button></NavLink>
+
+                </div>
         </>
     );
 };

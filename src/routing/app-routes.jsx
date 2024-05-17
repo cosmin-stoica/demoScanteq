@@ -34,7 +34,6 @@ import TableCheck from "../app/components/home/tablecheck";
 import Ticket from "../app/components/contactus/ticket";
 import TableSuper from "../app/components/home/tablesuper";
 import TicketAdmin from "../app/components/contactus/ticketadmin";
-import TracciaHome from "../app/components/supervisorcomm/tracciahome";
 import ControlHome from "../app/components/control/controlhome";
 import MaintenanceHome from "../app/components/maintenance/maintenancehome";
 import ScegliPostazione from "../app/components/control/sceglipostazione";
@@ -67,6 +66,7 @@ import InCostruzione from "../app/components/incostruzione/incostruzione";
 import MaspCaratteristiche from "../app/sections/automazione/maspcaratteristiche";
 import MaspOperazioni from "../app/sections/automazione/maspoperazioni";
 import MaspTracciabilita from "../app/sections/automazione/masptracciabilita";
+import SupervisorHomeComm from "../app/components/supervisorcomm/supervisorhomecomm";
 
 
 function PrivateRoute2({ children }) {
@@ -119,7 +119,7 @@ function AppRoutes() {
                 <Route path="/automazione" element={<AutoHome />} />
                 <Route path="/imagina" element={<AutoUfficio />} />
                 <Route path="/login" element={<LoginDeploy></LoginDeploy>} />
-                <Route path="/supervisor" element={<TracciaHome/>}/>
+                <Route path="/supervisor" element={<SupervisorHomeComm></SupervisorHomeComm>}/>
                 <Route path="/errori-postazioni" element={<ErroriPostazioni></ErroriPostazioni>} />
                 <Route path="/log-postazioni" element={<LogPostazioni></LogPostazioni>} />
 
