@@ -21,7 +21,7 @@ const supervisorDataHubDeclaration = [
   {
     margin: true,
     isTraceability : true,
-    fade: "Left", 
+    fade: "Right", 
     titolo: "Traceability Hub",
     iconaSrc: "flaticon-monitor-1",
     dettagli: [

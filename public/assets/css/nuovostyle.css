@@ -1547,6 +1547,8 @@ section.cardJob {
 .CardMaimTitleTop {
   font-size: 30px;
   font-weight: 700;
+  position: absolute;
+  top: 0;
 }
 
 @media screen and (max-width:1000px) {
@@ -1989,16 +1991,12 @@ section.cardJob {
 .supervisor-category-card {
   background-color: white;
   width: 100%;
-  height: 100%;
+  min-height: 500px;
   padding: 15px;
   border-radius: 5px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   transition: all 0.3s ease-in-out;
-}
-
-.supervisor-category-card:hover {
-  scale: 1.1;
-  transition: all 0.3s ease-in-out;
+  margin: 4px;
 }
 
 .supervisor-category-card p {
@@ -2006,7 +2004,8 @@ section.cardJob {
 }
 
 .supervisor-category-card i {
-  font-size: 100px;
+  font-size: 70px;
+  color:var(--primary);
 }
 
 .supervisor-category-card h1 {
@@ -3325,8 +3324,8 @@ section.cardJob {
 }
 
 .masp-card-secondaparte-div-imgstamp img {
-  margin: 20px;
-  width: 70%;
+  margin: 40px;
+  width: 50%;
 }
 
 @media (max-width: 1000px) {
@@ -3468,4 +3467,196 @@ section.cardJob {
 .upper-supervisor-p{
   font-size: 24px;
   font-weight: 700;
+}
+
+.halconfig-paneprincipale{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.hal-config-div{
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  flex-direction: column;
+  color:black;
+  margin: 20px;
+}
+
+.hal-config-div img{
+  width: 80px;
+  height: auto;
+}
+
+.esci-halconfig-button{
+  position: absolute;
+  right:20px;
+  top:110px;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+}
+
+.halconfigprova-div{
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 30px 30px -10px;
+}
+
+.halconfigprova-div div{
+    display: flex;
+  }
+
+.halconfigprova-div div label input,select{
+  color:black;
+  width: 200px;
+  height: 30px;
+}
+
+
+.halconfigprova-div div label{
+  width: 400px;
+  display: flex;
+  color:black;
+  font-size: 17px;
+  flex-flow: row;
+}
+
+.halconfigprova-div div label div{
+  width: 200px;
+}
+
+
+
+
+.tooltipHalConfig {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tooltipHalConfig:hover .tooltiptextHalConfig {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltiptextHalConfig {
+  visibility: hidden;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptextHalConfig::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+}
+
+.tooltipHalConfig .iconHalConfig {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+
+.creahal-btn{
+  background-color: var(--primary);
+  padding-left: 7px;
+  padding-right: 7px;
+  color:white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  border:none;
+  transition: all 0.2s linear;
+}
+
+.creahal-btn:hover{
+  background-color: white;
+  color:var(--primary);
+  font-weight: 800;
+}
+
+.categorie-div-row{
+  display: flex;  
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.categoria-div{
+  width: 200px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoria-div img{
+  width: 100px;
+}
+
+.categoria-div p{
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.mes-descrizione{
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.mes-descrizione p{
+  font-size: 17px;
+  text-align: center;
+}
+
+.normalfont{
+  font-size: 17px;
 }

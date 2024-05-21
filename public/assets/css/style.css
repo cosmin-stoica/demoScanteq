@@ -10792,10 +10792,7 @@ INPUT ANIMATION
   transition: background-color 1s, transform 1s;
 }
 
-.left:hover {
-  background: #f5f5f5;
-  transform: scale(1.1);
-}
+
 
 .left:hover #primo {
   color: black; /* Cambia il colore del testo del paragrafo al passaggio del mouse sul left */

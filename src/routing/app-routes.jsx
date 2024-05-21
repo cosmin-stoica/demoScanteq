@@ -68,6 +68,7 @@ import MaspOperazioni from "../app/sections/automazione/maspoperazioni";
 import MaspTracciabilita from "../app/sections/automazione/masptracciabilita";
 import SupervisorHomeComm from "../app/components/supervisorcomm/supervisorhomecomm";
 import MesComm from "../app/components/mescomm/mescomm";
+import HalConfigHome from "../app/components/halconfig/halconfig_home";
 
 
 function PrivateRoute2({ children }) {
@@ -294,6 +295,7 @@ function AppRoutes() {
                 <Route path="/masp-operazioni" element={<MaspOperazioni></MaspOperazioni>} />
                 <Route path="/masp-tracciabilita" element={<MaspTracciabilita></MaspTracciabilita>} />
                 <Route path="/mes" element={<MesComm></MesComm>}></Route>
+                <Route path="/halconfig" element={<HalConfigHome></HalConfigHome>}></Route>
             </Routes>
         
     );

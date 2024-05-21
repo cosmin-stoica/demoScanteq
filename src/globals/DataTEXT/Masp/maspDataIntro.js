@@ -76,7 +76,7 @@ const maspDataIntro = [
       {
         iconaClasse: "flaticon-computer-hardware",
         descrizione:
-          "Si aprono tramite il pulsante “Diagnostica” nella schermata principale. Questo accesso rapido consente interventi tempestivi per risolvere problemi o eseguire manutenzioni.",
+          "Si aprono tramite il pulsante “Diagnostica” nella schermata principale che apre una finestra di selezione di panelli specifici per ogni job o funzionalità della postazione.",
       },
       {
         iconaClasse: "flaticon-development",

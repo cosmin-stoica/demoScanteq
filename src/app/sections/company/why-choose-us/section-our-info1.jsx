@@ -10,7 +10,7 @@ function SectionOurInfo1() {
                         <div className="sx-about-bx1-content">
                             <h2 className="sx-title">La nostra visione</h2>
                             <span className="sx-title-2">Innovazione e collaborazione per il tuo successo</span>
-                            <p>
+                            <p className="normalfont">
                             La strategia di sviluppo di Scanteq si fonda sulla continua ricerca di innovazione e sull'adozione delle più recenti tecnologie, unite all'attenta identificazione delle nuove opportunità che emergono sul mercato. Tale approccio implica una stretta e solida collaborazione con i nostri clienti, consentendo loro di trarre vantaggio dalle tecnologie all'avanguardia. Attraverso questa collaborazione, i nostri clienti possono arricchire i loro prodotti con valore aggiunto e ottenere risultati ottimali in modo altamente efficiente, sia dal punto di vista dei costi che dei tempi di sviluppo.
                             </p>
                             {/*<div className="progress">

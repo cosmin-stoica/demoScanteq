@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import { loadScript } from "../../../globals/constants";
 import SectionAboutCompany5 from "../../sections/IT solutions/mission-vision/section-about-company5";
 import  NewClienti from "../clienti/newClienti";
+import ServicesHome from "../../sections/home/index2/servicesHome";
 
 function AboutUsPage() {
 
@@ -19,7 +20,7 @@ function AboutUsPage() {
         <>
             <Banner _data={bannerData.about} />
             <SectionAboutCompany5></SectionAboutCompany5>
-            <SectionServices1 />
+            <ServicesHome></ServicesHome>
             <SectionVideo2 />
             <NewClienti></NewClienti>
             <SectionWhyChooseUs4 />

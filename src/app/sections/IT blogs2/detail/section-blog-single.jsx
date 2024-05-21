@@ -19,7 +19,7 @@ function SectionBlogSingle() {
                     <div className="sx-post-title ">
                         <h2 className="post-title">La nostra leadership</h2>
                     </div>
-                    <div className="sx-post-text">
+                    <div className="sx-post-text normalfont">
                         <p>In qualità di fondatore di Scanteq, l’ingegner Valentin Drogoreanu ha ricoperto il ruolo di Chief Technology Officer fin dall'inizio di questa start-up, nel 2010, mentre dal 2022 è diventato l’Amministratore Delegato della Scanteq Srl, in seguito a una riorganizzazione aziendale motivata dal processo di crescita.
 
 </p>

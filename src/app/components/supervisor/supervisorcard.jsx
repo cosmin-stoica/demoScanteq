@@ -68,11 +68,11 @@ const SupervisorCard = () => {
 
 
                                             <div className="perglihubdiv">
-                                                <HubCard zindex="zindex10" icon="flaticon-monitor-1" title="Traceability" desc="Il Traceability 
+                                                <HubCard zindex="zindex10" icon="flaticon-data" title="Control" desc="Il Control Hub offre un controllo immediato sullo stato operativo, consentendo la rapida identificazione
+                                                e risoluzione di anomalie, nonché l'ottimizzazione delle prestazioni del sistema."></HubCard>
+                                                 <HubCard zindex="zindex1" icon="flaticon-monitor-1" title="Traceability" desc="Il Traceability 
                                                     Hub permette un monitoraggio dettagliato e in tempo reale dei dati, 
                                                     migliorando la precisione e la trasparenza delle informazioni. "></HubCard>
-                                                <HubCard zindex="zindex1" icon="flaticon-data" title="Control" desc="Il Control Hub offre un controllo immediato sullo stato operativo, consentendo la rapida identificazione
-                                                e risoluzione di anomalie, nonché l'ottimizzazione delle prestazioni del sistema."></HubCard>
                                                 <HubCard icon="flaticon-technical-support" title="Maintenance" desc="Infine, il Maintenance Hub supporta la manutenzione preventiva, fornendo strumenti avanzati
                                                 per mantenere le postazioni sempre efficienti e ridurre i tempi di inattività. "></HubCard>
                                             </div>
