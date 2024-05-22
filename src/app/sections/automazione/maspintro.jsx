@@ -10,7 +10,7 @@ function MaspIntro() {
                     <div className="margintop-100 per-maspintro-div wow fadeInDown" data-wow-duration="2000ms">
 
                         <div class="parentMAIM">
-                            <div class="cardMAIM">
+                            <div class="cardMAIM primaparte-masp">
                                 <div className="perflex width100">
                                     <img className="maspimagehome" src="/assets/images/case-study/automazione/masp.png" alt="Masp" />
                                     <p className="CardMaimTitleTop">Piattaforma MASP</p>
@@ -52,7 +52,7 @@ function MaspIntro() {
                                             </NavLink>
                                         </div>
                                         <div className="secondapartetesto wow fadeInLeft" data-wow-duration="2000ms">
-                                            <span class="card-titleMAIM">Implementazione flessibile ed efficiente</span>
+                                            <span class="card-titleMAIM">Automazione avanzata per l'Industria 4.0</span>
                                             <div id="piattaformap" className="sx-about-bx3-content">
                                                 <p class="card-contentMAIM">
                                                     Nel contesto dell'automazione per l'Industria 4.0, viene proposta la

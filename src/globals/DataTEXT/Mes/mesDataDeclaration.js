@@ -1,6 +1,7 @@
 const mesDataHubDeclaration = [
     {
       margin: false,
+      isLavorazioni: true,
       fade: "Left", 
       titolo: "Lavorazioni",
       iconaSrc: "images/mes/lavorazioni.png",
@@ -19,6 +20,7 @@ const mesDataHubDeclaration = [
     },
     {
       margin: true,
+      isCommesse: true,
       fade: "Right", 
       titolo: "Commesse",
       iconaSrc: "images/mes/commesse.png",
@@ -37,6 +39,7 @@ const mesDataHubDeclaration = [
     },
     {
       margin: true,
+      isComponenti: true,
       fade: "Left", 
       titolo: "Componenti",
       iconaSrc: "images/mes/componenti.png",
@@ -56,6 +59,7 @@ const mesDataHubDeclaration = [
     {
         margin: true,
         fade: "Right", 
+        isInfo: true,
         titolo: "Info Ausiliarie",
         iconaSrc: "images/mes/info.png",
         dettagli: [

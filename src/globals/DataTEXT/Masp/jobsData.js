@@ -27,7 +27,7 @@ const jobs = [
     title: "Avvitatura",
     category: "Automazione e Assemblaggio",
     description_Home:
-      "Il Job Avvitatura impiega avvitatori con centraline elettroniche per serrare viti, controllando la coppia e l'angolo, con l’opzione di aggiungere un braccio di reazione con gestione delle posizioni.",
+      "Il Job Avvitatura impiega avvitatori con centraline elettroniche per serrare viti, controllando la coppia e l'angolo, con l’opzione di aggiungere un braccio di reazione per gestire le posizioni.",
     description_MASP: "",
     imgSrc: "images/jobs/avvitatura.png",
     home: true,
@@ -98,7 +98,7 @@ const jobs = [
     title: "Airbag",
     category: "Collaudo Componenti Automotive",
     description_Home:
-      "Il Job Airbag controlla l'impianto airbag iniettando una bassa corrente nel circuito per prevenire detonazioni accidentali e misurando la tensione sulla resistenza per verificare che rispetti valori prestabiliti.",
+      "Il Job Airbag controlla airbag automotive iniettando una bassa corrente nel circuito per prevenire detonazioni accidentali e misurando la tensione sulla resistenza per verificare che rispetti valori prestabiliti.",
     imgSrc: "images/jobs/bag.png",
     home: true,
     screenSrc: "images/jobs/bagmasp.png",
@@ -182,7 +182,7 @@ const jobs = [
     title: "Motore",
     category: "Controllo di Qualità e Verifica",
     description_Home:
-      "Il Job Motore consiste nel monitorare la corrente di picco o media che un motore DC assorbe durante un periodo di tempo definito, controllando che i valori ottenuti rientrino nei limiti prestabiliti.",
+      "Il Job Motore consiste nel monitorare la corrente di picco e/o media assorbita da un motore DC durante un periodo di tempo definito, controllando che i valori ottenuti rientrino nei limiti prestabiliti.",
     imgSrc: "images/jobs/motore.png",
     home: true,
     screenSrc: "images/jobs/motoremasp.png",
@@ -191,7 +191,7 @@ const jobs = [
     title: "Visione",
     category: "Controllo di Qualità e Verifica",
     description_Home:
-      "Il Job Visione cattura immagini del prodotto utilizzando fino a quattro telecamere LAN. Queste immagini sono archiviate e analizzate per estrarre dati utili con algoritmi di riconoscimento.",
+      "Il Job Visione cattura immagini del prodotto utilizzando fino a quattro telecamere LAN. Le immagini sono archiviate e/o analizzate per estrarre dati utili con algoritmi di riconoscimento.",
     imgSrc: "images/jobs/fotocamera.png",
     home: true,
     screenSrc: "images/jobs/visionemasp.png",
@@ -237,16 +237,16 @@ const jobs = [
 
   {
     title: "Logistica",
-    category: "Gestione della Produzione e Logistica",
+    category: "Gestione Produzione e Logistica",
     description_Home:
-      "Il Job Logistica consente agli operatori di segnalare la scarsità di materiali per la lavorazione, agevolando la richiesta di rifornimento alla postazione di lavoro, garantendo la continuità produttiva.",
+      "Il Job Logistica consente agli operatori di segnalare la scarsità di materiali per la lavorazione, agevolando la richiesta di rifornimento alla postazione di lavoro e garantendo la continuità produttiva.",
     imgSrc: "images/jobs/logistica.png",
     home: true,
     screenSrc: "images/jobs/logisticamasp.png",
   },
   {
     title: "Manutenzione",
-    category: "Gestione della Produzione e Logistica",
+    category: "Gestione Produzione e Logistica",
     description_Home:
       "Il Job Manutenzione consente la segnalazione di problemi alla postazione, indicati come 'Macchina operativa', che permette ancora lavorazione o 'Macchina ferma', che blocca il ciclo produttivo.",
     imgSrc: "images/jobs/manutenzione.png",
@@ -255,7 +255,7 @@ const jobs = [
   },
   {
     title: "Report",
-    category: "Gestione della Produzione e Logistica",
+    category: "Gestione Produzione e Logistica",
     description_Home:
       "Il Job Report visualizza un'immagine e un messaggio per guidare l'operatore nel inserire la descrizione di un parametro o di selezionarla da una lista preimpostata per poi registrare in un report.",
     imgSrc: "images/jobs/report.png",
@@ -264,7 +264,7 @@ const jobs = [
   },
   {
     title: "Stampa",
-    category: "Gestione della Produzione e Logistica",
+    category: "Gestione Produzione e Logistica",
     description_Home:
       "Il Job Stampa consente di creare etichette personalizzate, configurabili in termini di dimensione, disposizione di bordi o linee, testi semplici o con dati di lavorazione, codici a barre e loghi caricati da file.",
     imgSrc: "images/jobs/stampa.png",
@@ -276,7 +276,7 @@ const jobs = [
 
   {
     title: "Bloccaggio",
-    category: "Gestione delle Postazioni e delle Procedure",
+    category: "Gestione Postazioni e Procedure",
     description_Home:
       "Il Job Bloccaggio gestisce flessibilmente lo spostamento di un cilindro pneumatico usando elettrovalvole per controllare il movimento avanti e indietro, monitorando le due posizioni con sensori proximity.",
     imgSrc: "images/jobs/bloccaggio.png",
@@ -285,7 +285,7 @@ const jobs = [
   },
   {
     title: "Paranco",
-    category: "Gestione delle Postazioni e delle Procedure",
+    category: "Gestione Postazioni e Procedure",
     description_Home:
       "Il Job Paranco controlla automaticamente la movimentazione di un paranco, attivando le elettrovalvole di salita, discesa e bloccaggio. La posizione è monitorata tramite due sensori proximity di finecorsa.",
     imgSrc: "images/jobs/paranco.png",
@@ -294,7 +294,7 @@ const jobs = [
   },
   {
     title: "Input Output",
-    category: "Gestione delle Postazioni e delle Procedure",
+    category: "Gestione Postazioni e Procedure",
     description_Home:
       "Il Job Input-Output gestisce l'attivazione e la disattivazione sequenziale e temporizzata delle uscite di controllo della postazione basata sullo stato degli ingressi e sui parametri di configurazione.",
     imgSrc: "images/jobs/inputoutput.png",
@@ -303,7 +303,7 @@ const jobs = [
   },
   {
     title: "Jump",
-    category: "Gestione delle Postazioni e delle Procedure",
+    category: "Gestione Postazioni e Procedure",
     description_Home:
       "Il job jump permette di passare a un altro job nel file di configurazione in modo indipendente o in base all’esito del job precedente. E’ possibile inoltre chiudere la lavorazione, simulando la fine.",
     imgSrc: "images/jobs/jump.png",
@@ -312,7 +312,7 @@ const jobs = [
   },
   {
     title: "Timer",
-    category: "Gestione delle Postazioni e delle Procedure",
+    category: "Gestione Postazioni e Procedure",
     description_Home:
       "Il Job Timer può interrompere il ciclo per un periodo impostato o permettere la continuazione del lavoro mentre il tempo viene conteggiato in background, modificando alla fine lo stato di un'uscita.",
     imgSrc: "images/jobs/timer.png",
@@ -324,7 +324,7 @@ const jobs = [
 
   {
     title: "SCU",
-    category: "Unità di Controllo Elettronico per Automotive",
+    category: "Unità di Controllo Elettronico",
     description_Home:
       "Il Job SCU configura e verifica i sedili auto gestiti da centraline elettroniche con bus CAN. Esegue diagnostiche avanzate, analizza i Serial Number hardware e software e calibra le movimentazioni.",
     imgSrc: "images/jobs/scu.png",
@@ -333,7 +333,7 @@ const jobs = [
   },
   {
     title: "OCS Bodysense",
-    category: "Unità di Controllo Elettronico per Automotive",
+    category: "Unità di Controllo Elettronico",
     description_Home:
       "Il Job OCS-Bodysense gestisce centraline elettroniche per sedili auto con tecnologia OCS (Occupant Classification Sensing), eseguendo configurazioni, calibrazioni e verifiche della corretta rilevazione di pesi.",
     imgSrc: "images/jobs/ocsbodysense.png",
@@ -342,16 +342,16 @@ const jobs = [
   },
   {
     title: "ECU Heater",
-    category: "Unità di Controllo Elettronico per Automotive",
+    category: "Unità di Controllo Elettronico",
     description_Home:
-      "Il Job ECU-Heater gestisce centraline elettroniche dotate di interfaccia LIN per termofori automotive, inviando comandi per l'attivazione e, successivamente, verificando la corrente assorbita.",
+      "Il Job ECU-Heater verifica termofori automotive gestiti da centraline elettroniche con interfaccia LIN, inviando comandi di attivazione con l’ulteriore controllo della corrente assorbita.",
     imgSrc: "images/jobs/heater.png",
     home: true,
     screenSrc: "images/jobs/heatermasp.png",
   },
   {
     title: "ECU Massaggiante",
-    category: "Unità di Controllo Elettronico per Automotive",
+    category: "Unità di Controllo Elettronico",
     description_Home:
       "Il Job ECU-Massaggiante controlla centraline elettroniche con interfaccia LIN per il sistema di massaggio dei sedili auto, trasmettendo comandi di attivazione e monitorando le risposte ricevute.",
     imgSrc: "images/jobs/ecumassaggiante.png",

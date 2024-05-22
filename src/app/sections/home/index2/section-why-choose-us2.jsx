@@ -6,7 +6,7 @@ export function SectionWhyChooseUs2Inner() {
     return (
         <>
             <div className="row">
-            <h1 className="TitoloCapitolo">Perchè sceglierci per il tuo prodotto</h1>
+                <h1 className="TitoloCapitolo">Perchè sceglierci</h1>
                 <div className="col-lg-6 col-md-12">
                     <div className="sx-about-bx4-media">
                         <div className="sx-ab4-img-outer">
@@ -18,15 +18,14 @@ export function SectionWhyChooseUs2Inner() {
                 </div>
                 <div className="col-lg-6 col-md-12">
                     <div className="sx-about-bx3-content">
-                        <p>Scegli Scanteq per oltre un decennio di expertise nell'automazione industriale e d'ufficio. <br></br>La nostra comprovata esperienza e costante impegno per l'innovazione garantiscono soluzioni su misura per migliorare il tuo successo.</p>
-                    
+                        <p>La Scanteq ofre oltre un decennio di esperienza nell'automazione industriale e d'ufficio. La nostra comprovata competenza e il costante impegno per l'innovazione garantiscono soluzioni su misura di successo.</p>
+
                         <ul id="ulprodotto" className="sx-arrow-circle-checked">
-                            <li  id="ulprodotto" >Eccellenza tecnica</li>
+                            <li id="ulprodotto" >Eccellenza tecnica</li>
                             <li>Esperienza comprovata</li>
                             <li>Innovazione continua</li>
                             <li>Personalizzazione delle soluzioni</li>
                             <li>Supporto clienti proattivo</li>
-                            <li>Costi competitivi</li>
                         </ul>
                         {/* <NavLink to="/why-choose-us" className="site-button sx-btn-primary icon sx-btn-lg">
                             <i className="fa  fa-long-arrow-right" />
@@ -42,8 +41,8 @@ export function SectionWhyChooseUs2Inner() {
 function SectionWhyChooseUs2() {
     return (
         <>
-            <div id = "perche" className="section-full  p-t110 p-b80 sx-bg-light sx-about-bx4-outer">
-                <div  className="container">
+            <div id="perche" className="section-full  p-t110 p-b80 sx-bg-light sx-about-bx4-outer">
+                <div className="container">
                     <div className="section-content">
                         <div className="sx-about-bx4-content-wrap p-b70">
                             <SectionWhyChooseUs2Inner />
@@ -51,7 +50,7 @@ function SectionWhyChooseUs2() {
                         {/*testimonial section */}
                     </div>
                 </div>
-         </div>
+            </div>
         </>
     )
 }

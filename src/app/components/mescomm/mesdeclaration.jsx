@@ -2,6 +2,10 @@ import Arraydata from "../../../globals/DataTEXT/Mes/mesDataDeclaration";
 import AnalysisOptionBox from "../maintenance/optionbox";
 import { NavLink } from "react-router-dom";
 import ItodoImage from "../../elements/itodo-img";
+import LavorazioniEsempio from "./lavorazioniesempio";
+import CommesseEsempio from "./commesseesempio";
+import ComponentiEsempio from "./componentiesempio";
+import InfoEsempio from "./infoesempio";
 
 const MesDeclaration = () => {
     return (
@@ -29,6 +33,19 @@ const MesDeclaration = () => {
                                     ))}
                                 </div>
                             </div>
+
+
+                            {data.isLavorazioni &&
+                                <LavorazioniEsempio></LavorazioniEsempio>}
+
+                            {data.isCommesse &&
+                                <CommesseEsempio></CommesseEsempio>}
+
+                            {data.isComponenti &&
+                                <ComponentiEsempio></ComponentiEsempio>}
+
+                            {data.isInfo &&
+                                <InfoEsempio></InfoEsempio>}
 
 
 

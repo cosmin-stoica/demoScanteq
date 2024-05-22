@@ -30,12 +30,7 @@ const CaratteristicheMASP = () => {
                     <i className="header-job-card-icona flaticon-development" />
                     <h1>Automazione delle procedure
                     </h1>
-                    <p>Durante il ciclo di lavoro, il sistema salva i valori di tutti i parametri rilevanti e altri dati
-                        essenziali per la tracciabilità, come il nome del fabbricante, il codice della postazione, la data
-                        e l'ora, il nome utente e i codici del prodotto. Alla fine del ciclo, i dati sono memorizzati in vari
-                        formati: file CSV, tabelle su database MySQL o SQL Server, dati inviati a sistemi MES, o etichette
-                        su carta termica. Queste funzionalità garantiscono un'efficiente tracciabilità, fondamentale per i
-                        sistemi di produzione Industria 4.0.</p>
+                    <p>Il funzionamento standard delle postazioni prevede l'assistenza all'operatore da parte dell'hardware e del software. Tuttavia, l'intervento dell'operatore è necessario per le lavorazioni. La piattaforma MASP offre la possibilità di automatizzare molte operazioni senza bisogno di conferma da parte dell’operatore. Queste operazioni includono controlli analogici, come la verifica di correnti assorbite o resistenze elettriche, e la movimentazione automatica di parti meccaniche per eseguire operazioni complesse.</p>
                 </div>
             </div>
 
@@ -45,11 +40,7 @@ const CaratteristicheMASP = () => {
                     <h1>Tracciabilità dei risultati
                     </h1>
                     <p>
-                        Durante il ciclo di lavoro, il sistema salva tutti i parametri rilevanti e altri dati essenziali per la tracciabilità,
-                        come il nome del fabbricante, il codice della postazione, la data e l'ora, il nome utente e i codici del prodotto.
-                        Alla fine del ciclo, i dati sono memorizzati in vari formati: file CSV, tabelle su database MySQL o SQL Server, dati
-                        inviati a sistemi MES, o etichette su carta termica. Queste funzionalità garantiscono una tracciabilità efficiente,
-                        essenziale per i sistemi di produzione Industria 4.0.</p>
+                    Durante il ciclo di lavoro, il sistema salva tutti i parametri rilevanti e altri dati essenziali per la tracciabilità, come il nome del fabbricante, il codice della postazione, la data e l'ora, il nome utente e i codici del prodotto. Alla fine del ciclo, i dati sono memorizzati in vari formati: file CSV, tabelle su database MySQL o SQL Server e inviati a sistemi MES. E' possibile inoltre rilasciare etichette stampate su carta termica. Queste funzionalità garantiscono una tracciabilità efficiente, essenziale per i sistemi di produzione Industria 4.0.</p>
                     <NavLink to="/supervisor" ><button className="vedipiutracc">Vedi di più</button></NavLink>
                 </div>
 
@@ -76,12 +67,7 @@ const CaratteristicheMASP = () => {
                     <i className="header-job-card-icona flaticon-physics" />
                     <h1>Configurazione periferiche
                     </h1>
-                    <p>Oltre alla modifica dei cicli operativi, è possibile configurare parametri hardware senza
-                        aggiornare il software, riducendo i costi di implementazione. Questi parametri, come porte di
-                        input/output, convertitori ADC della scheda IO24ADC, valori di offset e guadagno e layout delle
-                        etichette, sono salvati in file INI con prefisso HAL (Hardware Abstraction Layer). La piattaforma
-                        include anche Io24Terminal, usato dal personale tecnico per controllare le periferiche della scheda
-                        FIO24ADC durante l'installazione delle postazioni.</p>
+                    <p>Oltre a modificare i cicli operativi, è possibile personalizzare i parametri hardware senza aggiornare il software, riducendo i costi di implementazione. Questi parametri, come le porte di input/output, i convertitori ADC della scheda elettronica IO24ADC, i valori di offset e guadagno, e il layout delle etichette, sono salvati in file INI con prefisso HAL (Hardware Abstraction Layer). La piattaforma include anche l'applicativo Io24Terminal, usato dal personale tecnico per verificare le periferiche durante l'installazione.</p>
                 </div>
             </div>
 
@@ -92,12 +78,7 @@ const CaratteristicheMASP = () => {
                     <i className="header-job-card-icona flaticon-security" />
                     <h1>Sicurezza dell'operatore</h1>
                     <p>
-                        Durante operazioni pericolose, è fondamentale che l'operatore sia lontano dal luogo rischioso.
-                        La piattaforma offre metodi hardware e software per garantire la sicurezza, come l'uso di un bimanuale
-                        in un luogo sicuro o un tappeto elettronico che segnala la presenza dell'operatore. La sicurezza è
-                        assicurata anche a livello software: durante una prova con sensore di carico, il peso viene monitorato
-                        continuamente per evitare sovraccarichi, fermando l'operazione se necessario. In caso di emergenza,
-                        l'operatore può premere un pulsante per disattivare i sistemi pericolosi gestiti dal software.
+                    Nel corso di operazioni pericolose, è essenziale che l'operatore rimanga lontano dal luogo rischioso. La piattaforma offre soluzioni hardware e software per garantire la sicurezza, come un bimanuale posizionato in un'area sicura per disattivare i sistemi pericolosi e un tappeto elettronico che segnala la presenza in aree vietate. Altri metodi sono gestiti unicamente dal software. Ad esempio, in una prova con una cella di carico in movimento, la forza viene monitorata per evitare sovraccarichi, fermando l'operazione se necessario.
 
                     </p>
                 </div>

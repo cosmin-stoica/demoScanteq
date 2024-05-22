@@ -10125,6 +10125,7 @@ New Template Css Start
   margin-bottom: 30px;
   margin-top: 100px;
 }
+
 .sx-our-info-content ul {
   list-style: none;
   margin-bottom: 0px;
@@ -10132,14 +10133,21 @@ New Template Css Start
 .sx-our-info-content ul li {
   margin-bottom: 30px;
 }
+
+.sx-our-info-content ul li:hover {
+  scale: 1.1;
+  transition: all 0.3s ease;
+}
+
 .sx-our-info-content .sx-our-info-content-list {
   padding: 20px 0px;
 }
 
+
 .sx-our-info-content .sx-our-info-content-list .sx-sub-title {
   display: block;
   color: var(--secondary-light);
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 15px;
 }
 

@@ -55,26 +55,17 @@ const MesCard = () => {
                                         </NavLink>
                                     </div>
                                     <div className="secondapartetesto wow fadeInDown" data-wow-duration="2000ms">
-                                        <span class="card-titleMAIM">Mes</span>
+                                        <span class="card-titleMAIM">Tracciabilità e controllo per una produzione efficiente</span>
                                         <div id="piattaformap" className="sx-about-bx3-content">
                                             <p class="card-contentMAIM">
 
-                                                Il Mes è una piattaforma web interconnessa al MASP e progettata per tracciare
-                                                con precisione i cicli lavorativi che le postazioni effettuano in ogni fase
-                                                del processo produttivo.
+                                            Il Mes è una piattaforma web interconnessa al MASP e progettata per tracciare con precisione i cicli lavorativi che le postazioni effettuano in ogni fase del processo produttivo.
                                             </p>
 
 
-                                            <p class="card-contentMAIM">La gestione delle lavorazioni, delle commesse,
-                                                dei componenti e delle informazioni ausiliarie ti consente un controllo totale
-                                                della produzione anche da remoto. Puoi creare cicli di lavoro e inviarli direttamente
-                                                nella rete aziendale, rendendoli facilmente accessibili dalle tue postazioni.</p>
+                                            <p class="card-contentMAIM">La gestione delle lavorazioni, delle commesse, dei componenti e delle informazioni ausiliarie consente un controllo totale della produzione anche da remoto. Si possono creare cicli di lavoro e inviarli direttamente nella rete aziendale, rendendoli facilmente accessibili dalle postazioni.</p>
 
-                                            <p class="card-contentMAIM">Con questa gestione integrata,
-                                                il controllo della produzione diventa semplice ed efficiente. Dai cicli
-                                                di lavoro alla condivisione delle informazioni cruciali, il nostro sistema
-                                                offre la flessibilità e la praticità necessarie alle piccole e medie aziende
-                                                per ottimizzare le operazioni aziendali in modo fluido e senza sforzi eccessivi.</p>
+                                            <p class="card-contentMAIM">Con questa gestione integrata, il controllo della produzione diventa semplice ed efficiente. Dai cicli di lavoro alla condivisione delle informazioni cruciali, il nostro sistema offre la flessibilità e la praticità necessarie alle piccole e medie aziende per ottimizzare le operazioni aziendali in modo fluido e senza sforzi eccessivi.</p>
 
                                         </div>
                                     </div>

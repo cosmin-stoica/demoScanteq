@@ -58,16 +58,10 @@ function MaspImaginaNew() {
                                             </NavLink>
                                         </div>
                                         <div className="secondapartetesto width100">
-                                            <span class="card-titleMAIM">Software ScanQuest</span>
+                                            <span class="card-titleMAIM">Semplifica l'ufficio con il software ScanQuest</span>
                                             <div id="piattaformap" className="sx-about-bx3-content">
                                                 <p class="card-contentMAIM">
-                                                    Il nostro software e hardware, noto come Imagina, è stato sviluppato
-                                                    con l'obiettivo di agevolare le operazioni d'ufficio attraverso
-                                                    dispositivi scanner con alimentazione automatica e stampa a getto
-                                                    d'inchiostro. Questi strumenti sono progettati specificamente per
-                                                    automatizzare i compiti di digitalizzazione, consentendo agli utenti
-                                                    di convertire documenti cartacei, fotografie e altri materiali in
-                                                    formato digitale con estrema facilità e precisione.
+                                                    Il nostro software ScanQuest e il Software Development Kit (SDK) ScanApi sono stati sviluppati per agevolare le operazioni d'ufficio tramite dispositivi scanner con alimentazione automatica e stampanti a getto d'inchiostro. Questi strumenti sono progettati per automatizzare i compiti di digitalizzazione, permettendo agli utenti di convertire documenti cartacei, fotografie e altri materiali in formato digitale con estrema facilità e precisione.
                                                 </p>
 
                                             </div>
@@ -82,16 +76,9 @@ function MaspImaginaNew() {
 
                                         <div className="width100">
                                             <div className="sx-about-bx3-content">
-                                                <span class="card-titleMAIM">Scheda Imagina</span>
+                                                <span class="card-titleMAIM">Digitalizzazione e stampa con la scheda Imagina</span>
                                                 <p class="card-contentMAIM">
-                                                    Grazie alla nostra tecnologia i dispositivi Imagina implementano
-                                                    sofisticati algoritmi di riconoscimento per codici a barre, caratteri
-                                                    stampati e scritti a mano. Ciò consente agli utenti di estrarre
-                                                    rapidamente informazioni rilevanti dai documenti digitalizzati.
-                                                    Inoltre, i file possono essere convertiti in bianco e nero, archiviati
-                                                    in diversi formati come BMP, JPEG, TIFF e PDF, e facilmente modificati
-                                                    e condivisi in formato elettronico, garantendo un flusso di lavoro
-                                                    efficiente e senza interruzioni.
+                                                    Grazie alla nostra tecnologia, i dispositivi Imagina implementano sofisticati algoritmi di riconoscimento per codici a barre, caratteri stampati e scritti a mano. Questo consente agli utenti di estrarre rapidamente informazioni rilevanti dai documenti digitalizzati. Inoltre, i file possono essere convertiti in bianco e nero, archiviati in vari formati come BMP, JPEG, TIFF e PDF, e facilmente modificati e condivisi in formato elettronico, migliorando notevolmente la produttività in ufficio.
                                                 </p>
 
                                             </div>

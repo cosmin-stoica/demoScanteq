@@ -69,12 +69,12 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-touch"
-                    title="Unità di Controllo Elettronico per Automotive"
+                    title="Unità di Controllo Elettronico"
                     primoP="Questi job gestiscono e verificano le centraline elettroniche con bus CAN/LIN delle autovetture. Assicurano che tutti i sistemi elettronici siano correttamente integrati e comunicino in modo efficace."
                     secondoP="Inoltre, garantiscono il corretto funzionamento delle centraline, monitorando le prestazioni e identificando eventuali anomalie. Questo contribuisce a mantenere elevati standard di sicurezza e affidabilità del veicolo."
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Unità di Controllo Elettronico per Automotive").map(job => (
+                {jobs.filter(job => job.category === "Unità di Controllo Elettronico").map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -126,12 +126,12 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-supply-chain"
-                    title="Gestione della Produzione e Logistica"
+                    title="Gestione Produzione e Logistica"
                     primoP="Questi job ottimizzano flussi e operazioni attraverso il monitoraggio logistico, la gestione della manutenzione e la reportistica. Queste attività garantiscono un funzionamento efficiente e organizzato."
                     secondoP="Inoltre, includono la stampa di etichette personalizzate, facilitando l'identificazione e la tracciabilità dei prodotti. Questo contribuisce a migliorare la gestione complessiva e la precisione operativa."
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Gestione della Produzione e Logistica").map(job => (
+                {jobs.filter(job => job.category === "Gestione Produzione e Logistica").map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -153,13 +153,13 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-employee"
-                    title="Gestione delle Postazioni e delle Procedure"
+                    title="Gestione Postazioni e Procedure"
                     primoP="
                     Questi job automatizzano e coordinano le operazioni delle postazioni di lavoro. Implementano tecnologie avanzate per gestire in modo efficiente le attività quotidiane."
                     secondoP="Inoltre, ottimizzano le procedure per migliorare l'efficienza e la produttività complessiva. Questo approccio sistematico garantisce un funzionamento più fluido e risultati migliori."
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Gestione delle Postazioni e delle Procedure").map(job => (
+                {jobs.filter(job => job.category === "Gestione Postazioni e Procedure").map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">

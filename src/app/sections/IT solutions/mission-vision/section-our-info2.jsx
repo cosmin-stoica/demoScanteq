@@ -47,7 +47,7 @@ function SectionOurInfo2() {
                                     <li>
                                             <div className="sx-our-info-content-list right">
                                                 <span className="sx-sub-title">Esperienza</span>
-                                                <h3 className="sx-bx-title">12+ Anni d'esperienza</h3>
+                                                <h3 className="sx-bx-title">14+ Anni d'esperienza</h3>
                                             </div>
                                         </li>
                                         <li>

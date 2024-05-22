@@ -21,14 +21,14 @@ const supervisorDataHubDeclaration = [
   {
     margin: true,
     isTraceability : true,
-    fade: "Right", 
+    fade: "Left", 
     titolo: "Traceability Hub",
     iconaSrc: "flaticon-monitor-1",
     dettagli: [
       {
         iconaClasse: "flaticon-physics",
         descrizione:
-          "Il Traceability Hub di Supervisor è la chiave per una gestione avanzata dei dati. Questo hub consente di tracciare ogni singolo dato proveniente dalle postazioni, offrendo una visualizzazione dettagliata e in tempo reale del flusso informativo.",
+          "Il Traceability Hub permette un monitoraggio dettagliato e in tempo reale dei dati, migliorando significativamente la precisione e la trasparenza delle informazioni, consentendo così un controllo più efficace dei processi e delle operazioni.",
       },
       {
         iconaClasse: "flaticon-profit",

@@ -9,12 +9,12 @@ const maspDataIntro = [
       {
         iconaClasse: "flaticon-layers",
         descrizione:
-          "L'interfaccia utente è progettata per visualizzare tutte le informazioni delle operazioni all'interno della finestra principale, usando finestre sovrapposte di tipo Tab. Include pannelli per operazioni specifiche, la schermata Home, e la schermata Log.",
+          "L'interfaccia utente è progettata per visualizzare tutte le informazioni operative nella finestra principale, usando pannelli sovrapposti di tipo Tab per le operazioni specifiche, una schermata Home per l'accesso rapido alle funzioni principali e una schermata Log per monitorare e analizzare le attività di sistema.",
       },
       {
         iconaClasse: "flaticon-web-plugin",
         descrizione:
-          "La configurazione dell'interfaccia utente avviene tramite file che consente di attivare o disattivare i vari pannelli e controlli presenti nell'applicazione.",
+          "La configurazione dell'interfaccia utente è gestita tramite file che permettono di attivare o disattivare i vari pannelli e controlli, offrendo flessibilità e personalizzazione per adattare l'applicazione alle esigenze specifiche degli utenti..",
       },
     ],
   },
@@ -28,12 +28,12 @@ const maspDataIntro = [
       {
         iconaClasse: "flaticon-promotion",
         descrizione:
-          "MASP App consente di differenziare il personale in tre categorie: User, Coord, e Admin, ciascuna con permessi specifici.",
+          "L'applicativo MASP App suddivide il personale in tre categorie: User, Coord e Admin, ciascuna con permessi specifici per soddisfare le esigenze operative. La gestione degli accessi è implementata tramite una funzione di login, assicurando la tracciabilità degli operatori e impedendo l'uso non autorizzato delle postazioni.",
       },
       {
         iconaClasse: "flaticon-programmer",
         descrizione:
-          "La gestione degli accessi avviene tramite un pannello di login che permette l'autenticazione tramite PIN o lettura di un badge barcode",
+          "Dalla schermata principale, cliccando su Login, si apre il pannello con la lista degli utenti registrati. Per accedere, bisogna selezionare l'utente, inserire il PIN a schermo e premere Login. In alternativa, il login può avvenire leggendo il codice badge dell'operatore con il lettore barcode mentre la finestra Login è aperta.",
       },
     ],
   },
@@ -47,17 +47,17 @@ const maspDataIntro = [
       {
         iconaClasse: "flaticon-laptop",
         descrizione:
-          "Inserimento manuale del codice, dove l'utente inserisce direttamente il codice del ciclo di lavorazione tramite tastiera.",
+          "Una prima possibilità prevede l'inserimento manuale del codice, in cui l'utente immette direttamente il codice del ciclo di lavorazione tramite tastiera.",
       },
       {
         iconaClasse: "flaticon-image",
         descrizione:
-          "Lettura del barcode, che permette di velocizzare il processo di selezione. Utilizzando un lettore di codici a barre, l'utente può scansionare il barcode associato al ciclo di lavorazione, garantendo un inserimento rapido e privo di errori.",
+          "Un'alternativa è la lettura del barcode, che permette di velocizzare il processo di selezione. Utilizzando un lettore di codici a barre, l'utente può scansionare il barcode associato al ciclo di lavorazione, garantendo un inserimento rapido e privo di errori.",
       },
       {
         iconaClasse: "flaticon-layers",
         descrizione:
-          "Selezione da una lista preimpostata. In questo caso, l'utente può scegliere il ciclo di lavorazione desiderato da un elenco predefinito, visualizzando tutte le opzioni disponibili in modo chiaro e organizzato.",
+          "Un'altra opzione è la selezione da una lista preimpostata. In questo caso, l'utente può scegliere il ciclo di lavorazione desiderato da un elenco predefinito, visualizzando tutte le opzioni disponibili in modo chiaro e organizzato.",
       },
     ],
   },
@@ -71,13 +71,13 @@ const maspDataIntro = [
       {
         iconaClasse: "flaticon-category",
         descrizione:
-          "I pannelli della diagnostica visualizzano lo stato delle periferiche e permettono di gestirle manualmente. Offrono informazioni dettagliate sulle condizioni e sul funzionamento delle periferiche collegate.",
+          "I pannelli della diagnostica visualizzano lo stato delle periferiche per ogni operazione o funzionalità della postazione, permettendo la gestione manuale. Forniscono informazioni dettagliate sul funzionamento delle periferiche collegate.",
       },
       {
         iconaClasse: "flaticon-computer-hardware",
         descrizione:
-          "Si aprono tramite il pulsante “Diagnostica” nella schermata principale che apre una finestra di selezione di panelli specifici per ogni job o funzionalità della postazione.",
-      },
+          "Si aprono tramite il pulsante 'Diagnostica' nella schermata principale, che apre una finestra di selezione dei pannelli specifici per ogni job o funzionalità della postazione.",
+       },
       {
         iconaClasse: "flaticon-development",
         descrizione:
