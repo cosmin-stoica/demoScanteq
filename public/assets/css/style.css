@@ -13054,7 +13054,7 @@ p {
 
 .LineChart {
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 20px auto;
   background-color: rgb(255, 255, 255, 0.9);
   color: white;
@@ -13062,7 +13062,6 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  padding-bottom: 100px;
 }
 
 /* Stile per l'intestazione del grafico */
@@ -13104,7 +13103,7 @@ p {
 .panecharts {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+
 }
 
 .controlloperpostazioneprinc {
@@ -13503,11 +13502,11 @@ h1 {
 }
 
 .analysis-option-box {
-  width: 100%;
+  width: 300px;
   height: 300px;
   cursor: pointer;
   background-color: white;
-  margin-right: 30px;
+  margin:20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13551,7 +13550,9 @@ h1 {
 .paneanalisiscegli {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .paneanalisiscegli button {
@@ -15374,4 +15375,12 @@ justify-content: center;
 .panesupervisorcomm{
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+
+
+@media only screen and (max-width: 460px) {
+  .panecharts{
+    display: none;
+  }
 }

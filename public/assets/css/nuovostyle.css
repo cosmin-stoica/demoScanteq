@@ -3437,7 +3437,7 @@ section.cardJob {
   border-radius: 15px;
   margin-top: 50px;
   display: flex;
-  
+
 }
 
 .titolo-supervisor-preview{
@@ -3722,4 +3722,30 @@ section.cardJob {
 .img-componente-demo{
   width: 40%;
   height: auto;
+}
+
+
+.perflex-img-traccia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.perflex-img-traccia-uno{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  height: 100%;
+}
+
+.perflex-img-traccia-due{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  height: 100%;
 }

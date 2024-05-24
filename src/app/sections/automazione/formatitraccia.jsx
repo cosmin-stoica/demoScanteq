@@ -42,9 +42,13 @@ const FormatiTraccia = () => {
                         <div className="">
                             <div className="masp-card-secondaparte-div-imgstampa">
                                 <ItodoImage src="images/masp/tracciabilita/16.png"></ItodoImage>
-                                <div className="perflexcolumn">
-                                <ItodoImage src="images/masp/tracciabilita/17.png"></ItodoImage>
-                                <ItodoImage src="images/masp/tracciabilita/18.png"></ItodoImage>
+                                <div className="perflex-img-traccia">
+                                    <div className="perflex-img-traccia-uno">
+                                        <ItodoImage src="images/masp/tracciabilita/17.png"></ItodoImage>
+                                    </div>
+                                    <div className="perflex-img-traccia-due">
+                                        <ItodoImage src="images/masp/tracciabilita/18.png"></ItodoImage>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -53,10 +57,10 @@ const FormatiTraccia = () => {
             </div>
 
             <div className="width100 perflex margin-top100">
-                    <NavLink to="/masp-operazioni"><button className="masp-btn-indietro">Indietro</button></NavLink>
-                    <NavLink to="/supervisor"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                <NavLink to="/masp-operazioni"><button className="masp-btn-indietro">Indietro</button></NavLink>
+                <NavLink to="/supervisor"><button className="masp-btn-avanti">Avanti</button></NavLink>
 
-                </div>
+            </div>
         </>
     );
 };

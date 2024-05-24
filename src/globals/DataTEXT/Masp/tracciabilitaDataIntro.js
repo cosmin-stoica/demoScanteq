@@ -22,7 +22,7 @@ const tracciabilitaDataIntro = [
     margin: true,
     fade: "Right", 
     titolo: "Database MySql, SQL Server",
-    immagineSrc: "images/masp/tracciabilita/database.webp",
+    immagineSrc: "images/masp/tracciabilita/database.png",
     altSrc: "Database MySql, SQL Server",
     dettagli: [
       {
@@ -41,7 +41,7 @@ const tracciabilitaDataIntro = [
     margin: true,
     fade: "Left", 
     titolo: "Sistemi Mes",
-    immagineSrc: "images/masp/tracciabilita/mes.webp",
+    immagineSrc: "images/masp/tracciabilita/mes.png",
     altSrc: "Sistemi Mes",
     dettagli: [
       {
@@ -60,7 +60,7 @@ const tracciabilitaDataIntro = [
     margin: true,
     fade: "Right",
     titolo: "Stampa su carta termica",
-    immagineSrc: "images/masp/tracciabilita/printer.webp",
+    immagineSrc: "images/masp/tracciabilita/printer.png",
     altSrc: "Stampa su carta termica",
     dettagli: [
       {
