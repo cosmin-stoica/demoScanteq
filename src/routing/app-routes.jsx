@@ -69,6 +69,10 @@ import MaspTracciabilita from "../app/sections/automazione/masptracciabilita";
 import SupervisorHomeComm from "../app/components/supervisorcomm/supervisorhomecomm";
 import MesComm from "../app/components/mescomm/mescomm";
 import HalConfigHome from "../app/components/halconfig/halconfig_home";
+import UnitaControlloHome from "../app/components/unitacontrollo/unitacontrollo_home";
+import SchedeAutomazioneHome from "../app/components/schede-automazione/schede_automazione_home";
+import SchedaDigitaleHome from "../app/components/scheda-digitale/scheda_digitale_home";
+import SchedaImaginaHome from "../app/components/scheda_imagina/scheda_imagina_home";
 
 
 function PrivateRoute2({ children }) {
@@ -296,6 +300,11 @@ function AppRoutes() {
                 <Route path="/masp-tracciabilita" element={<MaspTracciabilita></MaspTracciabilita>} />
                 <Route path="/mes" element={<MesComm></MesComm>}></Route>
                 <Route path="/halconfig" element={<HalConfigHome></HalConfigHome>}></Route>
+
+                <Route path="/unitadicontrollo" element={<UnitaControlloHome></UnitaControlloHome>}></Route> 
+                <Route path="/schede-automazione" element={<SchedeAutomazioneHome></SchedeAutomazioneHome>}></Route> 
+                <Route path="/scheda-controllo-digitale" element={<SchedaDigitaleHome></SchedaDigitaleHome>}></Route>     
+                <Route path="/scheda-imagina" element={<SchedaImaginaHome></SchedaImaginaHome>}></Route>     
             </Routes>
         
     );

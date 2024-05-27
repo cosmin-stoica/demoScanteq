@@ -11,7 +11,7 @@ export function SectionWhyChooseUs2Inner() {
                     <div className="sx-about-bx4-media">
                         <div className="sx-ab4-img-outer">
                             <div className="sx-ab4-media">
-                                <ItodoImage src="images/about/p3.jpg" alt="media" />
+                                <ItodoImage src="images/about/sceglierci.png" alt="media" />
                             </div>
                         </div>
                     </div>

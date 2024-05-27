@@ -3749,3 +3749,111 @@ section.cardJob {
   width: 100%;
   height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.control-unit-section {
+  text-align: center;
+  width: 90%;
+}
+
+.control-unit-header {
+  margin-bottom: 40px;
+}
+
+.control-unit-header h2 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.control-unit-header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.control-unit-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.unit {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  flex: 1;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.unit:hover {
+  transform: translateY(-10px);
+}
+
+.unit h3 {
+  font-size: 1.8em;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.unit p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.unit ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.unit ul li {
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.4;
+  padding: 5px 0;
+}
+
+.control-unit-details {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  text-align: left;
+}
+
+.control-unit-details h3 {
+  font-size: 2em;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.control-unit-details p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}

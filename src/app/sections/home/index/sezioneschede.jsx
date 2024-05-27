@@ -121,7 +121,7 @@ function SezioneSchede() {
 
                                 </div>
 
-                                <NavLink to="/schede-hardware"><span id="seemoreUpgrade" class="see-moreMAIM">Vedi di più</span></NavLink>
+                                <NavLink to="/schede-automazione"><span id="seemoreUpgrade" class="see-moreMAIM">Vedi di più</span></NavLink>
                             </div>
 
                             {/*<div class="date-boxMAIM">

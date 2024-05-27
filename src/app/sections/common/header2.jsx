@@ -164,12 +164,11 @@ function Header2() {
 
 
                                     <li>
-                                        <NavLink to="/incostruzione">Hardware</NavLink>
+                                        <NavLink>Hardware</NavLink>
                                         <ul className="sub-menu">
-                                            <li><NavLink to="/incostruzione"> Unità di controllo (PC)</NavLink></li>
-                                            <li><NavLink to="/incostruzione">Schede per automazione</NavLink></li>
-                                            <li><NavLink to="/incostruzione">Scheda di controllo digitale</NavLink></li>
-                                            <li><NavLink to="/incostruzione">Scheda Imagina</NavLink></li>
+                                            <li><NavLink to="/unitadicontrollo"> Unità di controllo (PC)</NavLink></li>
+                                            <li><NavLink to="/schede-automazione">Schede per automazione</NavLink></li>
+                                            <li><NavLink to="/scheda-controllo-digitale">Scheda di controllo digitale</NavLink></li>
                                         </ul>
 
                                     </li>

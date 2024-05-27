@@ -16,7 +16,7 @@ const ServiziCard = () => {
                     <div className="servizio-card-upper">
                         <div className="servizio-card">
                             <ItodoImage className="circuitcard" src="images/circuit.png" alt="circuit"></ItodoImage>
-                            <ItodoImage className="servizio-card-img" src="images/project.jpg" alt="servizio-img"></ItodoImage>
+                            <ItodoImage className="servizio-card-img" src="images/servizi/projectt.png" alt="servizio-img"></ItodoImage>
                             <div className="servizio-card-secondaparte">
                                 <div className="servizio-card-title">Project, Product Management</div>
                                 <p>Gli esperti di Scanteq in elettronica e tecnologia dell’informazione possono assistervi in
@@ -63,7 +63,7 @@ const ServiziCard = () => {
                         <div className="servizio-card">
                             <ItodoImage className="circuitcard" src="images/circuit.png" alt="circuit"></ItodoImage>
 
-                            <ItodoImage className="servizio-card-img" src="images/software.jpg" alt="servizio-img"></ItodoImage>
+                            <ItodoImage className="servizio-card-img" src="images/servizi/hardware.png" alt="servizio-img"></ItodoImage>
                             <div className="servizio-card-secondaparte">
                                 <div className="servizio-card-title">
                                     Hardware Design
@@ -118,9 +118,9 @@ const ServiziCard = () => {
 
                     <div className="margin-top100 servizio-card-upper">
                         <div className="servizio-card">
-                            <ItodoImage className="circuitcard" src="images/circuit.png" alt="circuit"></ItodoImage>
+                            {/*<ItodoImage className="circuitcard" src="images/circuit.png" alt="circuit"></ItodoImage>*/}
 
-                            <ItodoImage className="servizio-card-img" src="images/algoritmi.jpg" alt="servizio-img"></ItodoImage>
+                            <ItodoImage className="servizio-card-img" src="images/servizi/software.png" alt="servizio-img"></ItodoImage>
                             <div className="servizio-card-secondaparte">
                                 <div className="servizio-card-title">
                                     Software and Firmware Design

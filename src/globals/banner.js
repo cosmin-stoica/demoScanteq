@@ -1,5 +1,25 @@
 export const bannerData = {
 
+    scheda_imagina:{
+        background: "images/banner/imagina.jpg",
+        title: "Scheda imagina",
+        crumb: "Scheda imagina"
+    },
+    scheda_controllo_digitale:{
+        background: "images/banner/controllodigitale.jpg",
+        title: "Scheda di controllo digitale",
+        crumb: "Scheda di controllo digitale"
+    },
+    schede_automazione:{
+        background: "images/banner/hardware.png",
+        title: "Schede per automazione",
+        crumb: "Schede per automazione"
+    },
+    unita_di_controllo:{
+        background: "images/banner/unitadicontrollo.jpg",
+        title: "Unità di controllo",
+        crumb: "Unità di controllo"
+    },
     mes:{
         background: "images/banner/mes.jpg",
         title: "Mes",
@@ -113,7 +133,7 @@ export const bannerData = {
         watermark: "Vision"
     },
     services: {
-        background: "images/banner/competenze.jpg",
+        background: "images/banner/competenze.png",
         title: "Servizi",
         crumb: "Servizi",
         watermark: "Servizi"

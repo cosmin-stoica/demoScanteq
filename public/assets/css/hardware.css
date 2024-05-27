@@ -1,0 +1,139 @@
+.introunita-div {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.introunita-div div {
+    font-size: 17px;
+    text-align: left;
+    display: flex;
+}
+
+.introunita-div div img{
+    width: 100%;
+}
+
+
+
+.text-container{
+    width: 100%;
+}
+
+@media (max-width: 770px) {
+
+    .introunita-div{
+        flex-direction: column;
+    }
+
+    .text-container{
+        width: 100%;
+    }
+    
+}
+
+.masp-card-img-hardware-unitadicontrollo {
+    min-width: 25vw;
+}
+
+
+.schede-automazione-prequel {
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    
+}
+
+.schede-automazione-prequel-div {
+    width: 300px;
+    min-height: 470px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    
+}
+
+.schede-automazione-prequel-div p{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 500px) {
+
+    .introunita-div {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .introunita-div div {
+        width: 100%;
+    }
+
+    .text-container {
+        width: 100vw;
+        padding-top: 15px;
+    }
+
+}
+
+
+.scheda-digitale-intro-div{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.scheda-digitale-intro-div-list{
+    display: flex;  
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.scheda-digitale-intro-div-list div{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+}
+
+.scheda-digitale-intro-div-list div p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.scheda-digitale{
+    width: 50%;
+}
+
+.scheda-digitale-descrizione-aux{
+    width: 70%;
+}

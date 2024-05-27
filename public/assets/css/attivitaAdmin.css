@@ -241,6 +241,13 @@
   width: 100%;
 }
 
+.perflex-column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .pertableazionidiv{
   width: 90%;
   overflow-x: auto;
