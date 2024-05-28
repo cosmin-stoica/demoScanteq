@@ -10896,7 +10896,7 @@ INPUT ANIMATION
 }
 
 #ufficioim {
-  margin-top: -100px;
+  background-color: red;
 }
 
 .maspimage {
@@ -10910,12 +10910,15 @@ INPUT ANIMATION
 
 .primariga {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .foto1,
 .foto2,
 .foto3 {
-  width: 400px;
+  width: 100%;
 }
 
 .foto2,
@@ -10926,6 +10929,10 @@ INPUT ANIMATION
 .colonna {
   padding-left: 25px;
   display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #contt {
@@ -11015,6 +11022,8 @@ INPUT ANIMATION
 .secondariga {
   display: flex;
   margin-top: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 #aboutpane {
@@ -11649,6 +11658,7 @@ th {
 
   #sium2 {
     margin-bottom: -40px;
+
   }
   /*CONTATTI PICCOLO*/
 

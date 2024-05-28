@@ -2181,7 +2181,6 @@ section.cardJob {
 
 
 
-
 @media screen and (max-width:1100px) {
   .servizio-card {
     flex-direction: column;
@@ -2210,6 +2209,7 @@ section.cardJob {
   z-index: 100;
   background-color: rgb(255, 255, 255);
 }
+
 
 .servizio-card-lista {
   z-index: 100;
@@ -3856,4 +3856,38 @@ section.cardJob {
   font-size: 1em;
   color: #555;
   line-height: 1.6;
+}
+
+
+.servizio-card-lista-lowerdiv-imagina {
+  width: 100%;
+  min-height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 200px;
+  margin: 10px;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+}
+
+.scanquest-div{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  padding: 20px;
+  border-radius: 15px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scanquest-div p{
+  font-size: 17px;
 }

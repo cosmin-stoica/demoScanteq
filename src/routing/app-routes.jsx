@@ -73,6 +73,7 @@ import UnitaControlloHome from "../app/components/unitacontrollo/unitacontrollo_
 import SchedeAutomazioneHome from "../app/components/schede-automazione/schede_automazione_home";
 import SchedaDigitaleHome from "../app/components/scheda-digitale/scheda_digitale_home";
 import SchedaImaginaHome from "../app/components/scheda_imagina/scheda_imagina_home";
+import ImaginaHome from "../app/components/imagina/imaginahome";
 
 
 function PrivateRoute2({ children }) {
@@ -123,7 +124,7 @@ function AppRoutes() {
                 <Route path="/hardware-solutions" element={<Hardware />} />
                 <Route path="/schede-hardware" element={<Schede />} />
                 <Route path="/automazione" element={<AutoHome />} />
-                <Route path="/imagina" element={<AutoUfficio />} />
+                <Route path="/imagina" element={<ImaginaHome></ImaginaHome>} />
                 <Route path="/login" element={<LoginDeploy></LoginDeploy>} />
                 <Route path="/supervisor" element={<SupervisorHomeComm></SupervisorHomeComm>}/>
                 <Route path="/errori-postazioni" element={<ErroriPostazioni></ErroriPostazioni>} />
