@@ -19,19 +19,21 @@ const HalConfigProva = ({ array, hal }) => {
             [nome]: value
         });
     };
-
     const handleSubmit = (event) => {
         event.preventDefault();
-
-
-        const iniContent = `
-        [HAL ${hal}]
-        ${array.map(item => `${item.nome} = ${formData[item.nome]}`).join('\n')}
-        `.trim();
-
+    
+        const divisoreGrosso = ";=============================================";
+        const halHeader = `[HAL ${hal}]`;
+        const iniContentArray = array.map(item => 
+            `${item.nome}=${formData[item.nome]}`
+        );
+        const iniContent = divisoreGrosso + "\n" + halHeader + "\n" + divisoreGrosso + "\n" + iniContentArray.join('\n');
+    
+        console.log(iniContent);  // Controlla il contenuto qui
+    
         const blob = new Blob([iniContent], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
-
+    
         const a = document.createElement('a');
         a.href = url;
         a.download = `HAL Config ${hal}.ini`;
@@ -39,9 +41,11 @@ const HalConfigProva = ({ array, hal }) => {
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
-
+    
         console.log(formData);
     };
+    
+    
 
     
     return (

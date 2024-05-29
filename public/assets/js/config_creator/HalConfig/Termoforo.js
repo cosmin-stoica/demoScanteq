@@ -1,4 +1,4 @@
-const Tps = [
+window.Termoforo = [
     {
         nome: "bIsUsed",
         tipo: "boolean",
@@ -10,15 +10,13 @@ const Tps = [
         tooltip: "Vista del config nel log"
     },
     {
-        nome: "nIN_BIT_TPS_PX1",
+        nome: "nOUT_BIT_HEATER_POWER_ENABLE",
         tipo: "intero",
-        tooltip: "Index pin ingresso scheda IO24ADC"
+        tooltip: "Index pin uscita scheda IO24ADC"
     },
     {
-        nome: "nIN_BIT_TPS_PX2",
+        nome: "nADC_INDEX_HT_CRT",
         tipo: "intero",
-        tooltip: "Index pin ingresso scheda IO24ADC"
+        tooltip: "Index pin uscita scheda IO24ADC"
     }
 ];
-
-export default Tps;

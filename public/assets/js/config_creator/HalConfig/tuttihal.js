@@ -1,4 +1,4 @@
-const tuttiHal = [
+window.tuttiHal = [
   {
     isTps: true,
     titolo: "TPS",
@@ -19,7 +19,6 @@ const tuttiHal = [
   {
     titolo: "Oggettivazione",
     icona: "images/jobs/oggettivazione.png"
-  }
+  },
+  
 ];
-
-export default tuttiHal;

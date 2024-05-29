@@ -1990,7 +1990,7 @@ section.cardJob {
 
 .supervisor-category-card i {
   font-size: 70px;
-  color:var(--primary);
+  color: var(--primary);
 }
 
 .supervisor-category-card h1 {
@@ -3314,10 +3314,11 @@ section.cardJob {
 }
 
 @media (max-width: 1000px) {
-  .masp-card-secondaparte-div-imgstampa{
+  .masp-card-secondaparte-div-imgstampa {
     flex-direction: column;
   }
 }
+
 .masp-btn-indietro {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
@@ -3331,27 +3332,29 @@ section.cardJob {
   width: 100px;
 }
 
-.masp-btn-indietro, .masp-btn-avanti{
+.masp-btn-indietro,
+.masp-btn-avanti {
   transition: all 0.2s ease-in-out;
 }
 
-.masp-btn-indietro:hover, .masp-btn-avanti:hover{
-  color:black;
+.masp-btn-indietro:hover,
+.masp-btn-avanti:hover {
+  color: black;
   background-color: white;
   transition: all 0.2s ease-in-out;
 }
 
 
-.bgwhite{
+.bgwhite {
   background-color: white;
 }
 
-.bggrey{
+.bggrey {
   background-color: rgb(248, 248, 248);
 }
 
 
-.hub-prequel-div-upper{
+.hub-prequel-div-upper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -3361,7 +3364,7 @@ section.cardJob {
 }
 
 
-.hub-prequel-div-inner{
+.hub-prequel-div-inner {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3373,17 +3376,17 @@ section.cardJob {
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
 }
 
-.hub-prequel-div-inner p{
+.hub-prequel-div-inner p {
   font-size: 25px;
   padding-top: 20px;
 }
 
-.hub-prequel-div-inner i{
+.hub-prequel-div-inner i {
   font-size: 90px;
-  color:var(--primary);
+  color: var(--primary);
 }
 
-.supervisor-hub-prequel-descrizione-generale{
+.supervisor-hub-prequel-descrizione-generale {
   width: 70%;
   background-color: white;
   padding: 20px;
@@ -3394,13 +3397,13 @@ section.cardJob {
   text-align: center;
 }
 
-.supervisor-hub-prequel-descrizione-generale p{
+.supervisor-hub-prequel-descrizione-generale p {
   text-align: center;
 }
 
-.masp-card-per-img i{
+.masp-card-per-img i {
   font-size: 200px;
-  color:var(--primary);
+  color: var(--primary);
   background-color: white;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   padding: 30px;
@@ -3408,7 +3411,7 @@ section.cardJob {
   border-radius: 15px;
 }
 
-.postazioni-supervisorcomm-div-upper{
+.postazioni-supervisorcomm-div-upper {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -3417,7 +3420,7 @@ section.cardJob {
   gap: 20px;
 }
 
-.tracctable-preview-upper{
+.tracctable-preview-upper {
   background-color: white;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   border-radius: 15px;
@@ -3432,7 +3435,7 @@ section.cardJob {
 
 }
 
-.paneanalisiscegli-preview{
+.paneanalisiscegli-preview {
 
   border-radius: 15px;
   margin-top: 50px;
@@ -3440,21 +3443,21 @@ section.cardJob {
 
 }
 
-.titolo-supervisor-preview{
+.titolo-supervisor-preview {
   font-size: 21px;
   font-weight: 800;
 }
 
-.masp-prequel-div-parteP p{
+.masp-prequel-div-parteP p {
   text-align: center;
 }
 
-.upper-supervisor-p{
+.upper-supervisor-p {
   font-size: 24px;
   font-weight: 700;
 }
 
-.halconfig-paneprincipale{
+.halconfig-paneprincipale {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -3463,7 +3466,7 @@ section.cardJob {
   background-color: rgb(0, 0, 0);
 }
 
-.hal-config-div{
+.hal-config-div {
   width: 150px;
   height: 150px;
   background-color: white;
@@ -3476,63 +3479,76 @@ section.cardJob {
   font-size: 20px;
   cursor: pointer;
   flex-direction: column;
-  color:black;
+  color: black;
   margin: 20px;
 }
 
-.hal-config-div img{
+.hal-config-div img {
   width: 80px;
   height: auto;
 }
 
-.esci-halconfig-button{
+.esci-halconfig-button {
   position: absolute;
-  right:20px;
-  top:110px;
+  right: 20px;
+  top: 110px;
   background-color: white;
-  border:none;
+  border: none;
   border-radius: 5px;
 }
 
-.halconfigprova-div{
-  background-color: white;
+.halconfigprova-div {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 25px;
   border-radius: 15px;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 30px 30px -10px;
+  margin-top: 140px;
+  margin-bottom: 70px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.halconfigprova-div div{
-    display: flex;
-  }
+.halconfigprova-div form{
+  width: 100%;
+}
 
-.halconfigprova-div div label input{
-  color:black;
-  width: 200px;
+.halconfigprova-div div {
+  display: flex;
+  width: 100%;
+}
+
+.halconfigprova-div form div{
+  width: 100%;
+}
+
+.halconfigprova-div div label input {
+  color: black;
+  width: 100%;
   height: 30px;
 }
 
-.halconfigprova-div div label select{
-  color:black;
-  width: 200px;
+.halconfigprova-div div label select {
+  color: black;
+  width: 100%;
   height: 30px;
 }
-
-
 
 .halconfigprova-div div label{
-  width: 400px;
   display: flex;
-  color:black;
+  flex-flow: row;
+  width: 100%;
+}
+
+
+.halconfigprova-div div label div {
+  width: 100%;
+  display: flex;
+  color: black;
   font-size: 17px;
   flex-flow: row;
 }
-
-.halconfigprova-div div label div{
-  width: 200px;
-}
-
-
-
 
 .tooltipHalConfig {
   position: relative;
@@ -3541,6 +3557,7 @@ section.cardJob {
   font-family: "Arial", sans-serif;
   margin-left: 5px;
   margin-right: 5px;
+  max-width: 50px;
 }
 
 .tooltipHalConfig:hover .tooltiptextHalConfig {
@@ -3548,9 +3565,21 @@ section.cardJob {
   opacity: 1;
 }
 
+.position-relative{
+  position: relative;
+}
+
+.indietro-hal-config-button{
+  position: absolute;
+  top:120px;
+  right: 30px;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+}
+
 .tooltiptextHalConfig {
   visibility: hidden;
-  width: 200px;
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -3558,11 +3587,10 @@ section.cardJob {
   padding: 10px;
   position: absolute;
   z-index: 1;
-  top: 125%;
-  left: 50%;
-  margin-left: -100px;
+  margin-left: -200px;
   opacity: 0;
   transition: opacity 0.3s;
+  min-width: 200px;
 }
 
 .tooltiptextHalConfig::after {
@@ -3574,6 +3602,7 @@ section.cardJob {
   border-width: 10px;
   border-style: solid;
   border-color: transparent transparent #333 transparent;
+  background-color: white;
 }
 
 .tooltipHalConfig .iconHalConfig {
@@ -3581,32 +3610,33 @@ section.cardJob {
   width: 20px;
   height: 20px;
   background-color: var(--primary);
+  border: solid 1px white;
   color: #fff;
   border-radius: 50%;
   text-align: center;
   line-height: 20px;
 }
 
-.creahal-btn{
+.creahal-btn {
   background-color: var(--primary);
   padding-left: 7px;
   padding-right: 7px;
-  color:white;
+  color: white;
   padding-top: 3px;
   padding-bottom: 3px;
   border-radius: 5px;
-  border:none;
+  border: none;
   transition: all 0.2s linear;
 }
 
-.creahal-btn:hover{
+.creahal-btn:hover {
   background-color: white;
-  color:var(--primary);
+  color: var(--primary);
   font-weight: 800;
 }
 
-.categorie-div-row{
-  display: flex;  
+.categorie-div-row {
+  display: flex;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
@@ -3614,7 +3644,7 @@ section.cardJob {
   gap: 20px;
 }
 
-.categoria-div{
+.categoria-div {
   width: 200px;
   height: 200px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
@@ -3626,16 +3656,16 @@ section.cardJob {
   align-items: center;
 }
 
-.categoria-div img{
+.categoria-div img {
   width: 100px;
 }
 
-.categoria-div p{
+.categoria-div p {
   font-size: 17px;
   font-weight: 800;
 }
 
-.mes-descrizione{
+.mes-descrizione {
   width: 80%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
   padding: 20px;
@@ -3644,12 +3674,12 @@ section.cardJob {
   margin-top: 50px;
 }
 
-.mes-descrizione p{
+.mes-descrizione p {
   font-size: 17px;
   text-align: center;
 }
 
-.normalfont{
+.normalfont {
   font-size: 17px;
 }
 
@@ -3662,31 +3692,32 @@ section.cardJob {
 .tracctable-preview td {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; /* opzionale, per aggiungere i tre puntini se il testo è troppo lungo */
+  text-overflow: ellipsis;
+  /* opzionale, per aggiungere i tre puntini se il testo è troppo lungo */
 }
 
 
-.analysis-isdemo-btn{
+.analysis-isdemo-btn {
   background-color: var(--primary);
   border: none;
   border-radius: 10px;
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
-  color:white;
+  color: white;
   font-size: 15px;
   transition: all 0.3s ease;
 }
 
-.analysis-isdemo-btn:hover{
+.analysis-isdemo-btn:hover {
   background-color: white;
   transition: all 0.3s ease;
-  color:var(--primary);
+  color: var(--primary);
 }
 
 
 
-.creacommessa-btn{
+.creacommessa-btn {
   background-color: white;
   font-size: 20px;
   width: 150px;
@@ -3701,25 +3732,25 @@ section.cardJob {
   transition: all 0.3s ease;
 }
 
-.creacommessa-btn h2{
+.creacommessa-btn h2 {
   font-size: 17px;
-  color:#535353;
+  color: #535353;
   text-align: center;
   transition: all 0.3s ease;
 }
 
-.creacommessa-btn:hover{
+.creacommessa-btn:hover {
   transition: all 0.3s ease;
   background-color: var(--primary);
   box-shadow: rgba(0, 0, 0, 0.6) 0px 30px 30px -10px;
 }
 
-.creacommessa-btn:hover h2{
+.creacommessa-btn:hover h2 {
   transition: all 0.3s ease;
-  color:white;
+  color: white;
 }
 
-.img-componente-demo{
+.img-componente-demo {
   width: 40%;
   height: auto;
 }
@@ -3734,7 +3765,7 @@ section.cardJob {
   height: 100%;
 }
 
-.perflex-img-traccia-uno{
+.perflex-img-traccia-uno {
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -3742,7 +3773,7 @@ section.cardJob {
   height: 100%;
 }
 
-.perflex-img-traccia-due{
+.perflex-img-traccia-due {
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -3877,17 +3908,46 @@ section.cardJob {
   background-color: rgb(255, 255, 255);
 }
 
-.scanquest-div{
+.scanquest-div {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
   padding: 20px;
-  border-radius: 15px; 
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.scanquest-div p{
+.scanquest-div p {
   font-size: 17px;
+}
+
+.hal-config-chooser-div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.hal-config-chooser-div div {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hal-config-chooser-div div i {
+  font-size: 70px;
 }
