@@ -1,6 +1,6 @@
 import { useState } from "react";
-import HalConfigCreator from "./halconfig_creator";
-import JobConfigCreator from "./jobconfig_creator";
+import ConfigCreator from "./config_creator";
+
 
 const HalConfigChooser = ({ hal_config_array, selectedHal, job_config_array, selectedJob, onBack }) => {
 
@@ -35,8 +35,8 @@ const HalConfigChooser = ({ hal_config_array, selectedHal, job_config_array, sel
             </div>}
 
             {(isHal || isJob) && <button className="esci-halconfig-button" onClick={handleBack}>Indietro</button>}
-            {isHal && <HalConfigCreator array={hal_config_array} hal={selectedHal} />}
-            {isJob && <JobConfigCreator array={job_config_array} job={selectedJob} />}
+            {isHal && <ConfigCreator isHal={true} array={hal_config_array} title={selectedHal} />}
+            {isJob && <ConfigCreator isHal={false} array={job_config_array} title={selectedJob} />}
             {!isHal && !isJob && <button className="esci-halconfig-button"  onClick={onBack}>Indietro</button>}
         </>
     );

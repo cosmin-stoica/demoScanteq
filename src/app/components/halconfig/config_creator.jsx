@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const JobConfigCreator = ({ array, job }) => {
+const ConfigCreator = ({ isHal, array, title }) => {
     const initialState = array.reduce((acc, item) => {
         if (item.tipo === "boolean") {
             acc[item.nome] = '1';
@@ -8,14 +8,20 @@ const JobConfigCreator = ({ array, job }) => {
             acc[item.nome] = 0;
         } else if (item.tipo === "string") {
             acc[item.nome] = '';
+        } else if (item.tipo === "double") {
+            acc[item.nome] = 0.0;
         }
         return acc;
     }, {});
 
+
     const [formData, setFormData] = useState(initialState);
 
     const handleChange = (event, nome, tipo) => {
-        const value = tipo === "boolean" ? event.target.value : tipo === "intero" ? parseInt(event.target.value, 10) : event.target.value;
+        const value = tipo === "boolean" ? event.target.value
+            : tipo === "intero" ? parseInt(event.target.value, 10)
+                : tipo === "double" ? parseFloat(event.target.value)
+                    : event.target.value;
         setFormData({
             ...formData,
             [nome]: value
@@ -24,31 +30,49 @@ const JobConfigCreator = ({ array, job }) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        
-        const divisoreGrosso = ";=============================================";
-        const jobHeader = "[JOB 1]";
-        const iniContentArray = array.map(item => 
-            item.tipo === "divisore" ? ';-----------------------------------------------------------' : `${item.nome}= ${formData[item.nome]}`
-        );
-        const iniContent = divisoreGrosso + "\n" + jobHeader + "\n" + divisoreGrosso + "\n" + iniContentArray.join('\n');
-    
-        console.log(iniContent);  // Controlla il contenuto qui
-    
+
+        let iniContent = "null";
+
+        if (isHal) {
+            const divisoreGrosso = ";=============================================";
+            const halHeader = `[HAL ${title}]`;
+            const iniContentArray = array.map(item =>
+                `${item.nome}= ${formData[item.nome]}`
+            );
+            iniContent = divisoreGrosso + "\n" + halHeader + "\n" + divisoreGrosso + "\n" + iniContentArray.join('\n');
+        }
+        else {
+            const divisoreGrosso = ";=============================================";
+            const jobHeader = "[JOB 1]";
+            const iniContentArray = array.map(item =>
+                item.tipo === "divisore" ? ';-----------------------------------------------------------' : `${item.nome}= ${formData[item.nome]}`
+            );
+            iniContent = divisoreGrosso + "\n" + jobHeader + "\n" + divisoreGrosso + "\n" + iniContentArray.join('\n');
+        }
+
+
+        console.log(iniContent);
+
         const blob = new Blob([iniContent], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
-    
+
         const a = document.createElement('a');
         a.href = url;
-        a.download = `Job Config ${job}.ini`;
+        if (isHal) {
+            a.download = `HAL Config ${title}.ini`;
+        }
+        else {
+            a.download = `Job Config ${title}.ini`;
+        }
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
-    
+
         console.log(formData);
     };
-    
-    
+
+
 
     return (
         <div className="halconfigprova-div">
@@ -75,6 +99,13 @@ const JobConfigCreator = ({ array, job }) => {
                                         value={formData[item.nome]}
                                         onChange={(e) => handleChange(e, item.nome, item.tipo)}
                                     />
+                                ) : item.tipo === "double" ? (
+                                    <input
+                                        type="number"
+                                        step="0.01"
+                                        value={formData[item.nome]}
+                                        onChange={(e) => handleChange(e, item.nome, item.tipo)}
+                                    />
                                 ) : item.tipo === "string" ? (
                                     <input
                                         type="text"
@@ -90,12 +121,15 @@ const JobConfigCreator = ({ array, job }) => {
                         </div>
                     )
                 ))}
+
                 <div className="width100 perflex margin-top50">
-                    <button className="creahal-btn" type="submit">Crea Hal</button>
+                    {isHal ? <button className="creahal-btn" type="submit">Crea Hal</button>
+                        :
+                        <button className="creahal-btn" type="submit">Crea Job</button>}
                 </div>
             </form>
         </div>
     );
 };
 
-export default JobConfigCreator;
+export default ConfigCreator;

@@ -3488,6 +3488,34 @@ section.cardJob {
   height: auto;
 }
 
+.category-config-div{
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 15px;
+  padding: 100px;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  flex-direction: column;
+  color: black;
+  margin: 20px;
+  text-align: center;
+}
+
+.category-config-div i{
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.padding100px{
+  padding: 100px;
+}
+
 .esci-halconfig-button {
   position: absolute;
   right: 20px;
@@ -3950,4 +3978,14 @@ section.cardJob {
 
 .hal-config-chooser-div div i {
   font-size: 70px;
+}
+
+.hal-config-div-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  width: 90%;
+  margin-top: 140px;
 }

@@ -1,19 +1,14 @@
 import { useState, useEffect } from "react";
 import ItodoImage from "../../elements/itodo-img";
-import HalConfigCreator from "./halconfig_creator";
-//import tuttiHal from "../../../../public/config_creator/HalConfig/tuttihal";
-
-//import TpsHal from "../../../../public/config_creator/HalConfig/TpsHal";
-//import TpsJob from "../../../../public/config_creator/JobConfig/TpsJob";
-//import Termoforo from "../../../../public/config_creator/HalConfig/Termoforo";
-
 import HalConfigChooser from "./halconfig_chooser";
 
 const HalConfigHome = () => {
     const [tuttiHal, setTuttiHal] = useState([]);
     const [TpsHal, setTpsHal] = useState([]);
+    const [TermoforoHal, setTermoforoHal] = useState([]);
+
     const [TpsJob, setTpsJob] = useState([]);
-    const [Termoforo, setTermoforo] = useState([]);
+    const [TermoforoJob, setTermoforoJob] = useState([]);
 
     useEffect(() => {
         // Assicurati che tuttiHal sia disponibile
@@ -26,13 +21,49 @@ const HalConfigHome = () => {
         if (window.TpsJob) {
             setTpsJob(window.TpsJob);
         }
-        if (window.Termoforo) {
-            setTermoforo(window.Termoforo);
+        if (window.TermoforoHal) {
+            setTermoforoHal(window.TermoforoHal);
+        }
+        if (window.TermoforoJob) {
+            setTermoforoJob(window.TermoforoJob);
         }
     }, []);
 
     const [isClicked, setIsClicked] = useState(false);
     const [selectedHal, setselectedHal] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState('');
+
+
+    const categories = [
+        {
+            titolo: "Automazione e Assemblaggio",
+            icona: <i className="flaticon-development"></i>
+        },
+        {
+            titolo: "Collaudo Componenti Automotive",
+            icona: <i className="flaticon-skills"></i>
+        },
+        {
+            titolo: "Controllo di Qualità e Verifica",
+            icona: <i className="flaticon-data"></i>
+        },
+        {
+            titolo: "Gestione Produzione e Logistica",
+            icona: <i className="flaticon-supply-chain"></i>
+        },
+        {
+            titolo: "Gestione Postazioni e Procedure",
+            icona: <i className="flaticon-employee"></i>
+        },
+        {
+            titolo: "Unità di Controllo Elettronico",
+            icona: <i className="flaticon-touch"></i>
+        }
+    ];
+
+    const handleCategoryClick = (category) => {
+        setSelectedCategory(category);
+    };
 
     const handleHalConfig = (hal) => {
         switch (hal) {
@@ -50,7 +81,7 @@ const HalConfigHome = () => {
             case 'TPS':
                 return TpsHal;
             case 'Heater':
-                return Termoforo;
+                return TermoforoHal;
             // Add more cases for other hals
             default:
                 return [];
@@ -62,7 +93,7 @@ const HalConfigHome = () => {
             case 'TPS':
                 return TpsJob;
             case 'Heater':
-            // Add more cases for other hals
+                return TermoforoJob;
             default:
                 return [];
         }
@@ -72,19 +103,33 @@ const HalConfigHome = () => {
         setIsClicked(false);
         setselectedHal('');
     }
+
+    const handleCategoryBack = () => {
+        setSelectedCategory('');
+    };
+
+
     return (
         <>
             <div className='paneprincipalepostazioni perflex position-relative'>
+                {selectedCategory && <button className="esci-halconfig-button" onClick={handleCategoryBack}>Indietro</button>}
+                {!selectedCategory && !isClicked && <div className="hal-config-div-flex">
+                    {categories.map(category => (
+                        <div onClick={() => handleCategoryClick(category.titolo)} className="category-config-div">
+                            {category.icona}
+                            {category.titolo}
+                        </div>
+                    ))}
+                </div>}
 
-
-                {!isClicked && tuttiHal.map(hal => (
-                    <div onClick={() => handleHalConfig(hal.titolo)} className="hal-config-div">
-                        <ItodoImage src={hal.icona}></ItodoImage>
-                        {hal.titolo}
-                    </div>
-                ))}
-
-
+                {selectedCategory && !isClicked && <div className="hal-config-div-flex">
+                    {tuttiHal.filter(hal => hal.categoria === selectedCategory).map(hal => (
+                        <div onClick={() => handleHalConfig(hal.titolo)} className="hal-config-div">
+                            <ItodoImage src={hal.icona}></ItodoImage>
+                            {hal.titolo}
+                        </div>
+                    ))}
+                </div>}
 
                 {isClicked &&
                     <>
