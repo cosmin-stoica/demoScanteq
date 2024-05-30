@@ -4,25 +4,128 @@ import HalConfigChooser from "./halconfig_chooser";
 
 const HalConfigHome = () => {
     const [tuttiHal, setTuttiHal] = useState([]);
+
     const [TpsHal, setTpsHal] = useState([]);
     const [TermoforoHal, setTermoforoHal] = useState([]);
+    const [AirbagHal, setAirbagHal] = useState([]);
+    const [AvvitaturaHal, setAvvitaturaHal] = useState([]);
+    const [BarcodeHal, setBarcodeHal] = useState([]);
+    const [BloccaggioHal, setBloccaggioHal] = useState([]);
+    const [CaricoManualeHal, setCaricoManualeHal] = useState([]);
+    const [CaricoHal, setCaricoHal] = useState([]);
+    const [CinturaHal, setCinturaHal] = useState([]);
+    const [CoppiaHal, setCoppiaHal] = useState([]);
+    const [DimensionaleHal, setDimensionaleHal] = useState([]);
+    const [DpdSbrHal, setDpdSbrHal] = useState([]);
+    const [IcpQualitàHal, setIcpQualitàHal] = useState([]);
+    const [JumpHal, setJumpHal] = useState([]);
+    const [KillerSwitchHal, setKillerSwitchHal] = useState([]);
+    const [LogisticaHal, setLogisticaHal] = useState([]);
+    const [ManutenzioneHal, setManutenzioneHal] = useState([]);
+    const [MotoreHal, setMotoreHal] = useState([]);
+    const [OggettivazioneHal, setOggettivazioneHal] = useState([]);
+    const [PickToLightHal, setPickToLightHal] = useState([]);
+    const [RivettaturaHal, setRivettaturaHal] = useState([]);
+    const [RobotHal, setRobotHal] = useState([]);
+    const [ScartoHal, setScartoHal] = useState([]);
+    const [ScuHal, setScuHal] = useState([]);
+    const [SeegerManopolaHal, setSeegerManopolaHal] = useState([]);
+    const [TimerHal, setTimerHal] = useState([]);
+    const [VisioneHal, setVisioneHal] = useState([]);
 
     const [TpsJob, setTpsJob] = useState([]);
     const [TermoforoJob, setTermoforoJob] = useState([]);
 
     useEffect(() => {
-        // Assicurati che tuttiHal sia disponibile
         if (window.tuttiHal) {
             setTuttiHal(window.tuttiHal);
         }
         if (window.TpsHal) {
             setTpsHal(window.TpsHal);
         }
-        if (window.TpsJob) {
-            setTpsJob(window.TpsJob);
-        }
         if (window.TermoforoHal) {
             setTermoforoHal(window.TermoforoHal);
+        }
+        if (window.AirbagHal) {
+            setAirbagHal(window.AirbagHal);
+        }
+        if (window.AvvitaturaHal) {
+            setAvvitaturaHal(window.AvvitaturaHal);
+        }
+        if (window.BarcodeHal) {
+            setBarcodeHal(window.BarcodeHal);
+        }
+        if (window.BloccaggioHal) {
+            setBloccaggioHal(window.BloccaggioHal);
+        }
+        if (window.CaricoManualeHal) {
+            setCaricoManualeHal(window.CaricoManualeHal);
+        }
+        if (window.CaricoHal) {
+            setCaricoHal(window.CaricoHal);
+        }
+        if (window.CinturaHal) {
+            setCinturaHal(window.CinturaHal);
+        }
+        if (window.CoppiaHal) {
+            setCoppiaHal(window.CoppiaHal);
+        }
+        if (window.DimensionaleHal) {
+            setDimensionaleHal(window.DimensionaleHal);
+        }
+        if (window.DpdSbrHal) {
+            setDpdSbrHal(window.DpdSbrHal);
+        }
+        if (window.IcpQualitàHal) {
+            setIcpQualitàHal(window.IcpQualitàHal);
+        }
+        if (window.JumpHal) {
+            setJumpHal(window.JumpHal);
+        }
+        if (window.KillerSwitchHal) {
+            setKillerSwitchHal(window.KillerSwitchHal);
+        }
+        if (window.LogisticaHal) {
+            setLogisticaHal(window.LogisticaHal);
+        }
+        if (window.ManutenzioneHal) {
+            setManutenzioneHal(window.ManutenzioneHal);
+        }
+        if (window.MotoreHal) {
+            setMotoreHal(window.MotoreHal);
+        }
+        if (window.OggettivazioneHal) {
+            setOggettivazioneHal(window.OggettivazioneHal);
+        }
+        if (window.PickToLightHal) {
+            setPickToLightHal(window.PickToLightHal);
+        }
+        if (window.RivettaturaHal) {
+            setRivettaturaHal(window.RivettaturaHal);
+        }
+        if (window.RobotHal) {
+            setRobotHal(window.RobotHal);
+        }
+        if (window.ScartoHal) {
+            setScartoHal(window.ScartoHal);
+        }
+        if (window.ScuHal) {
+            setScuHal(window.ScuHal);
+        }
+        if (window.SeegerManopolaHal) {
+            setSeegerManopolaHal(window.SeegerManopolaHal);
+        }
+        if (window.TimerHal) {
+            setTimerHal(window.TimerHal);
+        }
+        if (window.VisioneHal) {
+            setVisioneHal(window.VisioneHal);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (window.TpsJob) {
+            setTpsJob(window.TpsJob);
         }
         if (window.TermoforoJob) {
             setTermoforoJob(window.TermoforoJob);
