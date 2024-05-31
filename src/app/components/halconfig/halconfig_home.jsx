@@ -35,19 +35,40 @@ const HalConfigHome = () => {
 
     const [TpsJob, setTpsJob] = useState([]);
     const [TermoforoJob, setTermoforoJob] = useState([]);
+    const [AirbagJob, setAirbagJob] = useState([]);
+    const [AvvitaturaJob, setAvvitaturaJob] = useState([]);
+    const [BarcodeJob, setBarcodeJob] = useState([]);
+    const [BloccaggioJob, setBloccaggioJob] = useState([]);
+    const [CaricoManualeJob, setCaricoManualeJob] = useState([]);
+    const [CaricoJob, setCaricoJob] = useState([]);
+    const [CinturaJob, setCinturaJob] = useState([]);
+    const [CoppiaJob, setCoppiaJob] = useState([]);
+    const [DimensionaleJob, setDimensionaleJob] = useState([]);
+    const [DpdSbrJob, setDpdSbrJob] = useState([]);
+    const [JumpJob, setJumpJob] = useState([]);
+    const [KillerSwitchJob, setKillerSwitchJob] = useState([]);
+    const [LogisticaJob, setLogisticaJob] = useState([]);
+    const [ManutenzioneJob, setManutenzioneJob] = useState([]);
+    const [MotoreJob, setMotoreJob] = useState([]);
+    const [OggettivazioneJob, setOggettivazioneJob] = useState([]);
+    const [PickToLightJob, setPickToLightJob] = useState([]);
+    const [RivettaturaJob, setRivettaturaJob] = useState([]);
+    const [RobotJob, setRobotJob] = useState([]);
+    const [ScartoJob, setScartoJob] = useState([]);
+    const [ScuJob, setScuJob] = useState([]);
+    const [TimerJob, setTimerJob] = useState([]);
+    const [VisioneJob, setVisioneJob] = useState([]);
 
     const [Doc, setDoc] = useState([]);
 
     useEffect(() => {
-        if (window.tuttiHal) {
-            setTuttiHal(window.tuttiHal);
-        }
-
         if (window.Doc) {
             setDoc(window.Doc);
             console.log(window.Doc);
         }
-
+        if (window.tuttiHal) {
+            setTuttiHal(window.tuttiHal);
+        }
         if (window.TpsHal) {
             setTpsHal(window.TpsHal);
         }
@@ -125,12 +146,90 @@ const HalConfigHome = () => {
         }
     }, []);
 
+
+
+
+
+
+
+
+
+
     useEffect(() => {
         if (window.TpsJob) {
             setTpsJob(window.TpsJob);
         }
         if (window.TermoforoJob) {
             setTermoforoJob(window.TermoforoJob);
+        }
+        if (window.AirbagJob) {
+            setAirbagJob(window.AirbagJob);
+        }
+        if (window.AvvitaturaJob) {
+            setAvvitaturaJob(window.AvvitaturaJob);
+        }
+        if (window.BarcodeJob) {
+            setBarcodeJob(window.BarcodeJob);
+        }
+        if (window.BloccaggioJob) {
+            setBloccaggioJob(window.BloccaggioJob);
+        }
+        if (window.CaricoManualeJob) {
+            setCaricoManualeJob(window.CaricoManualeJob);
+        }
+        if (window.CaricoJob) {
+            setCaricoJob(window.CaricoJob);
+        }
+        if (window.CinturaJob) {
+            setCinturaJob(window.CinturaJob);
+        }
+        if (window.CoppiaJob) {
+            setCoppiaJob(window.CoppiaJob);
+        }
+        if (window.DimensionaleJob) {
+            setDimensionaleJob(window.DimensionaleJob);
+        }
+        if (window.DpdSbrJob) {
+            setDpdSbrJob(window.DpdSbrJob);
+        }
+        if (window.JumpJob) {
+            setJumpJob(window.JumpJob);
+        }
+        if (window.KillerSwitchJob) {
+            setKillerSwitchJob(window.KillerSwitchJob);
+        }
+        if (window.LogisticaJob) {
+            setLogisticaJob(window.LogisticaJob);
+        }
+        if (window.ManutenzioneJob) {
+            setManutenzioneJob(window.ManutenzioneJob);
+        }
+        if (window.MotoreJob) {
+            setMotoreJob(window.MotoreJob);
+        }
+        if (window.OggettivazioneJob) {
+            setOggettivazioneJob(window.OggettivazioneJob);
+        }
+        if (window.PickToLightJob) {
+            setPickToLightJob(window.PickToLightJob);
+        }
+        if (window.RivettaturaJob) {
+            setRivettaturaJob(window.RivettaturaJob);
+        }
+        if (window.RobotJob) {
+            setRobotJob(window.RobotJob);
+        }
+        if (window.ScartoJob) {
+            setScartoJob(window.ScartoJob);
+        }
+        if (window.ScuJob) {
+            setScuJob(window.ScuJob);
+        }
+        if (window.TimerJob) {
+            setTimerJob(window.TimerJob);
+        }
+        if (window.VisioneJob) {
+            setVisioneJob(window.VisioneJob);
         }
     }, []);
 
@@ -174,6 +273,12 @@ const HalConfigHome = () => {
         switch (hal) {
             case 'Termoforo':
                 setselectedHal('Heater');
+                break;
+            case 'Pick To Light':
+                setselectedHal('PickToLight');
+                break;
+            case 'Robot Collaborativo':
+                setselectedHal('Robot');
                 break;
             default:
                 setselectedHal(hal);
@@ -245,6 +350,52 @@ const HalConfigHome = () => {
                 return TpsJob;
             case 'Heater':
                 return TermoforoJob;
+            case 'Airbag':
+                return AirbagJob;
+            case 'Avvitatura':
+                return AvvitaturaJob;
+            case 'Barcode':
+                return BarcodeJob;
+            case 'Bloccaggio':
+                return BloccaggioJob;
+            case 'CaricoManuale':
+                return CaricoManualeJob;
+            case 'Carico':
+                return CaricoJob;
+            case 'Cintura':
+                return CinturaJob;
+            case 'Coppia':
+                return CoppiaJob;
+            case 'Dimensionale':
+                return DimensionaleJob;
+            case 'DpdSbr':
+                return DpdSbrJob;
+            case 'Jump':
+                return JumpJob;
+            case 'KillerSwitch':
+                return KillerSwitchJob;
+            case 'Logistica':
+                return LogisticaJob;
+            case 'Manutenzione':
+                return ManutenzioneJob;
+            case 'Motore':
+                return MotoreJob;
+            case 'Oggettivazione':
+                return OggettivazioneJob;
+            case 'PickToLight':
+                return PickToLightJob;
+            case 'Rivettatura':
+                return RivettaturaJob;
+            case 'Robot':
+                return RobotJob;
+            case 'Scarto':
+                return ScartoJob;
+            case 'Scu':
+                return ScuJob;
+            case 'Timer':
+                return TimerJob;
+            case 'Visione':
+                return VisioneJob;
             default:
                 return [];
         }
@@ -260,33 +411,6 @@ const HalConfigHome = () => {
     };
 
 
-    /*const halArrays = {
-        TpsHal,
-        /*TermoforoHal,
-        AirbagHal,
-        AvvitaturaHal,
-        BarcodeHal,
-        BloccaggioHal,
-        CaricoManualeHal,
-        CaricoHal,
-        CinturaHal,
-        CoppiaHal,
-        DimensionaleHal,
-        DpdSbrHal,
-        JumpHal,
-        KillerSwitchHal,
-        LogisticaHal,
-        ManutenzioneHal,
-        MotoreHal,
-        OggettivazioneHal,
-        PickToLightHal,
-        RivettaturaHal,
-        RobotHal,
-        ScartoHal,
-        ScuHal,
-        TimerHal,
-        VisioneHal,
-    };*/
 
     const halArrays = Doc;
 
