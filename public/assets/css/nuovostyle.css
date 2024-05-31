@@ -1883,7 +1883,7 @@ section.cardJob {
 }
 
 .jobBoxesDiv {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -3488,7 +3488,7 @@ section.cardJob {
   height: auto;
 }
 
-.category-config-div{
+.category-config-div {
   width: 300px;
   height: 300px;
   border: 1px solid white;
@@ -3507,12 +3507,12 @@ section.cardJob {
   text-align: center;
 }
 
-.category-config-div i{
+.category-config-div i {
   font-size: 70px;
   margin-bottom: 10px;
 }
 
-.padding100px{
+.padding100px {
   padding: 100px;
 }
 
@@ -3538,7 +3538,7 @@ section.cardJob {
   align-items: center;
 }
 
-.halconfigprova-div form{
+.halconfigprova-div form {
   width: 100%;
 }
 
@@ -3547,7 +3547,7 @@ section.cardJob {
   width: 100%;
 }
 
-.halconfigprova-div form div{
+.halconfigprova-div form div {
   width: 100%;
 }
 
@@ -3563,7 +3563,7 @@ section.cardJob {
   height: 30px;
 }
 
-.halconfigprova-div div label{
+.halconfigprova-div div label {
   display: flex;
   flex-flow: row;
   width: 100%;
@@ -3593,16 +3593,16 @@ section.cardJob {
   opacity: 1;
 }
 
-.position-relative{
+.position-relative {
   position: relative;
 }
 
-.indietro-hal-config-button{
+.indietro-hal-config-button {
   position: absolute;
-  top:120px;
+  top: 120px;
   right: 30px;
   background-color: white;
-  border:none;
+  border: none;
   border-radius: 5px;
 }
 
@@ -3980,7 +3980,7 @@ section.cardJob {
   font-size: 70px;
 }
 
-.hal-config-div-flex{
+.hal-config-div-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -3988,4 +3988,73 @@ section.cardJob {
   gap: 20px;
   width: 90%;
   margin-top: 140px;
+}
+
+
+.documentation-creator-btn {
+  background-color: rgb(23, 211, 70);
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.documentation-creator-btn:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.conferma-div {
+  background-color: var(--primary);
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+}
+
+.conferma-div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conferma-div-title {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.conferma-div-text {
+  font-size: 15px;
+}
+
+.conferma-div-buttons button {
+  margin: 15px;
+  border: none;
+}
+
+.conferma-div-buttons-conferma {
+  background-color: rgb(23, 211, 70);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.conferma-div-buttons-annulla {
+  background-color: rgb(186, 23, 23);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
 }

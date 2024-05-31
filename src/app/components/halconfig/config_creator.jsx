@@ -44,10 +44,11 @@ const ConfigCreator = ({ isHal, array, title }) => {
         else {
             const divisoreGrosso = ";=============================================";
             const jobHeader = "[JOB 1]";
+            const jobDeclaration = `Tipo Job = ${title}`; 
             const iniContentArray = array.map(item =>
                 item.tipo === "divisore" ? ';-----------------------------------------------------------' : `${item.nome}= ${formData[item.nome]}`
             );
-            iniContent = divisoreGrosso + "\n" + jobHeader + "\n" + divisoreGrosso + "\n" + iniContentArray.join('\n');
+            iniContent = divisoreGrosso + "\n" + jobHeader + "\n" + divisoreGrosso + "\n" + jobDeclaration + "\n" + iniContentArray.join('\n');
         }
 
 

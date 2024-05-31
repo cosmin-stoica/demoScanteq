@@ -1,5 +1,5 @@
 
-window.Pick-To-LightHal = [
+window.PickToLightHal = [
     {
         nome: "bIsUsed",
         tipo: "boolean",

@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import ItodoImage from "../../elements/itodo-img";
+import HeaderSoloTicket from "../../sections/common/headersoloticket";
 import HalConfigChooser from "./halconfig_chooser";
+import DocumentationCreator from "./documentation_creator";
 
 const HalConfigHome = () => {
     const [tuttiHal, setTuttiHal] = useState([]);
@@ -17,7 +19,6 @@ const HalConfigHome = () => {
     const [CoppiaHal, setCoppiaHal] = useState([]);
     const [DimensionaleHal, setDimensionaleHal] = useState([]);
     const [DpdSbrHal, setDpdSbrHal] = useState([]);
-    const [IcpQualitàHal, setIcpQualitàHal] = useState([]);
     const [JumpHal, setJumpHal] = useState([]);
     const [KillerSwitchHal, setKillerSwitchHal] = useState([]);
     const [LogisticaHal, setLogisticaHal] = useState([]);
@@ -29,17 +30,24 @@ const HalConfigHome = () => {
     const [RobotHal, setRobotHal] = useState([]);
     const [ScartoHal, setScartoHal] = useState([]);
     const [ScuHal, setScuHal] = useState([]);
-    const [SeegerManopolaHal, setSeegerManopolaHal] = useState([]);
     const [TimerHal, setTimerHal] = useState([]);
     const [VisioneHal, setVisioneHal] = useState([]);
 
     const [TpsJob, setTpsJob] = useState([]);
     const [TermoforoJob, setTermoforoJob] = useState([]);
 
+    const [Doc, setDoc] = useState([]);
+
     useEffect(() => {
         if (window.tuttiHal) {
             setTuttiHal(window.tuttiHal);
         }
+
+        if (window.Doc) {
+            setDoc(window.Doc);
+            console.log(window.Doc);
+        }
+
         if (window.TpsHal) {
             setTpsHal(window.TpsHal);
         }
@@ -73,11 +81,8 @@ const HalConfigHome = () => {
         if (window.DimensionaleHal) {
             setDimensionaleHal(window.DimensionaleHal);
         }
-        if (window.DpdSbrHal) {
-            setDpdSbrHal(window.DpdSbrHal);
-        }
-        if (window.IcpQualitàHal) {
-            setIcpQualitàHal(window.IcpQualitàHal);
+        if (window.DPDSBRHal) {
+            setDpdSbrHal(window.DPDSBRHal);
         }
         if (window.JumpHal) {
             setJumpHal(window.JumpHal);
@@ -109,11 +114,8 @@ const HalConfigHome = () => {
         if (window.ScartoHal) {
             setScartoHal(window.ScartoHal);
         }
-        if (window.ScuHal) {
-            setScuHal(window.ScuHal);
-        }
-        if (window.SeegerManopolaHal) {
-            setSeegerManopolaHal(window.SeegerManopolaHal);
+        if (window.SCUHal) {
+            setScuHal(window.SCUHal);
         }
         if (window.TimerHal) {
             setTimerHal(window.TimerHal);
@@ -185,11 +187,57 @@ const HalConfigHome = () => {
                 return TpsHal;
             case 'Heater':
                 return TermoforoHal;
-            // Add more cases for other hals
+            case 'Airbag':
+                return AirbagHal;
+            case 'Avvitatura':
+                return AvvitaturaHal;
+            case 'Barcode':
+                return BarcodeHal;
+            case 'Bloccaggio':
+                return BloccaggioHal;
+            case 'CaricoManuale':
+                return CaricoManualeHal;
+            case 'Carico':
+                return CaricoHal;
+            case 'Cintura':
+                return CinturaHal;
+            case 'Coppia':
+                return CoppiaHal;
+            case 'Dimensionale':
+                return DimensionaleHal;
+            case 'DpdSbr':
+                return DpdSbrHal;
+            case 'Jump':
+                return JumpHal;
+            case 'KillerSwitch':
+                return KillerSwitchHal;
+            case 'Logistica':
+                return LogisticaHal;
+            case 'Manutenzione':
+                return ManutenzioneHal;
+            case 'Motore':
+                return MotoreHal;
+            case 'Oggettivazione':
+                return OggettivazioneHal;
+            case 'PickToLight':
+                return PickToLightHal;
+            case 'Rivettatura':
+                return RivettaturaHal;
+            case 'Robot':
+                return RobotHal;
+            case 'Scarto':
+                return ScartoHal;
+            case 'Scu':
+                return ScuHal;
+            case 'Timer':
+                return TimerHal;
+            case 'Visione':
+                return VisioneHal;
             default:
                 return [];
         }
     }
+
 
     const getJobArray = (hal) => {
         switch (hal) {
@@ -212,9 +260,40 @@ const HalConfigHome = () => {
     };
 
 
+    /*const halArrays = {
+        TpsHal,
+        /*TermoforoHal,
+        AirbagHal,
+        AvvitaturaHal,
+        BarcodeHal,
+        BloccaggioHal,
+        CaricoManualeHal,
+        CaricoHal,
+        CinturaHal,
+        CoppiaHal,
+        DimensionaleHal,
+        DpdSbrHal,
+        JumpHal,
+        KillerSwitchHal,
+        LogisticaHal,
+        ManutenzioneHal,
+        MotoreHal,
+        OggettivazioneHal,
+        PickToLightHal,
+        RivettaturaHal,
+        RobotHal,
+        ScartoHal,
+        ScuHal,
+        TimerHal,
+        VisioneHal,
+    };*/
+
+    const halArrays = Doc;
+
     return (
         <>
-            <div className='paneprincipalepostazioni perflex position-relative'>
+            <HeaderSoloTicket></HeaderSoloTicket>
+            <div className='paneprincipalepostazioni perflexcolumn position-relative'>
                 {selectedCategory && <button className="esci-halconfig-button" onClick={handleCategoryBack}>Indietro</button>}
                 {!selectedCategory && !isClicked && <div className="hal-config-div-flex">
                     {categories.map(category => (
@@ -239,7 +318,11 @@ const HalConfigHome = () => {
                         <HalConfigChooser hal_config_array={getHalArray(selectedHal)} selectedHal={selectedHal} job_config_array={getJobArray(selectedHal)} selectedJob={selectedHal} onBack={handleBack} />
                     </>
                 }
+
+                {!selectedCategory && !isClicked && <DocumentationCreator className="documentation-creator-btn" halArrays={halArrays}></DocumentationCreator>
+                }
             </div>
+
         </>
     );
 };

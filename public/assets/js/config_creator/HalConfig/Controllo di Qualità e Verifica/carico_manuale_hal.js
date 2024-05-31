@@ -1,5 +1,5 @@
 
-window.Carico ManualeHal = [
+window.CaricoManualeHal = [
     {
         nome: "bIsUsed",
         tipo: "boolean",

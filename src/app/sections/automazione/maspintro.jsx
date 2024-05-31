@@ -80,7 +80,7 @@ function MaspIntro() {
                                         </div>
 
                                     </div>
-                                    <NavLink to="/masp"><span id="seemoreUpgrade">Vedi di più</span></NavLink>
+                                    <NavLink to="/masp-caratteristiche"><span id="seemoreUpgrade">Vedi di più</span></NavLink>
                                 </div>
 
                                 {/*<div class="date-boxMAIM">

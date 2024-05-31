@@ -118,6 +118,9 @@ function HeaderSoloTicket() {
                                     {isAdmin &&<li className="activesss">
                                         <NavLink to="/attivita">Attivita</NavLink>
                                     </li>}
+                                    {isAdmin &&<li className="activesss">
+                                        <NavLink to="/halconfig">Config</NavLink>
+                                    </li>}
                                     <li className="activesss">
                                         <NavLink to="/ticketscanteq">Ticket</NavLink>
                                     </li>
