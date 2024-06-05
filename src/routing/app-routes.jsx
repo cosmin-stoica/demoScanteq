@@ -74,6 +74,7 @@ import SchedeAutomazioneHome from "../app/components/schede-automazione/schede_a
 import SchedaDigitaleHome from "../app/components/scheda-digitale/scheda_digitale_home";
 import SchedaImaginaHome from "../app/components/scheda_imagina/scheda_imagina_home";
 import ImaginaHome from "../app/components/imagina/imaginahome";
+import PrendiParametriDoc from "../app/components/halconfig/prendiparametridoc";
 
 
 function PrivateRoute2({ children }) {
@@ -301,6 +302,7 @@ function AppRoutes() {
                 <Route path="/masp-tracciabilita" element={<MaspTracciabilita></MaspTracciabilita>} />
                 <Route path="/mes" element={<MesComm></MesComm>}></Route>
                 <Route path="/halconfig" element={<HalConfigHome></HalConfigHome>}></Route>
+                <Route path="/parametri" element={<PrendiParametriDoc></PrendiParametriDoc>}></Route>
 
                 <Route path="/unitadicontrollo" element={<UnitaControlloHome></UnitaControlloHome>}></Route> 
                 <Route path="/schede-automazione" element={<SchedeAutomazioneHome></SchedeAutomazioneHome>}></Route> 

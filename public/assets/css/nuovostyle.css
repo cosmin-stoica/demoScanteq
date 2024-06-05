@@ -3464,11 +3464,12 @@ section.cardJob {
   justify-content: center;
   align-items: center;
   background-color: rgb(0, 0, 0);
+  position: relative;
 }
 
 .hal-config-div {
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 220px;
   background-color: white;
   border-radius: 15px;
   padding: 20px;
@@ -3958,6 +3959,8 @@ section.cardJob {
   justify-content: center;
   align-items: stretch;
   gap: 20px;
+  position: absolute;
+  bottom:30px;
 }
 
 .hal-config-chooser-div div {
@@ -4019,6 +4022,7 @@ section.cardJob {
   flex-direction: column;
   position: absolute;
   top: 50%;
+  z-index: 1000;
 }
 
 .conferma-div div {
@@ -4057,4 +4061,223 @@ section.cardJob {
   color: white;
   padding: 5px;
   border-radius: 5px;
+}
+
+.hal-job-presente{
+  background-color: rgb(47, 204, 81);
+  border-radius: 3px;
+  margin: 10px;
+  padding: 5px 15px 5px 15px;
+}
+
+.hal-job-assente{
+  background-color: rgb(235, 110, 110);
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.hal-config-div-presenza-hal-job-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hal-config-chooser-description-div{
+  width: 85%;
+  background-color: white;
+  color:#535353;
+  padding: 30px;
+  font-size: 17px;
+  height: 270px;
+  overflow: auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+}
+
+.hal-config-chooser-description-div h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color:#535353;
+}
+
+
+
+
+
+
+
+
+
+.custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox .checkmark {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.custom-checkbox .checkmark::before {
+  content: "\2713";
+  font-size: 16px;
+  color: transparent;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  background-color: #333;
+  border-color: #333;
+  transform: scale(1.1) rotateZ(360deg) rotateY(360deg);
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark::before {
+  color: #fff;
+}
+
+.custom-checkbox:hover {
+  color: #666;
+}
+
+.custom-checkbox:hover .checkmark {
+  border-color: #666;
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.custom-checkbox input[type="checkbox"]:focus + .checkmark {
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.custom-checkbox .checkmark,
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  transition: background-color 1.3s, border-color 1.3s, color 1.3s, transform 0.3s;
+}
+
+
+.hal-selectioner-upper{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  border-radius: 15px;
+  overflow-y: auto;
+  width: 50%;
+  height: 100%;
+  margin: 10px 50px 50px 50px;
+}
+
+.hal-selectioner-upper-buttons{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.hal-selectioner-upper-buttons button{
+  background-color: var(--primary);
+  color:white;
+  border:none;
+  border-radius: 5px;
+  padding: 3px 10px 3px 10px;
+}
+
+.hal-selectioner{
+  display: flex;
+}
+
+.hal-selectioner div{
+  width: 100%;
+  font-size: 17px;
+}
+
+.halconfigaperto{
+overflow: auto;
+}
+
+
+.crea-documentazione-inner-button{
+    background-color: rgb(23, 211, 70);
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .crea-documentazione-inner-button:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+  }
+
+.hal-selectioner-upper-upper{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.newmarginhal{
+  margin: 0px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+
+.hal-config-versione-div label{
+  width: 100px;
+}
+
+.hal-config-versione-div input{
+  width: 160px;
+}
+
+.hal-config-titolo-div label{
+  width: 100px;
+}
+
+.hal-config-disclaimer-div{
+  display: flex;
+}
+
+.hal-config-disclaimer-div label{
+  width: 100px;
+}
+
+.hal-config-disclaimer-div textarea{
+  width: 80%;
+  height: 120px;
+}
+
+.color-white{
+  color:white;
 }
