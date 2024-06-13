@@ -1,4 +1,4 @@
-import SectionCaseStudy2 from "../../sections/home/index2/section-case-study2";
+import SectionCaseStudy2 from "./section-case-study2";
 import { useTranslation } from 'react-i18next';
 
 const ImmaginiAcquisite = () => {

@@ -1,7 +1,7 @@
-import Banner from "../../sections/common/banner";
-import SectionVideo2 from "../../sections/home/index2/section-video2";
-import SectionWhyChooseUs4 from "../../sections/company/about/section-why-choose-us4";
-import NewClienti from "../clienti/newClienti";
+import Banner from "../../elements/common/banner";
+import SectionVideo2 from "../../elements/common/section-video2";
+import SectionWhyChooseUs4 from "../perche_sceglierci/section-why-choose-us4";
+import Clienti_Component from "../clienti/clienti_component";
 import { bannerData } from "../../../globals/banner";
 import { useEffect } from "react";
 import { loadScript } from "../../../globals/constants";
@@ -18,7 +18,7 @@ function ServiziHome() {
             <Banner _data={bannerData.services} />
             <ServiziCard></ServiziCard>
             <SectionVideo2 />
-            <NewClienti />
+            <Clienti_Component />
             <SectionWhyChooseUs4 />
      
         </>

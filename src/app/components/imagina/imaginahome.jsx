@@ -1,5 +1,4 @@
-import SectionBlogSingle from "../../sections/IT blogs/detail/section-blog-single";
-import Banner from "../../sections/common/bannerautoufficio";
+import Banner from "../../elements/common/bannerautoufficio";
 import { bannerData } from "../../../globals/banner";
 import ImaginaIntro from "./imaginaintro";
 import ImaginaCaratteristiche from "./imaginacaratteristiche";

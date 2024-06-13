@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Document, Packer, Paragraph, Table, TableOfContents, HeadingLevel, TableCell, TableRow, TextRun, WidthType, ShadingType, AlignmentType, ImageRun, BorderStyle } from 'docx';
 import { saveAs } from 'file-saver';
-import ConfermaAction from '../global/confermaAction';
+import ConfermaAction from '../../elements/confermaAction';
 import axios from 'axios';
 
 const DocumentationCreator = ({ jobArrays, className }) => {

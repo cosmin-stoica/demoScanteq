@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ItodoImage from "../../elements/itodo-img";
-import HeaderSoloTicket from "../../sections/common/headersoloticket";
+import HeaderSoloTicket from "../../elements/common/headersoloticket";
 import HalConfigChooser from "./halconfig_chooser";
 import DocumentationCreator from "./documentation_creator";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../sections/common/banner";
+import Banner from "../../elements/common/banner";
 import { bannerData } from "../../../globals/banner";
 import IntroUnita from "./introunita";
 import Controllo_I_Nostri_Prodotti from "./controllo_inostriprodotti";
