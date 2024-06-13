@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import ItodoImage from "../../../elements/itodo-img";
+import { useTranslation } from 'react-i18next';
 
 function MaspImaginaNew() {
 
-
+    const { t } = useTranslation();
 
     return (
         <>
@@ -17,7 +18,7 @@ function MaspImaginaNew() {
                             <div class="cardMAIM">
                                 <div className="perflex width100">
                                     <img className="maspimagehome" src="/assets/images/case-study/automazione/imagina.png" alt="Imagina" />
-                                    <p className="CardMaimTitleTop">Piattaforma Imagina</p>
+                                    <p className="CardMaimTitleTop">{t("home.primo_piano.piattaforma_imagina.header")}</p>
                                 </div>
 
 
@@ -58,12 +59,11 @@ function MaspImaginaNew() {
                                             </NavLink>
                                         </div>
                                         <div className="secondapartetesto width100">
-                                            <span class="card-titleMAIM">Semplifica l'ufficio con il software ScanQuest</span>
+                                            <span class="card-titleMAIM">{t("home.primo_piano.piattaforma_imagina.title_1")}</span>
                                             <div id="piattaformap" className="sx-about-bx3-content">
                                                 <p class="card-contentMAIM">
-                                                    Il nostro software ScanQuest e il Software Development Kit (SDK) ScanApi sono stati sviluppati per agevolare le operazioni d'ufficio tramite dispositivi scanner con alimentazione automatica e stampanti a getto d'inchiostro. Questi strumenti sono progettati per automatizzare i compiti di digitalizzazione, permettendo agli utenti di convertire documenti cartacei, fotografie e altri materiali in formato digitale con estrema facilità e precisione.
+                                                    {t("home.primo_piano.piattaforma_imagina.desc_1")}
                                                 </p>
-
                                             </div>
                                         </div>
                                     </div>
@@ -76,16 +76,15 @@ function MaspImaginaNew() {
 
                                         <div className="width100">
                                             <div className="sx-about-bx3-content">
-                                                <span class="card-titleMAIM">Digitalizzazione e stampa con la scheda Imagina</span>
+                                                <span class="card-titleMAIM">{t("home.primo_piano.piattaforma_imagina.title_2")}</span>
                                                 <p class="card-contentMAIM">
-                                                    Grazie alla nostra tecnologia, i dispositivi Imagina implementano sofisticati algoritmi di riconoscimento per codici a barre, caratteri stampati e scritti a mano. Questo consente agli utenti di estrarre rapidamente informazioni rilevanti dai documenti digitalizzati. Inoltre, i file possono essere convertiti in bianco e nero, archiviati in vari formati come BMP, JPEG, TIFF e PDF, e facilmente modificati e condivisi in formato elettronico, migliorando notevolmente la produttività in ufficio.
+                                                    {t("home.primo_piano.piattaforma_imagina.desc_2")}
                                                 </p>
-
                                             </div>
                                         </div>
 
                                     </div>
-                                    <NavLink to="/imagina"><span id="seemoreUpgrade" class="see-moreMAIM">Vedi di più</span></NavLink>
+                                    <NavLink to="/imagina"><span id="seemoreUpgrade" class="see-moreMAIM">{t("home.primo_piano.piattaforma_imagina.button")}</span></NavLink>
                                 </div>
 
                                 {/*<div class="date-boxMAIM">

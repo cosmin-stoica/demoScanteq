@@ -119,6 +119,7 @@ const PrendiParametriDoc = () => {
     };
 
     return (
+        <>
         <div className='paneprincipalepostazioni perflexcolumn position-relative color-white'>
             <input type="file" accept=".json" onChange={handleFileUpload} />
             {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
@@ -131,6 +132,19 @@ const PrendiParametriDoc = () => {
                 </>
             )}
         </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+        </>
     );
 };
 

@@ -1,10 +1,16 @@
 import ItodoImage from "../../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
 import { publicUrlFor } from "../../../../globals/constants";
+import { useTranslation } from 'react-i18next';
 import { register } from 'swiper/element/bundle';
 register();
 
+
 function SectionSlider2() {
+
+    
+    const {t} = useTranslation();
+
     return (
         <>
             <div className="abbassaSlider sx-bnr-2-wrap-outer home-2-slider">
@@ -26,13 +32,13 @@ function SectionSlider2() {
                         <div className="sx-bg-overlay opacity-0 sx-bg-primary" />
                         <div className="container">
                             <div className="automazioneScritte sx-bnr-2-content">
-                                <h2 className="sx-bnr-2-large-title">AUTOMAZIONE INDUSTRIALE</h2>
-                                <h3 className="slider-large-title">Piattaforma MASP</h3>
-                                <div className="sx-bnr-2-info">Portiamo la tua azienda verso l'industria 4.0</div>
+                                <h2 className="sx-bnr-2-large-title">{t("home.slider.slide_1_title")}</h2>
+                                <h3 className="slider-large-title">{t("home.slider.slide_1_subtitle")}</h3>
+                                <div className="sx-bnr-2-info">{t("home.slider.slide_1_desc")}</div>
                                 <div className="sx-bnr-readmore">
                                     <NavLink to="/masp" className="bottoneRead">
                                         <i className="fa  fa-long-arrow-right" />
-                                        Vedi di piu'
+                                        {t("home.slider.slide_1_button")}
                                     </NavLink>
                                 </div>
                                 {/*<div className="sx-bnr-video">
@@ -50,12 +56,12 @@ function SectionSlider2() {
                         <div className="sx-bg-overlay opacity-0 sx-bg-primary" />
                         <div className="container">
                             <div className="automazioneScritte sx-bnr-2-content">
-                                <h2 className="sx-bnr-2-large-title">AUTOMAZIONE D'UFFICIO</h2>
-                                <h3 className="slider-large-title">Piattaforma Imagina</h3>
-                                <div className="sx-bnr-2-info">Rendiamo i tuoi processi automatici</div>                                <div className="sx-bnr-readmore">
+                                <h2 className="sx-bnr-2-large-title">{t("home.slider.slide_2_title")}</h2>
+                                <h3 className="slider-large-title">{t("home.slider.slide_2_subtitle")}</h3>
+                                <div className="sx-bnr-2-info">{t("home.slider.slide_2_desc")}</div>                                <div className="sx-bnr-readmore">
                                     <NavLink to="/imagina" className="bottoneRead">
                                         <i className="fa  fa-long-arrow-right" />
-                                        Vedi di piu'
+                                        {t("home.slider.slide_2_button")}
                                     </NavLink>
                                 </div>
                                     {/*<div className="sx-bnr-video">

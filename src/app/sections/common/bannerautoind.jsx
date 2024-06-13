@@ -1,7 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { publicUrlFor } from "../../../globals/constants";
+import { useTranslation } from 'react-i18next';
 
-function Banner({_data}) {
+function Banner({ _data }) {
+
+    const { i18n } = useTranslation();
+    const currentLanguage = i18n.language;
+
     return (
         <>
             <div className="full-landing-image sx-bnr-inr overlay-wraper  bg-top-center" style={{ backgroundImage: `url(${publicUrlFor(_data.background)})` }}>
@@ -9,24 +14,24 @@ function Banner({_data}) {
                 <div className="container">
                     <div className="sx-bnr-inr-entry">
                         <div className="banner-title-outer">
-                            
+
                             <div className="banner-title-name">
-                                
-      
-                                <span className="sx-bnr-sm-title">sezione</span>
-                                <h2 id = "textdiv" className="sx-title">{_data.title}</h2>
+
+
+                                <span className="sx-bnr-sm-title">{currentLanguage === "it" ? "Sezione" : currentLanguage === "en" ? "Section" : currentLanguage === "ro" ? "Sectiunea" : "Section" }</span>
+                                <h2 id="textdiv" className="sx-title">{currentLanguage === "it" ? _data.title_it : currentLanguage === "en" ? _data.title_en :  currentLanguage === "ro" ? _data.title_ro : _data.title_fr }</h2>
                                 <div className="sx-bnr-video">
                                     <a id="videoautoinddiv" href="https://www.youtube.com/watch?v=FRh9sXb0bXM" className="mfp-video circle">
                                         <i className="flaticon-play" />
                                     </a>
-                             </div> 
-                        </div>
+                                </div>
+                            </div>
 
                             {/* BREADCRUMB ROW */}
                             <div>
                                 <ul className="sx-breadcrumb breadcrumb-style-2">
                                     <li><NavLink to="/">Home</NavLink></li>
-                                    <li>{_data.crumb}</li>
+                                    <li>{currentLanguage === "it" ? _data.crumb_it : currentLanguage === "en" ? _data.crumb_en :  currentLanguage === "ro" ? _data.crumb_ro : _data.crumb_fr }</li>
                                 </ul>
                             </div>
                             {/* BREADCRUMB ROW END */}

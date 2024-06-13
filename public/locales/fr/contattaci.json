@@ -1,0 +1,28 @@
+{
+    "upper_header": "CONTACTEZ-NOUS",
+    "header": "Informations de contact",
+    "box_1":{
+      "header": "Info",
+      "cell": "Portable:",
+      "mail": "E-mail:"  
+    },
+    "box_2": {
+        "header": "Informations utiles pour les entreprises",
+        "business_name": "Raison sociale:",
+        "registered_office": "Siège social:",
+        "secondary_office": "Siège secondaire:",
+        "tax_id_code": "Code fiscal:",
+        "r_e_a": "R.E.A.:",
+        "electronic_invoicing": "Facturation électronique:"
+    },
+    "contact_us":{
+        "header": "Contactez-nous",
+        "desc": "(Veuillez inclure l'email et le numéro de téléphone dans 'Message')",
+        "on_success": "Le message a été envoyé avec succès!",
+        "name": "Nom",
+        "email": "Email",
+        "phone": "Numéro de téléphone",
+        "mex": "Message",
+        "button": "Envoyer le message"
+    }
+}

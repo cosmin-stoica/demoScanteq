@@ -1,13 +1,16 @@
 import React from "react";
-import introData from "../../../globals/DataTEXT/Hardware/Scheda_Digitale/introData";
-import introDataList from "../../../globals/DataTEXT/Hardware/Scheda_Digitale/introDataList";
 import ItodoImage from "../../elements/itodo-img";
+import { useTranslation } from 'react-i18next';
 
 const SchedaDigitaleIntro = () => {
+
+    const { t } = useTranslation("scheda_di_controllo");
+    const introDataList = t('intro.data', { returnObjects: true });
+
     return (
         <>
             <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                <h1 className="TitoloCapitolo">Scheda di controllo elettronico multifunzionale</h1>
+                <h1 className="TitoloCapitolo">{t("intro.header")}</h1>
             </div>
 
 
@@ -17,7 +20,7 @@ const SchedaDigitaleIntro = () => {
                     <ItodoImage className="scheda-digitale" src="images/hardware/controllodigitale/schedafinita.png"></ItodoImage>
                 </div>
                 <div className="margin-top50">
-                    {introData[0].intro}
+                {t("intro.desc_1")}
                 </div>
 
                 <div className="scheda-digitale-intro-div-list margin-top50">
@@ -31,7 +34,7 @@ const SchedaDigitaleIntro = () => {
 
                 <div className="width100 perflex">
                     <div className="scheda-digitale-descrizione-aux margin-top50 section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms">
-                      {introData[0].aux}
+                    {t("intro.desc_2")}
                     </div>
                 </div>
             </div>

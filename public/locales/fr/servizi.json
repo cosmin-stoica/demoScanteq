@@ -1,0 +1,34 @@
+{
+    "header": "Nos services",
+    "first_container": {
+        "header": "Gestion de projet et de produit",
+        "desc_1": "Les experts de Scanteq en électronique et en technologie de l'information peuvent vous assister à toutes les étapes du développement d'un nouveau produit, de la définition des spécifications à la production, vous permettant d'optimiser les architectures matérielles et logicielles, garantissant un lancement parfait en termes de performances, de prix et de fiabilité. Notre équipe travaillera en étroite collaboration avec vous, assurant toujours une approche transparente et professionnelle. Nous savons que vos normes sont élevées. Les nôtres le sont aussi !",
+        "desc_2": "Nos services incluent :",
+        "box_title_1": "Gestion de projet",
+        "box_desc_1": {
+            "list_1": "Analyse de faisabilité et estimation des ressources",
+            "list_2": "Analyse des coûts du produit et des investissements",
+            "list_3": "Planification"
+        },
+        "box_title_2": "Conception de produit",
+        "box_desc_2": {
+            "list_1": "Concepts (Architectures matérielles, Firmware et Logicielles)",
+            "list_2": "Développement de matériel, Firmware et Logiciel",
+            "list_3": "Documentation - Certifications (UL, FCC et CE)"
+        }
+    },
+    "second_container": {
+        "header": "Conception matérielle",
+        "desc_1": "La vaste expérience de Scanteq en électronique nous permet de développer des cartes innovantes et d'accélérer le temps de mise sur le marché, en utilisant des technologies éprouvées ou à travers de nouveaux développements. Les clients bénéficieront de notre expertise dans les systèmes embarqués, de la conception matérielle à la programmation de Firmware et de Device Driver. Notre expérience inclut divers projets, des systèmes simples avec des microcontrôleurs économiques aux cartes embarquées avancées avec System On Chip ARM, y compris des systèmes d'acquisition d'images et d'impression à jet d'encre avec interface FPGA USB. Nous nous engageons à surveiller le processus de test complet pour assurer l'optimisation des performances et la fiabilité du nouveau produit du client.",
+        "desc_2": "Scanteq offre des services de conception de cartes électroniques, incluant :",
+        "list_1": "Conception de circuits analogiques",
+        "list_2": "Conception de circuits numériques",
+        "list_3": "Conception de l'électronique de puissance",
+        "list_4": "Conception de schémas et de mise en page",
+        "list_5": "Mise en service, Test et Validation de la carte"
+    },
+    "third_container": {
+        "header": "Conception de logiciels et de firmware",
+        "desc_1": "Scanteq fournit des services de développement de logiciels et de firmware sur une variété de plateformes avec le support de systèmes d'exploitation modernes ou de fonctions bas niveau personnalisées pour des architectures à faible coût. Nos spécialistes sont particulièrement expérimentés dans le développement d'applications interagissant avec le matériel. Ces compétences incluent l'utilisation de périphériques standard des ordinateurs personnels, le développement de drivers de périphériques et l'écriture de code pour systèmes embarqués gérés par divers microprocesseurs. En plus du logiciel pour le contrôle du matériel, nos développeurs ont une solide expérience dans le développement de bibliothèques (DLL) et d'applications spécifiques avec des interfaces utilisateur (GUI) complexes. Enfin, nous nous engageons à fournir un support continu à nos clients, les guidant étape par étape à travers l'ensemble du processus de test et de déploiement du logiciel et du firmware, garantissant une mise en œuvre efficace et conforme aux attentes."
+    }
+}

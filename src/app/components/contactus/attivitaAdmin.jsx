@@ -7,8 +7,16 @@ import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { initializeApp } from 'firebase/app';
 import { getStorage, ref, listAll, getDownloadURL } from 'firebase/storage';
 import AttivitaCards from './attivitaCards';
+import Loader from '../../elements/loader';
+import { useNavigate } from 'react-router-dom';
 
 function AttivitaAdmin() {
+
+  const [email, setEmail] = useState(null);
+  const [authChecked, setAuthChecked] = useState(false);
+  const auth = getAuth();
+  const navigate = useNavigate();
+
 
   const [azienda, setAzienda] = useState('');
 
@@ -55,7 +63,6 @@ function AttivitaAdmin() {
   };
 
   const firebaseApp = initializeApp(firebaseConfig);
-  const auth = getAuth(firebaseApp);
   const storage = getStorage(firebaseApp);
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -78,6 +85,27 @@ function AttivitaAdmin() {
   const updateAzienda = (newAzienda) => {
     setAzienda(newAzienda);
   };
+
+  
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const userEmail = user.email;
+        setEmail(userEmail);
+        setAuthChecked(true);
+      } else {
+        // Se l'utente non è autenticato, reindirizza alla pagina di login
+        navigate('/login');
+      }
+    });
+
+    return () => unsubscribe(); // Pulizia dell'effetto
+
+  }, [auth, navigate]);
+
+  if (!authChecked) {
+    return <Loader />; // Aggiungi un loader mentre l'autenticazione è in corso
+  }
   
 
   return (

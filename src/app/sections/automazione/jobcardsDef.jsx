@@ -1,23 +1,28 @@
 import React from "react";
 import ItodoImage from "../../elements/itodo-img";
 import BannerJob from "./BannerJob";
-import jobs from "../../../globals/DataTEXT/Masp/jobsData";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 function JobCardsDef() {
+
+    const { t, i18n } = useTranslation(["job","masp_operazioni"]);
+    const currentLanguage = i18n.language;
+    const jobs = t('job:data', { returnObjects: true });
+
+
     return (
         <>
             <div className="perflexcolumn marginmenotop200">
 
                 <BannerJob
                     icon="flaticon-development"
-                    title="Automazione e Assemblaggio"
-                    primoP="
-                    Questi job comprendono tecnologie e processi progettati per automatizzare e ottimizzare le operazioni di assemblaggio industriale. L'obiettivo è ridurre il tempo e gli sforzi manuali richiesti, integrando soluzioni avanzate come robotica e intelligenza artificiale."
-                    secondoP="Migliorando efficienza e precisione, queste tecnologie aumentano la produttività e riducono gli errori. L'automazione dell'assemblaggio industriale porta a una produzione più fluida e affidabile, rispondendo meglio alle esigenze del mercato."
+                    title={t("masp_operazioni:jobs.automation_and_assembly_title")}
+                    primoP={t("masp_operazioni:jobs.automation_and_assembly_desc_1")}
+                    secondoP={t("masp_operazioni:jobs.automation_and_assembly_desc_2")}
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Automazione e Assemblaggio").map(job => (
+                {jobs.filter(job => job.category === (currentLanguage === "it" ? "Automazione e Assemblaggio" : currentLanguage === "en" ? "Automation and Assembly" : currentLanguage === "ro" ? "Automatizare și Asamblare" : "Automatisation et Assemblage")).map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -40,14 +45,13 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-skills"
-                    title="Collaudo Componenti Automotive"
-                    primoP="
-                    Questi job verificano la sicurezza e il funzionamento di elementi come cinture di sicurezza e airbag. L'obiettivo è assicurarsi che tutti i componenti critici funzionino correttamente."
-                    secondoP="Inoltre, garantiscono la conformità agli standard di sicurezza, assicurando che i veicoli rispettino le normative e offrano la massima protezione ai passeggeri."
+                    title={t("masp_operazioni:jobs.automotive_component_testing_title")}
+                    primoP={t("masp_operazioni:jobs.automotive_component_testing_desc_1")}
+                    secondoP={t("masp_operazioni:jobs.automotive_component_testing_desc_2")}
                 ></BannerJob>
 
 
-                {jobs.filter(job => job.category === "Collaudo Componenti Automotive").map(job => (
+                {jobs.filter(job => job.category === (currentLanguage === "it" ? "Collaudo Componenti Automotive" : currentLanguage === "en" ? "Automotive Component Testing" : currentLanguage === "ro" ? "Testarea componentelor auto" : "Test des Composants Automobiles")).map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -69,12 +73,12 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-touch"
-                    title="Unità di Controllo Elettronico"
-                    primoP="Questi job gestiscono e verificano le centraline elettroniche con bus CAN/LIN delle autovetture. Assicurano che tutti i sistemi elettronici siano correttamente integrati e comunicino in modo efficace."
-                    secondoP="Inoltre, garantiscono il corretto funzionamento delle centraline, monitorando le prestazioni e identificando eventuali anomalie. Questo contribuisce a mantenere elevati standard di sicurezza e affidabilità del veicolo."
+                    title={t("masp_operazioni:jobs.electronic_control_unit_for_automotive_title")}
+                    primoP={t("masp_operazioni:jobs.electronic_control_unit_for_automotive_desc_1")}
+                    secondoP={t("masp_operazioni:jobs.electronic_control_unit_for_automotive_desc_2")}
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Unità di Controllo Elettronico").map(job => (
+                {jobs.filter(job => job.category === (currentLanguage === "it" ? "Unità di Controllo Elettronico" : currentLanguage === "en" ? "Electronic Control Units" : currentLanguage === "ro" ? "Unități de control electronic" : "Unité de Contrôle Électronique")).map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -96,12 +100,12 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-data"
-                    title="Controllo di Qualità e Verifica"
-                    primoP="Questi job assicurano la qualità dei componenti con misurazioni, controllo del carico, verifica della coppia e ispezione visiva. Utilizzano procedure rigorose per garantire che ogni componente soddisfi gli standard richiesti."
-                    secondoP="Rilevano difetti con tecnologie avanzate, permettendo di identificare e correggere problemi in modo tempestivo. Questo assicura che i prodotti finali siano affidabili e di alta qualità."
+                    title={t("masp_operazioni:jobs.quality_control_and_verification_title")}
+                    primoP={t("masp_operazioni:jobs.quality_control_and_verification_desc_1")}
+                    secondoP={t("masp_operazioni:jobs.quality_control_and_verification_desc_2")}
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Controllo di Qualità e Verifica").map(job => (
+                {jobs.filter(job => job.category === (currentLanguage === "it" ? "Controllo di Qualità e Verifica" : currentLanguage === "en" ? "Quality Control and Verification" : currentLanguage === "ro" ? "Controlul calității și verificare": "Contrôle de Qualité et Vérification")).map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -126,12 +130,12 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-supply-chain"
-                    title="Gestione Produzione e Logistica"
-                    primoP="Questi job ottimizzano flussi e operazioni attraverso il monitoraggio logistico, la gestione della manutenzione e la reportistica. Queste attività garantiscono un funzionamento efficiente e organizzato."
-                    secondoP="Inoltre, includono la stampa di etichette personalizzate, facilitando l'identificazione e la tracciabilità dei prodotti. Questo contribuisce a migliorare la gestione complessiva e la precisione operativa."
+                    title={t("masp_operazioni:jobs.production_and_logistics_management_title")}
+                    primoP={t("masp_operazioni:jobs.production_and_logistics_management_desc_1")}
+                    secondoP={t("masp_operazioni:jobs.production_and_logistics_management_desc_2")}
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Gestione Produzione e Logistica").map(job => (
+                {jobs.filter(job => job.category === (currentLanguage === "it" ? "Gestione Produzione e Logistica" : currentLanguage === "en" ? "Production Management and Logistics" :  currentLanguage === "ro" ? "Gestionarea producției și logistică" : "Gestion de la Production et Logistique")).map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -153,13 +157,12 @@ function JobCardsDef() {
 
                 <BannerJob
                     icon="flaticon-employee"
-                    title="Gestione Postazioni e Procedure"
-                    primoP="
-                    Questi job automatizzano e coordinano le operazioni delle postazioni di lavoro. Implementano tecnologie avanzate per gestire in modo efficiente le attività quotidiane."
-                    secondoP="Inoltre, ottimizzano le procedure per migliorare l'efficienza e la produttività complessiva. Questo approccio sistematico garantisce un funzionamento più fluido e risultati migliori."
+                    title={t("masp_operazioni:jobs.station_and_procedure_management_title")}
+                    primoP={t("masp_operazioni:jobs.station_and_procedure_management_desc_1")}
+                    secondoP={t("masp_operazioni:jobs.station_and_procedure_management_desc_2")}
                 ></BannerJob>
 
-                {jobs.filter(job => job.category === "Gestione Postazioni e Procedure").map(job => (
+                {jobs.filter(job => job.category === (currentLanguage === "it" ? "Gestione Postazioni e Procedure" : currentLanguage === "en" ? "Workstation and Procedure Management" : currentLanguage === "ro" ? "Gestionarea posturilor de lucru și proceduri" : "Gestion des Postes et Procédures")).map(job => (
                     <div className="perflex">
                         <div className="JobCardDiv">
                             <div className="primapartejob">
@@ -178,8 +181,8 @@ function JobCardsDef() {
                 ))}
 
                 <div className="width100 perflex margin-top100">
-                    <NavLink to="/masp-caratteristiche"><button className="masp-btn-indietro">Indietro</button></NavLink>
-                    <NavLink to="/masp-tracciabilita"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                    <NavLink to="/masp-caratteristiche"><button className="masp-btn-indietro">{t("masp_operazioni:jobs.button_indietro")}</button></NavLink>
+                    <NavLink to="/masp-tracciabilita"><button className="masp-btn-avanti">{t("masp_operazioni:jobs.button_avanti")}</button></NavLink>
                 </div>
 
 

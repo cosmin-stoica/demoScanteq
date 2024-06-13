@@ -1,0 +1,26 @@
+{
+    "intro": {
+        "header": "The Electronic Board for Multifunction Scanners",
+        "desc_1": "Imagina is a cutting-edge hardware and software solution developed by Scanteq, designed for efficient document scanning and processing, offering high performance and easy integration into various office automation devices. Imagina has proven to be a versatile tool, capable of supporting a wide range of functionalities required for different work environments.",
+        "desc_2": "The integration of Imagina technology enhances the added value of office automation products, drastically reducing development costs and risks. Additionally, it ensures a rapid time-to-market and guarantees an outstanding Return on Investment (ROI). Some of its main applications include:",
+        "document_scanning": "Scanning documents of various types and sizes",
+        "cheque_scanning": "Scanning cheques and recognizing MICR codes",
+        "lottery_ticket_scanning": "Scanning and recognizing lottery tickets",
+        "banknote_scanning": "Scanning banknotes",
+        "inkjet_printing": "Inkjet printing on paper documents"
+    },
+    "caratteristiche":{
+        "header": "High Quality and Advanced Features",
+        "title_1": "HIGH PERFORMANCE AND A WIDE RANGE OF ADDITIONAL FUNCTIONS",
+        "desc_1": "The Imagina electronic board ensures excellent image quality and high acquisition speed thanks to a meticulous design. Its features include magnetic and chip card reading, inkjet printing, OCR, ICR, OMR, and barcode reading. Using proprietary hardware and software, it offers excellent results and maximum flexibility at a low cost without additional licensing fees.",
+        "title_2": "SIMPLE SOFTWARE AND HARDWARE INTEGRATION",
+        "desc_2": "The Imagina board is ideal for the development of office automation products thanks to its numerous functionalities. Hardware integration requires compatible devices and firmware configuration. Software integration is based on parameter adaptation in DLL libraries and using the ScanQuest demo program. Scanteq also provides an SDK with examples and manuals to facilitate the creation of new applications or integration into existing applications."
+    },
+    "scanquest":{
+        "header": "ScanQuest",
+        "title": "Below are two screenshots of the ScanQuest demo program"
+    },
+    "immagini":{
+        "header": "Acquired Images"
+    }
+}

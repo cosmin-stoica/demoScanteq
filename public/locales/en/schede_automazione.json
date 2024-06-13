@@ -1,0 +1,83 @@
+{
+    "intro": {
+        "header": "Automation Boards",
+        "desc": "Our industrial control solutions include the IO24ADC, ENCODER 4, and CORA boards. These modules offer advanced features for managing digital inputs and outputs, precise angle monitoring, and accurate current reading, ensuring reliability and ease of integration into automation systems."
+    },
+    "prequel": {
+        "data": [
+            {
+                "imgSrc": "images/hardware/schedeautomazione/schedaio.png",
+                "descrizione": "The IO24ADC board manages 24 digital inputs and outputs from 0 to 24VDC, with 5 analog-digital channels. It has USB, RS232, or CAN connections, all isolated for protection.",
+                "delay": "0ms"
+            },
+            {
+                "imgSrc": "images/hardware/schedeautomazione/encoder.png",
+                "descrizione": "The ENCODER 4 module monitors angles with four absolute encoders or digital optical lines. It connects to the PC via the IO24ADC board.",
+                "delay": "200ms"
+            },
+            {
+                "imgSrc": "images/hardware/schedeautomazione/cora.png",
+                "descrizione": "The CORA board reads currents up to 19.2A and converts the values into voltages between 0V and 3.3V, compatible with the IO24ADC.",
+                "delay": "400ms"
+            }
+        ]
+    },
+    "schede_descrizione": {
+        "header": "Our Boards",
+        "data": [
+            {
+                "margin": false,
+                "fade": "Left",
+                "titolo": "IO24 ADC",
+                "immagineSrc": "images/hardware/schedeautomazione/schedaio.png",
+                "altSrc": "IO24 ADC",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "The IO24ADC electronic board is used in industrial control to manage digital inputs and outputs from 0 to 24VDC. It has 24 protected inputs and outputs, and supports the conversion of 5 analog-digital channels. This versatility is enhanced by an expansion port for additional modules."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Connections to the control PC are made via USB, RS232, or CAN ports, all galvanically isolated for greater protection. This feature ensures safety and reliability in industrial operations."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Encoder",
+                "immagineSrc": "images/hardware/schedeautomazione/encoder.png",
+                "altSrc": "Encoder",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "The ENCODER 4 module, part of our Industry 4.0 project, accurately monitors angles through four absolute encoders. It can also read coordinates from four digital optical lines, thus increasing precision in industrial process control."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "It connects directly to the control PC via the IO24ADC board and its digital expansion port. This enriches our range of solutions, offering robust and reliable tools for managing industrial processes."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Cora",
+                "immagineSrc": "images/hardware/schedeautomazione/cora.png",
+                "altSrc": "Cora",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "The CORA electronic board reads currents and converts the measured values into digitized voltages through the ADC channels of the IO24ADC board. It has a galvanically isolated transducer, capable of reading unidirectional or bidirectional currents up to 19.2A."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "The output voltage, proportional to the measured current, ranges from 0V to 3.3V, making it compatible with the analog-digital converters of the IO24ADC. This ensures precise measurements and seamless integration into industrial systems."
+                    }
+                ]
+            }
+        ]
+    },
+    "button_avanti": "Next",
+    "button_indietro": "Back"
+}

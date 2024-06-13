@@ -1,189 +1,211 @@
 export const bannerData = {
-
-    scheda_imagina:{
+    scheda_imagina: {
         background: "images/banner/imagina.jpg",
-        title: "Scheda imagina",
-        crumb: "Scheda imagina"
+        title_it: "Scheda imagina",
+        crumb_it: "Scheda imagina",
+        title_ro: "Placa imagina",
+        title_en: "Imagina sheet",
+        crumb_ro: "Placa imagina",
+        crumb_en: "Imagina sheet",
+        title_fr: "Fiche imagina",
+        crumb_fr: "Fiche imagina"
     },
-    scheda_controllo_digitale:{
+    scheda_controllo_digitale: {
         background: "images/banner/controllodigitale.jpg",
-        title: "Scheda di controllo digitale",
-        crumb: "Scheda di controllo digitale"
+        title_it: "Scheda di controllo digitale",
+        crumb_it: "Scheda di controllo digitale",
+        title_ro: "Placa de control digital",
+        title_en: "Digital control sheet",
+        crumb_ro: "Placa de control digital",
+        crumb_en: "Digital control sheet",
+        title_fr: "Fiche de contrôle numérique",
+        crumb_fr: "Fiche de contrôle numérique"
     },
-    schede_automazione:{
+    schede_automazione: {
         background: "images/banner/hardware.png",
-        title: "Schede per automazione",
-        crumb: "Schede per automazione"
+        title_it: "Schede per automazione",
+        crumb_it: "Schede per automazione",
+        title_ro: "Fișe pentru automatizare",
+        title_en: "Automation electronic boards",
+        crumb_ro: "Fișe pentru automatizare",
+        crumb_en: "Automation electronic board",
+        title_fr: "Cartes électroniques d'automatisation",
+        crumb_fr: "Cartes électroniques d'automatisation"
     },
-    unita_di_controllo:{
+    unita_di_controllo: {
         background: "images/banner/unitadicontrollo.jpg",
-        title: "Unità di controllo",
-        crumb: "Unità di controllo"
+        title_it: "Unità di controllo",
+        crumb_it: "Unità di controllo",
+        title_ro: "Unitate de control",
+        title_en: "Control unit",
+        crumb_ro: "Unitate de control",
+        crumb_en: "Control unit",
+        title_fr: "Unité de contrôle",
+        crumb_fr: "Unité de contrôle"
     },
-    mes:{
+    mes: {
         background: "images/banner/mes.jpg",
-        title: "Mes",
-        crumb: "Mes"
+        title_it: "Mes",
+        crumb_it: "Mes",
+        title_ro: "Mes",
+        title_en: "Mes",
+        crumb_ro: "Mes",
+        crumb_en: "Mes",
+        title_fr: "Mes",
+        crumb_fr: "Mes"
     },
-    picking:{
+    picking: {
         background: "images/banner/picking.jpg",
-        title: "Picking",
-        crumb: "Picking",
+        title_it: "Picking",
+        crumb_it: "Picking",
+        title_ro: "Picking",
+        title_en: "Picking",
+        crumb_ro: "Picking",
+        crumb_en: "Picking",
+        title_fr: "Picking",
+        crumb_fr: "Picking"
     },
-    tracciabilita:{
+    tracciabilita: {
         background: "images/banner/tracciahome.jpg",
-        title: "Supervisor",
-        crumb: "Supervisor",
+        title_it: "Supervisor",
+        crumb_it: "Supervisor",
+        title_ro: "Supraveghetor",
+        title_en: "Supervisor",
+        crumb_ro: "Supraveghetor",
+        crumb_en: "Supervisor",
+        title_fr: "Superviseur",
+        crumb_fr: "Superviseur"
     },
-    ticket:{
+    ticket: {
         background: "images/banner/leadership.jpg",
-        title: "Apri Ticket",
-        crumb: "Ticket",
+        title_it: "Apri Ticket",
+        crumb_it: "Ticket",
+        title_ro: "Deschide Tichet",
+        title_en: "Open Ticket",
+        crumb_ro: "Tichet",
+        crumb_en: "Ticket",
+        title_fr: "Ouvrir un ticket",
+        crumb_fr: "Ticket"
     },
     leadership: {
         background: "images/banner/leadership.jpg",
-        title: "Leadership",
-        crumb: "Leadership",
+        title_it: "Leadership",
+        crumb_it: "Leadership",
+        title_ro: "Lider",
+        title_en: "Leadership",
+        crumb_ro: "Lider",
+        crumb_en: "Leadership",
+        title_fr: "Leadership",
+        crumb_fr: "Leadership"
     },
-
     autoufficio: {
         background: "images/banner/autoufficio.jpg",
-        title: "Imagina",
-        crumb: "Imagina",
+        title_it: "Imagina",
+        crumb_it: "Imagina",
+        title_ro: "Imagina",
+        title_en: "Imagina",
+        crumb_ro: "Imagina",
+        crumb_en: "Imagina",
+        title_fr: "Imagina",
+        crumb_fr: "Imagina"
     },
-     autoindustriale: {
+    autoindustriale: {
         background: "images/banner/automazionedue.jpg",
-        title: "Piattaforma MASP",
-        crumb: "Piattaforma MASP",
+        title_it: "Piattaforma MASP",
+        crumb_it: "Piattaforma MASP",
+        title_ro: "Platforma MASP",
+        title_en: "MASP Platform",
+        crumb_ro: "Platforma MASP",
+        crumb_en: "MASP Platform",
+        title_fr: "Plateforme MASP",
+        crumb_fr: "Plateforme MASP"
     },
-
     automazione: {
         background: "images/banner/automazione.jpg",
-        title: "Automazione",
-        crumb: "Automazione",
+        title_it: "Automazione",
+        crumb_it: "Automazione",
+        title_ro: "Automatizare",
+        title_en: "Automation",
+        crumb_ro: "Automatizare",
+        crumb_en: "Automation",
+        title_fr: "Automatisation",
+        crumb_fr: "Automatisation"
     },
-
-
     hardware: {
         background: "images/banner/hardware.png",
-        title: "Soluzioni Hardware",
-        crumb: "Soluzioni Hardware",
-        watermark: "Soluzioni Hardware"
+        title_it: "Soluzioni Hardware",
+        crumb_it: "Soluzioni Hardware",
+        title_ro: "Soluții Hardware",
+        title_en: "Hardware Solutions",
+        crumb_ro: "Soluții Hardware",
+        crumb_en: "Hardware Solutions",
+        title_fr: "Solutions matérielles",
+        crumb_fr: "Solutions matérielles"
     },
-
     schede: {
         background: "images/banner/software.jpg",
-        title: "Schede Elettroniche",
-        crumb: "Schede Elettroniche",
-        watermark: "Schede Elettroniche"
+        title_it: "Schede Elettroniche",
+        crumb_it: "Schede Elettroniche",
+        title_ro: "Fișe Electronice",
+        title_en: "Electronic Sheets",
+        crumb_ro: "Fișe Electronice",
+        crumb_en: "Electronic Sheets",
+        title_fr: "Fiches électroniques",
+        crumb_fr: "Fiches électroniques"
     },
-
     about: {
         background: "images/banner/bnr-7.png",
-        title: "Chi siamo",
-        crumb: "Chi siamo",
-        watermark: "Chi siamo"
-    },
-    faq: {
-        background: "images/banner/bnr-4.jpg",
-        title: "Faq Page",
-        crumb: "Faq Page",
-        watermark: "It Solution"
-    },
-    gallery: {
-        background: "images/banner/bnr-2.jpg",
-        title: "Gallery Page",
-        crumb: "Gallery Page",
-        watermark: "It Solution"
+        title_it: "Chi siamo",
+        crumb_it: "Chi siamo",
+        title_ro: "Despre noi",
+        title_en: "About us",
+        crumb_ro: "Despre noi",
+        crumb_en: "About us",
+        title_fr: "À propos de nous",
+        crumb_fr: "À propos de nous"
     },
     icons: {
         background: "images/banner/bnr-4.jpg",
-        title: "Icons",
-        crumb: "icon-font",
-        watermark: "It Solution"
-    },
-    testimonials: {
-        background: "images/banner/bnr-3.jpg",
-        title: "Testimonials",
-        crumb: "Testimonials",
-        watermark: "It Solution"
-    },
-    whychooseus: {
-        background: "images/banner/bnr-8.jpg",
-        title: "Why Choose us",
-        crumb: "Why Choose us",
-        watermark: "It Solution"
-    },
-    pricing: {
-        background: "images/banner/bnr-7.jpg",
-        title: "Price Table",
-        crumb: "Price Table",
-        watermark: "It Solution"
-    },
-    team: {
-        background: "images/banner/bnr-2.jpg",
-        title: "Team Member",
-        crumb: "Team Member",
-        watermark: "It Solution"
+        title_it: "Icons",
+        crumb_it: "icon-font",
+        title_ro: "Icone",
+        title_en: "Icons",
+        crumb_ro: "icon-font",
+        crumb_en: "icon-font",
+        title_fr: "Icônes",
+        crumb_fr: "icon-font"
     },
     mission: {
         background: "images/banner/mission.jpg",
-        title: "Vision",
-        crumb: "Vision",
-        watermark: "Vision"
+        title_it: "Vision",
+        crumb_it: "Vision",
+        title_ro: "Viziune",
+        title_en: "Vision",
+        crumb_ro: "Viziune",
+        crumb_en: "Vision",
+        title_fr: "Vision",
+        crumb_fr: "Vision"
     },
     services: {
         background: "images/banner/competenze.png",
-        title: "Servizi",
-        crumb: "Servizi",
-        watermark: "Servizi"
-    },
-    portfolio1: {
-        background: "images/banner/bnr-4.jpg",
-        title: "Portfolio",
-        crumb: "Portfolio",
-        watermark: "Portfolio"
-    },
-    portfolio2: {
-        background: "images/banner/bnr-5.jpg",
-        title: "Portfolio-2 Page",
-        crumb: "Portfolio-2 Page",
-        watermark: "Portfolio"
-    },
-    portfoliodetail: {
-        background: "images/banner/bnr-7.jpg",
-        title: "Portfolio Detail",
-        crumb: "Portfolio Detail",
-        watermark: "It Solution"
-    },
-    bloggrid: {
-        background: "images/banner/bnr-1.jpg",
-        title: "Blog Page",
-        crumb: "Blog Page",
-        watermark: "It Solution"
-    },
-    bloglistsidebar: {
-        background: "images/banner/bnr-8.jpg",
-        title: "Blog Archive",
-        crumb: "Blog Single Grid",
-        watermark: "It Solution"
-    },
-    blogdetail: {
-        background: "images/banner/bnr-1.jpg",
-        title: "Blog detail",
-        crumb: "Blog detail",
-        watermark: "It Solution"
-    },
-    blogdetailsidebar: {
-        background: "images/banner/bnr-10.jpg",
-        title: "Blog detail",
-        crumb: "Blog detail",
-        watermark: "It Solution"
+        title_it: "Servizi",
+        crumb_it: "Servizi",
+        title_ro: "Servicii",
+        title_en: "Services",
+        crumb_ro: "Servicii",
+        crumb_en: "Services",
+        title_fr: "Services",
+        crumb_fr: "Services"
     },
     contact: {
         background: "images/banner/bnr-6.jpg",
-        title: "Contattaci",
-        crumb: "Contattaci",
-        watermark: "Contattaci"
+        title_it: "Contattaci",
+        crumb_it: "Contattaci",
+        title_ro: "Contactează-ne",
+        title_en: "Contact us",
+        crumb_ro: "Contactează-ne",
+        crumb_en: "Contact us",
+        title_fr: "Contactez-nous",
+        crumb_fr: "Contactez-nous"
     }
 }

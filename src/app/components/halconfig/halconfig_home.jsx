@@ -80,7 +80,7 @@ const HalConfigHome = () => {
         setSelectedCategory('');
     };
 
-    const halArrays = Doc;
+    const jobArrays = Doc;
 
     return (
         <>
@@ -97,7 +97,7 @@ const HalConfigHome = () => {
                 </div>}
 
                 {selectedCategory && !isClicked && <div className="hal-config-div-flex">
-                    {halArrays.filter(hal => hal.categoria === selectedCategory).map(hal => {
+                    {jobArrays.filter(hal => hal.categoria === selectedCategory).map(hal => {
                         const halData = dataDoc.find(item => item.Name === hal.title);
 
                         return (
@@ -122,12 +122,12 @@ const HalConfigHome = () => {
                             job_config_array={selectedJobData}
                             selectedJob={selectedHal}
                             onBack={handleBack}
-                            description={halArrays.find(obj => obj.title === (selectedHal))?.text}
+                            description={jobArrays.find(obj => obj.title === (selectedHal))?.text}
                         />
                     </>
                 }
 
-                {!selectedCategory && !isClicked && <DocumentationCreator className="documentation-creator-btn" halArrays={halArrays}></DocumentationCreator>}
+                {!selectedCategory && !isClicked && <DocumentationCreator className="documentation-creator-btn" jobArrays={jobArrays}></DocumentationCreator>}
             </div>
         </>
     );

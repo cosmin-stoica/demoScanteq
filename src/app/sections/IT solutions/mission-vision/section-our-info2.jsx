@@ -1,6 +1,11 @@
 import ItodoImage from "../../../elements/itodo-img";
 
+import { useTranslation } from 'react-i18next';
+
 function SectionOurInfo2() {
+
+    const { t } = useTranslation("vision");
+
     return (
         <>
             <div className="section-full p-t110 p-b80 sx-bg-light sx-our-info-outer ">
@@ -13,20 +18,20 @@ function SectionOurInfo2() {
                                     <ul>
                                         <li>
                                             <div className="sx-our-info-content-list left">
-                                                <span className="sx-sub-title">Area di interesse</span>
-                                                <h3 className="sx-bx-title">Automazione</h3>
+                                                <span className="sx-sub-title">{t("list.area_of_interest_title")}</span>
+                                                <h3 className="sx-bx-title">{t("list.area_of_interest_desc")}</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list left">
-                                                <span className="sx-sub-title">Automazione</span>
-                                                <h3 className="sx-bx-title">Industriale</h3>
+                                                <span className="sx-sub-title">{t("list.automation_1_title")}</span>
+                                                <h3 className="sx-bx-title">{t("list.automation_1_desc")}</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list left">
-                                                <span className="sx-sub-title">Automazione</span>
-                                                <h3 className="sx-bx-title">D'Ufficio</h3>
+                                                <span className="sx-sub-title">{t("list.automation_2_title")}</span>
+                                                <h3 className="sx-bx-title">{t("list.automation_2_desc")}</h3>
                                             </div>
                                         </li>
                                     </ul>
@@ -46,21 +51,22 @@ function SectionOurInfo2() {
                                     <ul>
                                     <li>
                                             <div className="sx-our-info-content-list right">
-                                                <span className="sx-sub-title">Esperienza</span>
-                                                <h3 className="sx-bx-title">14+ Anni d'esperienza</h3>
+                                                <span className="sx-sub-title">{t("list.experience_title")}</span>
+                                                <h3 className="sx-bx-title">{t("list.experience_desc")}</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list right">
-                                                <span className="sx-sub-title">Contatti</span>
-                                                <h3 className="sx-bx-title">info@scanteq.com
-                                                    +39 327 5875936</h3>
+                                                <span className="sx-sub-title">{t("list.contacts_title")}</span>
+                                                <h3 className="sx-bx-title">
+                                                {t("list.contacts_desc")}
+                                                </h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list right">
-                                                <span className="sx-sub-title">Location</span>
-                                                <h3 className="sx-bx-title">Via XXIV Maggio 28 10024, Moncalieri (TO)  Italy</h3>
+                                                <span className="sx-sub-title">{t("list.location_title")}</span>
+                                                <h3 className="sx-bx-title">{t("list.location_desc")}</h3>
                                             </div>
                                         </li>
                                     </ul>

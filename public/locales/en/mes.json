@@ -1,0 +1,113 @@
+{
+    "intro": {
+        "header": "Integrated Production Management",
+        "title": "Complete Integrated Production Management Solution",
+        "desc": "This tool offers you the ability to make informed decisions to optimize system performance, ensuring efficient resource management and overall increased productivity."
+    },
+    "prequel": {
+        "processes_title": "Processes",
+        "orders_title": "Orders",
+        "components_title": "Components",
+        "info_title": "Auxiliary Info",
+        "desc": "The MES is a web platform connected to MASP to track work cycles and manage orders, components, and auxiliary information. It offers total remote control of production, allowing you to easily create and share work cycles. Ideal for small and medium-sized businesses, it simplifies production control and optimizes business operations."
+    },
+    "declaration": {
+        "data": [
+            {
+                "margin": false,
+                "isLavorazioni": true,
+                "fade": "Left",
+                "titolo": "Processes",
+                "iconaSrc": "images/mes/lavorazioni.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-chart",
+                        "descrizione": "The platform allows precise management of processes, tracking each stage of the production process. Thanks to the interconnection with MASP, it is possible to monitor the progress of activities in real-time at each workstation."
+                    },
+                    {
+                        "iconaClasse": "flaticon-search",
+                        "descrizione": "This system allows quick identification of inefficiencies or problems, optimizing work cycles and improving productivity. Companies can gain greater control over production processes and take timely corrective measures."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isCommesse": true,
+                "fade": "Right",
+                "titolo": "Orders",
+                "iconaSrc": "images/mes/commesse.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-employee",
+                        "descrizione": "Managing orders becomes simple and efficient. The platform allows you to create, assign, and monitor orders intuitively, ensuring that each order is followed accurately."
+                    },
+                    {
+                        "iconaClasse": "flaticon-survey",
+                        "descrizione": "Thanks to remote access to information, managers can keep track of order status at any time and make quick decisions. This improves customer satisfaction and delivery punctuality."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isComponenti": true,
+                "fade": "Left",
+                "titolo": "Components",
+                "iconaSrc": "images/mes/componenti.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Managing components is essential to ensure a smooth production process. The platform offers tools to track and manage the components used at each stage of production, allowing you to always have stock and requirements under control."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "This system helps prevent supply issues and reduce downtime due to lack of materials. It ensures that each workstation has the necessary components to complete the processes, optimizing production efficiency."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "isInfo": true,
+                "titolo": "Auxiliary Info",
+                "iconaSrc": "images/mes/info.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-web-plugin",
+                        "descrizione": "The platform not only manages processes, orders, and components but also auxiliary information. Technical documents, operating manuals, work instructions, and other crucial information can be archived and made easily accessible."
+                    },
+                    {
+                        "iconaClasse": "flaticon-consultant",
+                        "descrizione": "This ensures that all operators always have the necessary information to perform their activities correctly and efficiently. It improves work quality and reduces errors, helping to maintain high operational standards."
+                    }
+                ]
+            }
+        ],
+        "processes_example": {
+            "select_column_title": "Select",
+            "station_column_title": "Station",
+            "order_column_title": "Order",
+            "date_column_title": "Date"
+        },
+        "orders_example": {
+            "select_column_title": "Select",
+            "station_column_title": "Station",
+            "code_column_title": "Code",
+            "components_column_title": "Components",
+            "auxiliaries_column_title": "Auxiliaries",
+            "crea_commessa_button": "Create Order"
+        },
+        "components_example": {
+            "select_column_title": "Select",
+            "code_column_title": "Code",
+            "description_column_title": "Description",
+            "visualize_column_title": "Visualize"
+        },
+        "info_example": {
+            "select_column_title": "Select",
+            "code_column_title": "Code",
+            "description_column_title": "Description",
+            "visualize_column_title": "Visualize"
+        }
+    },
+    "button_indietro": "Back"
+}

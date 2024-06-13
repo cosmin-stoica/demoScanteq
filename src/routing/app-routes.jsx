@@ -2,13 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Route,Routes, Navigate } from "react-router-dom";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
-import AboutUsPage from "../app/components/company/about-us";
-import FAQPage from "../app/components/company/faq";
-import GalleryPage from "../app/components/company/gallery";
-import IconsPage from "../app/components/company/icons";
-import PricingPage from "../app/components/company/pricing";
-import TestimonialsPage from "../app/components/company/testimonials";
-import WhyChooseUsPage from "../app/components/company/why-choose-us";
+import AboutUsPage from "../app/components/about-us/about-us";
+import IconsPage from "../app/components/about-us/icons";
 import MissionVisionPage from "../app/components/IT solutions/mission-vision";
 import ServicesDetailPage from "../app/components/IT solutions/services/detail";
 import Portfolio1Page from "../app/components/IT solutions/portfolio/portfolio1";
@@ -22,7 +17,6 @@ import ContactUsPage from "../app/components/contactus/contact-us";
 import Hardware from "../app/components/IT solutions/portfolio/hardware";
 import Schede from "../app/components/IT solutions/portfolio/schede";
 import Home2Page from "../app/components/home/index2";
-import AutoUfficio from "../app/sections/automazione/auto-ufficio";
 import AutoHome from "../app/sections/automazione/autohome";
 import Leadership from "../app/components/IT blogs/leadership";
 import Home from "../app/components/home/home";
@@ -75,6 +69,7 @@ import SchedaDigitaleHome from "../app/components/scheda-digitale/scheda_digital
 import SchedaImaginaHome from "../app/components/scheda_imagina/scheda_imagina_home";
 import ImaginaHome from "../app/components/imagina/imaginahome";
 import PrendiParametriDoc from "../app/components/halconfig/prendiparametridoc";
+import Loader from "../app/elements/loader";
 
 
 function PrivateRoute2({ children }) {
@@ -104,12 +99,7 @@ function AppRoutes() {
             <Routes>
                 <Route path="/" element={<Home2Page />} />
                 <Route path="/about-us" element={<AboutUsPage />} />
-                <Route path="/faq" element={<FAQPage />} />
-                <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/icons" element={<IconsPage />} />
-                <Route path="/testimonials" element={<TestimonialsPage />} />
-                <Route path="/why-choose-us" element={<WhyChooseUsPage />} />
-                <Route path="/pricing" element={<PricingPage />} />
                 <Route path="/leadership" element={<Leadership />} />
                 <Route path="/mission" element={<MissionVisionPage />} />
                 <Route path="/services" element={<ServiziHome></ServiziHome>} />
@@ -308,6 +298,8 @@ function AppRoutes() {
                 <Route path="/schede-automazione" element={<SchedeAutomazioneHome></SchedeAutomazioneHome>}></Route> 
                 <Route path="/scheda-controllo-digitale" element={<SchedaDigitaleHome></SchedaDigitaleHome>}></Route>     
                 <Route path="/scheda-imagina" element={<SchedaImaginaHome></SchedaImaginaHome>}></Route>     
+
+                <Route path="/loader" element={<Loader></Loader>}></Route>
             </Routes>
         
     );

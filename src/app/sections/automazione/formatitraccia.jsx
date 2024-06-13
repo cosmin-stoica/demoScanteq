@@ -1,8 +1,21 @@
-import tracciabilitaDataIntro from "../../../globals/DataTEXT/Masp/tracciabilitaDataIntro";
 import ItodoImage from "../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const FormatiTraccia = () => {
+
+    const { t } = useTranslation("masp_tracciabilita");
+    const tracciabilitaDataIntro = t('data', { returnObjects: true });
+
+    if (Array.isArray(tracciabilitaDataIntro) && tracciabilitaDataIntro !== null) {
+        tracciabilitaDataIntro.forEach(item => {
+            console.log(item);
+        });
+    } else {
+        console.error('La lista non è disponibile o non è un array.');
+    }
+
+
     return (
         <>
             {tracciabilitaDataIntro.map((data, index) => (
@@ -33,7 +46,7 @@ const FormatiTraccia = () => {
             <div className={`section-full wow fadeInRight`} data-wow-duration="1500ms">
                 <div className={`servizio-card-upper margin-top100`}>
                     <div className="servizio-card-title masp-card-title width100 perflex">
-                        Esempio di etichette
+                        {t("esempio_etichette")}
                     </div>
                     <div className="">
                         <div className="masp-card-per-img">
@@ -57,8 +70,8 @@ const FormatiTraccia = () => {
             </div>
 
             <div className="width100 perflex margin-top100">
-                <NavLink to="/masp-operazioni"><button className="masp-btn-indietro">Indietro</button></NavLink>
-                <NavLink to="/supervisor"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                <NavLink to="/masp-operazioni"><button className="masp-btn-indietro">{t("button_indietro")}</button></NavLink>
+                <NavLink to="/supervisor"><button className="masp-btn-avanti">{t("button_avanti")}</button></NavLink>
 
             </div>
         </>

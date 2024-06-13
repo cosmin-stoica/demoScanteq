@@ -1,0 +1,120 @@
+{
+    "prequel": {
+        "header": "Main Features",
+        "desc_1": "In the context of Industry 4.0 automation, the MASP (Mounting Assisted Software Platform) is proposed, allowing the flexible and efficient implementation of control systems with advanced technological content within production lines through an effective combination of proprietary software and hardware tools.",
+        "desc_2": "The operation is based on the execution in a predetermined order of a series of operations, called Jobs, which represent steps performed by the software, electronics, and electromechanics, with or without operator intervention, necessary to achieve a final result."
+    },
+    "characteristics": {
+        "guided_conduct_title": "Guided Conduct",
+        "guided_conduct_desc": "The correctness of operations is guaranteed by an intuitive user interface with automatic panels containing images and messages that guide the operator through each work step. The system is effective thanks to customizable and easy-to-implement configuration methods for images and messages. Additionally, the platform includes a panel for displaying instructions through images, PDF files, and videos, which are useful for staff training without the use of paper materials, providing all related benefits.",
+        "automation_of_procedures_title": "Automation of Procedures",
+        "automation_of_procedures_desc": "The standard operation of workstations involves hardware and software assisting the operator. However, operator intervention is necessary for the tasks. The MASP platform offers the possibility to automate many operations without the need for operator confirmation. These operations include analog checks, such as verifying absorbed currents or electrical resistances, and the automatic movement of mechanical parts to perform complex operations.",
+        "traceability_of_results_title": "Traceability of Results",
+        "traceability_of_results_desc": "During the work cycle, the system saves all relevant parameters and other essential data for traceability, such as the manufacturer's name, workstation code, date and time, username, and product codes. At the end of the cycle, the data is stored in various formats: CSV files, tables in MySQL or SQL Server databases, and sent to MES systems. It is also possible to release labels printed on thermal paper. These features ensure efficient traceability, essential for Industry 4.0 production systems.",
+        "traceability_of_results_button": "See More",
+        "customization_of_operations_title": "Customization of Operations",
+        "customization_of_operations_desc": "The platform is designed to offer modern technology for production systems flexibly. During development, maximum attention was paid to obtaining a highly customizable environment through INI files. These simple text files contain specific fields that technical staff can easily modify to manage the configuration parameters of work cycles, such as the number of repetitions in case of failure, reference values, messages, and images to be displayed.",
+        "peripheral_configuration_title": "Peripheral Configuration",
+        "peripheral_configuration_desc": "In addition to modifying operational cycles, it is possible to customize hardware parameters without updating the software, reducing implementation costs. These parameters, such as input/output ports, ADC converters of the IO24ADC electronic board, offset and gain values, and label layouts, are saved in INI files with the HAL (Hardware Abstraction Layer) prefix. The platform also includes the Io24Terminal application, used by technical staff to verify peripherals during installation.",
+        "operator_safety_title": "Operator Safety",
+        "operator_safety_desc": "During dangerous operations, it is essential for the operator to stay away from the hazardous area. The platform offers hardware and software solutions to ensure safety, such as a two-hand control positioned in a safe area to deactivate dangerous systems and an electronic mat that signals presence in prohibited areas. Other methods are managed solely by the software. For example, in a test with a moving load cell, the force is monitored to avoid overloads, stopping the operation if necessary."
+    },
+    "intro": {
+        "data": [
+            {
+                "margin": false,
+                "fade": "Left",
+                "titolo": "User Interface",
+                "immagineSrc": "images/masp/principale.png",
+                "altSrc": "User Interface",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-layers",
+                        "descrizione": "The user interface is designed to display all operational information in the main window, using Tab-type overlapping panels for specific operations, a Home screen for quick access to main functions, and a Log screen to monitor and analyze system activities."
+                    },
+                    {
+                        "iconaClasse": "flaticon-web-plugin",
+                        "descrizione": "The user interface configuration is managed through files that allow the activation or deactivation of various panels and controls, offering flexibility and customization to adapt the application to the specific needs of users."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "User Authentication",
+                "immagineSrc": "images/masp/login.png",
+                "altSrc": "User Authentication",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-promotion",
+                        "descrizione": "The MASP App divides the staff into three categories: User, Coord, and Admin, each with specific permissions to meet operational needs. Access management is implemented through a login function, ensuring operator traceability and preventing unauthorized use of workstations."
+                    },
+                    {
+                        "iconaClasse": "flaticon-programmer",
+                        "descrizione": "From the main screen, clicking on Login opens the panel with the list of registered users. To log in, select the user, enter the on-screen PIN, and press Login. Alternatively, login can occur by scanning the operator's badge code with the barcode reader while the Login window is open."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Start of Processing",
+                "immagineSrc": "images/masp/avviolavorazione.png",
+                "altSrc": "Start of Processing",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-laptop",
+                        "descrizione": "A first option involves the manual entry of the code, where the user directly enters the processing cycle code via the keyboard."
+                    },
+                    {
+                        "iconaClasse": "flaticon-image",
+                        "descrizione": "An alternative is barcode reading, which speeds up the selection process. Using a barcode reader, the user can scan the barcode associated with the processing cycle, ensuring quick and error-free entry."
+                    },
+                    {
+                        "iconaClasse": "flaticon-layers",
+                        "descrizione": "Another option is selection from a preset list. In this case, the user can choose the desired processing cycle from a predefined list, displaying all available options clearly and organized."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Diagnostic Panels",
+                "immagineSrc": "images/masp/diagnostica.png",
+                "altSrc": "Diagnostic Panels",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-category",
+                        "descrizione": "The diagnostic panels display the status of peripherals for each operation or function of the workstation, allowing manual management. They provide detailed information on the operation of connected peripherals."
+                    },
+                    {
+                        "iconaClasse": "flaticon-computer-hardware",
+                        "descrizione": "They open via the 'Diagnostic' button on the main screen, which opens a window for selecting specific panels for each job or workstation function."
+                    },
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "The detailed interface of the diagnostic panels allows for control and maintenance of peripherals. Users can perform advanced diagnostic and monitoring operations to maintain system efficiency."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Job-Based Operation Implementation",
+                "immagineSrc": "images/masp/lavorazione.png",
+                "altSrc": "Job-Based Operation Implementation",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-touch",
+                        "descrizione": "The MASP App software uses the concept of 'Job' to customize work cycles, with each job representing a specific function. Configuration is done through .ini text files, which define the settings for each phase of the cycle."
+                    },
+                    {
+                        "iconaClasse": "flaticon-profit",
+                        "descrizione": "The .ini files contain general and specific sections for each job, allowing for the setting of numerous parameters. This allows for a high degree of customization and control, adapting the software to the specific needs of users."
+                    }
+                ]
+            }
+        ],
+        "button": "Next"
+    }
+}

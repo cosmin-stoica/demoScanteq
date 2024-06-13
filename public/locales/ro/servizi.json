@@ -1,0 +1,34 @@
+{
+    "header": "Serviciile Noastre",
+    "first_container": {
+        "header": "Proiect, Management de Produs",
+        "desc_1": "Experții Scanteq în electronică și tehnologia informației vă pot asista în toate etapele dezvoltării unui nou produs, de la definirea specificațiilor până la producție, permițându-vă să optimizați arhitecturile hardware și software, asigurând o lansare perfectă în termeni de performanță, preț și fiabilitate. Echipa noastră va lucra îndeaproape cu dumneavoastră, asigurând întotdeauna o abordare transparentă și profesională. Știm că standardele dumneavoastră sunt ridicate. Și ale noastre sunt!",
+        "desc_2": "Serviciile noastre includ:",
+        "box_title_1": "Management de Proiect",
+        "box_desc_1": {
+            "list_1": "Analiza de fezabilitate și estimarea resurselor",
+            "list_2": "Analiza costurilor produsului și a investițiilor",
+            "list_3": "Planificare"
+        },
+        "box_title_2": "Proiectarea Produsului",
+        "box_desc_2": {
+            "list_1": "Concepte (Arhitecturi hardware, Firmware și Software)",
+            "list_2": "Dezvoltare hardware, Firmware și Software",
+            "list_3": "Documentație - Certificări (UL, FCC și CE)"
+        }
+    },
+    "second_container": {
+        "header": "Proiectare Hardware",
+        "desc_1": "Experiența vastă a Scanteq în electronică ne permite să dezvoltăm plăci inovatoare și să accelerăm timpul de lansare pe piață, utilizând tehnologii consolidate sau prin noi dezvoltări. Clienții vor beneficia de expertiza noastră în sistemele embedded, de la proiectarea hardware până la programarea Firmware și Device Driver. Experiența noastră include diverse proiecte, de la sisteme simple cu microcontrolere cu costuri reduse la plăci embedded avansate cu System On Chip ARM, inclusiv sisteme de achiziție imagini și imprimare cu jet de cerneală cu interfață USB FPGA. Ne angajăm să monitorizăm procesul complet de testare pentru a asigura optimizarea performanțelor și fiabilitatea noului produs al clientului.",
+        "desc_2": "Scanteq oferă servicii de proiectare a plăcilor electronice, inclusiv:",
+        "list_1": "Proiectare de circuite analogice",
+        "list_2": "Proiectare de circuite digitale",
+        "list_3": "Proiectare de electronică de putere",
+        "list_4": "Proiectare de scheme și layout",
+        "list_5": "Pornire, Testare și Validare a plăcii"
+    },
+    "third_container": {
+        "header": "Proiectare Software și Firmware",
+        "desc_1": "Scanteq oferă servicii de dezvoltare software și firmware pe o varietate de platforme cu suport pentru Sisteme de Operare moderne sau funcții la nivel scăzut personalizate pentru arhitecturi cu costuri reduse. Specialiștii noștri sunt deosebit de experimentați în dezvoltarea de aplicații care interacționează cu hardware-ul. Aceste competențe includ utilizarea perifericelor standard ale computerelor personale, dezvoltarea de Driver Driver și scrierea de cod pentru sisteme embedded gestionate de diversi microprocesori. Pe lângă software-ul pentru controlul hardware-ului, dezvoltatorii noștri au o experiență solidă în dezvoltarea de biblioteci (DLL) și aplicații specifice cu interfețe de utilizator (GUI) complexe. În final, ne angajăm să oferim suport continuu clienților noștri, ghidându-i pas cu pas prin întregul proces de testare și distribuție a software-ului și firmware-ului, asigurând o implementare eficientă și conformă cu așteptările."
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "intro": {
+        "header": "Unités de contrôle",
+        "desc_1": "Scanteq se propose comme partenaire pour les petites et moyennes entreprises qui voient dans l’ajout des technologies de l’information aux systèmes de production une opportunité de croissance stratégique.",
+        "desc_2": "L'image suivante montre une plateforme matérielle et logicielle simple pour le contrôle industriel. Le support en aluminium comprend un écran, un lecteur de codes-barres, une imprimante, un lecteur d'empreintes digitales, une prise d'alimentation électrique et un PC industriel Minibox, offrant une solution compacte et efficace pour la gestion des processus industriels."
+    },
+    "i_nostri_prodotti": {
+        "header": "Nos produits",
+        "data": [
+            {
+                "margin": false,
+                "fade": "Left",
+                "titolo": "MiniBox",
+                "immagineSrc": "images/hardware/unitadicontrollo/minibox.png",
+                "altSrc": "MiniBox",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "La MiniBox est conçue pour offrir un contrôle industriel avancé avec une haute fiabilité et des performances élevées. Équipée d'une carte mère Advantech et de processeurs Intel, elle garantit un fonctionnement optimal même dans des environnements difficiles. Idéale pour une installation dans des armoires électriques, elle gère les processus industriels et les systèmes de vision artificielle."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "L'intégration et la maintenance de la MiniBox sont simplifiées grâce à son design modulaire. L'accès aux composants internes facilite les interventions techniques et l'installation de modules supplémentaires. Les ports USB de service sur le panneau avant rendent les opérations d'assistance technique aisées​​."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Mini",
+                "immagineSrc": "images/hardware/unitadicontrollo/mini.png",
+                "altSrc": "Mini",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Le système Mini offre une solution de contrôle industriel compacte avec des performances élevées et une grande fiabilité. Équipé de processeurs Intel et de cartes mères Advantech, il fonctionne efficacement même dans des conditions extrêmes. Son design ergonomique permet le montage sur des systèmes de suspension fixes ou mobiles, augmentant ainsi sa polyvalence."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "La structure modulaire du Mini et l'accès rapide aux composants internes par l'ouverture frontale facilitent l'intégration et la maintenance. Les ports USB de service sur le panneau avant simplifient les opérations techniques, faisant de ce système une solution idéale pour les applications industrielles nécessitant des performances fiables et une gestion simple des périphériques​​."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "IO24 Box",
+                "immagineSrc": "images/hardware/unitadicontrollo/io24.png",
+                "altSrc": "IO24 Box",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Dans certains cas, il est pratique de monter la carte IO24ADC ou une autre carte à proximité des périphériques. Cette approche facilite l'accès et réduit la longueur des câbles, améliorant ainsi l'efficacité globale du système de contrôle industriel."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Pour ces situations, un boîtier en plastique, appelé IO24 Box, a été conçu et peut être fabriqué avec une imprimante 3D. Ce boîtier offre une solution pratique et personnalisable pour protéger et monter les cartes électroniques à proximité des périphériques, garantissant une commodité et une flexibilité accrues."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Totem",
+                "immagineSrc": "images/hardware/unitadicontrollo/totem.png",
+                "altSrc": "Totem",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Le Totem est une solution IT complète avec un design ergonomique et des fonctionnalités avancées. Il dispose d'un moniteur LCD IPS intégré de 21 pouces avec écran tactile capacitif, idéal pour les environnements industriels nécessitant une interface utilisateur intuitive."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Conçu pour être monté sur des systèmes de suspension fixes ou mobiles, il offre flexibilité et facilité d'utilisation. Avec un grand espace interne pour des modules supplémentaires et un accès rapide par l'ouverture frontale, le Totem facilite l'intégration de diverses périphériques matérielles, le rendant parfait pour des applications industrielles complexes.​"
+                    }
+                ]
+            }
+        ]
+    },
+    "button_avanti": "Suivant"
+}

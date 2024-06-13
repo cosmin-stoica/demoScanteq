@@ -1,0 +1,21 @@
+{
+    "intro": {
+        "header": "Our Vision",
+        "title": "Innovation and Collaboration for Your Success",
+        "desc": "Scanteq's development strategy is based on continuous innovation and the adoption of the latest technologies, combined with careful identification of emerging market opportunities. This approach implies a close and strong collaboration with our customers, allowing them to benefit from cutting-edge technologies. Through this collaboration, our customers can enhance their products with added value and achieve optimal results efficiently, both in terms of cost and development time."
+    },
+    "list": {
+        "area_of_interest_title": "Area of Interest",
+        "area_of_interest_desc": "Automation",
+        "automation_1_title": "Automation",
+        "automation_1_desc": "Industrial",
+        "automation_2_title": "Automation",
+        "automation_2_desc": "Office",
+        "experience_title": "Experience",
+        "experience_desc": "14+ Years of Experience",
+        "contacts_title": "Contacts",
+        "contacts_desc": "info@scanteq.com +39 327 5875936",
+        "location_title": "Location",
+        "location_desc": "Via XXIV Maggio 28 10024, Moncalieri (TO) Italy"
+    }
+}

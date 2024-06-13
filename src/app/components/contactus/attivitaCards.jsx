@@ -65,6 +65,17 @@ function AttivitaCards({pagina, aumPagina, updateAzienda}) {
             </button>
           </div>
 
+          <div onClick={() => setChoiceAumenta('Lear')} class="cardAttivita">
+            <div class="card-border-top">
+            </div>
+            <div class="imgAttivita">
+              <ItodoImage src="images/clienti/lear.png"></ItodoImage>
+            </div>
+            <span>Lear</span>
+            <button> Click
+            </button>
+          </div>
+
 
           <div onClick={() => setChoiceAumenta('Altro')} class="cardAttivita">
             <div class="card-border-top">

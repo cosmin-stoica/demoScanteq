@@ -7,7 +7,6 @@ function LoginDeploy() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   const [showErrorMessage, setShowErrorMessage] = useState(false);
 
   const handleErrorMessage = () => {
@@ -23,11 +22,12 @@ function LoginDeploy() {
       .then((userCredential) => {
         const user = userCredential.user;
         setIsLoggedIn(true);
-        if(user == 'admin@auth.com')
-          navigate('/ticketadmin');
-        else
+        // Controlla l'email dell'utente e naviga di conseguenza
+        if(user.email === 'admin@auth.com') {
+          navigate('/areapersonale');
+        } else {
           navigate('/ticketscanteq');
-        
+        }
       })
       .catch((error) => {
         handleErrorMessage();
@@ -38,45 +38,45 @@ function LoginDeploy() {
   return (
     <div className='fullpane'>
       <div className="panesinistra">
-      <div className='perbutton'>
-        <NavLink to="/"><button>Indietro</button></NavLink>
-      </div>
+        <div className='perbutton'>
+          <NavLink to="/"><button>Indietro</button></NavLink>
+        </div>
         <div className='textpanes'>
-      <ItodoImage className = "logologin" src="images/logo.png"></ItodoImage>
-      <p>Il tuo spazio personale</p>
-      </div>
-      </div>
-    <div className='loginpane'>
-      <div className='logincont'>
-      <h1 className='aut'>Login</h1>
-      <div className='loginform'>
-      <i id="loginicon" class="flaticon-email-1"></i>
-        <input className='emailpane'
-        id="login__input"
-          type="text"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <br /> {/* Aggiungi un break per separare i campi */}
-        <i id="loginicon" class="flaticon-physics"></i>
-        <input className='loginpanes'
-                id="login__input"
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <br /> {/* Aggiungi un break per separare i campi */}
+          <ItodoImage className="logologin" src="images/logo.png" />
+          <p>Il tuo spazio personale</p>
         </div>
-        <button id='login__submit' type="button" className="site-button sx-btn-primary icon sx-btn-lg" onClick={handleLogin}>Login</button>
       </div>
-      {showErrorMessage && (
-        <div className={`error-message show`}>
-          Account non trovato o password sbagliata
+      <div className='loginpane'>
+        <div className='logincont'>
+          <h1 className='aut'>Login</h1>
+          <div className='loginform'>
+            <i id="loginicon" className="flaticon-email-1"></i>
+            <input className='emailpane'
+              id="login__input"
+              type="text"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <br /> {/* Aggiungi un break per separare i campi */}
+            <i id="loginicon" className="flaticon-physics"></i>
+            <input className='loginpanes'
+              id="login__input"
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <br /> {/* Aggiungi un break per separare i campi */}
+          </div>
+          <button id='login__submit' type="button" className="site-button sx-btn-primary icon sx-btn-lg" onClick={handleLogin}>Login</button>
         </div>
-      )}
-    </div>
+        {showErrorMessage && (
+          <div className={`error-message show`}>
+            Account non trovato o password sbagliata
+          </div>
+        )}
+      </div>
     </div>
   );
 }

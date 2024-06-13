@@ -1,24 +1,27 @@
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const InfoEsempio = () => {
 
+    const { t } = useTranslation("mes");
+
     const [isDivAperto, setDivAperto] = useState(false);
-    const [selectedImmagine,setselectedImmagine] = useState('');
-    const [selectedCodice,setselectedCodice] = useState('');
-    const [selectedDescrizione,setselectedDescrizione] = useState('');
+    const [selectedImmagine, setselectedImmagine] = useState('');
+    const [selectedCodice, setselectedCodice] = useState('');
+    const [selectedDescrizione, setselectedDescrizione] = useState('');
 
     const apriChiudiDiv = () => {
         setDivAperto(!isDivAperto);
-      };
+    };
 
-      
-    const handleVisualizza = (immagine,codice,descrizione) => {
+
+    const handleVisualizza = (immagine, codice, descrizione) => {
         apriChiudiDiv();
         setselectedImmagine(immagine);
         setselectedCodice(codice);
         setselectedDescrizione(descrizione);
-      }
-      
+    }
+
     return (
         <>
             <div className={'section-full wow fadeInDown'} data-wow-duration="1500ms">
@@ -26,10 +29,10 @@ const InfoEsempio = () => {
                     <table className='tracctable-preview overflow-auto'>
                         <thead>
                             <tr>
-                                <th>Seleziona</th>
-                                <th>Codice</th>
-                                <th>Descrizione</th>
-                                <th>Visualizza</th>
+                                <th>{t("declaration.components_example.select_column_title")}</th>
+                                <th>{t("declaration.components_example.code_column_title")}</th>
+                                <th>{t("declaration.components_example.description_column_title")}</th>
+                                <th>{t("declaration.components_example.visualize_column_title")}</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -43,7 +46,7 @@ const InfoEsempio = () => {
                                 <td><input className='checkboxreal' type="checkbox" /></td>
                                 <td>HG3</td>
                                 <td>Descrizione...</td>
-                                <td><button className='visualizzabutton' onClick={() => handleVisualizza("/assets/images/mes/motore.png","HG3", "Descrizione...")}>Visualizza</button></td>
+                                <td><button className='visualizzabutton' onClick={() => handleVisualizza("/assets/images/mes/motore.png", "HG3", "Descrizione...")}>Visualizza</button></td>
                             </tr>
                             <tr>
                                 <td><input className='checkboxreal' type="checkbox" /></td>
@@ -64,19 +67,19 @@ const InfoEsempio = () => {
             </div>
 
             {isDivAperto && (
-          <div className='divApertoComponenti'>
-          <span onClick={apriChiudiDiv} className='chiudiDiv'>
-            &times;
-          </span>
-          <div className='infocomponentediv'>
-            <p className='componentetitolo'>{selectedCodice}</p>
-            <p className='componentedescrizione'>{selectedDescrizione}</p>
-            <div className="width100 perflex">
-            <img className='img-componente-demo' src={selectedImmagine}></img>
-            </div>
-          </div>
-          </div>      
-          )}
+                <div className='divApertoComponenti'>
+                    <span onClick={apriChiudiDiv} className='chiudiDiv'>
+                        &times;
+                    </span>
+                    <div className='infocomponentediv'>
+                        <p className='componentetitolo'>{selectedCodice}</p>
+                        <p className='componentedescrizione'>{selectedDescrizione}</p>
+                        <div className="width100 perflex">
+                            <img className='img-componente-demo' src={selectedImmagine}></img>
+                        </div>
+                    </div>
+                </div>
+            )}
         </>
     );
 };

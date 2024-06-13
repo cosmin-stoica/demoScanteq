@@ -1,0 +1,163 @@
+{
+    "intro": {
+        "header": "Monitoraggio Avanzato",
+        "title": "Benvenuto in Supervisor, la piattaforma 4.0 all'avanguardia che rivoluziona la gestione dei dati e delle operazioni nelle vostre postazioni.",
+        "desc": "Connettiamo e centralizziamo le informazioni in tempo reale per offrirvi una visione completa e immediata del vostro sistema. Attraverso i suoi tre hub distinti Supervisor vi offre un controllo senza precedenti sulla tracciabilità, lo stato operativo e la manutenzione preventiva"
+    },
+    "prequel": {
+        "control_title": "Control Hub",
+        "traceability_title": "Traceability Hub",
+        "maintenance_title": "Maintenance Hub",
+        "desc": "Il sistema Supervisor di gestione avanzata offre un controllo totale ed efficiente delle operazioni attraverso tre hub fondamentali. Questi strumenti assicurano tracciabilità dei dati, monitoraggio operativo in tempo reale e gestione proattiva della manutenzione. Grazie a una visualizzazione dettagliata e tempestiva, Supervisor migliora la precisione delle informazioni, identifica rapidamente le anomalie e riduce i tempi di fermo, ottimizzando l'efficienza complessiva del sistema."
+    },
+    "declaration": {
+        "data": [
+            {
+                "margin": false,
+                "isControl": true,
+                "fade": "Left",
+                "titolo": "Control Hub",
+                "iconaSrc": "flaticon-data",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-check-mark",
+                        "descrizione": "Il Control Hub di Supervisor vi offre un controllo immediato e completo sullo stato operativo delle postazioni. Monitora e visualizza in tempo reale le attività in corso, consentendoti di identificare rapidamente eventuali anomalie o aree di miglioramento."
+                    },
+                    {
+                        "iconaClasse": "flaticon-promotion",
+                        "descrizione": "Con il Control Hub, sarete al comando delle vostre operazioni, in grado di prendere decisioni informate per ottimizzare le prestazioni del sistema."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isTraceability": true,
+                "fade": "Left",
+                "titolo": "Traceability Hub",
+                "iconaSrc": "flaticon-monitor-1",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Il Traceability Hub permette un monitoraggio dettagliato e in tempo reale dei dati, migliorando significativamente la precisione e la trasparenza delle informazioni, consentendo così un controllo più efficace dei processi e delle operazioni."
+                    },
+                    {
+                        "iconaClasse": "flaticon-profit",
+                        "descrizione": "Grazie a questa funzionalità, avete la possibilità di analizzare i dati con precisione, migliorare la precisione delle informazioni e garantire la trasparenza nelle vostre operazioni."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isMaintenance": true,
+                "fade": "Left",
+                "titolo": "Maintenance Hub",
+                "iconaSrc": "flaticon-technical-support",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-engineer",
+                        "descrizione": "La manutenzione preventiva è fondamentale per garantire il corretto funzionamento delle postazioni nel tempo. Il Maintenance Hub di Supervisor vi offre gli strumenti necessari per creare analisi e gestire in modo proattivo la manutenzione, garantendo che le vostre postazioni siano sempre operative al massimo delle loro capacità."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "Con funzionalità avanzate di monitoraggio e avvisi tempestivi, Supervisor semplifica la gestione della manutenzione, consentendovi di ridurre i tempi di fermo e migliorare l'efficienza complessiva del vostro sistema."
+                    }
+                ]
+            }
+        ],
+        "control_hub_example": {
+            "title": "Esempio di visualizzazione della postazione",
+            "station_1_name": "Postazione 1",
+            "station_1_code": "Codice Postazione: P001",
+            "station_1_status": "Stato: Attiva",
+            "station_1_operator": "Operatore: OP1",
+            "station_1_operation": "Operazione: OP001",
+            "station_1_analysis": "Analisi predittiva: OK",
+            "station_1_advancement": "Avanzamento: ",
+            "station_2_name": "Postazione 2",
+            "station_2_code": "Codice Postazione: P002",
+            "station_2_status": "Stato: Errore",
+            "station_2_operator": "Operatore: OP2",
+            "station_2_operation": "Operazione: OP002",
+            "station_2_analysis": "Analisi predittiva: NOK",
+            "station_2_advancement": "Avanzamento:",
+            "station_3_name": "Postazione 3",
+            "station_3_code": "Codice Postazione: P003",
+            "station_3_status": "Stato: Errore",
+            "station_3_operator": "Operatore: OP3",
+            "station_3_operation": "Operazione: Stop",
+            "station_3_advancement": "Avanzamento:"
+        },
+        "traceability_hub_example": {
+            "heater": {
+                "title": "Esempio di tabella di tracciabilità per il termoforo",
+                "select_column_title": "Seleziona",
+                "order_column_title": "Commessa",
+                "codex_column_title": "Codice",
+                "serial_column_title": "Seriale",
+                "station_column_title": "Postazione",
+                "user_column_title": "Utente",
+                "job_id_column_title": "Id Job",
+                "job_name_column_title": "Nome Job",
+                "date_time_column_title": "Data e Ora",
+                "nominal_current_column_title": "Corrente Nominale",
+                "current_tolerance_column_title": "Tolleranza Corrente",
+                "measured_current_column_title": "Corrente Misurata",
+                "error_column_title": "Errore",
+                "repetitions_column_title": "Ripetizioni",
+                "result_column_title": "Esito"
+            },
+            "screwings": {
+                "title": "Esempio di tabella di tracciabilità per le avvitature",
+                "select_column_title": "Select",
+                "order_column_title": "Commessa",
+                "codex_column_title": "Codice",
+                "serial_column_title": "Seriale",
+                "station_column_title": "Postazione",
+                "user_column_title": "Utente",
+                "job_id_column_title": "Id Job",
+                "job_name_column_title": "Nome Job",
+                "date_time_column_title": "Data e Ora",
+                "screw_id_column_title": "Id Vite",
+                "gp_column_title": "GP",
+                "socket_column_title": "Bussola",
+                "min_torque_column_title": "Coppia Min",
+                "max_torque_column_title": "Coppia Max",
+                "final_torque_column_title": "Coppia Finale",
+                "min_angle_column_title": "Angolo Min",
+                "max_angle_column_title": "Angolo Max",
+                "final_angle_column_title": "Angolo Finale",
+                "repetitions_column_title": "Ripetizioni",
+                "result_column_title": "Esito"
+            },
+            "results": {
+                "title": "Esempio di tabella di tracciabilità per i risultati",
+                "select_column_title": "Select",
+                "order_column_title": "Commessa",
+                "codex_column_title": "Codice",
+                "serial_column_title": "Seriale",
+                "station_column_title": "Postazione",
+                "user_column_title": "Utente",
+                "total_jobs_column_title": "Totale Job",
+                "start_time_column_title": "Tempo Inizio",
+                "end_time_column_title": "Tempo fine",
+                "pause_seconds_column_title": "Pausa (sec)",
+                "effective_time_minutes_column_title": "Tempo Effettivo (min)",
+                "error_column_title": "Errore",
+                "result_column_title": "Esito"
+            }
+        },
+        "maintenance_hub_example":{
+            "title": "Esempi di analisi",
+            "first_title": "Avvitature",
+            "second_title": "Termoforo",
+            "third_title": "Coppia",
+            "gauss_title": "Curva di Gauss",
+            "log_title": "Esempio di visualizzazione di un log",
+            "find_input": "Cerca nel log",
+            "search_button": "Cerca",
+            "cancel_button": "Cancella"
+        }
+    },
+    "button_avanti": "Avanti",
+    "button_indietro": "Indietro"
+}

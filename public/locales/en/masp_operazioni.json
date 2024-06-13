@@ -1,0 +1,40 @@
+{
+    "header": {
+        "header": "Categories of Operations",
+        "title": "The operations, called Jobs, can be divided into six categories respectively:",
+        "automation_and_assembly_title": "AUTOMATION AND ASSEMBLY",
+        "automation_and_assembly_desc": "These jobs include technologies and processes designed to automate and optimize industrial assembly operations, improving efficiency and precision.",
+        "automotive_component_testing_title": "AUTOMOTIVE COMPONENT TESTING",
+        "automotive_component_testing_desc": "These jobs verify the safety and functionality of elements such as seat belts and airbags, ensuring compliance with safety standards.",
+        "quality_control_and_verification_title": "QUALITY CONTROL AND VERIFICATION",
+        "quality_control_and_verification_desc": "These jobs ensure the quality of components with measurements, load control, torque verification, and visual inspection, detecting defects with advanced technologies.",
+        "production_and_logistics_management_title": "PRODUCTION AND LOGISTICS MANAGEMENT",
+        "production_and_logistics_management_desc": "These jobs optimize flows and operations through logistics monitoring, maintenance management, reporting, and custom label printing.",
+        "station_and_procedure_management_title": "STATION AND PROCEDURE MANAGEMENT",
+        "station_and_procedure_management_desc": "These jobs automate and coordinate the operations of workstations and procedures to optimize overall efficiency and productivity.",
+        "electronic_control_unit_for_automotive_title": "ELECTRONIC CONTROL UNIT FOR AUTOMOTIVE",
+        "electronic_control_unit_for_automotive_desc": "These jobs manage and verify electronic control units with CAN/LIN bus of cars, ensuring their correct functioning."
+    },
+    "jobs": {
+        "automation_and_assembly_title": "Automation and assembly",
+        "automation_and_assembly_desc_1": "These jobs include technologies and processes designed to automate and optimize industrial assembly operations. The goal is to reduce the time and manual efforts required, integrating advanced solutions such as robotics and artificial intelligence.",
+        "automation_and_assembly_desc_2": "By improving efficiency and precision, these technologies increase productivity and reduce errors. The automation of industrial assembly leads to a smoother and more reliable production, better meeting market needs.",
+        "automotive_component_testing_title": "Automotive Component Testing",
+        "automotive_component_testing_desc_1": "These jobs verify the safety and functionality of elements such as seat belts and airbags. The goal is to ensure that all critical components function correctly.",
+        "automotive_component_testing_desc_2": "Additionally, they ensure compliance with safety standards, ensuring that vehicles meet regulations and offer maximum protection to passengers.",
+        "quality_control_and_verification_title": "Quality control and verification",
+        "quality_control_and_verification_desc_1": "These jobs ensure the quality of components with measurements, load control, torque verification, and visual inspection. They use rigorous procedures to ensure that each component meets the required standards.",
+        "quality_control_and_verification_desc_2": "They detect defects with advanced technologies, allowing for timely identification and correction of issues. This ensures that the final products are reliable and of high quality.",
+        "production_and_logistics_management_title": "Production and logistics management",
+        "production_and_logistics_management_desc_1": "These jobs optimize flows and operations through logistics monitoring, maintenance management, and reporting. These activities ensure efficient and organized functioning.",
+        "production_and_logistics_management_desc_2": "Additionally, they include custom label printing, facilitating the identification and traceability of products. This helps improve overall management and operational accuracy.",
+        "station_and_procedure_management_title": "Station and procedure management",
+        "station_and_procedure_management_desc_1": "These jobs automate and coordinate the operations of workstations. They implement advanced technologies to efficiently manage daily activities.",
+        "station_and_procedure_management_desc_2": "Additionally, they optimize procedures to improve overall efficiency and productivity. This systematic approach ensures smoother operation and better results.",
+        "electronic_control_unit_for_automotive_title": "Electronic control unit for automotive",
+        "electronic_control_unit_for_automotive_desc_1": "These jobs manage and verify electronic control units with CAN/LIN bus of cars. They ensure that all electronic systems are correctly integrated and communicate effectively.",
+        "electronic_control_unit_for_automotive_desc_2": "Additionally, they ensure the correct functioning of control units, monitoring performance and identifying any anomalies. This helps maintain high standards of vehicle safety and reliability.",
+        "button_avanti": "Next",
+        "button_indietro": "Back"
+    }
+}

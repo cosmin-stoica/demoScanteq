@@ -1,14 +1,17 @@
 import React from "react";
-import descrizioneData from "../../../globals/DataTEXT/Hardware/Scheda_Digitale/descrizioneData";
 import ItodoImage from "../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
-
+import { useTranslation } from 'react-i18next';
 
 const SchedaDigitaleCaratteristiche = () => {
+    
+    const { t } = useTranslation("scheda_di_controllo");
+    const descrizioneData = t('caratteristiche.data', { returnObjects: true });
+
     return (
         <>
             <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                <h1 className="TitoloCapitolo">Soluzione Embedded Potente e Flessibile</h1>
+                <h1 className="TitoloCapitolo">{t('caratteristiche.header')}</h1>
             </div>
 
             {descrizioneData.map((data, index) => (
@@ -37,7 +40,7 @@ const SchedaDigitaleCaratteristiche = () => {
             ))}
 
             <div className="width100 perflex margin-top100">
-                <NavLink to="/schede-automazione"><button className="masp-btn-indietro">Indietro</button></NavLink>
+                <NavLink to="/schede-automazione"><button className="masp-btn-indietro">{t('button_indietro')}</button></NavLink>
             </div>
 
 

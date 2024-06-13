@@ -1,0 +1,40 @@
+{
+    "header": {
+        "header": "Catégories d'Opérations",
+        "title": "Les opérations, appelées Job, peuvent être divisées respectivement en six catégories :",
+        "automation_and_assembly_title": "AUTOMATISATION ET ASSEMBLAGE",
+        "automation_and_assembly_desc": "Ces jobs comprennent des technologies et des processus conçus pour automatiser et optimiser les opérations d'assemblage industriel, améliorant l'efficacité et la précision.",
+        "automotive_component_testing_title": "TEST DES COMPOSANTS AUTOMOBILES",
+        "automotive_component_testing_desc": "Ces jobs vérifient la sécurité et le fonctionnement des éléments tels que les ceintures de sécurité et les airbags, garantissant la conformité aux normes de sécurité.",
+        "quality_control_and_verification_title": "CONTRÔLE DE QUALITÉ ET VÉRIFICATION",
+        "quality_control_and_verification_desc": "Ces jobs assurent la qualité des composants avec des mesures, le contrôle de la charge, la vérification du couple et l'inspection visuelle, détectant les défauts avec des technologies avancées.",
+        "production_and_logistics_management_title": "GESTION DE LA PRODUCTION ET DE LA LOGISTIQUE",
+        "production_and_logistics_management_desc": "Ces jobs optimisent les flux et les opérations grâce à la surveillance logistique, la gestion de la maintenance, la production de rapports et l'impression d'étiquettes personnalisées.",
+        "station_and_procedure_management_title": "GESTION DES POSTES ET DES PROCÉDURES",
+        "station_and_procedure_management_desc": "Ces jobs automatisent et coordonnent les opérations des postes de travail et des procédures pour optimiser l'efficacité et la productivité globale.",
+        "electronic_control_unit_for_automotive_title": "UNITÉ DE CONTRÔLE ÉLECTRONIQUE POUR L'AUTOMOBILE",
+        "electronic_control_unit_for_automotive_desc": "Ces jobs gèrent et vérifient les unités de contrôle électronique avec bus CAN/LIN des voitures, garantissant leur bon fonctionnement."
+    },
+    "jobs": {
+        "automation_and_assembly_title": "Automatisation et Assemblage",
+        "automation_and_assembly_desc_1": "Ces jobs comprennent des technologies et des processus conçus pour automatiser et optimiser les opérations d'assemblage industriel. L'objectif est de réduire le temps et les efforts manuels requis, en intégrant des solutions avancées telles que la robotique et l'intelligence artificielle.",
+        "automation_and_assembly_desc_2": "En améliorant l'efficacité et la précision, ces technologies augmentent la productivité et réduisent les erreurs. L'automatisation de l'assemblage industriel conduit à une production plus fluide et fiable, répondant mieux aux exigences du marché.",
+        "automotive_component_testing_title": "Test des Composants Automobiles",
+        "automotive_component_testing_desc_1": "Ces jobs vérifient la sécurité et le fonctionnement des éléments tels que les ceintures de sécurité et les airbags. L'objectif est de s'assurer que tous les composants critiques fonctionnent correctement.",
+        "automotive_component_testing_desc_2": "De plus, ils garantissent la conformité aux normes de sécurité, assurant que les véhicules respectent les réglementations et offrent une protection maximale aux passagers.",
+        "quality_control_and_verification_title": "Contrôle de Qualité et Vérification",
+        "quality_control_and_verification_desc_1": "Ces jobs assurent la qualité des composants avec des mesures, le contrôle de la charge, la vérification du couple et l'inspection visuelle. Ils utilisent des procédures rigoureuses pour garantir que chaque composant respecte les normes requises.",
+        "quality_control_and_verification_desc_2": "Ils détectent les défauts avec des technologies avancées, permettant d'identifier et de corriger les problèmes de manière opportune. Cela garantit que les produits finis sont fiables et de haute qualité.",
+        "production_and_logistics_management_title": "Gestion de la Production et de la Logistique",
+        "production_and_logistics_management_desc_1": "Ces jobs optimisent les flux et les opérations grâce à la surveillance logistique, la gestion de la maintenance et la production de rapports. Ces activités garantissent un fonctionnement efficace et organisé.",
+        "production_and_logistics_management_desc_2": "De plus, ils incluent l'impression d'étiquettes personnalisées, facilitant l'identification et la traçabilité des produits. Cela contribue à améliorer la gestion globale et la précision opérationnelle.",
+        "station_and_procedure_management_title": "Gestion des Postes et des Procédures",
+        "station_and_procedure_management_desc_1": "Ces jobs automatisent et coordonnent les opérations des postes de travail. Ils mettent en œuvre des technologies avancées pour gérer efficacement les activités quotidiennes.",
+        "station_and_procedure_management_desc_2": "De plus, ils optimisent les procédures pour améliorer l'efficacité et la productivité globale. Cette approche systématique garantit un fonctionnement plus fluide et de meilleurs résultats.",
+        "electronic_control_unit_for_automotive_title": "Unité de Contrôle Électronique pour l'Automobile",
+        "electronic_control_unit_for_automotive_desc_1": "Ces jobs gèrent et vérifient les unités de contrôle électronique avec bus CAN/LIN des voitures. Ils s'assurent que tous les systèmes électroniques sont correctement intégrés et communiquent efficacement.",
+        "electronic_control_unit_for_automotive_desc_2": "De plus, ils garantissent le bon fonctionnement des unités de contrôle, surveillant les performances et identifiant les anomalies éventuelles. Cela contribue à maintenir des normes élevées de sécurité et de fiabilité du véhicule.",
+        "button_avanti": "Suivant",
+        "button_indietro": "Précédent"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "intro": {
+        "header": "Placa Electronică pentru Scanere Multifuncționale",
+        "desc_1": "Imagina este o soluție hardware și software de ultimă generație dezvoltată de Scanteq, concepută pentru scanarea și procesarea eficientă a documentelor, oferind performanțe ridicate și integrare ușoară în diverse dispozitive de automatizare a biroului. Imagina s-a dovedit a fi un instrument versatil, capabil să sprijine o gamă largă de funcționalități necesare pentru diferite medii de lucru.",
+        "desc_2": "Integrarea tehnologiei Imagina crește valoarea adăugată a produselor pentru automatizarea biroului, reducând drastic costurile și riscurile de dezvoltare. În plus, asigură un timp rapid de lansare pe piață și garantează un Return on Investment (ROI) extraordinar. Unele dintre principalele sale aplicații includ:",
+        "document_scanning": "Scanarea documentelor de diferite tipuri și dimensiuni",
+        "cheque_scanning": "Scanarea cecurilor și recunoașterea codurilor MICR",
+        "lottery_ticket_scanning": "Scanarea și recunoașterea biletelor de loterie",
+        "banknote_scanning": "Scanarea bancnotelor",
+        "inkjet_printing": "Imprimare cu jet de cerneală pe documente de hârtie"
+    },
+    "caratteristiche":{
+        "header": "Calitate Înaltă și Funcții Avansate",
+        "title_1": "PERFORMANȚE RIDICATE ȘI O GAMĂ LARGĂ DE FUNCȚII SUPLIMENTARE",
+        "desc_1": "Placa electronică Imagina asigură o calitate excelentă a imaginilor și o viteză mare de achiziție datorită unui design meticulos. Funcțiile sale includ citirea cardurilor magnetice și cu cip, imprimare cu jet de cerneală, OCR, ICR, OMR și citirea codurilor de bare. Utilizând hardware și software proprietar, oferă rezultate excelente și flexibilitate maximă la costuri reduse, fără taxe suplimentare de licență.",
+        "title_2": "INTEGRARE SIMPLĂ A SOFTWARE-ULUI ȘI HARDWARE-ULUI",
+        "desc_2": "Placa Imagina este ideală pentru dezvoltarea produselor de automatizare a biroului datorită numeroaselor sale funcționalități. Integrarea hardware necesită dispozitive compatibile și configurarea firmware-ului. Integrarea software se bazează pe adaptarea parametrilor în bibliotecile DLL și utilizarea programului demo ScanQuest. Scanteq oferă, de asemenea, un SDK cu exemple și manuale pentru a facilita crearea de noi aplicații sau integrarea în aplicații existente."
+    },
+    "scanquest":{
+        "header": "ScanQuest",
+        "title": "Mai jos sunt prezentate două capturi de ecran ale programului demo ScanQuest"
+    },
+    "immagini":{
+        "header": "Imagini Achiziționate"
+    }
+}

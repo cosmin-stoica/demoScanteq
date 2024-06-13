@@ -1,0 +1,120 @@
+{
+    "prequel": {
+        "header": "Caracteristici Principale",
+        "desc_1": "În contextul automatizării pentru Industria 4.0, se propune platforma MASP (Mounting Assisted Software Platform), care permite implementarea flexibilă și eficientă a sistemelor de control cu conținut tehnologic avansat în liniile de producție printr-o combinație eficientă de instrumente software și hardware proprietare.",
+        "desc_2": "Funcționarea se bazează pe executarea într-o ordine prestabilită a unei serii de operațiuni, denumite Job-uri, care reprezintă pași efectuați de partea software, electronică și electromecanică, cu sau fără intervenția operatorului, necesare pentru a atinge un rezultat final."
+    },
+    "characteristics": {
+        "guided_conduct_title": "Conduită ghidată",
+        "guided_conduct_desc": "Corectitudinea operațiunilor este garantată de o interfață de utilizator intuitivă cu panouri automate care conțin imagini și mesaje ce ghidează operatorul în fiecare etapă a muncii. Sistemul este eficient datorită metodelor de configurare personalizabile și ușor de implementat pentru imagini și mesaje. În plus, platforma include un panou pentru afișarea instrucțiunilor prin imagini, fișiere PDF și videoclipuri, utile pentru instruirea personalului fără a folosi materiale pe hârtie, oferind toate avantajele asociate.",
+        "automation_of_procedures_title": "Automatizarea procedurilor",
+        "automation_of_procedures_desc": "Funcționarea standard a stațiilor de lucru implică asistența hardware și software pentru operator. Cu toate acestea, intervenția operatorului este necesară pentru sarcini. Platforma MASP oferă posibilitatea automatizării multor operațiuni fără a fi nevoie de confirmarea operatorului. Aceste operațiuni includ verificări analogice, cum ar fi verificarea curenților absorbiți sau a rezistențelor electrice, și mișcarea automată a pieselor mecanice pentru a efectua operațiuni complexe.",
+        "traceability_of_results_title": "Trasabilitatea rezultatelor",
+        "traceability_of_results_desc": "În timpul ciclului de lucru, sistemul salvează toți parametrii relevanți și alte date esențiale pentru trasabilitate, cum ar fi numele producătorului, codul stației de lucru, data și ora, numele utilizatorului și codurile produsului. La sfârșitul ciclului, datele sunt stocate în diferite formate: fișiere CSV, tabele în baze de date MySQL sau SQL Server și trimise către sisteme MES. De asemenea, este posibilă eliberarea etichetelor tipărite pe hârtie termică. Aceste caracteristici asigură o trasabilitate eficientă, esențială pentru sistemele de producție Industria 4.0.",
+        "traceability_of_results_button": "Vezi mai mult",
+        "customization_of_operations_title": "Personalizarea operațiunilor",
+        "customization_of_operations_desc": "Platforma este proiectată pentru a oferi tehnologie modernă pentru sistemele de producție într-un mod flexibil. În timpul dezvoltării, s-a acordat o atenție maximă pentru a obține un mediu foarte personalizabil prin fișiere INI. Aceste simple fișiere text conțin câmpuri specifice pe care personalul tehnic le poate modifica ușor pentru a gestiona parametrii de configurare ai ciclurilor de lucru, cum ar fi numărul de repetări în caz de eșec, valorile de referință, mesajele și imaginile de afișat.",
+        "peripheral_configuration_title": "Configurarea perifericelor",
+        "peripheral_configuration_desc": "Pe lângă modificarea ciclurilor operaționale, este posibilă personalizarea parametrilor hardware fără actualizarea software-ului, reducând costurile de implementare. Acești parametri, cum ar fi porturile de input/output, convertoarele ADC ale plăcii electronice IO24ADC, valorile de offset și gain și layout-urile etichetelor, sunt salvate în fișiere INI cu prefixul HAL (Hardware Abstraction Layer). Platforma include și aplicația Io24Terminal, utilizată de personalul tehnic pentru a verifica perifericele în timpul instalării.",
+        "operator_safety_title": "Siguranța operatorului",
+        "operator_safety_desc": "În timpul operațiunilor periculoase, este esențial ca operatorul să stea departe de zona periculoasă. Platforma oferă soluții hardware și software pentru a asigura siguranța, cum ar fi un control bimanual poziționat într-o zonă sigură pentru a dezactiva sistemele periculoase și un covor electronic care semnalizează prezența în zone interzise. Alte metode sunt gestionate exclusiv de software. De exemplu, într-un test cu o celulă de sarcină în mișcare, forța este monitorizată pentru a evita suprasarcinile, oprind operațiunea dacă este necesar."
+    },
+    "intro": {
+        "data": [
+            {
+                "margin": false,
+                "fade": "Left",
+                "titolo": "Interfața Utilizatorului",
+                "immagineSrc": "images/masp/principale.png",
+                "altSrc": "Interfața Utilizatorului",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-layers",
+                        "descrizione": "Interfața utilizatorului este proiectată pentru a afișa toate informațiile operaționale în fereastra principală, utilizând panouri suprapuse de tip Tab pentru operațiuni specifice, un ecran principal pentru acces rapid la funcțiile principale și un ecran de jurnal pentru monitorizarea și analiza activităților sistemului."
+                    },
+                    {
+                        "iconaClasse": "flaticon-web-plugin",
+                        "descrizione": "Configurarea interfeței utilizatorului este gestionată prin fișiere care permit activarea sau dezactivarea diverselor panouri și controale, oferind flexibilitate și personalizare pentru a adapta aplicația la nevoile specifice ale utilizatorilor."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Autentificarea Utilizatorilor",
+                "immagineSrc": "images/masp/login.png",
+                "altSrc": "Autentificarea Utilizatorilor",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-promotion",
+                        "descrizione": "Aplicația MASP împarte personalul în trei categorii: User, Coord și Admin, fiecare cu permisiuni specifice pentru a satisface nevoile operaționale. Gestionarea accesului este implementată printr-o funcție de login, asigurând trasabilitatea operatorilor și prevenind utilizarea neautorizată a stațiilor de lucru."
+                    },
+                    {
+                        "iconaClasse": "flaticon-programmer",
+                        "descrizione": "Din ecranul principal, făcând clic pe Login se deschide panoul cu lista utilizatorilor înregistrați. Pentru a accesa, selectați utilizatorul, introduceți PIN-ul pe ecran și apăsați Login. Alternativ, autentificarea poate avea loc prin scanarea codului de badge al operatorului cu cititorul de coduri de bare în timp ce fereastra de login este deschisă."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Începerea Procesării",
+                "immagineSrc": "images/masp/avviolavorazione.png",
+                "altSrc": "Începerea Procesării",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-laptop",
+                        "descrizione": "O primă opțiune presupune introducerea manuală a codului, în care utilizatorul introduce direct codul ciclului de procesare prin tastatură."
+                    },
+                    {
+                        "iconaClasse": "flaticon-image",
+                        "descrizione": "O alternativă este citirea codului de bare, care accelerează procesul de selecție. Folosind un cititor de coduri de bare, utilizatorul poate scana codul de bare asociat ciclului de procesare, asigurând o introducere rapidă și fără erori."
+                    },
+                    {
+                        "iconaClasse": "flaticon-layers",
+                        "descrizione": "O altă opțiune este selectarea dintr-o listă prestabilită. În acest caz, utilizatorul poate alege ciclul de procesare dorit dintr-o listă predefinită, afișând toate opțiunile disponibile într-un mod clar și organizat."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Panourile de Diagnostic",
+                "immagineSrc": "images/masp/diagnostica.png",
+                "altSrc": "Panourile de Diagnostic",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-category",
+                        "descrizione": "Panourile de diagnostic afișează starea perifericelor pentru fiecare operațiune sau funcție a stației de lucru, permițând gestionarea manuală. Ele furnizează informații detaliate despre funcționarea perifericelor conectate."
+                    },
+                    {
+                        "iconaClasse": "flaticon-computer-hardware",
+                        "descrizione": "Se deschid prin butonul 'Diagnostic' de pe ecranul principal, care deschide o fereastră de selecție a panourilor specifice pentru fiecare job sau funcție a stației de lucru."
+                    },
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Interfața detaliată a panourilor de diagnostic permite controlul și întreținerea perifericelor. Utilizatorii pot efectua operațiuni avansate de diagnostic și monitorizare pentru a menține eficiența sistemului."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Implementarea Operațiunilor prin Job-uri",
+                "immagineSrc": "images/masp/lavorazione.png",
+                "altSrc": "Implementarea Operațiunilor prin Job-uri",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-touch",
+                        "descrizione": "Software-ul MASP App utilizează conceptul de 'Job' pentru a personaliza ciclurile de lucru, fiecare job reprezentând o funcție specifică. Configurarea se face prin fișiere text .ini, care definesc setările pentru fiecare fază a ciclului."
+                    },
+                    {
+                        "iconaClasse": "flaticon-profit",
+                        "descrizione": "Fișierele .ini conțin secțiuni generale și specifice pentru fiecare job, permițând setarea numeroșilor parametri. Acest lucru permite un grad înalt de personalizare și control, adaptând software-ul la nevoile specifice ale utilizatorilor."
+                    }
+                ]
+            }
+        ],
+        "button": "Înainte"
+    }
+}

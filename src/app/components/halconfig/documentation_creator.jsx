@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 import ConfermaAction from '../global/confermaAction';
 import axios from 'axios';
 
-const DocumentationCreator = ({ halArrays, className }) => {
+const DocumentationCreator = ({ jobArrays, className }) => {
 
     const [dataDoc, setDataDoc] = useState([]);
     useEffect(() => {
@@ -16,7 +16,7 @@ const DocumentationCreator = ({ halArrays, className }) => {
     const [conferma, setConferma] = useState(false);
     const [visible, setVisible] = useState(false);
 
-    const [HalPermessi, setHalPermessi] = useState([]);
+    const [JobPermessi, setJobPermessi] = useState([]);
     const [ParagrafiPermessi, setParagrafiPermessi] = useState([]);
 
     const [currentTitle, setCurrentTitle] = useState("Documentazione software MaspApp - Job");
@@ -95,7 +95,7 @@ const DocumentationCreator = ({ halArrays, className }) => {
             return;
         }
 
-        const arrayWithTitles = Object.entries(halArrays);
+        const arrayWithTitles = Object.entries(jobArrays);
 
         const elementsPromises = arrayWithTitles.map(async ([title, doc], index) => {
 
@@ -229,7 +229,7 @@ const DocumentationCreator = ({ halArrays, className }) => {
             }
 
 
-            if (HalPermessi.includes(doc.title)) {
+            if (JobPermessi.includes(doc.title)) {
 
 
                 // Preload the image
@@ -1124,11 +1124,11 @@ const DocumentationCreator = ({ halArrays, className }) => {
 
     const handleSelezionatutti = (isHal) => {
         if (isHal) {
-            if (HalPermessi.length === halArrays.length) {
-                setHalPermessi([]);
+            if (JobPermessi.length === jobArrays.length) {
+                setJobPermessi([]);
             } else {
-                const allValues = halArrays.map(data => data.title);
-                setHalPermessi(allValues);
+                const allValues = jobArrays.map(data => data.title);
+                setJobPermessi(allValues);
             }
         }
         else {
@@ -1144,7 +1144,7 @@ const DocumentationCreator = ({ halArrays, className }) => {
 
     const handleOnChangeCheckbox = (value, isHal) => {
         if (isHal) {
-            setHalPermessi((prevHalPermessi) => {
+            setJobPermessi((prevHalPermessi) => {
                 if (prevHalPermessi.includes(value)) {
                     return prevHalPermessi.filter(item => item !== value);
                 } else {
@@ -1164,7 +1164,7 @@ const DocumentationCreator = ({ halArrays, className }) => {
     }
 
     const handleDebug = () => {
-        console.log('Hal:', HalPermessi);
+        console.log('Hal:', JobPermessi);
         console.log('Paragrafi', ParagrafiPermessi);
     }
 
@@ -1184,13 +1184,13 @@ const DocumentationCreator = ({ halArrays, className }) => {
 
                         <div className='width100 perflexnoncentrato'>
                             <div className='hal-selectioner-upper'>
-                                {halArrays.map((data, index) => (
+                                {jobArrays.map((data, index) => (
                                     <div className='hal-selectioner'>
                                         <div>
                                             {data.title}
                                         </div>
                                         <label class="custom-checkbox">
-                                            <input checked={HalPermessi.includes(data.title)} onChange={() => handleOnChangeCheckbox(data.title, true)} name="dummy" type="checkbox"></input>
+                                            <input checked={JobPermessi.includes(data.title)} onChange={() => handleOnChangeCheckbox(data.title, true)} name="dummy" type="checkbox"></input>
                                             <span class="checkmark"></span>
                                         </label>
 

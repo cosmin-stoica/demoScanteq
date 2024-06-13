@@ -1,8 +1,19 @@
 import ItodoImage from "../../elements/itodo-img";
-import maspDataIntro from "../../../globals/DataTEXT/Masp/maspDataIntro";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const IntroMasp = () => {
+
+    const { t } = useTranslation("masp_caratteristiche");
+    const maspDataIntro = t('intro.data', { returnObjects: true });
+
+    if (Array.isArray(maspDataIntro) && maspDataIntro !== null) {
+        maspDataIntro.forEach(item => {
+        });
+    } else {
+        console.error('La lista non è disponibile o non è un array.');
+    }
+
     return (
         <>
 
@@ -32,7 +43,7 @@ const IntroMasp = () => {
                 </div>
             ))}
             <div className="width100 perflex margin-top100">
-                <NavLink to="/masp-operazioni"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                <NavLink to="/masp-operazioni"><button className="masp-btn-avanti">{t("intro.button")}</button></NavLink>
             </div>
         </>
     );

@@ -1,14 +1,17 @@
 
+import { useTranslation } from 'react-i18next';
 
 const JobHeaderMasp = () => {
 
+    const { t } = useTranslation("masp_operazioni");
+
     return (<>
         <div className="section-full wow fadeInRight" data-wow-duration="2000ms">
-        <h1 className="TitoloCapitolo">Categorie di Operazioni</h1>
+            <h1 className="TitoloCapitolo">{t("header.header")}</h1>
         </div>
 
         <div className="desccond">
-            <p>Le operazioni, denominate Job, possono essere divise rispettivamente in sei categorie:</p>
+            <p>{t("header.title")}</p>
         </div>
 
         <div className="div-header-job-card">
@@ -16,32 +19,35 @@ const JobHeaderMasp = () => {
             <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                 <div className="header-job-card">
                     <i className="header-job-card-icona flaticon-development" />
-                    <h1>Automazione e Assemblaggio</h1>
+                    <h1>
+                        {t("header.automation_and_assembly_title")}
+                    </h1>
                     <p>
-                        Questi job comprendono tecnologie e processi progettati per automatizzare e ottimizzare le operazioni
-                        di assemblaggio industriale, migliorando efficienza e precisione.</p>
+                        {t("header.automation_and_assembly_desc")}
+                    </p>
                 </div>
             </div>
 
             <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                 <div className="header-job-card">
                     <i className="header-job-card-icona flaticon-skills" />
-                    <h1>Collaudo Componenti Automotive
+                    <h1>
+                        {t("header.automotive_component_testing_title")}
                     </h1>
                     <p>
-                        Questi job verificano la sicurezza e il funzionamento di elementi come cinture di sicurezza e airbag,
-                        garantendo la conformità agli standard di sicurezza.</p>
+                        {t("header.automotive_component_testing_desc")}
+                    </p>
                 </div>
             </div>
 
             <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                 <div className="header-job-card">
                     <i className="header-job-card-icona flaticon-data" />
-                    <h1>Controllo di Qualità e Verifica
+                    <h1>
+                        {t("header.quality_control_and_verification_title")}
                     </h1>
                     <p>
-                        Questi job assicurano la qualità dei componenti con misurazioni, controllo del carico, verifica
-                        della coppia e ispezione visiva, rilevando difetti con tecnologie avanzate.
+                        {t("header.quality_control_and_verification_desc")}
                     </p>
                 </div>
 
@@ -50,34 +56,36 @@ const JobHeaderMasp = () => {
             <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                 <div className="header-job-card">
                     <i className="header-job-card-icona flaticon-supply-chain" />
-                    <h1>Gestione della Produzione e Logistica
+                    <h1>
+                        {t("header.production_and_logistics_management_title")}
                     </h1>
                     <p>
-
-                        Questi job ottimizzano flussi e operazioni attraverso il monitoraggio logistico, la
-                        gestione della manutenzione, la reportistica e la stampa di etichette personalizzate.</p>
+                        {t("header.production_and_logistics_management_desc")}
+                    </p>
                 </div>
             </div>
 
             <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                 <div className="header-job-card">
                     <i className="header-job-card-icona flaticon-employee" />
-                    <h1>Gestione delle Postazioni e delle Procedure
+                    <h1>
+                        {t("header.station_and_procedure_management_title")}
                     </h1>
                     <p>
-                        Questi job automatizzano e coordinano le operazioni delle postazioni di
-                        lavoro e delle procedure per ottimizzare l'efficienza e la produttività complessiva.</p>
+                        {t("header.station_and_procedure_management_desc")}
+                    </p>
                 </div>
             </div>
 
             <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                 <div className="header-job-card">
                     <i className="header-job-card-icona flaticon-touch" />
-                    <h1>Unità di Controllo Elettronico per Automotive
+                    <h1>
+                        {t("header.electronic_control_unit_for_automotive_title")}
                     </h1>
                     <p>
-                        Questi job gestiscono e verificano le centraline elettroniche con bus CAN/LIN delle autovetture, garantendone il
-                        corretto funzionamento </p>
+                        {t("header.electronic_control_unit_for_automotive_desc")}
+                    </p>
                 </div>
             </div>
         </div>

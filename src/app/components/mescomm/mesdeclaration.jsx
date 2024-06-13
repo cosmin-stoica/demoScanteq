@@ -1,13 +1,21 @@
-import Arraydata from "../../../globals/DataTEXT/Mes/mesDataDeclaration";
-import AnalysisOptionBox from "../maintenance/optionbox";
 import { NavLink } from "react-router-dom";
 import ItodoImage from "../../elements/itodo-img";
 import LavorazioniEsempio from "./lavorazioniesempio";
 import CommesseEsempio from "./commesseesempio";
 import ComponentiEsempio from "./componentiesempio";
 import InfoEsempio from "./infoesempio";
+import { useTranslation } from 'react-i18next';
 
 const MesDeclaration = () => {
+
+    const { t } = useTranslation("mes");
+    const Arraydata = t('declaration.data', { returnObjects: true });
+
+    if (!Arraydata || !Array.isArray(Arraydata)) {
+        console.error('La lista non è disponibile o non è un array.');
+        return <p>Data is not available</p>; // Render a fallback UI
+    }
+
     return (
         <>
 
@@ -55,7 +63,7 @@ const MesDeclaration = () => {
                 ))}
 
                 <div className="width100 perflex margin-top100">
-                    <NavLink to="/supervisor"><button className="masp-btn-indietro">Indietro</button></NavLink>
+                    <NavLink to="/supervisor"><button className="masp-btn-indietro">{t("button_indietro")}</button></NavLink>
                 </div>
 
             </div>

@@ -1,0 +1,113 @@
+{
+    "intro": {
+        "header": "Gestion Intégrée de la Production",
+        "title": "Solution Complète de Gestion Intégrée de la Production",
+        "desc": "Cet outil vous offre la possibilité de prendre des décisions éclairées pour optimiser les performances du système, garantissant une gestion efficace des ressources et une productivité globale accrue."
+    },
+    "prequel": {
+        "processes_title": "Processus",
+        "orders_title": "Commandes",
+        "components_title": "Composants",
+        "info_title": "Infos Auxiliaires",
+        "desc": "Le MES est une plateforme web connectée au MASP pour suivre les cycles de travail et gérer les commandes, les composants et les informations auxiliaires. Il offre un contrôle total de la production à distance, permettant de créer et de partager facilement des cycles de travail. Idéal pour les petites et moyennes entreprises, il simplifie le contrôle de la production et optimise les opérations commerciales."
+    },
+    "declaration": {
+        "data": [
+            {
+                "margin": false,
+                "isLavorazioni": true,
+                "fade": "Left",
+                "titolo": "Processus",
+                "iconaSrc": "images/mes/lavorazioni.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-chart",
+                        "descrizione": "La plateforme permet une gestion précise des processus, en suivant chaque étape du processus de production. Grâce à l'interconnexion avec le MASP, il est possible de surveiller en temps réel l'avancement des activités sur chaque poste."
+                    },
+                    {
+                        "iconaClasse": "flaticon-search",
+                        "descrizione": "Ce système permet d'identifier rapidement les inefficacités ou les problèmes, optimisant les cycles de travail et améliorant la productivité. Les entreprises peuvent obtenir un meilleur contrôle sur les processus de production et prendre des mesures correctives en temps opportun."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isCommesse": true,
+                "fade": "Right",
+                "titolo": "Commandes",
+                "iconaSrc": "images/mes/commesse.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-employee",
+                        "descrizione": "La gestion des commandes devient simple et efficace. La plateforme permet de créer, d'assigner et de suivre les commandes de manière intuitive, en veillant à ce que chaque ordre soit suivi avec précision."
+                    },
+                    {
+                        "iconaClasse": "flaticon-survey",
+                        "descrizione": "Grâce à la possibilité d'accéder aux informations à distance, les responsables peuvent surveiller l'état des commandes à tout moment et prendre des décisions rapides. Cela améliore la satisfaction des clients et la ponctualité des livraisons."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isComponenti": true,
+                "fade": "Left",
+                "titolo": "Composants",
+                "iconaSrc": "images/mes/componenti.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "La gestion des composants est essentielle pour garantir un processus de production fluide. La plateforme offre des outils pour suivre et gérer les composants utilisés à chaque étape de la production, permettant de toujours contrôler les stocks et les besoins."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "Ce système aide à prévenir les problèmes d'approvisionnement et à réduire les temps d'arrêt dus au manque de matériaux. Il garantit que chaque poste dispose des composants nécessaires pour compléter les processus, optimisant ainsi l'efficacité de la production."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "isInfo": true,
+                "titolo": "Infos Auxiliaires",
+                "iconaSrc": "images/mes/info.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-web-plugin",
+                        "descrizione": "La plateforme ne se limite pas à gérer les processus, les commandes et les composants, mais offre également une gestion des informations auxiliaires. Les documents techniques, les manuels opérationnels, les instructions de travail et d'autres informations cruciales peuvent être archivés et rendus facilement accessibles."
+                    },
+                    {
+                        "iconaClasse": "flaticon-consultant",
+                        "descrizione": "Cela garantit que tous les opérateurs ont toujours à disposition les informations nécessaires pour effectuer leurs tâches de manière correcte et efficace. Cela améliore la qualité du travail et réduit les erreurs, contribuant ainsi à maintenir des normes opérationnelles élevées."
+                    }
+                ]
+            }
+        ],
+        "processes_example": {
+            "select_column_title": "Sélectionner",
+            "station_column_title": "Poste",
+            "order_column_title": "Commande",
+            "date_column_title": "Date"
+        },
+        "orders_example": {
+            "select_column_title": "Sélectionner",
+            "station_column_title": "Poste",
+            "code_column_title": "Code",
+            "components_column_title": "Composants",
+            "auxiliaries_column_title": "Auxiliaires",
+            "crea_commessa_button": "Créer Commande"
+        },
+        "components_example": {
+            "select_column_title": "Sélectionner",
+            "code_column_title": "Code",
+            "description_column_title": "Description",
+            "visualize_column_title": "Visualiser"
+        },
+        "info_example": {
+            "select_column_title": "Sélectionner",
+            "code_column_title": "Code",
+            "description_column_title": "Description",
+            "visualize_column_title": "Visualiser"
+        }
+    },
+    "button_indietro": "Précédent"
+}

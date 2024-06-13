@@ -1,8 +1,12 @@
 import AnalysisOptionBox from "../maintenance/optionbox";
 import { useState } from "react";
 import GaussianChart from "../maintenance/GaussianChart";
+import { useTranslation } from 'react-i18next';
 
 const MaintenanceEsempi = () => {
+
+  const { t } = useTranslation("supervisor");
+
 
   const selectedLog = "======================================================\r\n" +
     "<RW>Log File\r\n" +
@@ -191,13 +195,13 @@ const MaintenanceEsempi = () => {
   return (
     <>
       <div className="titolo-supervisor-preview width100 perflex margin-top50">
-        Esempi di analisi
+        {t("declaration.maintenance_hub_example.title")}
       </div>
       <div className="paneanalisiscegli-preview">
         <div className='paneanalisiscegli'>
-          <AnalysisOptionBox text="Avvitature" isDemo={true} onClickDemo={() => onClickDemoOption(AvvitatureDataset)} />
-          <AnalysisOptionBox text="Termoforo" isDemo={true} onClickDemo={() => onClickDemoOption(TermoforoDataset)} />
-          <AnalysisOptionBox text="Coppia" isDemo={true} onClickDemo={() => onClickDemoOption(CoppiaDataset)} />
+          <AnalysisOptionBox text={t("declaration.maintenance_hub_example.first_title")} isDemo={true} onClickDemo={() => onClickDemoOption(AvvitatureDataset)} />
+          <AnalysisOptionBox text={t("declaration.maintenance_hub_example.second_title")}isDemo={true} onClickDemo={() => onClickDemoOption(TermoforoDataset)} />
+          <AnalysisOptionBox text={t("declaration.maintenance_hub_example.third_title")} isDemo={true} onClickDemo={() => onClickDemoOption(CoppiaDataset)} />
         </div>
       </div>
 
@@ -213,7 +217,7 @@ const MaintenanceEsempi = () => {
 
 
       <div className="titolo-supervisor-preview width100 perflex margin-top50">
-        Esempio di visualizzazione di un log
+      {t("declaration.maintenance_hub_example.log_title")}
       </div>
 
       <div className='textareadiv'>
@@ -221,13 +225,13 @@ const MaintenanceEsempi = () => {
           <div className='search-container'>
             <input
               type='text'
-              placeholder='Cerca nel log'
+              placeholder={t("declaration.maintenance_hub_example.find_input")}
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
             />
             <div>
-              <button onClick={handleSearch}>Cerca</button>
-              <button onClick={handleClearSearch}>Cancella</button>
+              <button onClick={handleSearch}>{t("declaration.maintenance_hub_example.search_button")}</button>
+              <button onClick={handleClearSearch}>{t("declaration.maintenance_hub_example.cancel_button")}</button>
             </div>
 
             {selectedLog != null && <p>22/05/2024</p>}

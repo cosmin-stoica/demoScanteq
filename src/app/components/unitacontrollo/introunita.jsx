@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import ItodoImage from "../../elements/itodo-img";
-import introData from "../../../globals/DataTEXT/Hardware/Unità_Di_Controllo/introData";
+import { useTranslation } from 'react-i18next';
+
 
 const IntroUnita = () => {
+    const { t } = useTranslation("unita_di_controllo");
     const text = "";
     const [displayedText, setDisplayedText] = useState("");
 
@@ -24,7 +26,7 @@ const IntroUnita = () => {
         <>
             <div className="">
                 <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                    <h1 className="TitoloCapitolo">Unità di controllo</h1>
+                    <h1 className="TitoloCapitolo">{t("intro.header")}</h1>
                 </div>
 
                 {/*<div className="section-full wow fadeInDown" data-wow-duration="1500ms">
@@ -53,13 +55,13 @@ const IntroUnita = () => {
                                     <div className="masp-card-secondaparte-div-divi">
                                         <i className="flaticon-growth" />
                                     </div>
-                                    <p> {introData[0].intro}</p>
+                                    <p> {t("intro.desc_1")}</p>
                                 </div>
                                 <div className="masp-card-secondaparte-div">
                                     <div className="masp-card-secondaparte-div-divi">
                                         <i className="flaticon-development" />
                                     </div>
-                                    <p> {introData[0].intro_piantana}</p>
+                                    <p>{t("intro.desc_2")}</p>
                                 </div>
                             </div>
                         </div>

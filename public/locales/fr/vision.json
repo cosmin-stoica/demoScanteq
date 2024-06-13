@@ -1,0 +1,21 @@
+{
+    "intro": {
+        "header": "Notre vision",
+        "title": "Innovation et collaboration pour votre succès",
+        "desc": "La stratégie de développement de Scanteq repose sur la recherche continue d'innovation et l'adoption des technologies les plus récentes, associées à l'identification attentive des nouvelles opportunités qui émergent sur le marché. Cette approche implique une collaboration étroite et solide avec nos clients, leur permettant de tirer parti des technologies de pointe. Grâce à cette collaboration, nos clients peuvent enrichir leurs produits avec une valeur ajoutée et obtenir des résultats optimaux de manière hautement efficace, tant en termes de coûts que de délais de développement."
+    },
+    "list": {
+        "area_of_interest_title": "Domaine d'intérêt",
+        "area_of_interest_desc": "Automatisation",
+        "automation_1_title": "Automatisation",
+        "automation_1_desc": "Industrielle",
+        "automation_2_title": "Automatisation",
+        "automation_2_desc": "De bureau",
+        "experience_title": "Expérience",
+        "experience_desc": "14+ Ans d'expérience",
+        "contacts_title": "Contacts",
+        "contacts_desc": "info@scanteq.com +39 327 5875936",
+        "location_title": "Localisation",
+        "location_desc": "Via XXIV Maggio 28 10024, Moncalieri (TO) Italie"
+    }
+}

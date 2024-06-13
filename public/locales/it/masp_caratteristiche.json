@@ -1,0 +1,133 @@
+{
+    "prequel":{
+        "header": "Caratteristiche Principali",
+        "desc_1": "Nel contesto dell'automazione per l'Industria 4.0, viene proposta la piattaforma MASP (Mounting Assisted Software Platform), che consente l'implementazione flessibile ed efficiente di sistemi di controllo con contenuti tecnologici avanzati all’interno delle linee di produzione attraverso una combinazione efficace di strumenti software e hardware proprietari.",
+        "desc_2": "Il funzionamento si basa sull’esecuzione in ordine predeterminato di una serie di operazioni, denominate Job, che rappresentano passaggi effettuati dalla parte software, elettronica ed elettromeccanica, con o senza intervento dell’operatore, necessari per raggiungere un risultato finale."
+    },
+    "characteristics":{
+        "guided_conduct_title" : "CONDOTTA GUIDATA",
+        "guided_conduct_desc" : "La correttezza delle operazioni è garantita da un'interfaccia utente intuitiva con pannelli automatici contenenti immagini e messaggi che guidano l'operatore in ogni fase del lavoro. Il sistema è efficace grazie a metodi di configurazione personalizzabili e semplici da implementare per immagini e messaggi. Inoltre, la piattaforma include un pannello per visualizzare istruzioni tramite immagini, file PDF e filmati, utili per la formazione del personale senza l'uso di materiale cartaceo, con tutti i relativi vantaggi.",
+        "automation_of_procedures_title": "AUTOMAZIONE DELLE PROCEDURE",
+        "automation_of_procedures_desc": "Il funzionamento standard delle postazioni prevede l'assistenza all'operatore da parte dell'hardware e del software. Tuttavia, l'intervento dell'operatore è necessario per le lavorazioni. La piattaforma MASP offre la possibilità di automatizzare molte operazioni senza bisogno di conferma da parte dell’operatore. Queste operazioni includono controlli analogici, come la verifica di correnti assorbite o resistenze elettriche, e la movimentazione automatica di parti meccaniche per eseguire operazioni complesse.",
+        "traceability_of_results_title" : "TRACCIABILITÀ DEI RISULTATI",
+        "traceability_of_results_desc" : "Durante il ciclo di lavoro, il sistema salva tutti i parametri rilevanti e altri dati essenziali per la tracciabilità, come il nome del fabbricante, il codice della postazione, la data e l'ora, il nome utente e i codici del prodotto. Alla fine del ciclo, i dati sono memorizzati in vari formati: file CSV, tabelle su database MySQL o SQL Server e inviati a sistemi MES. E' possibile inoltre rilasciare etichette stampate su carta termica. Queste funzionalità garantiscono una tracciabilità efficiente, essenziale per i sistemi di produzione Industria 4.0.",
+        "traceability_of_results_button": "Vedi di più",
+        "customization_of_operations_title": "PERSONALIZZAZIONE DELLE OPERAZIONI",
+        "customization_of_operations_desc": "La piattaforma è progettata per offrire tecnologia moderna per i sistemi di produzione in modo flessibile. Durante lo sviluppo, si è prestata massima attenzione per ottenere un ambiente altamente personalizzabile tramite file INI. Questi semplici file di testo contengono campi specifici che il personale tecnico può facilmente modificare per gestire i parametri di configurazione dei cicli di lavoro, come il numero di ripetizioni in caso di esito negativo, valori di riferimento, messaggi e immagini da visualizzare.",
+        "peripheral_configuration_title": "CONFIGURAZIONE PERIFERICHE",
+        "peripheral_configuration_desc": "Oltre a modificare i cicli operativi, è possibile personalizzare i parametri hardware senza aggiornare il software, riducendo i costi di implementazione. Questi parametri, come le porte di input/output, i convertitori ADC della scheda elettronica IO24ADC, i valori di offset e guadagno, e il layout delle etichette, sono salvati in file INI con prefisso HAL (Hardware Abstraction Layer). La piattaforma include anche l'applicativo Io24Terminal, usato dal personale tecnico per verificare le periferiche durante l'installazione.",
+        "operator_safety_title" : "SICUREZZA DELL'OPERATORE",
+        "operator_safety_desc" : "Nel corso di operazioni pericolose, è essenziale che l'operatore rimanga lontano dal luogo rischioso. La piattaforma offre soluzioni hardware e software per garantire la sicurezza, come un bimanuale posizionato in un'area sicura per disattivare i sistemi pericolosi e un tappeto elettronico che segnala la presenza in aree vietate. Altri metodi sono gestiti unicamente dal software. Ad esempio, in una prova con una cella di carico in movimento, la forza viene monitorata per evitare sovraccarichi, fermando l'operazione se necessario."
+    },
+    "intro":{
+        "data":[
+            {
+              "margin": false,
+              "fade": "Left", 
+              "titolo": "Interfaccia Utente",
+              "immagineSrc": "images/masp/principale.png",
+              "altSrc": "Interfaccia Utente",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-layers",
+                  "descrizione":
+                    "L'interfaccia utente è progettata per visualizzare tutte le informazioni operative nella finestra principale, usando pannelli sovrapposti di tipo Tab per le operazioni specifiche, una schermata Home per l'accesso rapido alle funzioni principali e una schermata Log per monitorare e analizzare le attività di sistema."
+                },
+                {
+                  "iconaClasse": "flaticon-web-plugin",
+                  "descrizione":
+                    "La configurazione dell'interfaccia utente è gestita tramite file che permettono di attivare o disattivare i vari pannelli e controlli, offrendo flessibilità e personalizzazione per adattare l'applicazione alle esigenze specifiche degli utenti.."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Right", 
+              "titolo": "Autenticazione degli Utenti",
+              "immagineSrc": "images/masp/login.png",
+              "altSrc": "Autenticazione degli Utenti",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-promotion",
+                  "descrizione":
+                    "L'applicativo MASP App suddivide il personale in tre categorie: User, Coord e Admin, ciascuna con permessi specifici per soddisfare le esigenze operative. La gestione degli accessi è implementata tramite una funzione di login, assicurando la tracciabilità degli operatori e impedendo l'uso non autorizzato delle postazioni."
+                },
+                {
+                  "iconaClasse": "flaticon-programmer",
+                  "descrizione":
+                    "Dalla schermata principale, cliccando su Login, si apre il pannello con la lista degli utenti registrati. Per accedere, bisogna selezionare l'utente, inserire il PIN a schermo e premere Login. In alternativa, il login può avvenire leggendo il codice badge dell'operatore con il lettore barcode mentre la finestra Login è aperta."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Left", 
+              "titolo": "Avvio della Lavorazione",
+              "immagineSrc": "images/masp/avviolavorazione.png",
+              "altSrc": "Avvio della Lavorazione",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-laptop",
+                  "descrizione":
+                    "Una prima possibilità prevede l'inserimento manuale del codice, in cui l'utente immette direttamente il codice del ciclo di lavorazione tramite tastiera."
+                },
+                {
+                  "iconaClasse": "flaticon-image",
+                  "descrizione":
+                    "Un'alternativa è la lettura del barcode, che permette di velocizzare il processo di selezione. Utilizzando un lettore di codici a barre, l'utente può scansionare il barcode associato al ciclo di lavorazione, garantendo un inserimento rapido e privo di errori."
+                },
+                {
+                  "iconaClasse": "flaticon-layers",
+                  "descrizione":
+                    "Un'altra opzione è la selezione da una lista preimpostata. In questo caso, l'utente può scegliere il ciclo di lavorazione desiderato da un elenco predefinito, visualizzando tutte le opzioni disponibili in modo chiaro e organizzato."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Right",
+              "titolo": "Pannelli della Diagnostica",
+              "immagineSrc": "images/masp/diagnostica.png",
+              "altSrc": "Pannelli della Diagnostica",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-category",
+                  "descrizione":
+                    "I pannelli della diagnostica visualizzano lo stato delle periferiche per ogni operazione o funzionalità della postazione, permettendo la gestione manuale. Forniscono informazioni dettagliate sul funzionamento delle periferiche collegate."
+                },
+                {
+                  "iconaClasse": "flaticon-computer-hardware",
+                  "descrizione":
+                    "Si aprono tramite il pulsante 'Diagnostica' nella schermata principale, che apre una finestra di selezione dei pannelli specifici per ogni job o funzionalità della postazione."
+                 },
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "L'interfaccia dettagliata dei pannelli diagnostici permette il controllo e la manutenzione delle periferiche. Gli utenti possono eseguire operazioni avanzate di diagnostica e monitoraggio per mantenere l'efficienza del sistema."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Left", 
+              "titolo": "Implementazione delle Operazioni tramite Job",
+              "immagineSrc": "images/masp/lavorazione.png",
+              "altSrc": "Implementazione delle Operazioni tramite Job",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-touch",
+                  "descrizione":
+                    "Il software MASP App utilizza il concetto di 'Job' per personalizzare i cicli di lavoro, con ogni job che rappresenta una funzione specifica. La configurazione avviene tramite file di testo .ini, che definiscono le impostazioni per ogni fase del ciclo."
+                },
+                {
+                  "iconaClasse": "flaticon-profit",
+                  "descrizione":
+                    "I file .ini contengono sezioni generali e specifiche per ogni job, permettendo di impostare numerosi parametri. Questo consente un alto grado di personalizzazione e controllo, adattando il software alle esigenze specifiche degli utenti."
+                }
+              ]
+            }
+          ],
+        "button":"Avanti"
+    }
+    
+}

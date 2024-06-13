@@ -1,0 +1,78 @@
+{
+    "header": "Traceability",
+    "desc_1": "The MASP (Mounting Assistance Software Platform) platform ensures complete traceability of operations during the work cycle. The system records all fundamental information, ensuring detailed traceability of each stage of the processing and testing process.",
+    "desc_2": "At the end of each cycle, the data is stored in various formats such as CSV files, database tables (MySQL or SQL Server), or sent to MES (Manufacturing Execution System) systems. It is also possible to print labels on thermal paper.",
+    "data": [
+        {
+            "margin": true,
+            "fade": "Left",
+            "titolo": "CSV Files",
+            "immagineSrc": "images/masp/tracciabilita/csv.png",
+            "altSrc": "CSV Files",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-layers",
+                    "descrizione": "Saving results to CSV files is managed through a configuration file that contains parameters to control various aspects of report creation. These include enabling the report, generating logs, and including specific information such as the name of the plant and the workstation."
+                },
+                {
+                    "iconaClasse": "flaticon-web-plugin",
+                    "descrizione": "The generated CSV reports include details of each stage of the work cycle. A typical CSV file contains data related to the plant, workstation, date and time, operator, and test operation results, allowing precise and orderly traceability of the performed operations."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Right",
+            "titolo": "MySQL, SQL Server Databases",
+            "immagineSrc": "images/masp/tracciabilita/database.png",
+            "altSrc": "MySQL, SQL Server Databases",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-rss",
+                    "descrizione": "Saving results to MySQL and SQL Server databases is done through SQL calls configured in a specific file. This file contains parameters for the server address, user, and password, allowing a direct interface between the software and the database."
+                },
+                {
+                    "iconaClasse": "flaticon-monitor",
+                    "descrizione": "The data is recorded in the database to ensure complete traceability of operations. The stored information includes details of the assembly and testing operations, ensuring that all data is easily accessible and organized for future analysis and reviews."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Left",
+            "titolo": "MES Systems",
+            "immagineSrc": "images/masp/tracciabilita/mes.png",
+            "altSrc": "MES Systems",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-laptop",
+                    "descrizione": "The MASP software supports interfacing with MES systems for production control. This is done through two main modes: the REST architecture based on TCP-IP and the use of shared folders for CSV files."
+                },
+                {
+                    "iconaClasse": "flaticon-security",
+                    "descrizione": "In HTTPS interfacing, data is transmitted using calls and formatted in JSON, while in the shared folders mode, data is saved as CSV files in a shared network. Both modes ensure precise traceability and easy integration with production management systems."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Right",
+            "titolo": "Thermal Paper Printing",
+            "immagineSrc": "images/masp/tracciabilita/printer.png",
+            "altSrc": "Thermal Paper Printing",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-chart",
+                    "descrizione": "At the end of each work cycle, the system prints a label on thermal paper that contains the collected data. The printing configuration is managed through a specific file that allows customizing the label format, including text, lines, 2D barcodes, and images."
+                },
+                {
+                    "iconaClasse": "flaticon-survey",
+                    "descrizione": "The printed labels include detailed information about the performed operations, ensuring immediate and precise visual traceability. This function allows having a physical documentation that accompanies the product during all stages of production and logistics."
+                }
+            ]
+        }
+    ],
+    "esempio_etichette": "Label Example",
+    "button_avanti": "Next",
+    "button_indietro": "Back"
+}

@@ -1,0 +1,83 @@
+{
+    "intro": {
+        "header": "Plăci pentru automatizare",
+        "desc": "Soluțiile noastre pentru controlul industrial includ plăcile IO24ADC, ENCODER 4 și CORA. Aceste module oferă funcționalități avansate pentru gestionarea intrărilor și ieșirilor digitale, monitorizarea precisă a unghiurilor și citirea exactă a curenților, asigurând fiabilitate și ușurință în integrarea în sistemele de automatizare."
+    },
+    "prequel": {
+        "data": [
+            {
+                "imgSrc": "images/hardware/schedeautomazione/schedaio.png",
+                "descrizione": "Placa IO24ADC gestionează 24 de intrări și ieșiri digitale de la 0 la 24VDC, cu 5 canale analogic-digitale. Are conexiuni USB, RS232 sau CAN, toate izolate pentru protecție.",
+                "delay": "0ms"
+            },
+            {
+                "imgSrc": "images/hardware/schedeautomazione/encoder.png",
+                "descrizione": "Modulul ENCODER 4 monitorizează unghiurile cu patru encodere absolute sau linii optice digitale. Se conectează la PC prin placa IO24ADC.",
+                "delay": "200ms"
+            },
+            {
+                "imgSrc": "images/hardware/schedeautomazione/cora.png",
+                "descrizione": "Placa CORA citește curenți de până la 19.2A și transformă valorile în tensiuni între 0V și 3.3V, compatibile cu IO24ADC.",
+                "delay": "400ms"
+            }
+        ]
+    },
+    "schede_descrizione": {
+        "header": "Plăcile noastre",
+        "data": [
+            {
+                "margin": false,
+                "fade": "Left",
+                "titolo": "IO24 ADC",
+                "immagineSrc": "images/hardware/schedeautomazione/schedaio.png",
+                "altSrc": "IO24 ADC",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Placa electronică IO24ADC este utilizată în controlul industrial pentru gestionarea intrărilor și ieșirilor digitale de la 0 la 24VDC. Are 24 de intrări și ieșiri protejate și suportă conversia a 5 canale analogic-digitale. Această versatilitate este îmbunătățită de un port de expansiune pentru module suplimentare."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Conexiunile la PC-ul de control se fac prin porturi USB, RS232 sau CAN, toate izolate galvanic pentru o protecție mai mare. Această caracteristică asigură siguranță și fiabilitate în operațiunile industriale."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Encoder",
+                "immagineSrc": "images/hardware/schedeautomazione/encoder.png",
+                "altSrc": "Encoder",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Modulul ENCODER 4, parte a proiectului nostru Industrie 4.0, monitorizează cu precizie unghiurile prin patru encodere absolute. Poate citi și coordonate de la patru linii optice digitale, crescând astfel precizia în controlul proceselor industriale."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Se conectează direct la PC-ul de control prin placa IO24ADC și portul său de expansiune digitală. Acest lucru îmbogățește gama noastră de soluții, oferind instrumente robuste și fiabile pentru gestionarea proceselor industriale."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Cora",
+                "immagineSrc": "images/hardware/schedeautomazione/cora.png",
+                "altSrc": "Cora",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Placa electronică CORA citește curenți și transformă valorile măsurate în tensiuni digitalizate prin canalele ADC ale plăcii IO24ADC. Dispune de un traductor izolat galvanic, capabil să citească curenți unidirecționali sau bidirecționali de până la 19.2A."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Tensiunea de ieșire, proporțională cu curentul măsurat, variază între 0V și 3.3V, făcând-o compatibilă cu convertoarele analogic-digitale ale IO24ADC. Acest lucru asigură măsurători precise și integrare fără probleme în sistemele industriale."
+                    }
+                ]
+            }
+        ]
+    },
+    "button_avanti": "Înainte",
+    "button_indietro": "Înapoi"
+}

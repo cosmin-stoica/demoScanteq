@@ -1,0 +1,28 @@
+{
+    "upper_header": "CONTACT US",
+    "header": "Contact Information",
+    "box_1": {
+        "header": "Info",
+        "cell": "Cell:",
+        "mail": "E-mail:"
+    },
+    "box_2": {
+        "header": "Useful Information for Businesses",
+        "business_name": "Business Name:",
+        "registered_office": "Registered Office:",
+        "secondary_office": "Secondary Office:",
+        "tax_id_code": "Tax ID Code:",
+        "r_e_a": "R.E.A.:",
+        "electronic_invoicing": "Electronic Invoicing:"
+    },
+    "contact_us": {
+        "header": "Get in Touch",
+        "desc": "(Include both email and phone number in 'Message')",
+        "on_success": "The message has been sent successfully!",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "mex": "Message",
+        "button": "Send Message"
+    }
+}

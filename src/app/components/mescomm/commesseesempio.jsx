@@ -1,7 +1,10 @@
 import { useState } from "react";
 import CommessaDue from "../mes/commessadue";
+import { useTranslation } from 'react-i18next';
 
 const CommesseEsempio = () => {
+
+    const { t } = useTranslation("mes");
 
     const [isDivAperto2, setDivAperto2] = useState(false);
 
@@ -19,11 +22,11 @@ const CommesseEsempio = () => {
                     <table className='tracctable-preview overflow-auto'>
                         <thead>
                             <tr>
-                                <th>Seleziona</th>
-                                <th>Postazione</th>
-                                <th>Codice</th>
-                                <th>Componenti</th>
-                                <th>Ausiliari</th>
+                                <th>{t("declaration.orders_example.select_column_title")}</th>
+                                <th>{t("declaration.orders_example.station_column_title")}</th>
+                                <th>{t("declaration.orders_example.code_column_title")}</th>
+                                <th>{t("declaration.orders_example.components_column_title")}</th>
+                                <th>{t("declaration.orders_example.auxiliaries_column_title")}</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -64,7 +67,7 @@ const CommesseEsempio = () => {
 
             <div className={'section-full wow fadeInDown width100 perflex margin-top50'} data-wow-duration="1500ms">
                 <div onClick={apriChiudiDiv2} className='creacommessa-btn'>
-                    <h2>Crea Commessa</h2>
+                    <h2>{t("declaration.orders_example.crea_commessa_button")}</h2>
                 </div>
                 {isDivAperto2 && (
                     <div className='divAperto'>

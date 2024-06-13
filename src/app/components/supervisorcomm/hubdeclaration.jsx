@@ -1,11 +1,14 @@
-import Arraydata from "../../../globals/DataTEXT/Supervisor/supervisorDataHubDeclaration";
-import AnalysisOptionBox from "../maintenance/optionbox";
 import { NavLink } from "react-router-dom";
 import ControlEsempi from "./controlesempi";
 import TracciabilitaEsempi from "./tracciabilitaesempi";
 import MaintenanceEsempi from "./maintenanceesempi";
+import { useTranslation } from 'react-i18next';
 
 const HubDeclaration = () => {
+
+    const { t } = useTranslation("supervisor");
+    const Arraydata = t('declaration.data', { returnObjects: true });
+
     return (
         <>
 
@@ -49,8 +52,8 @@ const HubDeclaration = () => {
                 ))}
 
                 <div className="width100 perflex margin-top100">
-                    <NavLink to="/masp-tracciabilita"><button className="masp-btn-indietro">Indietro</button></NavLink>
-                    <NavLink to="/mes"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                    <NavLink to="/masp-tracciabilita"><button className="masp-btn-indietro">{t("button_indietro")}</button></NavLink>
+                    <NavLink to="/mes"><button className="masp-btn-avanti">{t("button_avanti")}</button></NavLink>
 
                 </div>
 

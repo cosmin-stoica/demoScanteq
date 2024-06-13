@@ -5,13 +5,27 @@ import { useEffect } from "react";
 import { loadScript } from "../../../globals/constants";
 import { getAuth, signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 
 function Header2() {
 
     const [isActive, setIsActive] = useState(false);
     const navigate = useNavigate();
     const auth = getAuth();
+
+    const { t, i18n } = useTranslation();
+    const [selectedLanguage, setSelectedLanguage] = useState('IT');
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+        setSelectedLanguage(lng);
+    };
+
+    useEffect(() => {
+        const currentLanguage = i18n.language.toUpperCase();
+        setSelectedLanguage(currentLanguage);
+    }, [i18n])
+
 
     function toggleNavClass() {
         setIsActive(!isActive)
@@ -32,12 +46,8 @@ function Header2() {
 
 
     const handleTicketClick = async () => {
-        if (auth.currentUser) {
-            // User is already logged in, navigate to /home
-            navigate("/areapersonale");
-        } else {
-            // User is not logged in, handle the login action or navigate to the login page
-            // Example: navigate("/login");
+        if (!auth.currentUser) {
+            navigate("/login")
         }
     };
 
@@ -52,7 +62,7 @@ function Header2() {
                             <div className="logo-header">
                                 <div className="logo-header-inner logo-header-one zindex1 ">
                                     <NavLink to="/">
-                                        <ItodoImage  id='logoscanteq' src="images/logowhite.png" alt="#" />
+                                        <ItodoImage id='logoscanteq' src="images/logohead_white.png" alt="#" />
                                     </NavLink>
                                 </div>
                             </div>
@@ -70,50 +80,55 @@ function Header2() {
                             </button>
                             {/* EXTRA NAV */}
                             <div className="extra-nav">
-                                {/* <div className="extra-nav">
+                                {<div className="extra-nav">
                                     <div className="sx-language-dd dropdown">
                                         <div className="sl-nav-1">
-                                            <div className="sx-language-first sx-title" id="FR"><b>FR</b></div>
-                                            <button className="sl-nav-1-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                En
+                                            {/*<div className="sx-language-first sx-title" id="FR"><b>FR</b></div>*/}
+                                            <button className="sl-nav-1-btn dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <div className="perflex width100">
+                                                    <div className="c-name c-name-outside">
+                                                        <ItodoImage src={`images/flag/${selectedLanguage}.png`} alt="alt" />
+                                                    </div>
+                                                </div>
+                                                <span className="color-white">{selectedLanguage}</span>
                                             </button>
                                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                <li>
+                                                <li onClick={() => changeLanguage('it')}>
                                                     <div className="sl-flag">
                                                         <div className="c-name">
-                                                            <ItodoImage src="images/flag/germany.png" alt="alt" />
+                                                            <ItodoImage src="images/flag/it.png" alt="alt" />
                                                         </div>
                                                     </div>
-                                                    <span className="active">Germany</span>
+                                                    <span className="active color-black">Italiano</span>
                                                 </li>
-                                                <li>
+                                                <li onClick={() => changeLanguage('en')}>
                                                     <div className="sl-flag">
                                                         <div className="c-name">
-                                                            <ItodoImage src="images/flag/italy.png" alt="alt" />
+                                                            <ItodoImage src="images/flag/en.png" alt="alt" />
                                                         </div>
                                                     </div>
-                                                    <span className="active">Italy</span>
+                                                    <span className="active color-black">English</span>
                                                 </li>
-                                                <li>
+                                                <li onClick={() => changeLanguage('fr')}>
                                                     <div className="sl-flag">
                                                         <div className="c-name">
-                                                            <ItodoImage src="images/flag/spain.png" alt="alt" />
+                                                            <ItodoImage src="images/flag/fr.png" alt="alt" />
                                                         </div>
                                                     </div>
-                                                    <span className="active">Spain</span>
+                                                    <span className="active color-black">Français</span>
                                                 </li>
-                                                <li>
+                                                <li onClick={() => changeLanguage('ro')}>
                                                     <div className="sl-flag">
                                                         <div className="c-name">
-                                                            <ItodoImage src="images/flag/united-states.png" alt="alt" />
+                                                            <ItodoImage src="images/flag/ro.png" alt="alt" />
                                                         </div>
                                                     </div>
-                                                    <span className="active">USA</span>
+                                                    <span className="active color-black">Română</span>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>}
                                 {/* <div className="extra-cell">
                                     <ul className="list-unstyled social-bx d-flex flex-wrap align-content-center text-white ">
                                         <li><a href="https://www.facebook.com/"><i className="feather-facebook" /></a></li>
@@ -139,7 +154,7 @@ function Header2() {
                                         <NavLink to="/">Home</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/about-us">Chi siamo</NavLink>
+                                        <NavLink to="/about-us">{t('header.chi_siamo')}</NavLink>
                                         <ul className="sub-menu">
                                             <li><NavLink to="/mission">Vision</NavLink></li>
                                             <li><NavLink to="/leadership">Leadership</NavLink></li>
@@ -150,9 +165,9 @@ function Header2() {
                                         <NavLink>MASP</NavLink>
                                         <ul className="sub-menu">
                                             {/*<li><NavLink to="/masp">Piattaforma MASP</NavLink></li>*/}
-                                            <li><NavLink to="/masp-caratteristiche">Caratteristiche</NavLink></li>
-                                            <li><NavLink to="/masp-operazioni">Operazioni</NavLink></li>
-                                            <li><NavLink to="/masp-tracciabilita">Tracciabilita</NavLink></li>
+                                            <li><NavLink to="/masp-caratteristiche">{t('header.masp_caratteristiche')}</NavLink></li>
+                                            <li><NavLink to="/masp-operazioni">{t('header.masp_operazioni')}</NavLink></li>
+                                            <li><NavLink to="/masp-tracciabilita">{t('header.masp_tracciabilità')}</NavLink></li>
                                             <li><NavLink to="/supervisor">Supervisor</NavLink></li>
                                             <li><NavLink to="/mes">Mes</NavLink></li>
                                         </ul>
@@ -166,9 +181,9 @@ function Header2() {
                                     <li>
                                         <NavLink>Hardware</NavLink>
                                         <ul className="sub-menu">
-                                            <li><NavLink to="/unitadicontrollo"> Unità di controllo (PC)</NavLink></li>
-                                            <li><NavLink to="/schede-automazione">Schede per automazione</NavLink></li>
-                                            <li><NavLink to="/scheda-controllo-digitale">Scheda di controllo digitale</NavLink></li>
+                                            <li><NavLink to="/unitadicontrollo">{t("header.unità_di_controllo")}</NavLink></li>
+                                            <li><NavLink to="/schede-automazione">{t("header.schede_per_automazione")}</NavLink></li>
+                                            <li><NavLink to="/scheda-controllo-digitale">{t("header.scheda_di_controllo_digitale")}</NavLink></li>
                                         </ul>
 
                                     </li>
@@ -187,11 +202,11 @@ function Header2() {
 </li>*/}
 
                                     <li>
-                                        <NavLink to="/services">Servizi</NavLink>
+                                        <NavLink to="/services">{t('header.servizi')}</NavLink>
                                     </li>
-                                    <li onClick={handleTicketClick}><NavLink to="/areapersonale">Area personale</NavLink></li>
+                                    <li onClick={handleTicketClick}><NavLink to="/areapersonale">{t('header.area_personale')}</NavLink></li>
                                     {/*<li className="loginli" onClick={handleSupervisorClick}><NavLink to="/login">Supervisor</NavLink></li>}*/}
-                                    <li><NavLink to="/contact-us">Contattaci</NavLink></li>
+                                    <li><NavLink to="/contact-us">{t('header.contattaci')}</NavLink></li>
                                 </ul>
                             </div>
                         </div>

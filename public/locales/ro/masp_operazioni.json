@@ -1,0 +1,40 @@
+{
+    "header": {
+        "header": "Categorii de Operațiuni",
+        "title": "Operațiunile, denumite Joburi, pot fi împărțite respectiv în șase categorii:",
+        "automation_and_assembly_title": "AUTOMATIZARE ȘI ASAMBLARE",
+        "automation_and_assembly_desc": "Aceste joburi includ tehnologii și procese concepute pentru a automatiza și optimiza operațiunile de asamblare industrială, îmbunătățind eficiența și precizia.",
+        "automotive_component_testing_title": "TESTAREA COMPONENTELOR AUTOMOTIVE",
+        "automotive_component_testing_desc": "Aceste joburi verifică siguranța și funcționalitatea elementelor precum centurile de siguranță și airbagurile, asigurând conformitatea cu standardele de siguranță.",
+        "quality_control_and_verification_title": "CONTROLUL CALITĂȚII ȘI VERIFICAREA",
+        "quality_control_and_verification_desc": "Aceste joburi asigură calitatea componentelor prin măsurători, controlul încărcării, verificarea cuplului și inspecția vizuală, detectând defectele cu tehnologii avansate.",
+        "production_and_logistics_management_title": "GESTIUNEA PRODUCȚIEI ȘI LOGISTICII",
+        "production_and_logistics_management_desc": "Aceste joburi optimizează fluxurile și operațiunile prin monitorizarea logisticii, gestionarea mentenanței, raportarea și imprimarea etichetelor personalizate.",
+        "station_and_procedure_management_title": "GESTIUNEA POSTURILOR ȘI PROCEDURILOR",
+        "station_and_procedure_management_desc": "Aceste joburi automatizează și coordonează operațiunile posturilor de lucru și procedurilor pentru a optimiza eficiența și productivitatea generală.",
+        "electronic_control_unit_for_automotive_title": "UNITATE DE CONTROL ELECTRONIC PENTRU AUTOMOTIVE",
+        "electronic_control_unit_for_automotive_desc": "Aceste joburi gestionează și verifică unitățile de control electronice cu bus CAN/LIN ale mașinilor, asigurând funcționarea corectă a acestora."
+    },
+    "jobs": {
+        "automation_and_assembly_title": "Automatizare și asamblare",
+        "automation_and_assembly_desc_1": "Aceste joburi includ tehnologii și procese concepute pentru a automatiza și optimiza operațiunile de asamblare industrială. Scopul este de a reduce timpul și eforturile manuale necesare, integrând soluții avansate precum robotică și inteligență artificială.",
+        "automation_and_assembly_desc_2": "Îmbunătățind eficiența și precizia, aceste tehnologii cresc productivitatea și reduc erorile. Automatizarea asamblării industriale duce la o producție mai fluidă și mai fiabilă, răspunzând mai bine nevoilor pieței.",
+        "automotive_component_testing_title": "Testarea componentelor automotive",
+        "automotive_component_testing_desc_1": "Aceste joburi verifică siguranța și funcționalitatea elementelor precum centurile de siguranță și airbagurile. Scopul este de a asigura că toate componentele critice funcționează corect.",
+        "automotive_component_testing_desc_2": "În plus, ele asigură conformitatea cu standardele de siguranță, garantând că vehiculele respectă reglementările și oferă protecția maximă pasagerilor.",
+        "quality_control_and_verification_title": "Controlul calității și verificarea",
+        "quality_control_and_verification_desc_1": "Aceste joburi asigură calitatea componentelor prin măsurători, controlul încărcării, verificarea cuplului și inspecția vizuală. Utilizează proceduri riguroase pentru a se asigura că fiecare componentă îndeplinește standardele cerute.",
+        "quality_control_and_verification_desc_2": "Detectează defectele cu tehnologii avansate, permițând identificarea și corectarea problemelor în timp util. Acest lucru asigură că produsele finale sunt fiabile și de înaltă calitate.",
+        "production_and_logistics_management_title": "Gestiunea producției și logisticii",
+        "production_and_logistics_management_desc_1": "Aceste joburi optimizează fluxurile și operațiunile prin monitorizarea logisticii, gestionarea mentenanței și raportarea. Aceste activități asigură o funcționare eficientă și organizată.",
+        "production_and_logistics_management_desc_2": "În plus, includ imprimarea etichetelor personalizate, facilitând identificarea și trasabilitatea produselor. Acest lucru contribuie la îmbunătățirea gestiunii generale și a preciziei operaționale.",
+        "station_and_procedure_management_title": "Gestiunea posturilor și procedurilor",
+        "station_and_procedure_management_desc_1": "Aceste joburi automatizează și coordonează operațiunile posturilor de lucru. Implementând tehnologii avansate pentru a gestiona eficient activitățile zilnice.",
+        "station_and_procedure_management_desc_2": "În plus, optimizează procedurile pentru a îmbunătăți eficiența și productivitatea generală. Acest mod sistematic de abordare asigură o funcționare mai fluidă și rezultate mai bune.",
+        "electronic_control_unit_for_automotive_title": "Unitate de control electronic pentru automotive",
+        "electronic_control_unit_for_automotive_desc_1": "Aceste joburi gestionează și verifică unitățile de control electronice cu bus CAN/LIN ale mașinilor. Asigură că toate sistemele electronice sunt corect integrate și comunică eficient.",
+        "electronic_control_unit_for_automotive_desc_2": "În plus, ele asigură funcționarea corectă a unităților de control, monitorizând performanța și identificând eventualele anomalii. Acest lucru contribuie la menținerea standardelor ridicate de siguranță și fiabilitate ale vehiculului.",
+        "button_avanti": "Înainte",
+        "button_indietro": "Înapoi"
+    }
+}

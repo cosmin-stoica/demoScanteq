@@ -1,7 +1,9 @@
-import supervisorDataIntro from "../../../globals/DataTEXT/Supervisor/supervisorDataIntro";
 
+import { useTranslation } from 'react-i18next';
 
 const HubPrequel = () => {
+
+    const { t } = useTranslation("supervisor");
 
     return (
         <>
@@ -11,21 +13,21 @@ const HubPrequel = () => {
                     <div className="section-full wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div className="hub-prequel-div-inner">
                             <i className="flaticon-data"></i>
-                            <p>Control Hub</p>
+                            <p>{t("prequel.control_title")}</p>
                         </div>
                     </div>
 
                     <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
                         <div className="hub-prequel-div-inner">
                             <i className="flaticon-monitor-1"></i>
-                            <p>Traceability Hub</p>
+                            <p>{t("prequel.traceability_title")}</p>
                         </div>
                     </div>
 
                     <div className="section-full wow fadeInRight" data-wow-delay="1000ms" data-wow-duration="1500ms">
                         <div className="hub-prequel-div-inner">
                             <i className="flaticon-technical-support"></i>
-                            <p>Maintenance Hub</p>
+                            <p>{t("prequel.maintenance_title")}</p>
                         </div>
                     </div>
 
@@ -35,7 +37,7 @@ const HubPrequel = () => {
                 <div className="section-full wow fadeInDown" data-wow-delay="1100ms" data-wow-duration="1500ms">
                 <div className="width100 perflex">
                     <div className="supervisor-hub-prequel-descrizione-generale">
-                        <p>{supervisorDataIntro[1].descrizioneHubGenerale}</p>
+                        <p>{t("prequel.desc")}</p>
                     </div>
                 </div>
                 </div>

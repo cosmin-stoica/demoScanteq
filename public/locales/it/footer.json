@@ -1,0 +1,26 @@
+{
+    "header": "Contattaci",
+    "desc": "Non esitare a contattarci per qualsiasi domanda, richiesta o feedback.",
+    "phone_number": "+39 327 5875963",
+    "email": "info@scanteq.com",
+    "explore_links_title": "Esplora Links",
+    "explore_links_data": {
+        "services": "Servizi",
+        "masp": "Masp",
+        "imagina": "Imagina",
+        "leadership": "Leadership",
+        "contact_us": "Contattaci"
+    },
+    "useful_links_title": "Links Utili",
+    "useful_links_data": {
+        "contact_us": "Contattaci",
+        "about_us": "Chi Siamo",
+        "leadership": "Leadership",
+        "vision": "Vision"
+    },
+    "info": {
+        "phone_number": "+39 327 5875963",
+        "email": "info@scanteq.com",
+        "position": "Via XXIV Maggio 28, 10024, Moncalieri (TO) - Italy"
+    }
+}

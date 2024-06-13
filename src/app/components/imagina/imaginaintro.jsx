@@ -1,11 +1,16 @@
 import ItodoImage from "../../elements/itodo-img";
+import { useTranslation } from 'react-i18next';
+
 
 const ImaginaIntro = () => {
+
+    const { t } = useTranslation("imagina");
+
     return (
         <>
 
             <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
-                <h1 className="TitoloCapitolo">La scheda elettronica per scanner multifunzione</h1>
+                <h1 className="TitoloCapitolo">{t("intro.header")}</h1>
             </div>
 
             <div className="servizio-card-upper section-full wow fadeInDown" data-wow-duration="1500ms">
@@ -16,12 +21,11 @@ const ImaginaIntro = () => {
                         <div className="width100 perflex">
                             <ItodoImage className="servizio-card-img-imagina" src="images/case-study/automazione/scheda.jpg" alt="imagina-img"></ItodoImage>
                         </div>
-                        <p className="margin-top50">Imagina è una soluzione hardware e software all'avanguardia sviluppata da Scanteq, progettata per ottenere un efficiente scansione ed elaborazione dei documenti, offrendo prestazioni elevate e facile integrazione in vari dispositivi utilizzati in office automation. Imagina si è dimostrata uno strumento versatile, in grado di supportare una vasta gamma di funzionalità necessarie per diversi ambienti di lavoro.
-
+                        <p className="margin-top50">
+                            {t("intro.desc_1")}
                         </p>
                         <p>
-                            L'integrazione della tecnologia Imagina consente di aumentare il valore aggiunto dei prodotti per l'automazione dell'ufficio, riducendo drasticamente i costi e i rischi di sviluppo. Inoltre, garantisce un rapido time-to-market e assicura uno straordinario Ritorno sugli Investimenti (ROI).
-                            Alcune delle sue principali applicazioni includono:
+                            {t("intro.desc_2")}
                         </p>
 
 
@@ -33,23 +37,23 @@ const ImaginaIntro = () => {
                 <div className="servizio-card-lista">
                     <div className="servizio-card-lista-lowerdiv-imagina">
                         <i className="flaticon-physics secondalista" />
-                        <div className="servizio-card-lista-lowerdiv-title">Scansione documenti di varie tipologie e dimensioni</div>
+                        <div className="servizio-card-lista-lowerdiv-title">{t("intro.document_scanning")}</div>
                     </div>
                     <div className="servizio-card-lista-lowerdiv-imagina">
                         <i className="flaticon-physics secondalista" />
-                        <div className="servizio-card-lista-lowerdiv-title">Scansione assegni e riconoscimento codici MICR</div>
+                        <div className="servizio-card-lista-lowerdiv-title">{t("intro.cheque_scanning")}</div>
                     </div>
                     <div className="servizio-card-lista-lowerdiv-imagina">
                         <i className="flaticon-physics secondalista" />
-                        <div className="servizio-card-lista-lowerdiv-title">Scansione e riconoscimento biglietti di lotteria</div>
+                        <div className="servizio-card-lista-lowerdiv-title">{t("intro.lottery_ticket_scanning")}</div>
                     </div>
                     <div className="servizio-card-lista-lowerdiv-imagina">
                         <i className="flaticon-physics secondalista" />
-                        <div className="servizio-card-lista-lowerdiv-title">Scansione banconote</div>
+                        <div className="servizio-card-lista-lowerdiv-title">{t("intro.banknote_scanning")}</div>
                     </div>
                     <div className="servizio-card-lista-lowerdiv-imagina">
                         <i className="flaticon-physics secondalista" />
-                        <div className="servizio-card-lista-lowerdiv-title">Stampa a getto d'inchiostro su documenti cartacei</div>
+                        <div className="servizio-card-lista-lowerdiv-title">{t("intro.inkjet_printing")}</div>
                     </div>
 
 

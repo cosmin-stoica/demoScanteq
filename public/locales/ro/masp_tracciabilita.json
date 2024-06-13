@@ -1,0 +1,78 @@
+{
+    "header": "Trasabilitate",
+    "desc_1": "Platforma MASP (Mounting Assistance Software Platform) asigură o trasabilitate completă a operațiunilor pe parcursul ciclului de lucru. Sistemul înregistrează toate informațiile fundamentale, asigurând o trasabilitate detaliată a fiecărei etape a procesului de prelucrare și testare.",
+    "desc_2": "La sfârșitul fiecărui ciclu, datele sunt stocate în diverse formate, cum ar fi fișiere CSV, tabele de baze de date (MySQL sau SQL Server) sau trimise la sisteme MES (Manufacturing Execution System). De asemenea, este posibilă imprimarea etichetelor pe hârtie termică.",
+    "data": [
+        {
+            "margin": true,
+            "fade": "Left",
+            "titolo": "Fișiere CSV",
+            "immagineSrc": "images/masp/tracciabilita/csv.png",
+            "altSrc": "Fișiere CSV",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-layers",
+                    "descrizione": "Salvarea rezultatelor în fișiere CSV este gestionată printr-un fișier de configurare care conține parametri pentru controlul diferitelor aspecte ale creării raportului. Acestea includ activarea raportului, generarea de loguri și includerea de informații specifice, cum ar fi numele fabricii și al postului de lucru."
+                },
+                {
+                    "iconaClasse": "flaticon-web-plugin",
+                    "descrizione": "Rapoartele CSV generate includ detalii despre fiecare etapă a ciclului de lucru. Un fișier CSV tipic conține date referitoare la fabrică, postul de lucru, data și ora, operatorul și rezultatele operațiunilor de testare, permițând o trasabilitate precisă și ordonată a operațiunilor desfășurate."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Right",
+            "titolo": "Baze de date MySQL, SQL Server",
+            "immagineSrc": "images/masp/tracciabilita/database.png",
+            "altSrc": "Baze de date MySQL, SQL Server",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-rss",
+                    "descrizione": "Salvarea rezultatelor în baze de date MySQL și SQL Server se realizează prin apeluri SQL configurate într-un fișier specific. Acest fișier conține parametri pentru adresa serverului, utilizatorul și parola, permițând o interfață directă între software și baza de date."
+                },
+                {
+                    "iconaClasse": "flaticon-monitor",
+                    "descrizione": "Datele sunt înregistrate în baza de date pentru a asigura o trasabilitate completă a operațiunilor. Informațiile stocate includ detalii despre operațiunile de montaj și testare, asigurând că toate datele sunt ușor accesibile și organizate pentru analize și revizuiri viitoare."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Left",
+            "titolo": "Sisteme MES",
+            "immagineSrc": "images/masp/tracciabilita/mes.png",
+            "altSrc": "Sisteme MES",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-laptop",
+                    "descrizione": "Software-ul MASP suportă interfațarea cu sistemele MES pentru controlul producției. Acest lucru se realizează prin două moduri principale: arhitectura REST bazată pe TCP-IP și utilizarea folderelor partajate pentru fișierele CSV."
+                },
+                {
+                    "iconaClasse": "flaticon-security",
+                    "descrizione": "În interfațarea HTTPS, datele sunt transmise folosind apeluri și formatate în JSON, în timp ce în modul cu foldere partajate, datele sunt salvate ca fișiere CSV într-o rețea partajată. Ambele moduri asigură o trasabilitate precisă și o integrare ușoară cu sistemele de gestionare a producției."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Right",
+            "titolo": "Imprimare pe hârtie termică",
+            "immagineSrc": "images/masp/tracciabilita/printer.png",
+            "altSrc": "Imprimare pe hârtie termică",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-chart",
+                    "descrizione": "La sfârșitul fiecărui ciclu de lucru, sistemul imprimă o etichetă pe hârtie termică care conține datele colectate. Configurarea imprimării este gestionată printr-un fișier specific care permite personalizarea formatului etichetei, incluzând text, linii, coduri de bare 2D și imagini."
+                },
+                {
+                    "iconaClasse": "flaticon-survey",
+                    "descrizione": "Etichetele tipărite includ informații detaliate despre operațiunile executate, asigurând o trasabilitate vizuală imediată și precisă. Această funcție permite obținerea unei documentații fizice care însoțește produsul în toate etapele producției și logisticii."
+                }
+            ]
+        }
+    ],
+    "esempio_etichette": "Exemplu de etichete",
+    "button_avanti": "Înainte",
+    "button_indietro": "Înapoi"
+}

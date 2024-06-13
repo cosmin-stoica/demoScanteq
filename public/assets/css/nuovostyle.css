@@ -4281,3 +4281,11 @@ overflow: auto;
 .color-white{
   color:white;
 }
+
+.color-black{
+  color:black;
+}
+
+.c-name-outside img{
+  width: 13px;
+}

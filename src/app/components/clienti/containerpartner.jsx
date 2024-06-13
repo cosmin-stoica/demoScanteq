@@ -1,7 +1,10 @@
 import React from "react";
 import ItodoImage from "../../elements/itodo-img";
+import { useTranslation } from 'react-i18next';
 
 function ContainerPartner() {
+
+    const { t } = useTranslation();
 
     return <>
 
@@ -13,9 +16,7 @@ function ContainerPartner() {
                         <ItodoImage src="images/clienti/tecno.png" alt="" />
                     </div>
                     <div className="testoDivPartner">
-                        Tecno Italia, situata a Orbassano, è specializzata nella distribuzione di bracci di reazione ed attrezzature
-                        per la manipolazione nel settore industriale, offre servizi post-vendita completi, tra cui formazione, assistenza tecnica e un vasto inventario di
-                        ricambi per ottimizzare la produzione industriale.
+                        {t("home.clienti.tecno_italia")}
                     </div>
                 </div>
             </div>
@@ -23,12 +24,10 @@ function ContainerPartner() {
             <div className="section-full wow fadeInRight" data-wow-duration="1000ms">
                 <div className="cardPartner">
                     <div className="imageDivPartner">
-                        <ItodoImage id="mibawidth"src="images/clienti/miba.png" alt="" />
+                        <ItodoImage id="mibawidth" src="images/clienti/miba.png" alt="" />
                     </div>
                     <div className="testoDivPartner">
-                        Fondata nel 1984, Miba è l'unico detentore del marchio THOR e si specializza nella progettazione
-                        e produzione di attrezzature industriali. Dal 2006, è il distributore esclusivo in Italia per i
-                        prodotti Eepos, Liftkon e Vetter, collaborando con le principali aziende automotive europee.
+                        {t("home.clienti.miba")}
                     </div>
                 </div>
 

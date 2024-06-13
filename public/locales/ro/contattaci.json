@@ -1,0 +1,28 @@
+{
+    "upper_header": "CONTACTAȚI-NE",
+    "header": "Informații de contact",
+    "box_1": {
+        "header": "Info",
+        "cell": "Mobil:",
+        "mail": "E-mail:"
+    },
+    "box_2": {
+        "header": "Informații utile pentru afaceri",
+        "business_name": "Numele afacerii:",
+        "registered_office": "Sediul central:",
+        "secondary_office": "Sediul secundar:",
+        "tax_id_code": "Codul fiscal:",
+        "r_e_a": "R.E.A.:",
+        "electronic_invoicing": "Facturare electronică:"
+    },
+    "contact_us": {
+        "header": "Ia legătura cu noi",
+        "desc": "(Includeți atât e-mailul cât și numărul de telefon în 'Mesaj')",
+        "on_success": "Mesajul a fost trimis cu succes!",
+        "name": "Nume",
+        "email": "Email",
+        "phone": "Număr de telefon",
+        "mex": "Mesaj",
+        "button": "Trimite mesaj"
+    }
+}

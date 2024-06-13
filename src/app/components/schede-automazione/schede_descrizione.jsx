@@ -1,13 +1,17 @@
 import ItodoImage from "../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
-import schedeDescrizioneData from "../../../globals/DataTEXT/Hardware/Schede_Automazione/schedeDescrizioneData";
+import { useTranslation } from 'react-i18next';
 
 const Schede_Descrizione = () => {
+
+    const { t } = useTranslation("schede_automazione");
+    const schedeDescrizioneData = t('schede_descrizione.data', { returnObjects: true });
+
     return (
         <>
             <div>
                 <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                    <h1 className="TitoloCapitolo">Le nostre schede</h1>
+                    <h1 className="TitoloCapitolo">{t('schede_descrizione.header')}</h1>
                 </div>
 
                 {schedeDescrizioneData.map((data, index) => (
@@ -36,8 +40,8 @@ const Schede_Descrizione = () => {
                 ))}
 
                 <div className="width100 perflex margin-top100">
-                    <NavLink to="/unitadicontrollo"><button className="masp-btn-indietro">Indietro</button></NavLink>
-                    <NavLink to="/scheda-controllo-digitale"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                    <NavLink to="/unitadicontrollo"><button className="masp-btn-indietro">{t("button_indietro")}</button></NavLink>
+                    <NavLink to="/scheda-controllo-digitale"><button className="masp-btn-avanti">{t("button_avanti")}</button></NavLink>
                 </div>
 
             </div>

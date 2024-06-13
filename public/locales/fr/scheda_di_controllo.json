@@ -1,0 +1,103 @@
+{
+    "intro": {
+        "header": "Carte de contrôle électronique multifonction",
+        "desc_1": "Cette carte est la solution matérielle et firmware de Scanteq pour les systèmes de contrôle complexes en temps réel, intégrant un microprocesseur ARM rapide, une puissante FPGA (Field Programmable Logic Array) et des périphériques spécifiques. Plugin peut être utilisé efficacement dans une large gamme d'équipements industriels nécessitant une puissance de calcul élevée, une implémentation de matériel et firmware embarqués, ainsi que des interfaces analogiques et numériques pour réaliser des fonctions appropriées à diverses applications, par exemple :",
+        "data": [
+            {
+                "icona": "images/hardware/controllodigitale/motore.png",
+                "descrizione": "Contrôle moteur à couple direct ou Space Vector",
+                "delay": "0ms"
+            },
+            {
+                "icona": "images/hardware/controllodigitale/passopasso.png",
+                "descrizione": "Contrôle moteur pas à pas",
+                "delay": "200ms"
+            },
+            {
+                "icona": "images/hardware/controllodigitale/convertitore.png",
+                "descrizione": "Convertisseurs de puissance complexes",
+                "delay": "400ms"
+            },
+            {
+                "icona": "images/hardware/controllodigitale/stampa.png",
+                "descrizione": "Systèmes de contrôle pour têtes d'impression thermiques et à jet d'encre",
+                "delay": "600ms"
+            }
+        ],
+        "desc_2": "L'intégration de la technologie Plugin permet à nos clients de se concentrer sur le développement des comportements spécifiques de leur application sans perdre de temps précieux dans le développement et le débogage d'une carte de contrôle complexe. En utilisant cette stratégie, non seulement ils augmentent la valeur ajoutée de leurs produits et réduisent drastiquement le temps de commercialisation, mais ils obtiennent également un coût de développement bien inférieur."
+    },
+    "caratteristiche": {
+        "header": "Solution Embarquée Puissante et Flexible",
+        "data": [
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Microcontrôleur ARM Rapide avec Périphériques Riches",
+                "immagineSrc": "images/hardware/controllodigitale/cortex.png",
+                "altSrc": "Microcontrôleur ARM Rapide avec Périphériques Riches",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-layers",
+                        "descrizione": "Après une étude approfondie du marché, les techniciens de Scanteq ont choisi comme cœur de la carte le microcontrôleur NXP LPC4078FBD144. Son unité de contrôle est un processeur ARM Cortex-M4 pour les applications embarquées nécessitant un haut niveau d'intégration et une faible dissipation de puissance."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "Le processeur ARM Cortex-M4 offre une combinaison de performances élevées et de faible consommation, ce qui le rend idéal pour une large gamme d'applications embarquées. Ce choix permet à Scanteq de garantir une plateforme versatile et puissante pour ses clients."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "FPGA Haute Performance",
+                "immagineSrc": "images/hardware/controllodigitale/fpga.png",
+                "altSrc": "FPGA Haute Performance",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-engineer",
+                        "descrizione": "La conception de la carte prévoit l'utilisation d'une FPGA pour les systèmes de contrôle complexes nécessitant des périphériques configurables. Les ingénieurs de Scanteq ont sélectionné la FPGA Spartan 6 de Xilinx pour ses capacités d'intégration système avec le coût le plus bas pour des applications à haut volume."
+                    },
+                    {
+                        "iconaClasse": "flaticon-technical-support",
+                        "descrizione": "La FPGA Spartan 6 est connue pour sa flexibilité et sa capacité à gérer des tâches complexes en temps réel. Cela la rend particulièrement adaptée aux applications nécessitant un haut degré de personnalisation et de vitesse d'exécution."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Convertisseurs Analogiques-Numériques",
+                "immagineSrc": "images/hardware/controllodigitale/converti.png",
+                "altSrc": "Convertisseurs Analogiques-Numériques",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-skills",
+                        "descrizione": "La carte est équipée de convertisseurs analogiques-numériques, d'un capteur de température, d'un capteur accélérométrique et de nombreuses alimentations à découpage régulées pour contrôler des équipements complexes. Ces composants permettent de mesurer en temps réel les signaux requis par les algorithmes de contrôle."
+                    },
+                    {
+                        "iconaClasse": "flaticon-security",
+                        "descrizione": "La présence de divers capteurs et convertisseurs A/N garantit la précision nécessaire pour surveiller et contrôler le matériel de manière efficace. Les alimentations à découpage régulées assurent que tous les composants reçoivent une tension stable, fondamentale pour le bon fonctionnement de la carte."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Ports de Communication et Périphériques",
+                "immagineSrc": "images/hardware/controllodigitale/porte.png",
+                "altSrc": "Ports de Communication et Périphériques",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-rss",
+                        "descrizione": "La carte a été conçue pour communiquer avec de nombreux périphériques via des bus standards et interagir avec l'opérateur de manière conviviale. Elle inclut des ports Ethernet, USB, des cartes Micro-SD, des ports série RS232 et RS485."
+                    },
+                    {
+                        "iconaClasse": "flaticon-check-mark",
+                        "descrizione": "De plus, la présence d'un port CAN, I2C et SPI permet une interaction polyvalente avec une large gamme de dispositifs externes. Cet ensemble de ports et bus de communication rend la carte extrêmement flexible et adaptée à de multiples applications industrielles et de contrôle."
+                    }
+                ]
+            }
+        ]
+    },
+    "button_indietro": "Précédent"
+}

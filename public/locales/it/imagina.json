@@ -1,0 +1,26 @@
+{
+    "intro": {
+        "header": "La scheda elettronica per scanner multifunzione",
+        "desc_1": "Imagina è una soluzione hardware e software all'avanguardia sviluppata da Scanteq, progettata per ottenere un efficiente scansione ed elaborazione dei documenti, offrendo prestazioni elevate e facile integrazione in vari dispositivi utilizzati in office automation. Imagina si è dimostrata uno strumento versatile, in grado di supportare una vasta gamma di funzionalità necessarie per diversi ambienti di lavoro.",
+        "desc_2": "L'integrazione della tecnologia Imagina consente di aumentare il valore aggiunto dei prodotti per l'automazione dell'ufficio, riducendo drasticamente i costi e i rischi di sviluppo. Inoltre, garantisce un rapido time-to-market e assicura uno straordinario Ritorno sugli Investimenti (ROI). Alcune delle sue principali applicazioni includono:",
+        "document_scanning": "Scansione documenti di varie tipologie e dimensioni",
+        "cheque_scanning": "Scansione assegni e riconoscimento codici MICR",
+        "lottery_ticket_scanning": "Scansione e riconoscimento biglietti di lotteria",
+        "banknote_scanning": "Scansione banconote",
+        "inkjet_printing": "Stampa a getto d'inchiostro su documenti cartacei"
+    },
+    "caratteristiche":{
+        "header": "Alta Qualità e Funzionalità Avanzate",
+        "title_1": "ALTE PRESTAZIONI E AMPIA GAMMA DI FUNZIONI AGGIUNTIVE",
+        "desc_1": "La scheda elettronica Imagina garantisce eccellente qualità delle immagini e alta velocità di acquisizione grazie a un design meticoloso. Le sue funzionalità includono la lettura di carte magnetiche e con chip, stampa a getto d'inchiostro, OCR, ICR, OMR e lettura di codici a barre. Utilizzando hardware e software proprietari, offre risultati eccellenti e massima flessibilità a basso costo senza costi di licenza aggiuntivi.",
+        "title_2": "SEMPLICE INTEGRAZIONE DEL SOFTWARE E DELL’HARDWARE",
+        "desc_2": "La scheda Imagina è ideale per lo sviluppo di prodotti per l'automazione dell'ufficio grazie alle sue numerose funzionalità. L'integrazione hardware richiede dispositivi compatibili e configurazione del firmware. L'integrazione software si basa sull'adattamento di parametri nelle librerie DLL e nell'uso del programma demo ScanQuest. Scanteq fornisce anche un SDK con esempi e manuali per facilitare la creazione di nuove applicazioni o l'integrazione in applicazioni esistenti."
+    },
+    "scanquest":{
+        "header": "ScanQuest",
+        "title": "Di seguito sono mostrate due schermate del programma demo ScanQuest"
+    },
+    "immagini":{
+        "header": "Immagini Acquisite"
+    }
+}

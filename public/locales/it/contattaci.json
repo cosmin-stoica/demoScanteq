@@ -1,0 +1,28 @@
+{
+    "upper_header": "CONTATTACI",
+    "header": "Informazioni di contatto",
+    "box_1":{
+      "header": "Info",
+      "cell": "Cell:",
+      "mail": "E-mail:"  
+    },
+    "box_2": {
+        "header": "Dati utili alle aziende",
+        "business_name": "Ragione sociale:",
+        "registered_office": "Sede legale:",
+        "secondary_office": "Sede secondaria:",
+        "tax_id_code": "Codice fiscale:",
+        "r_e_a": "R.E.A.:",
+        "electronic_invoicing": "Fatturazione elettronica:"
+    },
+    "contact_us":{
+        "header": "Mettiti in contatto",
+        "desc": "(Lasciare in 'Messaggio' sia email che numero di telefono)",
+        "on_success": "Il messaggio è stato inviato con successo!",
+        "name": "Nome",
+        "email": "Email",
+        "phone": "Numero di telefono",
+        "mex": "Messaggio",
+        "button": "Invia messaggio"
+    }
+}

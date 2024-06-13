@@ -1,0 +1,163 @@
+{
+    "intro": {
+        "header": "Advanced Monitoring",
+        "title": "Welcome to Supervisor, the cutting-edge 4.0 platform that revolutionizes data and operations management at your workstations.",
+        "desc": "We connect and centralize real-time information to provide you with a complete and immediate view of your system. Through its three distinct hubs, Supervisor offers you unprecedented control over traceability, operational status, and preventive maintenance."
+    },
+    "prequel": {
+        "control_title": "Control Hub",
+        "traceability_title": "Traceability Hub",
+        "maintenance_title": "Maintenance Hub",
+        "desc": "The advanced management system Supervisor offers total and efficient control of operations through three fundamental hubs. These tools ensure data traceability, real-time operational monitoring, and proactive maintenance management. With detailed and timely visualization, Supervisor improves information accuracy, quickly identifies anomalies, and reduces downtime, optimizing overall system efficiency."
+    },
+    "declaration": {
+        "data": [
+            {
+                "margin": false,
+                "isControl": true,
+                "fade": "Left",
+                "titolo": "Control Hub",
+                "iconaSrc": "flaticon-data",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-check-mark",
+                        "descrizione": "The Supervisor Control Hub offers you immediate and complete control over the operational status of the workstations. It monitors and displays ongoing activities in real time, allowing you to quickly identify any anomalies or areas for improvement."
+                    },
+                    {
+                        "iconaClasse": "flaticon-promotion",
+                        "descrizione": "With the Control Hub, you are in command of your operations, able to make informed decisions to optimize system performance."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isTraceability": true,
+                "fade": "Left",
+                "titolo": "Traceability Hub",
+                "iconaSrc": "flaticon-monitor-1",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "The Traceability Hub allows detailed and real-time monitoring of data, significantly improving the accuracy and transparency of information, thus enabling more effective process and operation control."
+                    },
+                    {
+                        "iconaClasse": "flaticon-profit",
+                        "descrizione": "Thanks to this functionality, you can analyze data precisely, improve information accuracy, and ensure transparency in your operations."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isMaintenance": true,
+                "fade": "Left",
+                "titolo": "Maintenance Hub",
+                "iconaSrc": "flaticon-technical-support",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-engineer",
+                        "descrizione": "Preventive maintenance is crucial to ensuring the correct operation of workstations over time. The Supervisor Maintenance Hub offers you the necessary tools to create analyses and proactively manage maintenance, ensuring that your workstations are always operating at their maximum capacity."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "With advanced monitoring functionalities and timely alerts, Supervisor simplifies maintenance management, allowing you to reduce downtime and improve overall system efficiency."
+                    }
+                ]
+            }
+        ],
+        "control_hub_example": {
+            "title": "Example of workstation visualization",
+            "station_1_name": "Station 1",
+            "station_1_code": "Station Code: P001",
+            "station_1_status": "Status: Active",
+            "station_1_operator": "Operator: OP1",
+            "station_1_operation": "Operation: OP001",
+            "station_1_analysis": "Predictive analysis: OK",
+            "station_1_advancement": "Advancement: ",
+            "station_2_name": "Station 2",
+            "station_2_code": "Station Code: P002",
+            "station_2_status": "Status: Error",
+            "station_2_operator": "Operator: OP2",
+            "station_2_operation": "Operation: OP002",
+            "station_2_analysis": "Predictive analysis: NOK",
+            "station_2_advancement": "Advancement:",
+            "station_3_name": "Station 3",
+            "station_3_code": "Station Code: P003",
+            "station_3_status": "Status: Error",
+            "station_3_operator": "Operator: OP3",
+            "station_3_operation": "Operation: Stop",
+            "station_3_advancement": "Advancement:"
+        },
+        "traceability_hub_example": {
+            "heater": {
+                "title": "Example of traceability table for the heater",
+                "select_column_title": "Select",
+                "order_column_title": "Order",
+                "codex_column_title": "Code",
+                "serial_column_title": "Serial",
+                "station_column_title": "Station",
+                "user_column_title": "User",
+                "job_id_column_title": "Job ID",
+                "job_name_column_title": "Job Name",
+                "date_time_column_title": "Date and Time",
+                "nominal_current_column_title": "Nominal Current",
+                "current_tolerance_column_title": "Current Tolerance",
+                "measured_current_column_title": "Measured Current",
+                "error_column_title": "Error",
+                "repetitions_column_title": "Repetitions",
+                "result_column_title": "Result"
+            },
+            "screwings": {
+                "title": "Example of traceability table for screwings",
+                "select_column_title": "Select",
+                "order_column_title": "Order",
+                "codex_column_title": "Code",
+                "serial_column_title": "Serial",
+                "station_column_title": "Station",
+                "user_column_title": "User",
+                "job_id_column_title": "Job ID",
+                "job_name_column_title": "Job Name",
+                "date_time_column_title": "Date and Time",
+                "screw_id_column_title": "Screw ID",
+                "gp_column_title": "GP",
+                "socket_column_title": "Socket",
+                "min_torque_column_title": "Min Torque",
+                "max_torque_column_title": "Max Torque",
+                "final_torque_column_title": "Final Torque",
+                "min_angle_column_title": "Min Angle",
+                "max_angle_column_title": "Max Angle",
+                "final_angle_column_title": "Final Angle",
+                "repetitions_column_title": "Repetitions",
+                "result_column_title": "Result"
+            },
+            "results": {
+                "title": "Example of traceability table for results",
+                "select_column_title": "Select",
+                "order_column_title": "Order",
+                "codex_column_title": "Code",
+                "serial_column_title": "Serial",
+                "station_column_title": "Station",
+                "user_column_title": "User",
+                "total_jobs_column_title": "Total Jobs",
+                "start_time_column_title": "Start Time",
+                "end_time_column_title": "End Time",
+                "pause_seconds_column_title": "Pause (sec)",
+                "effective_time_minutes_column_title": "Effective Time (min)",
+                "error_column_title": "Error",
+                "result_column_title": "Result"
+            }
+        },
+        "maintenance_hub_example":{
+            "title": "Examples of analysis",
+            "first_title": "Screwings",
+            "second_title": "Heater",
+            "third_title": "Torque",
+            "gauss_title": "Gaussian Curve",
+            "log_title": "Example of log visualization",
+            "find_input": "Search the log",
+            "search_button": "Search",
+            "cancel_button": "Cancel"
+        }
+    },
+    "button_avanti": "Next",
+    "button_indietro": "Back"
+}

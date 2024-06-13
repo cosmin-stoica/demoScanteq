@@ -1,6 +1,5 @@
 import { bannerData } from "../../../globals/banner";
 import Banner from "../common/bannerautoind";
-import IndCont4 from "../IT blogs/detail/ind-cont4";
 import FormatiTraccia from "./formatitraccia";
 import NewTracciabilita from "./newtracciabilita";
 

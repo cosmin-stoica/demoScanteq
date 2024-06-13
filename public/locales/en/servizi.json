@@ -1,0 +1,34 @@
+{
+    "header": "Our Services",
+    "first_container": {
+        "header": "Project, Product Management",
+        "desc_1": "Scanteq's experts in electronics and information technology can assist you in all stages of new product development, from specification definition to production, allowing you to optimize hardware and software architectures, ensuring a perfect launch in terms of performance, price, and reliability. Our team will work closely with you, always ensuring a transparent and professional approach. We know your standards are high. So are ours!",
+        "desc_2": "Our services include:",
+        "box_title_1": "Project Management",
+        "box_desc_1": {
+            "list_1": "Feasibility analysis and resource estimation",
+            "list_2": "Product and investment cost analysis",
+            "list_3": "Planning"
+        },
+        "box_title_2": "Product Design",
+        "box_desc_2": {
+            "list_1": "Concepts (Hardware, Firmware, and Software Architectures)",
+            "list_2": "Hardware, Firmware, and Software Development",
+            "list_3": "Documentation - Certifications (UL, FCC, and CE)"
+        }
+    },
+    "second_container": {
+        "header": "Hardware Design",
+        "desc_1": "Scanteq's extensive experience in electronics allows us to develop innovative boards and accelerate time to market, using established technologies or through new developments. Clients will benefit from our expertise in embedded systems, from hardware design to Firmware and Device Driver programming. Our background includes various projects, from simple systems with low-cost microcontrollers to advanced embedded boards with ARM System On Chip, including image acquisition and inkjet printing systems with USB interface FPGA. We are committed to overseeing the complete testing process to ensure performance optimization and reliability of the client's new product.",
+        "desc_2": "Scanteq offers electronic board design services, including:",
+        "list_1": "Analog circuit design",
+        "list_2": "Digital circuit design",
+        "list_3": "Power electronics design",
+        "list_4": "Schematic and layout design",
+        "list_5": "Board startup, testing, and validation"
+    },
+    "third_container": {
+        "header": "Software and Firmware Design",
+        "desc_1": "Scanteq provides software and firmware development services on a variety of platforms with support for modern Operating Systems or custom low-level functions for cost-effective architectures. Our specialists are particularly experienced in developing applications that interact with hardware. These skills include using standard personal computer peripherals, developing Device Drivers, and writing code for embedded systems managed by various microprocessors. In addition to software for hardware control, our developers have strong experience in developing libraries (DLL) and specific applications with complex user interfaces (GUI). Finally, we are committed to providing ongoing support to our clients, guiding them step-by-step through the entire software and firmware testing and deployment process, ensuring effective implementation and meeting expectations."
+    }
+}

@@ -1,10 +1,14 @@
 import ItodoImage from "../../elements/itodo-img";
+import { useTranslation } from 'react-i18next';
 
 const MaspPrequel = () => {
+
+  const { t } = useTranslation("masp_caratteristiche");
+
   return (
     <>
       <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
-        <h1 className="TitoloCapitolo">Caratteristiche Principali</h1>
+        <h1 className="TitoloCapitolo">{t("prequel.header")}</h1>
       </div>
 
       <div className="section-full wow fadeInRight" data-wow-duration="1500ms">
@@ -14,8 +18,8 @@ const MaspPrequel = () => {
             <ItodoImage src="/images/masp/masp.png"></ItodoImage>
           </div>
           <div className="masp-prequel-div-parteP">
-            <p>Nel contesto dell'automazione per l'Industria 4.0, viene proposta la piattaforma MASP (Mounting Assisted Software Platform), che consente l'implementazione flessibile ed efficiente di sistemi di controllo con contenuti tecnologici avanzati all’interno delle linee di produzione attraverso una combinazione efficace di strumenti software e hardware proprietari.</p>
-            <p>Il funzionamento si basa sull’esecuzione in ordine predeterminato di una serie di operazioni, denominate Job, che rappresentano passaggi effettuati dalla parte software, elettronica ed elettromeccanica, con o senza intervento dell’operatore, necessari per raggiungere un risultato finale.</p>
+            <p>{t("prequel.desc_1")}</p>
+            <p>{t("prequel.desc_2")}</p>
           </div>
         </div>
       </div>

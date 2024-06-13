@@ -1,0 +1,89 @@
+{
+    "intro":{
+        "header": "Control Unit",
+        "desc_1": "Scanteq aims to be a partner for small and medium-sized enterprises that see the addition of Information Technology in production systems as an opportunity for strategic growth.",
+        "desc_2": "The following image shows a simple hardware and software platform for industrial control. The aluminum stand includes a screen, a barcode reader, a printer, a fingerprint reader, a power socket, and an industrial PC Minibox, offering a compact and efficient solution for managing industrial processes."
+    },
+    "i_nostri_prodotti":{
+        "header": "Our Products",
+        "data": [
+            {
+              "margin": false,
+              "fade": "Left", 
+              "titolo": "MiniBox",
+              "immagineSrc": "images/hardware/unitadicontrollo/minibox.png",
+              "altSrc": "MiniBox",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "The Minibox is designed to offer advanced industrial control with high reliability and performance. Equipped with an Advantech motherboard and Intel processors, it ensures optimal operation even in harsh environments. It is ideal for installation in electrical panels, managing industrial processes, and artificial vision systems."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "Integration and maintenance of the Minibox are simple thanks to the modular design. Access to internal components facilitates technical interventions and the installation of additional modules. The USB service ports on the front panel make technical assistance operations easy​​."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Left", 
+              "titolo": "Mini",
+              "immagineSrc": "images/hardware/unitadicontrollo/mini.png",
+              "altSrc": "Mini",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "The Mini system offers a compact industrial control solution with high performance and reliability. Equipped with Intel processors and Advantech motherboards, it operates efficiently even in extreme conditions. The ergonomic design allows mounting on fixed or mobile suspension systems, increasing versatility."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "The modular structure of the Mini and quick access to internal components via the front opening facilitate integration and maintenance. The USB service ports on the front panel simplify technical operations, making this system ideal for industrial applications that require reliable performance and easy peripheral management​​."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Right", 
+              "titolo": "IO24 Box",
+              "immagineSrc": "images/hardware/unitadicontrollo/io24.png",
+              "altSrc": "User Interface",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "In some cases, it is convenient to mount the IO24ADC board or one of the other boards near where the peripherals are located. This approach facilitates access and reduces cable length, improving the overall efficiency of the industrial control system."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "For these situations, a special plastic enclosure called IO24 Box has been designed, which can be produced with a 3D printer. This enclosure offers a practical and customizable solution for protecting and mounting electronic boards near peripherals, ensuring greater convenience and flexibility."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Left", 
+              "titolo": "Totem",
+              "immagineSrc": "images/hardware/unitadicontrollo/totem.png",
+              "altSrc": "Totem",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "The Totem is a complete IT solution with ergonomic design and advanced features. It has a built-in 21-inch IPS LCD monitor with capacitive touchscreen, ideal for industrial environments that require an intuitive user interface."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "Designed to be mounted on fixed or mobile suspension systems, it offers flexibility and ease of use. With ample internal space for additional modules and quick access via the front opening, the Totem facilitates the integration of various hardware peripherals, making it perfect for complex industrial applications.​"
+                }
+              ]
+            }
+          ]
+    },
+    "button_avanti": "Next"
+}

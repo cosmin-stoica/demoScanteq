@@ -1,0 +1,40 @@
+{
+    "header": {
+        "header": "Categorie di Operazioni",
+        "title": "Le operazioni, denominate Job, possono essere divise rispettivamente in sei categorie:",
+        "automation_and_assembly_title": "AUTOMAZIONE E ASSEMBLAGGIO",
+        "automation_and_assembly_desc": "Questi job comprendono tecnologie e processi progettati per automatizzare e ottimizzare le operazioni di assemblaggio industriale, migliorando efficienza e precisione.",
+        "automotive_component_testing_title": "COLLAUDO COMPONENTI AUTOMOTIVE",
+        "automotive_component_testing_desc": "Questi job verificano la sicurezza e il funzionamento di elementi come cinture di sicurezza e airbag, garantendo la conformità agli standard di sicurezza.",
+        "quality_control_and_verification_title": "CONTROLLO DI QUALITÀ E VERIFICA",
+        "quality_control_and_verification_desc": "Questi job assicurano la qualità dei componenti con misurazioni, controllo del carico, verifica della coppia e ispezione visiva, rilevando difetti con tecnologie avanzate.",
+        "production_and_logistics_management_title": "GESTIONE DELLA PRODUZIONE E LOGISTICA",
+        "production_and_logistics_management_desc": "Questi job ottimizzano flussi e operazioni attraverso il monitoraggio logistico, la gestione della manutenzione, la reportistica e la stampa di etichette personalizzate.",
+        "station_and_procedure_management_title": "GESTIONE DELLE POSTAZIONI E DELLE PROCEDURE",
+        "station_and_procedure_management_desc": "Questi job automatizzano e coordinano le operazioni delle postazioni di lavoro e delle procedure per ottimizzare l'efficienza e la produttività complessiva.",
+        "electronic_control_unit_for_automotive_title": "UNITÀ DI CONTROLLO ELETTRONICO PER AUTOMOTIVE",
+        "electronic_control_unit_for_automotive_desc": "Questi job gestiscono e verificano le centraline elettroniche con bus CAN/LIN delle autovetture, garantendone il corretto funzionamento    "
+    },
+    "jobs": {
+        "automation_and_assembly_title": "Automazione e assemblaggio",
+        "automation_and_assembly_desc_1": "Questi job comprendono tecnologie e processi progettati per automatizzare e ottimizzare le operazioni di assemblaggio industriale. L'obiettivo è ridurre il tempo e gli sforzi manuali richiesti, integrando soluzioni avanzate come robotica e intelligenza artificiale.",
+        "automation_and_assembly_desc_2": "Migliorando efficienza e precisione, queste tecnologie aumentano la produttività e riducono gli errori. L'automazione dell'assemblaggio industriale porta a una produzione più fluida e affidabile, rispondendo meglio alle esigenze del mercato.",
+        "automotive_component_testing_title": "Collaudo Componenti Automotive",
+        "automotive_component_testing_desc_1": "Questi job verificano la sicurezza e il funzionamento di elementi come cinture di sicurezza e airbag. L'obiettivo è assicurarsi che tutti i componenti critici funzionino correttamente.",
+        "automotive_component_testing_desc_2": "Inoltre, garantiscono la conformità agli standard di sicurezza, assicurando che i veicoli rispettino le normative e offrano la massima protezione ai passeggeri.",
+        "quality_control_and_verification_title": "Controllo di qualità e verifica",
+        "quality_control_and_verification_desc_1": "Questi job assicurano la qualità dei componenti con misurazioni, controllo del carico, verifica della coppia e ispezione visiva. Utilizzano procedure rigorose per garantire che ogni componente soddisfi gli standard richiesti.",
+        "quality_control_and_verification_desc_2": "Rilevano difetti con tecnologie avanzate, permettendo di identificare e correggere problemi in modo tempestivo. Questo assicura che i prodotti finali siano affidabili e di alta qualità.",
+        "production_and_logistics_management_title": "Gestione della produzione e logistica",
+        "production_and_logistics_management_desc_1": "Questi job ottimizzano flussi e operazioni attraverso il monitoraggio logistico, la gestione della manutenzione e la reportistica. Queste attività garantiscono un funzionamento efficiente e organizzato.",
+        "production_and_logistics_management_desc_2": "Inoltre, includono la stampa di etichette personalizzate, facilitando l'identificazione e la tracciabilità dei prodotti. Questo contribuisce a migliorare la gestione complessiva e la precisione operativa.",
+        "station_and_procedure_management_title": "Gestione delle postazioni e delle procedure",
+        "station_and_procedure_management_desc_1": "Questi job automatizzano e coordinano le operazioni delle postazioni di lavoro. Implementano tecnologie avanzate per gestire in modo efficiente le attività quotidiane.",
+        "station_and_procedure_management_desc_2": "Inoltre, ottimizzano le procedure per migliorare l'efficienza e la produttività complessiva. Questo approccio sistematico garantisce un funzionamento più fluido e risultati migliori.",
+        "electronic_control_unit_for_automotive_title": "Unità di controllo elettronico per automotive",
+        "electronic_control_unit_for_automotive_desc_1": "Questi job gestiscono e verificano le centraline elettroniche con bus CAN/LIN delle autovetture. Assicurano che tutti i sistemi elettronici siano correttamente integrati e comunicino in modo efficace.",
+        "electronic_control_unit_for_automotive_desc_2": "Inoltre, garantiscono il corretto funzionamento delle centraline, monitorando le prestazioni e identificando eventuali anomalie. Questo contribuisce a mantenere elevati standard di sicurezza e affidabilità del veicolo.",
+        "button_avanti": "Avanti",
+        "button_indietro": "Indietro"
+    }
+}

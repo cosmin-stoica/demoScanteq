@@ -1,0 +1,113 @@
+{
+    "intro": {
+        "header": "Management Integrat al Producției",
+        "title": "Soluție Completă de Management Integrat al Producției",
+        "desc": "Acest instrument vă oferă posibilitatea de a lua decizii informate pentru a optimiza performanța sistemului, asigurând o gestionare eficientă a resurselor și o productivitate globală crescută."
+    },
+    "prequel": {
+        "processes_title": "Procese",
+        "orders_title": "Comenzi",
+        "components_title": "Componente",
+        "info_title": "Info Auxiliare",
+        "desc": "MES este o platformă web conectată la MASP pentru a urmări ciclurile de lucru și pentru a gestiona comenzile, componentele și informațiile auxiliare. Oferă control total asupra producției de la distanță, permițându-vă să creați și să partajați cicluri de lucru cu ușurință. Ideal pentru întreprinderile mici și mijlocii, simplifică controlul producției și optimizează operațiunile de afaceri."
+    },
+    "declaration": {
+        "data": [
+            {
+                "margin": false,
+                "isLavorazioni": true,
+                "fade": "Left",
+                "titolo": "Procese",
+                "iconaSrc": "images/mes/lavorazioni.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-chart",
+                        "descrizione": "Platforma permite o gestionare precisă a proceselor, urmărind fiecare etapă a procesului de producție. Datorită interconectării cu MASP, este posibil să monitorizați în timp real progresul activităților la fiecare post de lucru."
+                    },
+                    {
+                        "iconaClasse": "flaticon-search",
+                        "descrizione": "Acest sistem permite identificarea rapidă a ineficiențelor sau problemelor, optimizând ciclurile de lucru și îmbunătățind productivitatea. Companiile pot obține un control mai mare asupra proceselor de producție și pot lua măsuri corective în timp util."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isCommesse": true,
+                "fade": "Right",
+                "titolo": "Comenzi",
+                "iconaSrc": "images/mes/commesse.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-employee",
+                        "descrizione": "Gestionarea comenzilor devine simplă și eficientă. Platforma vă permite să creați, să atribuiți și să monitorizați comenzile în mod intuitiv, asigurându-vă că fiecare comandă este urmată cu exactitate."
+                    },
+                    {
+                        "iconaClasse": "flaticon-survey",
+                        "descrizione": "Datorită posibilității de a accesa informațiile de la distanță, managerii pot ține sub control starea comenzilor în orice moment și pot lua decizii rapide. Acest lucru îmbunătățește satisfacția clienților și punctualitatea livrărilor."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isComponenti": true,
+                "fade": "Left",
+                "titolo": "Componente",
+                "iconaSrc": "images/mes/componenti.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Gestionarea componentelor este esențială pentru a asigura un proces de producție fluid. Platforma oferă instrumente pentru a urmări și gestiona componentele utilizate în fiecare etapă a producției, permițându-vă să aveți întotdeauna sub control stocurile și necesitățile."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "Acest sistem ajută la prevenirea problemelor de aprovizionare și la reducerea timpilor de nefuncționare datorită lipsei de materiale. Asigură că fiecare post de lucru dispune de componentele necesare pentru a finaliza procesele, optimizând eficiența producției."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "isInfo": true,
+                "titolo": "Info Auxiliare",
+                "iconaSrc": "images/mes/info.png",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-web-plugin",
+                        "descrizione": "Platforma nu se limitează la gestionarea proceselor, comenzilor și componentelor, ci și la informațiile auxiliare. Documentele tehnice, manualele de operare, instrucțiunile de lucru și alte informații cruciale pot fi arhivate și făcute ușor accesibile."
+                    },
+                    {
+                        "iconaClasse": "flaticon-consultant",
+                        "descrizione": "Acest lucru asigură că toți operatorii au întotdeauna la dispoziție informațiile necesare pentru a-și desfășura activitățile în mod corect și eficient. Îmbunătățește calitatea muncii și reduce erorile, contribuind la menținerea unor standarde operaționale ridicate."
+                    }
+                ]
+            }
+        ],
+        "processes_example": {
+            "select_column_title": "Selectează",
+            "station_column_title": "Stație",
+            "order_column_title": "Comandă",
+            "date_column_title": "Data"
+        },
+        "orders_example": {
+            "select_column_title": "Selectează",
+            "station_column_title": "Stație",
+            "code_column_title": "Cod",
+            "components_column_title": "Componente",
+            "auxiliaries_column_title": "Auxiliare",
+            "crea_commessa_button": "Creează Comandă"
+        },
+        "components_example": {
+            "select_column_title": "Selectează",
+            "code_column_title": "Cod",
+            "description_column_title": "Descriere",
+            "visualize_column_title": "Vizualizează"
+        },
+        "info_example": {
+            "select_column_title": "Selectează",
+            "code_column_title": "Cod",
+            "description_column_title": "Descriere",
+            "visualize_column_title": "Vizualizează"
+        }
+    },
+    "button_indietro": "Înapoi"
+}

@@ -1,7 +1,9 @@
 import ItodoImage from "../../elements/itodo-img";
-import introData from "../../../globals/DataTEXT/Hardware/Schede_Automazione/introData";
+import { useTranslation } from 'react-i18next';
 
 const SchedeAutomazioneIntro = () => {
+
+    const { t } = useTranslation("schede_automazione");
 
     return (
         <>
@@ -9,7 +11,7 @@ const SchedeAutomazioneIntro = () => {
 
             <div className="">
                 <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                    <h1 className="TitoloCapitolo">Schede per automazione</h1>
+                    <h1 className="TitoloCapitolo">{t("intro.header")}</h1>
                 </div>
 
 
@@ -20,7 +22,7 @@ const SchedeAutomazioneIntro = () => {
                             <ItodoImage src="images/hardware/schedeautomazione/schede_insieme.png" alt="schede_image"></ItodoImage>
                         </div>
                         <div className="text-container">
-                            {introData[0].intro}
+                            {t("intro.desc")}
 
                         </div>
                     </div>

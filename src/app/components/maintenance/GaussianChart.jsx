@@ -1,38 +1,41 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Chart from 'chart.js/auto';
-
+import { useTranslation } from 'react-i18next';
 const GaussianChart = ({ dataset, mean, standardDeviation, threshold }) => {
+
+
+  const { t } = useTranslation("supervisor");
   const [gaussianData, setGaussianData] = useState([]);
   const [greenAreaData, setGreenAreaData] = useState([]);
   const [gaussianChart, setGaussianChart] = useState(null);
   const gaussianChartRef = useRef(null);
 
-  
-useEffect(() => {
-  const updateChart = () => {
-    if (!Array.isArray(dataset)) {
-      return;
-    }
 
-    const sortedData = [...dataset].sort((a, b) => a.ValoreFinale - b.ValoreFinale);
+  useEffect(() => {
+    const updateChart = () => {
+      if (!Array.isArray(dataset)) {
+        return;
+      }
 
-    console.log(sortedData);
+      const sortedData = [...dataset].sort((a, b) => a.ValoreFinale - b.ValoreFinale);
 
-    const dataPoints = sortedData.map((item) => ({
-      x: item.ValoreFinale, // Usa direttamente il valore di .ValoreFinale
-      y: calculateGaussian(item.ValoreFinale),
-    }));
+      console.log(sortedData);
 
-    setGaussianData(dataPoints);
-    updateGreenAreaData(dataPoints);
-  };
+      const dataPoints = sortedData.map((item) => ({
+        x: item.ValoreFinale, // Usa direttamente il valore di .ValoreFinale
+        y: calculateGaussian(item.ValoreFinale),
+      }));
+
+      setGaussianData(dataPoints);
+      updateGreenAreaData(dataPoints);
+    };
 
     const calculateGaussian = (x) => {
       const exponent = -((x - mean) ** 2) / (2 * standardDeviation ** 2);
       return (1 / (standardDeviation * Math.sqrt(2 * Math.PI))) * Math.exp(exponent);
     };
 
-  
+
 
     const updateGreenAreaData = (data) => {
       const newGreenAreaData = data.filter(point => point.x >= mean - threshold && point.x <= mean + threshold);
@@ -50,7 +53,7 @@ useEffect(() => {
         gaussianChart.update();
       } else {
         const ctx = gaussianChartRef.current.getContext('2d');
-        
+
         const xValues = gaussianData.map(point => point.x);
 
         const newGaussianChart = new Chart(ctx, {
@@ -94,7 +97,7 @@ useEffect(() => {
             },
           },
         });
-        
+
 
         setGaussianChart(newGaussianChart);
       }
@@ -105,7 +108,7 @@ useEffect(() => {
     <div>
       <div className="panecharts">
         <div className='LineChart'>
-          <h2>Curva di Gauss</h2>
+          <h2>{t("declaration.maintenance_hub_example.gauss_title")}</h2>
           <canvas ref={gaussianChartRef} />
         </div>
       </div>

@@ -1,7 +1,12 @@
 import { NavLink } from "react-router-dom";
 
+import { useTranslation } from 'react-i18next';
 
 function MaspIntro() {
+
+    const { t } = useTranslation();
+
+
     return (
         <>
             <div className="perflex width100">
@@ -13,7 +18,7 @@ function MaspIntro() {
                             <div class="cardMAIM primaparte-masp">
                                 <div className="perflex width100">
                                     <img className="maspimagehome" src="/assets/images/case-study/automazione/masp.png" alt="Masp" />
-                                    <p className="CardMaimTitleTop">Piattaforma MASP</p>
+                                    <p className="CardMaimTitleTop">{t("home.primo_piano.piattaforma_masp.header")}</p>
                                 </div>
 
                                 <div className="sopraBox">
@@ -52,42 +57,24 @@ function MaspIntro() {
                                             </NavLink>
                                         </div>
                                         <div className="secondapartetesto wow fadeInLeft" data-wow-duration="2000ms">
-                                            <span class="card-titleMAIM">Automazione avanzata per l'Industria 4.0</span>
+                                            <span class="card-titleMAIM">{t("home.primo_piano.piattaforma_masp.title")}</span>
                                             <div id="piattaformap" className="sx-about-bx3-content">
                                                 <p class="card-contentMAIM">
-                                                    Nel contesto dell'automazione per l'Industria 4.0, viene proposta la
-                                                    piattaforma MASP (Mounting Assisted Software Platform), che consente
-                                                    l'implementazione flessibile ed efficiente di sistemi di controllo con contenuti
-                                                    tecnologici avanzati all’interno delle linee di produzione attraverso una
-                                                    combinazione efficace di strumenti software e hardware proprietari.
-
+                                                    {t("home.primo_piano.piattaforma_masp.desc_1")}
                                                 </p>
-
-                                                <p class="card-contentMAIM">Il funzionamento si basa sull’esecuzione in ordine
-                                                    predeterminato di una serie di operazioni, denominate Job, che rappresentano
-                                                    passaggi effettuati dalla parte software, elettronica ed elettromeccanica,
-                                                    con o senza intervento dell’operatore, necessari per raggiungere un risultato
-                                                    finale.  
+                                                <p class="card-contentMAIM">
+                                                    {t("home.primo_piano.piattaforma_masp.desc_2")}
                                                 </p>
                                                 {/*Questi Job, altamente configurabili, sono suddivisi in sei categorie: Automazione e Assemblaggio, Collaudo Componenti Automotive, Controllo di Qualità e Verifica, Gestione della Produzione e Logistica, Gestione delle Postazioni e delle Procedure, e Sistemi di Controllo Elettronico per Sedili.*/}
-                                                <p class="card-contentMAIM">I vantaggi principali dell’utilizzo della piattaforma
-                                                    MASP includono la condotta guidata delle operazioni e la loro personalizzazione,
-                                                    l'automazione delle procedure, la sicurezza degli operatori,
-                                                    la tracciabilità dei risultati e l'interfacciamento con sistemi di tipo MES
-                                                    (Manufacturing Execution System) e ERP (Enterprise Resources Planning).
+                                                <p class="card-contentMAIM">
+                                                    {t("home.primo_piano.piattaforma_masp.desc_3")}
                                                 </p>
                                             </div>
                                         </div>
 
                                     </div>
-                                    <NavLink to="/masp-caratteristiche"><span id="seemoreUpgrade">Vedi di più</span></NavLink>
+                                    <NavLink to="/masp-caratteristiche"><span id="seemoreUpgrade">{t("home.primo_piano.piattaforma_masp.button")}</span></NavLink>
                                 </div>
-
-                                {/*<div class="date-boxMAIM">
-                                <img src="/assets/images/logo.png" alt="logoscanteq" />
-
-                                <span class="dateMAIM">1</span>
-                                    </div>*/}
                             </div>
                         </div>
                     </div>

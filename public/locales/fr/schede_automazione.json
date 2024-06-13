@@ -1,0 +1,83 @@
+{
+    "intro": {
+        "header": "Cartes pour l'automatisation",
+        "desc": "Nos solutions pour le contrôle industriel comprennent les cartes IO24ADC, ENCODER 4 et CORA. Ces modules offrent des fonctionnalités avancées pour la gestion des entrées et sorties numériques, la surveillance précise des angles et la lecture précise des courants, garantissant fiabilité et facilité d'intégration dans les systèmes d'automatisation."
+    },
+    "prequel": {
+        "data": [
+            {
+                "imgSrc": "images/hardware/schedeautomazione/schedaio.png",
+                "descrizione": "La carte IO24ADC gère 24 entrées et sorties numériques de 0 à 24VDC, avec 5 canaux analogiques-numériques. Elle a des connexions USB, RS232 ou CAN, toutes isolées pour protection.",
+                "delay": "0ms"
+            },
+            {
+                "imgSrc": "images/hardware/schedeautomazione/encoder.png",
+                "descrizione": "Le module ENCODER 4 surveille les angles avec quatre codeurs absolus ou des règles optiques numériques. Il se connecte au PC via la carte IO24ADC.",
+                "delay": "200ms"
+            },
+            {
+                "imgSrc": "images/hardware/schedeautomazione/cora.png",
+                "descrizione": "La carte CORA lit des courants jusqu'à 19.2A et transforme les valeurs en tensions entre 0V et 3.3V, compatibles avec la IO24ADC.",
+                "delay": "400ms"
+            }
+        ]
+    },
+    "schede_descrizione": {
+        "header": "Nos cartes",
+        "data": [
+            {
+                "margin": false,
+                "fade": "Left",
+                "titolo": "IO24 ADC",
+                "immagineSrc": "images/hardware/schedeautomazione/schedaio.png",
+                "altSrc": "IO24 ADC",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "La carte électronique IO24ADC est utilisée dans le contrôle industriel pour gérer les entrées et sorties numériques de 0 à 24VDC. Elle est dotée de 24 entrées et 24 sorties protégées, et supporte la conversion de 5 canaux analogiques-numériques. Cette polyvalence est enrichie par un port d'extension pour modules supplémentaires."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Les connexions au PC de contrôle se font via des ports USB, RS232 ou CAN, toutes isolées galvaniquement pour une meilleure protection. Cette caractéristique garantit sécurité et fiabilité dans les opérations industrielles."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Encoder",
+                "immagineSrc": "images/hardware/schedeautomazione/encoder.png",
+                "altSrc": "Encoder",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "Le module ENCODER 4, partie de notre projet Industrie 4.0, surveille avec précision les angles grâce à quatre codeurs absolus. Il peut également lire des coordonnées à partir de quatre règles optiques numériques, augmentant ainsi la précision dans le contrôle des processus industriels."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Il se connecte directement au PC de contrôle via la carte IO24ADC et son port d'extension numérique. Cela enrichit notre gamme de solutions, offrant des outils robustes et fiables pour la gestion des processus industriels."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Cora",
+                "immagineSrc": "images/hardware/schedeautomazione/cora.png",
+                "altSrc": "Cora",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-development",
+                        "descrizione": "La carte électronique CORA lit des courants et transforme les valeurs mesurées en tensions numérisées via les canaux ADC de la carte IO24ADC. Elle dispose d'un transducteur isolé galvaniquement, capable de lire des courants unidirectionnels ou bidirectionnels jusqu'à 19.2A."
+                    },
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "La tension de sortie, proportionnelle au courant mesuré, varie entre 0V et 3.3V, la rendant compatible avec les convertisseurs analogiques-numériques de la IO24ADC. Cela garantit des mesures précises et une intégration sans problème dans les systèmes industriels."
+                    }
+                ]
+            }
+        ]
+    },
+    "button_avanti": "Suivant",
+    "button_indietro": "Précédent"
+}

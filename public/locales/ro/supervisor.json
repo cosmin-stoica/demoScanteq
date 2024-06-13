@@ -1,0 +1,163 @@
+{
+    "intro": {
+        "header": "Monitorizare Avansată",
+        "title": "Bun venit la Supervisor, platforma 4.0 de ultimă generație care revoluționează gestionarea datelor și operațiunilor la posturile dvs. de lucru.",
+        "desc": "Conectăm și centralizăm informațiile în timp real pentru a vă oferi o vedere completă și imediată a sistemului dvs. Prin cele trei hub-uri distincte, Supervisor vă oferă un control fără precedent asupra trasabilității, stării operaționale și întreținerii preventive."
+    },
+    "prequel": {
+        "control_title": "Control Hub",
+        "traceability_title": "Traceability Hub",
+        "maintenance_title": "Maintenance Hub",
+        "desc": "Sistemul avansat de management Supervisor oferă un control total și eficient al operațiunilor prin trei hub-uri fundamentale. Aceste instrumente asigură trasabilitatea datelor, monitorizarea operațională în timp real și gestionarea proactivă a întreținerii. Cu o vizualizare detaliată și promptă, Supervisor îmbunătățește acuratețea informațiilor, identifică rapid anomaliile și reduce timpul de nefuncționare, optimizând eficiența generală a sistemului."
+    },
+    "declaration": {
+        "data": [
+            {
+                "margin": false,
+                "isControl": true,
+                "fade": "Left",
+                "titolo": "Control Hub",
+                "iconaSrc": "flaticon-data",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-check-mark",
+                        "descrizione": "Control Hub-ul de la Supervisor vă oferă un control imediat și complet asupra stării operaționale a posturilor de lucru. Monitorizează și afișează în timp real activitățile în curs, permițându-vă să identificați rapid orice anomalii sau zone de îmbunătățire."
+                    },
+                    {
+                        "iconaClasse": "flaticon-promotion",
+                        "descrizione": "Cu Control Hub, sunteți la comandă operațiunilor dvs., capabil să luați decizii informate pentru a optimiza performanța sistemului."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isTraceability": true,
+                "fade": "Left",
+                "titolo": "Traceability Hub",
+                "iconaSrc": "flaticon-monitor-1",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-physics",
+                        "descrizione": "Traceability Hub permite monitorizarea detaliată și în timp real a datelor, îmbunătățind semnificativ acuratețea și transparența informațiilor, permițând astfel un control mai eficient al proceselor și operațiunilor."
+                    },
+                    {
+                        "iconaClasse": "flaticon-profit",
+                        "descrizione": "Datorită acestei funcționalități, aveți posibilitatea de a analiza datele cu precizie, de a îmbunătăți acuratețea informațiilor și de a asigura transparența în operațiunile dvs."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "isMaintenance": true,
+                "fade": "Left",
+                "titolo": "Maintenance Hub",
+                "iconaSrc": "flaticon-technical-support",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-engineer",
+                        "descrizione": "Întreținerea preventivă este esențială pentru a asigura funcționarea corectă a posturilor de lucru în timp. Maintenance Hub de la Supervisor vă oferă instrumentele necesare pentru a crea analize și a gestiona proactiv întreținerea, asigurându-vă că posturile dvs. de lucru funcționează întotdeauna la capacitatea lor maximă."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "Cu funcționalități avansate de monitorizare și alerte prompte, Supervisor simplifică gestionarea întreținerii, permițându-vă să reduceți timpul de nefuncționare și să îmbunătățiți eficiența generală a sistemului dvs."
+                    }
+                ]
+            }
+        ],
+        "control_hub_example": {
+            "title": "Exemplu de vizualizare a postului de lucru",
+            "station_1_name": "Postul 1",
+            "station_1_code": "Codul Postului: P001",
+            "station_1_status": "Stare: Activ",
+            "station_1_operator": "Operator: OP1",
+            "station_1_operation": "Operațiune: OP001",
+            "station_1_analysis": "Analiză predictivă: OK",
+            "station_1_advancement": "Progres: ",
+            "station_2_name": "Postul 2",
+            "station_2_code": "Codul Postului: P002",
+            "station_2_status": "Stare: Eroare",
+            "station_2_operator": "Operator: OP2",
+            "station_2_operation": "Operațiune: OP002",
+            "station_2_analysis": "Analiză predictivă: NOK",
+            "station_2_advancement": "Progres:",
+            "station_3_name": "Postul 3",
+            "station_3_code": "Codul Postului: P003",
+            "station_3_status": "Stare: Eroare",
+            "station_3_operator": "Operator: OP3",
+            "station_3_operation": "Operațiune: Oprire",
+            "station_3_advancement": "Progres:"
+        },
+        "traceability_hub_example": {
+            "heater": {
+                "title": "Exemplu de tabel de trasabilitate pentru termofor",
+                "select_column_title": "Selectați",
+                "order_column_title": "Comandă",
+                "codex_column_title": "Cod",
+                "serial_column_title": "Serie",
+                "station_column_title": "Stație",
+                "user_column_title": "Utilizator",
+                "job_id_column_title": "ID Job",
+                "job_name_column_title": "Nume Job",
+                "date_time_column_title": "Data și Ora",
+                "nominal_current_column_title": "Curent Nominal",
+                "current_tolerance_column_title": "Toleranță Curent",
+                "measured_current_column_title": "Curent Măsurat",
+                "error_column_title": "Eroare",
+                "repetitions_column_title": "Repetiții",
+                "result_column_title": "Rezultat"
+            },
+            "screwings": {
+                "title": "Exemplu de tabel de trasabilitate pentru șuruburi",
+                "select_column_title": "Selectați",
+                "order_column_title": "Comandă",
+                "codex_column_title": "Cod",
+                "serial_column_title": "Serie",
+                "station_column_title": "Stație",
+                "user_column_title": "Utilizator",
+                "job_id_column_title": "ID Job",
+                "job_name_column_title": "Nume Job",
+                "date_time_column_title": "Data și Ora",
+                "screw_id_column_title": "ID Șurub",
+                "gp_column_title": "GP",
+                "socket_column_title": "Soclu",
+                "min_torque_column_title": "Cuplu Minim",
+                "max_torque_column_title": "Cuplu Maxim",
+                "final_torque_column_title": "Cuplu Final",
+                "min_angle_column_title": "Unghi Minim",
+                "max_angle_column_title": "Unghi Maxim",
+                "final_angle_column_title": "Unghi Final",
+                "repetitions_column_title": "Repetiții",
+                "result_column_title": "Rezultat"
+            },
+            "results": {
+                "title": "Exemplu de tabel de trasabilitate pentru rezultate",
+                "select_column_title": "Selectați",
+                "order_column_title": "Comandă",
+                "codex_column_title": "Cod",
+                "serial_column_title": "Serie",
+                "station_column_title": "Stație",
+                "user_column_title": "Utilizator",
+                "total_jobs_column_title": "Total Joburi",
+                "start_time_column_title": "Timp Început",
+                "end_time_column_title": "Timp Sfârșit",
+                "pause_seconds_column_title": "Pauză (sec)",
+                "effective_time_minutes_column_title": "Timp Efectiv (min)",
+                "error_column_title": "Eroare",
+                "result_column_title": "Rezultat"
+            }
+        },
+        "maintenance_hub_example":{
+            "title": "Exemple de analiză",
+            "first_title": "Șuruburi",
+            "second_title": "Termofor",
+            "third_title": "Cuplu",
+            "gauss_title": "Curba Gaussiană",
+            "log_title": "Exemplu de vizualizare a unui jurnal",
+            "find_input": "Căutați în jurnal",
+            "search_button": "Căutați",
+            "cancel_button": "Anulați"
+        }
+    },
+    "button_avanti": "Înainte",
+    "button_indietro": "Înapoi"
+}

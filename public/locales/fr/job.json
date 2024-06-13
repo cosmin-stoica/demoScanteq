@@ -1,0 +1,341 @@
+{
+    "header": "Exemples d'opérations de la plateforme",
+    "data": [
+        {
+            "id": 1,
+            "title": "Code-barres",
+            "category": "Automatisation et Assemblage",
+            "description_Home": "Le Job Code-barres permet la lecture des codes-barres des composants à assembler, à la fois dans des formats standard et bidimensionnels tels que PDF417, Datamatrix ou QR Code, à l'aide d'un lecteur de code-barres.",
+            "description_MASP": "",
+            "imgSrc": "images/jobs/barcode.png",
+            "home": false,
+            "screenSrc": "images/jobs/barcodemasp.png"
+        },
+        {
+            "id": 2,
+            "title": "Pick To Light",
+            "category": "Automatisation et Assemblage",
+            "description_Home": "Le Job Pick To Light assiste l'opérateur dans les opérations de prélèvement ou de dépôt de composants, en utilisant des indicateurs lumineux et des cellules photoélectriques qui contrôlent et confirment la bonne exécution de la tâche.",
+            "imgSrc": "images/jobs/pick.png",
+            "home": false,
+            "screenSrc": "images/jobs/pickmasp.png"
+        },
+        {
+            "id": 3,
+            "title": "Vissage",
+            "category": "Automatisation et Assemblage",
+            "description_Home": "Le Job Vissage utilise des visseuses avec des unités de commande électroniques pour serrer les vis, contrôlant le couple et l'angle, avec l'option d'ajouter un bras de réaction pour gérer les positions.",
+            "description_MASP": "",
+            "imgSrc": "images/jobs/avvitatura.png",
+            "home": true,
+            "screenSrc": "images/jobs/avvitaturamasp.png"
+        },
+        {
+            "id": 4,
+            "title": "Vissage à clé",
+            "category": "Automatisation et Assemblage",
+            "description_Home": "Le Job Vissage à Clé utilise des clés dynamométriques électroniques pour réaliser des vissages en surveillant le couple et l'angle, éventuellement en contrôlant les positions avec des dispositifs à ultrasons.",
+            "description_MASP": "",
+            "imgSrc": "images/jobs/avvitatura.png",
+            "home": false,
+            "screenSrc": "images/jobs/avvitaturachiavemasp.png"
+        },
+        {
+            "id": 5,
+            "title": "Rivetage",
+            "category": "Automatisation et Assemblage",
+            "description_Home": "Le Job Rivetage consiste à monter des rivets et à vérifier les résultats en surveillant la pression de l'huile dans le système pneumatique ou en lisant les résultats depuis l'unité de contrôle du riveteur, si présente.",
+            "imgSrc": "images/jobs/rivettatura.png",
+            "home": false,
+            "screenSrc": "images/jobs/rivettaturamasp.png"
+        },
+        {
+            "id": 6,
+            "title": "Seeger",
+            "category": "Automatisation et Assemblage",
+            "description_Home": "Le Job Seeger utilise un outil équipé d'un cylindre pneumatique, avec un réglage du temps d'exécution et une surveillance de la force appliquée, détectée par une cellule de charge.",
+            "imgSrc": "images/jobs/seeger.png",
+            "home": false,
+            "screenSrc": "images/jobs/seegermasp.png"
+        },
+        {
+            "id": 7,
+            "title": "Robot Collaboratif",
+            "category": "Automatisation et Assemblage",
+            "description_Home": "Le Job Robot utilise un robot collaboratif qui effectue efficacement et précisément des opérations spécifiques préconfigurées et sélectionnées avec des commandes via le protocole TCP-IP.",
+            "imgSrc": "images/jobs/robot.png",
+            "home": true,
+            "screenSrc": "images/jobs/robotmasp.png"
+        },
+        {
+            "id": 8,
+            "title": "Ceinture",
+            "category": "Test des Composants Automobiles",
+            "description_Home": "Le Job Ceinture vérifie le bon fonctionnement des ceintures de sécurité automobiles en mesurant la résistance ou le courant absorbé par celles-ci, avec ou sans la languette insérée.",
+            "imgSrc": "images/jobs/cintura.png",
+            "home": false,
+            "screenSrc": "images/jobs/cinturamasp.png"
+        },
+        {
+            "id": 9,
+            "title": "Libération de Ceinture",
+            "category": "Test des Composants Automobiles",
+            "description_Home": "Le Job Libération de Ceinture vérifie les ceintures de sécurité automobiles en appliquant une tension contrôlée à l'aide d'un chariot avec moteur pas à pas et cellule de charge. Un capteur mesure la force de déverrouillage.",
+            "imgSrc": "images/jobs/cintura.png",
+            "home": false,
+            "screenSrc": "images/jobs/rilasciocinturamasp.png"
+        },
+        {
+            "id": 10,
+            "title": "Airbag",
+            "category": "Test des Composants Automobiles",
+            "description_Home": "Le Job Airbag contrôle les airbags automobiles en injectant un faible courant dans le circuit pour prévenir les détonations accidentelles et en mesurant la tension sur la résistance pour vérifier qu'elle respecte les valeurs prédéfinies.",
+            "imgSrc": "images/jobs/bag.png",
+            "home": true,
+            "screenSrc": "images/jobs/bagmasp.png"
+        },
+        {
+            "id": 11,
+            "title": "Chauffe-siège",
+            "category": "Test des Composants Automobiles",
+            "description_Home": "Le Job Chauffe-siège contrôle le chauffe-siège, en vérifiant si le courant absorbé ou la résistance du chauffe-siège, ainsi que la résistance du capteur de température, sont valides.",
+            "imgSrc": "images/jobs/heater.png",
+            "home": false,
+            "screenSrc": "images/jobs/termoforomasp.png"
+        },
+        {
+            "id": 12,
+            "title": "Interrupteur de sécurité",
+            "category": "Test des Composants Automobiles",
+            "description_Home": "Le Job Interrupteur de Sécurité contrôle le bon fonctionnement de ce dispositif de sécurité automobile, s'assurant qu'il passe correctement de l'état inactif à l'état actif et vice-versa.",
+            "imgSrc": "images/jobs/killer.png",
+            "home": false,
+            "screenSrc": "images/jobs/killermasp.png"
+        },
+        {
+            "id": 13,
+            "title": "TPS",
+            "category": "Test des Composants Automobiles",
+            "description_Home": "Le Job TPS vérifie ce dispositif équipé de capteur à effet Hall, utilisé pour surveiller la position des sièges automobiles le long des rails, en contrôlant le bon passage de l'état OFF à ON puis à nouveau à OFF.",
+            "imgSrc": "images/jobs/tps.png",
+            "home": false,
+            "screenSrc": "images/jobs/tpsmasp.png"
+        },
+        {
+            "id": 14,
+            "title": "Capteur de présence DPD-SBR",
+            "category": "Test des Composants Automobiles",
+            "description_Home": "Le Job DPD-SBR contrôle le bon fonctionnement du capteur de présence passager des sièges auto, vérifiant que l'état d'activation est correct en fonction du poids chargé.",
+            "imgSrc": "images/jobs/dpd-sbr.png",
+            "home": true,
+            "screenSrc": "images/jobs/dpd-sbrmasp.png"
+        },
+        {
+            "id": 15,
+            "title": "Dimensionnel",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Dimensionnel contrôle les dimensions d'un composant en le plaçant sur un calibre équipé de douilles de support. Il utilise une sonde pneumatique avec potentiomètre linéaire pour effectuer des mesures aux points spécifiques.",
+            "imgSrc": "images/jobs/dimensionale.png",
+            "home": false,
+            "screenSrc": "images/jobs/dimensionalemasp.png"
+        },
+        {
+            "id": 16,
+            "title": "Charge Manuelle",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Charge Manuelle vérifie que la force de pointe, mesurée à l'aide d'un instrument avec fonction dynamométrique et cellule de charge, reste dans une plage de valeurs prédéfinies.",
+            "imgSrc": "images/jobs/caricomanuale.png",
+            "home": false,
+            "screenSrc": "images/jobs/caricomanualemasp.png"
+        },
+        {
+            "id": 17,
+            "title": "Charge",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Charge vérifie si la force de pointe, mesurée à l'aide d'une cellule de charge placée à l'avant d'un chariot motorisé, reste dans une plage de référence prédéfinie.",
+            "imgSrc": "images/jobs/caricomanuale.png",
+            "home": false,
+            "screenSrc": "images/jobs/caricomasp.png"
+        },
+        {
+            "id": 18,
+            "title": "Couple",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Couple vérifie et assure que le couple produit par un motoréducteur, actionné par un moteur pas à pas pour faire tourner un axe ou un bouton, ne dépasse pas des limites prédéfinies.",
+            "imgSrc": "images/jobs/coppia.png",
+            "home": false,
+            "screenSrc": "images/jobs/coppiamasp.png"
+        },
+        {
+            "id": 19,
+            "title": "Moteur",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Moteur consiste à surveiller le courant de pointe et/ou moyen absorbé par un moteur DC pendant une période de temps définie, en contrôlant que les valeurs obtenues restent dans les limites prédéfinies.",
+            "imgSrc": "images/jobs/motore.png",
+            "home": true,
+            "screenSrc": "images/jobs/motoremasp.png"
+        },
+        {
+            "id": 20,
+            "title": "Vision",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Vision capture des images du produit en utilisant jusqu'à quatre caméras LAN. Les images sont stockées et/ou analysées pour extraire des données utiles avec des algorithmes de reconnaissance.",
+            "imgSrc": "images/jobs/fotocamera.png",
+            "home": true,
+            "screenSrc": "images/jobs/visionemasp.png"
+        },
+        {
+            "id": 21,
+            "title": "Objectivation",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Objectivation aide l'opérateur à effectuer des tâches spécifiques, telles que la confirmation d'opérations sur un moniteur ou via des capteurs, la mesure du poids avec des balances électroniques et le contrôle par vision artificielle.",
+            "imgSrc": "images/jobs/oggettivazione.png",
+            "home": false,
+            "screenSrc": "images/jobs/oggettivazionemasp.png"
+        },
+        {
+            "id": 22,
+            "title": "Qualité",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Qualité permet aux opérateurs d'identifier les défauts lors du contrôle qualité du produit, en sélectionnant les anomalies dans une liste prédéfinie, améliorant ainsi l'efficacité du processus.",
+            "imgSrc": "images/jobs/qualita.png",
+            "home": false,
+            "screenSrc": "images/jobs/qualitamasp.png"
+        },
+        {
+            "id": 23,
+            "title": "Mur de Qualité",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Mur de Qualité évalue la qualité du produit avec une image et un message pour guider l'opérateur dans l'attribution d'une note et le choix de la catégorie de non-conformité à enregistrer dans un rapport.",
+            "imgSrc": "images/jobs/qualita.png",
+            "home": false,
+            "screenSrc": "images/jobs/qualitywallmasp.png"
+        },
+        {
+            "id": 24,
+            "title": "Rebut",
+            "category": "Contrôle de Qualité et Vérification",
+            "description_Home": "Le Job Rebut facilite l'identification et le signalement des éventuels défauts dans les composants destinés à l'assemblage, permettant aux opérateurs de sélectionner les anomalies dans une liste prédéfinie.",
+            "imgSrc": "images/jobs/scarto.png",
+            "home": false,
+            "screenSrc": "images/jobs/scartomasp.png"
+        },
+        {
+            "id": 25,
+            "title": "Logistique",
+            "category": "Gestion de la Production et Logistique",
+            "description_Home": "Le Job Logistique permet aux opérateurs de signaler le manque de matériaux pour le traitement, facilitant la demande de réapprovisionnement au poste de travail et garantissant la continuité de la production.",
+            "imgSrc": "images/jobs/logistica.png",
+            "home": true,
+            "screenSrc": "images/jobs/logisticamasp.png"
+        },
+        {
+            "id": 26,
+            "title": "Maintenance",
+            "category": "Gestion de la Production et Logistique",
+            "description_Home": "Le Job Maintenance permet de signaler les problèmes au poste, indiqués comme 'Machine opérationnelle', permettant encore le traitement ou 'Machine arrêtée', bloquant le cycle de production.",
+            "imgSrc": "images/jobs/manutenzione.png",
+            "home": true,
+            "screenSrc": "images/jobs/manutenzionemasp.png"
+        },
+        {
+            "id": 27,
+            "title": "Rapport",
+            "category": "Gestion de la Production et Logistique",
+            "description_Home": "Le Job Rapport affiche une image et un message pour guider l'opérateur dans l'insertion de la description d'un paramètre ou sa sélection dans une liste prédéfinie pour ensuite l'enregistrer dans un rapport.",
+            "imgSrc": "images/jobs/report.png",
+            "home": false,
+            "screenSrc": "images/jobs/reportmasp.png"
+        },
+        {
+            "id": 28,
+            "title": "Impression",
+            "category": "Gestion de la Production et Logistique",
+            "description_Home": "Le Job Impression permet de créer des étiquettes personnalisées, configurables en termes de taille, disposition des bords ou des lignes, textes simples ou avec des données de traitement, codes-barres et logos chargés depuis des fichiers.",
+            "imgSrc": "images/jobs/stampa.png",
+            "home": false,
+            "screenSrc": "images/jobs/stampamasp.png"
+        },
+        {
+            "id": 29,
+            "title": "Blocage",
+            "category": "Gestion des Postes et Procédures",
+            "description_Home": "Le Job Blocage gère de manière flexible le déplacement d'un cylindre pneumatique en utilisant des électrovannes pour contrôler le mouvement avant et arrière, en surveillant les deux positions avec des capteurs de proximité.",
+            "imgSrc": "images/jobs/bloccaggio.png",
+            "home": false,
+            "screenSrc": "images/jobs/bloccaggiomasp.png"
+        },
+        {
+            "id": 30,
+            "title": "Treuil",
+            "category": "Gestion des Postes et Procédures",
+            "description_Home": "Le Job Treuil contrôle automatiquement le déplacement d'un treuil, activant les électrovannes de montée, descente et blocage. La position est surveillée par deux capteurs de proximité de fin de course.",
+            "imgSrc": "images/jobs/paranco.png",
+            "home": true,
+            "screenSrc": "images/jobs/parancomasp.png"
+        },
+        {
+            "id": 31,
+            "title": "Entrée Sortie",
+            "category": "Gestion des Postes et Procédures",
+            "description_Home": "Le Job Entrée-Sortie gère l'activation et la désactivation séquentielle et temporisée des sorties de contrôle du poste basé sur l'état des entrées et les paramètres de configuration.",
+            "imgSrc": "images/jobs/inputoutput.png",
+            "home": false,
+            "screenSrc": "images/jobs/inputoutputmasp.png"
+        },
+        {
+            "id": 32,
+            "title": "Saut",
+            "category": "Gestion des Postes et Procédures",
+            "description_Home": "Le Job Saut permet de passer à un autre job dans le fichier de configuration de manière indépendante ou en fonction du résultat du job précédent. Il est également possible de clôturer le traitement en simulant la fin.",
+            "imgSrc": "images/jobs/jump.png",
+            "home": false,
+            "screenSrc": "images/jobs/jumpmasp.png"
+        },
+        {
+            "id": 33,
+            "title": "Minuterie",
+            "category": "Gestion des Postes et Procédures",
+            "description_Home": "Le Job Minuterie peut interrompre le cycle pendant une période définie ou permettre la poursuite du travail pendant que le temps est compté en arrière-plan, modifiant à la fin l'état d'une sortie.",
+            "imgSrc": "images/jobs/timer.png",
+            "home": false,
+            "screenSrc": "images/jobs/timermasp.png"
+        },
+        {
+            "id": 34,
+            "title": "SCU",
+            "category": "Unité de Contrôle Électronique",
+            "description_Home": "Le Job SCU configure et vérifie les sièges auto gérés par des unités de contrôle électroniques avec bus CAN. Il effectue des diagnostics avancés, analyse les numéros de série matériel et logiciel et calibre les déplacements.",
+            "imgSrc": "images/jobs/scu.png",
+            "home": false,
+            "screenSrc": "images/jobs/scumasp.png"
+        },
+        {
+            "id": 35,
+            "title": "OCS Bodysense",
+            "category": "Unité de Contrôle Électronique",
+            "description_Home": "Le Job OCS-Bodysense gère les unités de contrôle électroniques pour sièges auto avec technologie OCS (Occupant Classification Sensing), effectuant des configurations, des calibrations et des vérifications de la détection correcte des poids.",
+            "imgSrc": "images/jobs/ocsbodysense.png",
+            "home": false,
+            "screenSrc": "images/jobs/ocsbodysensemasp.png"
+        },
+        {
+            "id": 36,
+            "title": "ECU Chauffage",
+            "category": "Unité de Contrôle Électronique",
+            "description_Home": "Le Job ECU-Chauffage vérifie les chauffe-sièges automobiles gérés par des unités de contrôle électroniques avec interface LIN, envoyant des commandes d'activation avec un contrôle supplémentaire du courant absorbé.",
+            "imgSrc": "images/jobs/heater.png",
+            "home": true,
+            "screenSrc": "images/jobs/heatermasp.png"
+        },
+        {
+            "id": 37,
+            "title": "ECU Massant",
+            "category": "Unité de Contrôle Électronique",
+            "description_Home": "Le Job ECU-Massant contrôle les unités de contrôle électroniques avec interface LIN pour le système de massage des sièges auto, transmettant des commandes d'activation et surveillant les réponses reçues.",
+            "imgSrc": "images/jobs/ecumassaggiante.png",
+            "home": false,
+            "screenSrc": "images/jobs/ecumassaggiantemasp.png"
+        }
+    ]
+}

@@ -151,7 +151,7 @@ function ManagerAttivita({ azienda }) {
       // Mostra tutti i risultati senza filtrare per azienda
       return includesOfferta && includesCliente && includesCommittente && includesOrdine && includesTitolo;
     } else if (azienda === 'Altro') {
-      const esclusi = ['sabelt', 'aras', 'lamborghini', 'proma', 'proma grugliasco'];
+      const esclusi = ['sabelt', 'aras', 'lamborghini', 'proma', 'proma grugliasco', 'lear', 'lear melfi'];
       const includesAzienda = risultato.Committente && !esclusi.includes(risultato.Committente.toLowerCase());
       return includesAzienda && includesOfferta && includesCliente && includesCommittente && includesOrdine && includesTitolo;
     } else {

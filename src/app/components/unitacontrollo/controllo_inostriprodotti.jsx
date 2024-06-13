@@ -1,13 +1,17 @@
-import iNostriProdottiData from "../../../globals/DataTEXT/Hardware/Unità_Di_Controllo/iNostriProdottiData";
 import ItodoImage from "../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const Controllo_I_Nostri_Prodotti = () => {
+
+    const { t } = useTranslation("unita_di_controllo");
+    const iNostriProdottiData = t('i_nostri_prodotti.data', { returnObjects: true });
+
     return (
         <>
             <div>
                 <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                    <h1 className="TitoloCapitolo">I nostri prodotti</h1>
+                    <h1 className="TitoloCapitolo">{t("i_nostri_prodotti.header")}</h1>
                 </div>
 
                 {iNostriProdottiData.map((data, index) => (
@@ -36,7 +40,7 @@ const Controllo_I_Nostri_Prodotti = () => {
                 ))}
 
                 <div className="width100 perflex margin-top100">
-                    <NavLink to="/schede-automazione"><button className="masp-btn-avanti">Avanti</button></NavLink>
+                    <NavLink to="/schede-automazione"><button className="masp-btn-avanti">{t("button_avanti")}</button></NavLink>
                 </div>
 
             </div>

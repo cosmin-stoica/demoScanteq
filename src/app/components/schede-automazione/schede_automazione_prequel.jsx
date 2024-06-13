@@ -1,7 +1,10 @@
 import ItodoImage from "../../elements/itodo-img";
-import prequelData from "../../../globals/DataTEXT/Hardware/Schede_Automazione/prequelData";
+import { useTranslation } from 'react-i18next';
 
 const SchedeAutomazionePrequel = () => {
+
+    const { t } = useTranslation("schede_automazione");
+    const prequelData = t('prequel.data', { returnObjects: true });
 
     return (
         <>

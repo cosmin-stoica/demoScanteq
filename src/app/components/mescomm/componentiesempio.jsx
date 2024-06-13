@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const ComponentiEsempio = () => {
+
+    const { t } = useTranslation("mes");
 
     const [isDivAperto, setDivAperto] = useState(false);
     const [selectedImmagine,setselectedImmagine] = useState('');
@@ -26,10 +29,10 @@ const ComponentiEsempio = () => {
                     <table className='tracctable-preview overflow-auto'>
                         <thead>
                             <tr>
-                                <th>Seleziona</th>
-                                <th>Codice</th>
-                                <th>Descrizione</th>
-                                <th>Visualizza</th>
+                                <th>{t("declaration.components_example.select_column_title")}</th>
+                                <th>{t("declaration.components_example.code_column_title")}</th>
+                                <th>{t("declaration.components_example.description_column_title")}</th>
+                                <th>{t("declaration.components_example.visualize_column_title")}</th>
                             </tr>
                         </thead>
                         <tbody>

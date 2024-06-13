@@ -1,8 +1,9 @@
-//import ItodoImage from "../../../elements/itodo-img";
 import ItodoImage from "../../elements/itodo-img";
-import mesData from "../../../globals/DataTEXT/Mes/mesData";
-
+import { useTranslation } from 'react-i18next';
 const MesCategoriePrequel = () => {
+    
+    const { t } = useTranslation("mes");
+
     return (
         <>
             <div className="container">
@@ -12,28 +13,28 @@ const MesCategoriePrequel = () => {
                     <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
                         <div className="categoria-div">
                             <ItodoImage src="images/mes/lavorazioni.png"></ItodoImage>
-                            <p>Lavorazioni</p>
+                            <p>{t("prequel.processes_title")}</p>
                         </div>
                     </div>
 
                     <div className="section-full wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div className="categoria-div">
                             <ItodoImage src="images/mes/commesse.png"></ItodoImage>
-                            <p>Commesse</p>
+                            <p>{t("prequel.orders_title")}</p>
                         </div>
                     </div>
 
                     <div className="section-full wow fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="categoria-div">
                             <ItodoImage src="images/mes/componenti.png"></ItodoImage>
-                            <p>Componenti</p>
+                            <p>{t("prequel.components_title")}</p>
                         </div>
                     </div>
 
                     <div className="section-full wow fadeInRight" data-wow-delay="900ms" data-wow-duration="1500ms">
                         <div className="categoria-div">
                             <ItodoImage src="images/mes/info.png"></ItodoImage>
-                            <p>Info Ausiliarie</p>
+                            <p>{t("prequel.info_title")}</p>
                         </div>
                     </div>
 
@@ -42,7 +43,7 @@ const MesCategoriePrequel = () => {
                 <div className="section-full wow fadeInDown" data-wow-delay="900ms" data-wow-duration="1500ms">
                     <div className="width100 perflex">
                         <div className="mes-descrizione">
-                            <p>{mesData[1].descrizioneSottoIntro}</p>
+                            <p>{t("prequel.desc")}</p>
                         </div>
                     </div>
                 </div>

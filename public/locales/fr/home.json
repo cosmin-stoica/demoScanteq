@@ -1,0 +1,142 @@
+{
+    "header": {
+      "home": "Accueil",
+      "chi_siamo": "Nous",
+      "servizi": "Services",
+      "area_personale": "Espace personnel",
+      "contattaci": "Contactez-nous",
+      "masp_caratteristiche": "Caractéristiques",
+      "masp_operazioni": "Opérations",
+      "masp_tracciabilità": "Traçabilité",
+      "unità_di_controllo": "Unité de contrôle (PC)",
+      "schede_per_automazione": "Cartes pour automatisation",
+      "scheda_di_controllo_digitale": "Carte de contrôle numérique"
+    },
+    "home": {
+      "slider": {
+        "slide_1_title": "AUTOMATION INDUSTRIELLE",
+        "slide_1_subtitle": "Plateforme MASP",
+        "slide_1_desc": "Nous amenons votre entreprise vers l'industrie 4.0",
+        "slide_1_button": "Voir plus",
+        "slide_2_title": "AUTOMATION DE BUREAU",
+        "slide_2_subtitle": "Plateforme Imagina",
+        "slide_2_desc": "Nous rendons vos processus automatiques",
+        "slide_2_button": "Voir plus"
+      },
+      "chi_siamo": {
+        "header": "À propos de nous",
+        "title": "L'histoire de Scanteq",
+        "desc_1": "Scanteq a été fondée à Turin en 2010 en tant qu'entreprise individuelle spécialisée dans le développement de technologies dans le domaine de l'automatisation de bureau. Au début, l'entreprise se concentrait sur la fourniture de logiciels et de matériels propriétaires pour la création de dispositifs de numérisation de documents et d'impression à jet d'encre.",
+        "desc_2": "Par la suite, la société a entrepris une nouvelle phase de développement en collaboration avec Tecno Italia Srl d'Orbassano, établissant un partenariat qui a conduit à la diversification des activités, incluant la conception de solutions logicielles et matérielles destinées aux systèmes de vissage. Cette expansion a permis à Scanteq d'élargir sa gamme de produits, ouvrant de nouvelles opportunités dans le domaine de l'automatisation industrielle. Chaque année, l'entreprise fournit des dizaines de solutions de pointe pour le contrôle des postes de travail au sein de lignes de production complexes pour d'importantes entreprises manufacturières italiennes.",
+        "contatto": "Contact téléphonique",
+        "esperienza": "14 ans d'expérience"
+      },
+      "primo_piano": {
+        "header": "Produits en vedette",
+        "piattaforma_masp": {
+          "header": "Plateforme MASP",
+          "title": "Automatisation avancée pour l'industrie 4.0",
+          "desc_1": "Dans le contexte de l'automatisation pour l'industrie 4.0, nous proposons la plateforme MASP (Mounting Assisted Software Platform), qui permet l'implémentation flexible et efficace de systèmes de contrôle avec des contenus technologiques avancés au sein des lignes de production grâce à une combinaison efficace d'outils logiciels et matériels propriétaires.",
+          "desc_2": "Le fonctionnement est basé sur l'exécution dans un ordre prédéterminé d'une série d'opérations, appelées Job, qui représentent des étapes effectuées par la partie logicielle, électronique et électromécanique, avec ou sans intervention de l'opérateur, nécessaires pour atteindre un résultat final.",
+          "desc_3": "Les principaux avantages de l'utilisation de la plateforme MASP incluent la conduite guidée des opérations et leur personnalisation, l'automatisation des procédures, la sécurité des opérateurs, la traçabilité des résultats et l'interface avec des systèmes de type MES (Manufacturing Execution System) et ERP (Enterprise Resources Planning).",
+          "button": "Voir plus"
+        },
+        "supervisor": {
+          "header": "Supervisor",
+          "title": "Contrôle, traçabilité et maintenance dans un seul Hub",
+          "desc": "Le Supervisor est un outil web connecté à la plateforme MASP qui, à travers ses trois hubs interconnectés, Traceability, Control et Maintenance, garantit la gestion des données collectées pendant les opérations, le contrôle opérationnel optimal et une maintenance efficace.",
+          "control_title": "Control",
+          "control_desc": "Le Control Hub offre un contrôle immédiat sur l'état opérationnel des postes, permettant l'identification rapide et la résolution des anomalies, ainsi que l'optimisation des performances du système.",
+          "traceability_title": "Traceability",
+          "traceability_desc": "Le Traceability Hub permet une surveillance détaillée et en temps réel des données, améliorant la précision des informations et permettant un contrôle plus efficace des processus et des opérations.",
+          "maintenance_title": "Maintenance",
+          "maintenance_desc": "Enfin, le Maintenance Hub supporte la maintenance préventive avec des outils avancés qui maintiennent les postes efficaces et réduisent les temps d'arrêt grâce à la surveillance à distance.",
+          "button": "Voir plus"
+        },
+        "mes": {
+          "header": "Mes",
+          "title": "Traçabilité et contrôle pour une production efficace",
+          "desc_1": "Le Mes est une plateforme web interconnectée au MASP et conçue pour suivre avec précision les cycles de travail que les postes effectuent à chaque étape du processus de production.",
+          "desc_2": "La gestion des opérations, des commandes, des composants et des informations auxiliaires permet un contrôle total de la production même à distance. Il est possible de créer des cycles de travail et de les envoyer directement dans le réseau de l'entreprise, les rendant facilement accessibles depuis les postes.",
+          "desc_3": "Avec cette gestion intégrée, le contrôle de la production devient simple et efficace. Des cycles de travail au partage des informations cruciales, notre système offre la flexibilité et la praticité nécessaires aux petites et moyennes entreprises pour optimiser les opérations de manière fluide et sans efforts excessifs.",
+          "button": "Voir plus"
+        },
+        "piattaforma_imagina": {
+          "header": "Plateforme Imagina",
+          "title_1": "Simplifiez le bureau avec le logiciel ScanQuest",
+          "desc_1": "Notre logiciel ScanQuest et le Software Development Kit (SDK) ScanApi ont été développés pour faciliter les opérations de bureau grâce à des dispositifs scanner avec alimentation automatique et des imprimantes à jet d'encre. Ces outils sont conçus pour automatiser les tâches de numérisation, permettant aux utilisateurs de convertir des documents papier, des photographies et d'autres matériaux en format numérique avec une extrême facilité et précision.",
+          "title_2": "Numérisation et impression avec la carte Imagina",
+          "desc_2": "Grâce à notre technologie, les dispositifs Imagina implémentent des algorithmes sophistiqués de reconnaissance pour les codes-barres, les caractères imprimés et manuscrits. Cela permet aux utilisateurs d'extraire rapidement des informations pertinentes des documents numérisés. De plus, les fichiers peuvent être convertis en noir et blanc, archivés dans divers formats comme BMP, JPEG, TIFF et PDF, et facilement modifiés et partagés en format électronique, améliorant considérablement la productivité au bureau.",
+          "button": "Voir plus"
+        },
+        "schede_automazione": {
+          "header": "Cartes pour l'Automatisation Industrielle",
+          "io24_title": "IO24ADC",
+          "io24_desc": "La carte électronique IO24ADC est utilisée dans le secteur du contrôle industriel pour gérer efficacement les entrées et sorties numériques de 0 à 24VDC. Elle est dotée de 24 entrées et 24 sorties protégées et supporte également la conversion de 5 canaux analogique-numériques, offrant une plus grande polyvalence avec un port d'expansion pour la connexion à des modules supplémentaires. Les connexions possibles au PC de contrôle se font via des ports USB, RS232 ou CAN, tous isolés galvaniquement pour une plus grande protection.",
+          "encoder_title": "ENCODER 4",
+          "encoder_desc": "Le module ENCODER 4, intégré dans notre projet pour l'Industrie 4.0, permet la surveillance précise des angles à travers quatre encodeurs absolus ou la lecture des coordonnées à partir de quatre lignes optiques numériques. Il se connecte directement au PC de contrôle via la carte IO24ADC et son port d'expansion numérique, enrichissant ainsi notre gamme de solutions et offrant aux opérateurs des outils robustes pour la gestion des processus industriels.",
+          "cora_title": "CORA",
+          "cora_desc": "La carte électronique CORA permet de lire les courants, transformant la valeur mesurée en une tension qui sera numérisée via un des canaux de conversion ADC de la carte IO24ADC. Elle dispose d'un transducteur isolé galvaniquement capable de lire des courants unidirectionnels ou bidirectionnels jusqu'à un maximum de 19.2A. La tension de sortie, proportionnelle au courant mesuré, varie entre 0V et 3.3V, la rendant compatible avec les convertisseurs analogique-numériques de la carte IO24ADC.",
+          "button": "Voir plus"
+        }
+      },
+      "servizi": {
+        "header": "Nos services",
+        "data": [
+          {
+            "id": 1,
+            "title": "Développement de produits",
+            "description": "Scanteq développe, pour elle-même et pour ses clients, des produits innovants avec une architecture intégrée de matériel, firmware et logiciel. Nous offrons des compétences complètes et fournissons une documentation et des certifications UL, FCC et CE, garantissant des produits de haute qualité.",
+            "icon": "flaticon-monitor"
+          },
+          {
+            "id": 2,
+            "title": "Conception matérielle",
+            "description": "Experts en électronique, nous concevons des circuits analogiques, numériques et de puissance. Nous offrons des compétences avancées dans la création de schémas électroniques et de la disposition, garantissant des solutions innovantes, fiables et de haute qualité pour répondre aux besoins de nos clients.",
+            "icon": "flaticon-engineer"
+          },
+          {
+            "id": 3,
+            "title": "Développement de logiciels et firmware",
+            "description": "Enfin, nous développons des logiciels et des firmwares pour diverses plateformes, supportant les systèmes d'exploitation modernes et les interfaces avec les périphériques matériels. Nous sommes experts en pilotes de périphériques, bibliothèques (DLL) et interfaces utilisateur complexes (GUI), offrant un support dans les tests et la distribution.",
+            "icon": "flaticon-coding"
+          }
+        ]
+      },
+      "clienti": {
+        "header_1": "Nos partenaires",
+        "header_2": "Nos clients finaux",
+        "tecno_italia": "Tecno Italia, située à Orbassano, est spécialisée dans la distribution de bras de réaction et d'équipements de manipulation dans le secteur industriel, offrant des services après-vente complets, y compris la formation, l'assistance technique et un vaste inventaire de pièces détachées pour optimiser la production industrielle.",
+        "miba": "Fondée en 1984, Miba est le seul détenteur de la marque THOR et se spécialise dans la conception et la production d'équipements industriels. Depuis 2006, elle est le distributeur exclusif en Italie pour les produits Eepos, Liftkon et Vetter, collaborant avec les principales entreprises automobiles européennes.",
+        "automotive_componentistica_title": "Automobile et Composants pour l'Automobile",
+        "automotive_componentistica_desc": "Dans le secteur de l'automobile, des composants pour l'automobile et des travaux mécaniques, notre entreprise a fourni les technologies pour la création de bancs de montage et de test. Ces systèmes utilisent les opérations disponibles dans la Plateforme MASP et peuvent s'interfacer avec les systèmes MES (Manufacturing Execution System) et ERP (Enterprise Resources Planning) de nos clients.",
+        "lavorazioni_meccaniche_title": "Travaux Mécaniques",
+        "automazione_ufficio_title": "Automatisation de Bureau",
+        "automazione_ufficio_desc": "Scanteq a fourni la solution matérielle et logicielle pour l'imagerie et l'impression numérique, facilitant le développement rapide du scanner multifonction appelé scAn4 pour le client. Ce dispositif est utilisé pour la numérisation et le traitement des documents et chèques, la reconnaissance de la codeline magnétique E13B et CMC7, la lecture des billets de loterie, la vérification des billets de banque et l'impression à jet d'encre au dos des articles en papier.",
+        "istruzione_ricerca_title": "Éducation et recherche",
+        "istruzione_ricerca_desc": "Le Département de Génie Électrique du Politecnico di Torino a choisi notre solution de Contrôle Numérique comme carte électronique pour contrôler en temps réel les convertisseurs électroniques de puissance dans un système de recharge sans fil pour les batteries des voitures électriques. Financé par des fonds européens, ce projet fait partie d'une collaboration internationale avec des instituts de recherche et des universités."
+      },
+      "perche_sceglierci": {
+        "header": "Pourquoi nous choisir",
+        "desc": "Scanteq offre plus d'une décennie d'expérience dans l'automatisation industrielle et de bureau. Notre compétence éprouvée et notre engagement constant pour l'innovation garantissent des solutions sur mesure réussies.",
+        "lista": [
+          {
+            "desc": "Excellence technique"
+          },
+          {
+            "desc": "Expérience éprouvée"
+          },
+          {
+            "desc": "Innovation continue"
+          },
+          {
+            "desc": "Personnalisation des solutions"
+          },
+          {
+            "desc": "Support client proactif"
+          }
+        ]
+      }
+    }
+  }
+  

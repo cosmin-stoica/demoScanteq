@@ -1,0 +1,78 @@
+{
+    "header": "Traçabilité",
+    "desc_1": "La plateforme MASP (Mounting Assistance Software Platform) garantit une traçabilité complète des opérations pendant le cycle de travail. Le système enregistre toutes les informations essentielles, assurant une traçabilité détaillée de chaque étape du processus de production et de test.",
+    "desc_2": "À la fin de chaque cycle, les données sont stockées sous différents formats tels que des fichiers CSV, des tables de bases de données (MySQL ou SQL Server) ou envoyées à des systèmes MES (Manufacturing Execution System). Il est également possible d'imprimer des étiquettes sur papier thermique.",
+    "data": [
+        {
+            "margin": true,
+            "fade": "Left",
+            "titolo": "Fichier CSV",
+            "immagineSrc": "images/masp/tracciabilita/csv.png",
+            "altSrc": "Fichier CSV",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-layers",
+                    "descrizione": "L'enregistrement des résultats sur fichier CSV est géré via un fichier de configuration qui contient des paramètres pour contrôler divers aspects de la création du rapport. Ceux-ci incluent l'activation du rapport, la génération de logs et l'inclusion d'informations spécifiques telles que le nom de l'usine et du poste."
+                },
+                {
+                    "iconaClasse": "flaticon-web-plugin",
+                    "descrizione": "Les rapports CSV générés incluent des détails sur chaque étape du cycle de travail. Un exemple typique de fichier CSV contient des données relatives à l'usine, au poste, à la date et à l'heure, à l'opérateur et aux résultats des opérations de test, permettant une traçabilité précise et organisée des opérations effectuées."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Right",
+            "titolo": "Base de données MySQL, SQL Server",
+            "immagineSrc": "images/masp/tracciabilita/database.png",
+            "altSrc": "Base de données MySQL, SQL Server",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-rss",
+                    "descrizione": "L'enregistrement des résultats sur des bases de données MySQL et SQL Server se fait via des appels SQL configurés dans un fichier spécifique. Ce fichier contient des paramètres pour l'adresse du serveur, l'utilisateur et le mot de passe, permettant une interface directe entre le logiciel et la base de données."
+                },
+                {
+                    "iconaClasse": "flaticon-monitor",
+                    "descrizione": "Les données sont enregistrées dans la base de données pour garantir une traçabilité complète des opérations. Les informations archivées incluent des détails sur les opérations de montage et de test, assurant que toutes les données soient facilement accessibles et organisées pour des analyses et révisions futures."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Left",
+            "titolo": "Systèmes MES",
+            "immagineSrc": "images/masp/tracciabilita/mes.png",
+            "altSrc": "Systèmes MES",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-laptop",
+                    "descrizione": "Le logiciel MASP prend en charge l'interface avec les systèmes MES pour le contrôle de la production. Cela se fait par deux principales méthodes : l'architecture REST basée sur TCP-IP et l'utilisation de dossiers partagés pour les fichiers CSV."
+                },
+                {
+                    "iconaClasse": "flaticon-security",
+                    "descrizione": "Dans l'interface HTTPS, les données sont transmises en utilisant des appels et formatées en JSON, tandis que dans la méthode des dossiers partagés, les données sont enregistrées sous forme de fichiers CSV dans un réseau partagé. Les deux méthodes assurent une traçabilité précise et une intégration facile avec les systèmes de gestion de la production."
+                }
+            ]
+        },
+        {
+            "margin": true,
+            "fade": "Right",
+            "titolo": "Impression sur papier thermique",
+            "immagineSrc": "images/masp/tracciabilita/printer.png",
+            "altSrc": "Impression sur papier thermique",
+            "dettagli": [
+                {
+                    "iconaClasse": "flaticon-chart",
+                    "descrizione": "À la fin de chaque cycle de travail, le système imprime une étiquette sur papier thermique contenant les données collectées. La configuration de l'impression est gérée via un fichier spécifique permettant de personnaliser le format de l'étiquette, incluant texte, lignes, codes-barres 2D et images."
+                },
+                {
+                    "iconaClasse": "flaticon-survey",
+                    "descrizione": "Les étiquettes imprimées incluent des informations détaillées sur les opérations effectuées, garantissant une traçabilité visuelle immédiate et précise. Cette fonctionnalité permet d'avoir une documentation physique qui accompagne le produit pendant toutes les phases de la production et de la logistique."
+                }
+            ]
+        }
+    ],
+    "esempio_etichette": "Exemple d'étiquettes",
+    "button_avanti": "Suivant",
+    "button_indietro": "Précédent"
+}

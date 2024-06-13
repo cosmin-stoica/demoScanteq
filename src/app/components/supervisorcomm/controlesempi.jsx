@@ -1,29 +1,35 @@
+
+import { useTranslation } from 'react-i18next';
+
 const ControlEsempi = () => {
+
+    const { t } = useTranslation("supervisor");
+
     return (
         <>
             <div className="titolo-supervisor-preview width100 perflex margin-top50">
-                Esempio di visualizzazione della postazione
+                {t("declaration.control_hub_example.title")}
             </div>
             <div className="postazioni-supervisorcomm-div-upper">
 
                 <div
                     className={`postazionediv attivo`}
                 >
-                    <h5>Postazione 1</h5>
-                    <p>Codice Postazione: P001</p>
-                    <p>Stato: Attiva</p>
-                    <p>Operatore: OP1</p>
-                    <p>Operazione: OP001</p>
+                    <h5>{t("declaration.control_hub_example.station_1_name")}</h5>
+                    <p>{t("declaration.control_hub_example.station_1_code")}</p>
+                    <p>{t("declaration.control_hub_example.station_1_status")}</p>
+                    <p>{t("declaration.control_hub_example.station_1_operator")}</p>
+                    <p>{t("declaration.control_hub_example.station_1_operation")}</p>
 
                     <div>
                         <p className='analisipred' style={{ backgroundColor: 'green' }}>
-                            Analisi predittiva: OK
+                        {t("declaration.control_hub_example.station_1_analysis")}
                         </p>
                     </div>
                     <div>
                         <p className='analisipred'>&nbsp;</p>
                     </div>
-                    <p>Avanzamento: {Math.floor(100 / 60)} min / {Math.floor(650 / 60)} min</p>
+                    <p>{t("declaration.control_hub_example.station_1_advancement")} {Math.floor(100 / 60)} min / {Math.floor(650 / 60)} min</p>
                     <div id={`progressBar${3}`} style={{ width: '100%', height: '100%' }}></div>
 
 
@@ -32,21 +38,21 @@ const ControlEsempi = () => {
                 <div
                     className={`postazionediv iserrore`}
                 >
-                    <h5>Postazione 2</h5>
-                    <p>Codice Postazione: P002</p>
-                    <p>Stato: Errore</p>
-                    <p>Operatore: OP2</p>
-                    <p>Operazione: OP002</p>
+                    <h5>{t("declaration.control_hub_example.station_2_name")}</h5>
+                    <p>{t("declaration.control_hub_example.station_2_code")}</p>
+                    <p>{t("declaration.control_hub_example.station_2_status")}</p>
+                    <p>{t("declaration.control_hub_example.station_2_operator")}</p>
+                    <p>{t("declaration.control_hub_example.station_2_operation")}</p>
 
                     <div>
                         <p className='analisipred' style={{ backgroundColor: 'red' }}>
-                            Analisi predittiva: NOK
+                        {t("declaration.control_hub_example.station_2_analysis")}
                         </p>
                     </div>
                     <div>
                         <p className='analisipred'>&nbsp;</p>
                     </div>
-                    <p>Avanzamento: {Math.floor(1000 / 60)} min / {Math.floor(650 / 60)} min</p>
+                    <p>{t("declaration.control_hub_example.station_2_advancement")} {Math.floor(1000 / 60)} min / {Math.floor(650 / 60)} min</p>
                     <div id={`progressBar${3}`} style={{ width: '100%', height: '100%' }}></div>
 
 
@@ -55,17 +61,16 @@ const ControlEsempi = () => {
                 <div
                     className={`postazionediv stopppee`}
                 >
-                    <h5>Postazione 3</h5>
-                    <p>Codice Postazione: P003</p>
-                    <p>Stato: Errore</p>
-                    <p>Operatore: OP3</p>
-                    <p>Operazione: Stop</p>
-
+                     <h5>{t("declaration.control_hub_example.station_3_name")}</h5>
+                    <p>{t("declaration.control_hub_example.station_3_code")}</p>
+                    <p>{t("declaration.control_hub_example.station_3_status")}</p>
+                    <p>{t("declaration.control_hub_example.station_3_operator")}</p>
+                    <p>{t("declaration.control_hub_example.station_3_operation")}</p>
 
                     <div>
                         <p className='analisipred'>&nbsp;</p>
                     </div>
-                    <p>Avanzamento: {Math.floor(1000 / 60)} min / {Math.floor(650 / 60)} min</p>
+                    <p>{t("declaration.control_hub_example.station_3_advancement")} {Math.floor(1000 / 60)} min / {Math.floor(650 / 60)} min</p>
                     <div id={`progressBar${3}`} style={{ width: '100%', height: '100%' }}></div>
 
 

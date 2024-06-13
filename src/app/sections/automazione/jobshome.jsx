@@ -1,18 +1,19 @@
 import React from "react";
 import ItodoImage from "../../elements/itodo-img";
-import jobs from "../../../globals/DataTEXT/Masp/jobsData";
+import { useTranslation } from 'react-i18next';
 
 
 function JobsHome() {
 
-
+    const { t } = useTranslation("job");
+    const jobs = t('data', { returnObjects: true });
 
 
     return (
         <div className="perflex width100">
 
             <div className="width90 perflexcolumn wow fadeInDown" data-wow-duration="1500ms">
-                <h1 className="leoperazionititolo">Esempi di operazioni della piattaforma</h1>
+                <h1 className="leoperazionititolo">{t("header")}</h1>
                 <div className="jobBoxesDiv">
                     {jobs.map(job => job.home && (
                         <div className="jobBox wow fadeInLeft" data-wow-duration="1500ms" key={job.id}>

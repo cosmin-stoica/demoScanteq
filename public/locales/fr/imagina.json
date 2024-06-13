@@ -1,0 +1,26 @@
+{
+    "intro": {
+        "header": "La carte électronique pour scanner multifonction",
+        "desc_1": "Imagina est une solution matérielle et logicielle de pointe développée par Scanteq, conçue pour offrir une numérisation et un traitement efficaces des documents, garantissant des performances élevées et une intégration facile dans divers dispositifs utilisés dans l'automatisation de bureau. Imagina s'est révélée être un outil polyvalent, capable de supporter une large gamme de fonctionnalités nécessaires pour différents environnements de travail.",
+        "desc_2": "L'intégration de la technologie Imagina permet d'augmenter la valeur ajoutée des produits pour l'automatisation de bureau, réduisant considérablement les coûts et les risques de développement. De plus, elle garantit un rapide time-to-market et assure un Retour sur Investissement (ROI) exceptionnel. Certaines de ses principales applications incluent :",
+        "document_scanning": "Numérisation de documents de divers types et tailles",
+        "cheque_scanning": "Numérisation de chèques et reconnaissance des codes MICR",
+        "lottery_ticket_scanning": "Numérisation et reconnaissance des billets de loterie",
+        "banknote_scanning": "Numérisation de billets de banque",
+        "inkjet_printing": "Impression à jet d'encre sur documents papier"
+    },
+    "caratteristiche":{
+        "header": "Haute Qualité et Fonctionnalités Avancées",
+        "title_1": "HAUTES PERFORMANCES ET LARGE GAMME DE FONCTIONS SUPPLÉMENTAIRES",
+        "desc_1": "La carte électronique Imagina garantit une excellente qualité d'image et une grande vitesse d'acquisition grâce à un design méticuleux. Ses fonctionnalités incluent la lecture de cartes magnétiques et à puce, l'impression à jet d'encre, l'OCR, l'ICR, l'OMR et la lecture de codes-barres. En utilisant des matériels et logiciels propriétaires, elle offre des résultats excellents et une flexibilité maximale à faible coût sans frais de licence supplémentaires.",
+        "title_2": "INTÉGRATION SIMPLE DU LOGICIEL ET DU MATÉRIEL",
+        "desc_2": "La carte Imagina est idéale pour le développement de produits pour l'automatisation de bureau grâce à ses nombreuses fonctionnalités. L'intégration matérielle nécessite des dispositifs compatibles et une configuration du firmware. L'intégration logicielle repose sur l'adaptation des paramètres dans les bibliothèques DLL et l'utilisation du programme démo ScanQuest. Scanteq fournit également un SDK avec des exemples et des manuels pour faciliter la création de nouvelles applications ou l'intégration dans des applications existantes."
+    },
+    "scanquest":{
+        "header": "ScanQuest",
+        "title": "Ci-dessous sont affichées deux captures d'écran du programme démo ScanQuest"
+    },
+    "immagini":{
+        "header": "Images Acquises"
+    }
+}

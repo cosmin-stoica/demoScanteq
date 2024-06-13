@@ -1,28 +1,33 @@
+import { useTranslation } from 'react-i18next';
+
 const TracciabilitaEsempi = () => {
+
+    const { t } = useTranslation("supervisor");
+
     return (
         <>
             <div className="titolo-supervisor-preview width100 perflex margin-top50">
-                Esempio di tabella di tracciabilità per il termoforo
+                {t("declaration.traceability_hub_example.heater.title")}
             </div>
             <div className="tracctable-preview-upper width100 overflow-auto">
                 <table className='tracctable-preview overflow-auto'>
                     <thead>
                         <tr>
-                            <th>Seleziona</th>
-                            <th>Commessa</th>
-                            <th>Codice</th>
-                            <th>Seriale</th>
-                            <th>Postazione</th>
-                            <th>Utente</th>
-                            <th>Id Job</th>
-                            <th>Nome Job</th>
-                            <th>Data e Ora</th>
-                            <th>Corrente Nominale</th>
-                            <th>Tolleranza Corrente</th>
-                            <th>Corrente Misurata</th>
-                            <th>Errore</th>
-                            <th>Ripetizioni</th>
-                            <th>Esito</th>
+                            <th>{t("declaration.traceability_hub_example.heater.select_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.order_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.codex_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.serial_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.station_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.user_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.job_id_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.job_name_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.date_time_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.nominal_current_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.current_tolerance_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.measured_current_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.error_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.repetitions_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.heater.result_column_title")}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -99,32 +104,32 @@ const TracciabilitaEsempi = () => {
             </div>
 
             <div className="titolo-supervisor-preview width100 perflex margin-top50">
-                Esempio di tabella di tracciabilità per le avvitature
+                {t("declaration.traceability_hub_example.screwings.title")}
             </div>
             <div className="tracctable-preview-upper width100 overflow-auto">
                 <table className='tracctable-preview overflow-auto'>
                     <thead>
                         <tr>
-                            <th>Seleziona</th>
-                            <th>Commessa</th>
-                            <th>Codice</th>
-                            <th>Seriale</th>
-                            <th>Postazione</th>
-                            <th>Utente</th>
-                            <th>Id Job</th>
-                            <th>Nome Job</th>
-                            <th>Data e Ora</th>
-                            <th>Id Vite</th>
-                            <th>GP</th>
-                            <th>Bussola</th>
-                            <th>Coppia Min</th>
-                            <th>Coppia Max</th>
-                            <th>Coppia Finale</th>
-                            <th>Angolo Min</th>
-                            <th>Angolo Max</th>
-                            <th>Angolo Finale</th>
-                            <th>Ripetizioni</th>
-                            <th>Esito</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.select_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.order_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.codex_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.serial_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.station_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.user_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.job_id_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.job_name_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.date_time_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.screw_id_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.gp_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.socket_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.min_torque_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.max_torque_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.final_torque_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.min_angle_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.max_angle_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.final_angle_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.repetitions_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.screwings.result_column_title")}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -221,26 +226,27 @@ const TracciabilitaEsempi = () => {
             </div>
 
 
+
             <div className="titolo-supervisor-preview width100 perflex margin-top50">
-                Esempio di tabella di tracciabilità per i risultati
+                {t("declaration.traceability_hub_example.results.title")}
             </div>
             <div className="tracctable-preview-upper width100 overflow-auto">
                 <table className='tracctable-preview overflow-auto'>
                     <thead>
                         <tr>
-                            <th>Seleziona</th>
-                            <th>Commessa</th>
-                            <th>Codice</th>
-                            <th>Seriale</th>
-                            <th>Postazione</th>
-                            <th>Utente</th>
-                            <th>Totale Job</th>
-                            <th>Tempo Inizio</th>
-                            <th>Tempo fine</th>
-                            <th>Pausa (sec)</th>
-                            <th>Tempo Effettivo (min)</th>
-                            <th>Errore</th>
-                            <th>Esito</th>
+                            <th>{t("declaration.traceability_hub_example.results.select_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.order_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.codex_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.serial_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.station_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.user_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.total_jobs_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.start_time_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.end_time_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.pause_seconds_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.effective_time_minutes_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.error_column_title")}</th>
+                            <th>{t("declaration.traceability_hub_example.results.result_column_title")}</th>
                         </tr>
                     </thead>
                     <tbody>

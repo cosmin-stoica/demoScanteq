@@ -1,0 +1,341 @@
+{
+    "header": "Exemple de operațiuni ale platformei",
+    "data": [
+        {
+            "id": 1,
+            "title": "Cod de bare",
+            "category": "Automatizare și Asamblare",
+            "description_Home": "Jobul Cod de bare permite citirea codurilor de bare ale componentelor de asamblat, atât în formate standard, cât și bidimensionale, cum ar fi PDF417, Datamatrix sau Cod QR, folosind un cititor de coduri de bare.",
+            "description_MASP": "",
+            "imgSrc": "images/jobs/barcode.png",
+            "home": false,
+            "screenSrc": "images/jobs/barcodemasp.png"
+        },
+        {
+            "id": 2,
+            "title": "Pick To Light",
+            "category": "Automatizare și Asamblare",
+            "description_Home": "Jobul Pick To Light asistă operatorul în operațiunile de preluare sau depozitare a componentelor, utilizând indicatoare luminoase și fotocelule care controlează și confirmă executarea corectă a sarcinii.",
+            "imgSrc": "images/jobs/pick.png",
+            "home": false,
+            "screenSrc": "images/jobs/pickmasp.png"
+        },
+        {
+            "id": 3,
+            "title": "Înșurubare",
+            "category": "Automatizare și Asamblare",
+            "description_Home": "Jobul Înșurubare folosește șurubelnițe cu unități de control electronice pentru a strânge șuruburi, controlând cuplul și unghiul, cu opțiunea de a adăuga un braț de reacție pentru gestionarea pozițiilor.",
+            "description_MASP": "",
+            "imgSrc": "images/jobs/avvitatura.png",
+            "home": true,
+            "screenSrc": "images/jobs/avvitaturamasp.png"
+        },
+        {
+            "id": 4,
+            "title": "Înșurubare cu cheie",
+            "category": "Automatizare și Asamblare",
+            "description_Home": "Jobul Înșurubare cu cheie folosește chei dinamometrice electronice pentru a realiza înșurubări, monitorizând cuplul și unghiul, eventual controlând pozițiile cu dispozitive ultrasonice.",
+            "description_MASP": "",
+            "imgSrc": "images/jobs/avvitatura.png",
+            "home": false,
+            "screenSrc": "images/jobs/avvitaturachiavemasp.png"
+        },
+        {
+            "id": 5,
+            "title": "Riveting",
+            "category": "Automatizare și Asamblare",
+            "description_Home": "Jobul Riveting constă în asamblarea niturilor și verificarea rezultatelor prin monitorizarea presiunii uleiului în sistemul pneumatic sau prin citirea rezultatelor de la unitatea de control a nituitorului, dacă este prezentă.",
+            "imgSrc": "images/jobs/rivettatura.png",
+            "home": false,
+            "screenSrc": "images/jobs/rivettaturamasp.png"
+        },
+        {
+            "id": 6,
+            "title": "Seeger",
+            "category": "Automatizare și Asamblare",
+            "description_Home": "Jobul Seeger folosește un instrument echipat cu un cilindru pneumatic, cu setarea timpului de execuție și monitorizarea forței aplicate, detectată printr-o celulă de sarcină.",
+            "imgSrc": "images/jobs/seeger.png",
+            "home": false,
+            "screenSrc": "images/jobs/seegermasp.png"
+        },
+        {
+            "id": 7,
+            "title": "Robot colaborativ",
+            "category": "Automatizare și Asamblare",
+            "description_Home": "Jobul Robot folosește un robot colaborativ care execută eficient și precis operațiuni specifice preconfigurate și selectate prin comenzi de protocol TCP-IP.",
+            "imgSrc": "images/jobs/robot.png",
+            "home": true,
+            "screenSrc": "images/jobs/robotmasp.png"
+        },
+        {
+            "id": 8,
+            "title": "Centura de siguranță",
+            "category": "Testarea componentelor auto",
+            "description_Home": "Jobul Centura de siguranță verifică funcționarea corectă a centurilor de siguranță auto prin măsurarea rezistenței sau a curentului absorbit de aceasta, atât cu cât și fără limba introdusă.",
+            "imgSrc": "images/jobs/cintura.png",
+            "home": false,
+            "screenSrc": "images/jobs/cinturamasp.png"
+        },
+        {
+            "id": 9,
+            "title": "Eliberarea centurii de siguranță",
+            "category": "Testarea componentelor auto",
+            "description_Home": "Jobul Eliberarea centurii de siguranță verifică centurile de siguranță auto aplicând o tensiune controlată printr-un sanie cu motor pas cu pas și celulă de sarcină. Un tastator măsoară forța de eliberare.",
+            "imgSrc": "images/jobs/cintura.png",
+            "home": false,
+            "screenSrc": "images/jobs/rilasciocinturamasp.png"
+        },
+        {
+            "id": 10,
+            "title": "Airbag",
+            "category": "Testarea componentelor auto",
+            "description_Home": "Jobul Airbag verifică airbagurile auto prin injectarea unui curent redus în circuit pentru a preveni detonațiile accidentale și măsurarea tensiunii pe rezistență pentru a se asigura că respectă valorile prestabilite.",
+            "imgSrc": "images/jobs/bag.png",
+            "home": true,
+            "screenSrc": "images/jobs/bagmasp.png"
+        },
+        {
+            "id": 11,
+            "title": "Perna de încălzire",
+            "category": "Testarea componentelor auto",
+            "description_Home": "Jobul Perna de încălzire verifică încălzitorul, verificând dacă curentul absorbit sau rezistența încălzitorului, împreună cu rezistența senzorului de temperatură, sunt valabile.",
+            "imgSrc": "images/jobs/heater.png",
+            "home": false,
+            "screenSrc": "images/jobs/termoforomasp.png"
+        },
+        {
+            "id": 12,
+            "title": "Comutator Killer",
+            "category": "Testarea componentelor auto",
+            "description_Home": "Jobul Comutator Killer verifică funcționarea corectă a acestui dispozitiv de siguranță auto, asigurându-se că trece corect de la starea inactivă la cea activă și viceversa.",
+            "imgSrc": "images/jobs/killer.png",
+            "home": false,
+            "screenSrc": "images/jobs/killermasp.png"
+        },
+        {
+            "id": 13,
+            "title": "TPS",
+            "category": "Testarea componentelor auto",
+            "description_Home": "Jobul TPS verifică acest dispozitiv prevăzut cu senzor de efect Hall, utilizat pentru monitorizarea poziției scaunelor auto de-a lungul șinelor, controlând tranziția corectă a stării de la OFF la ON și înapoi la OFF.",
+            "imgSrc": "images/jobs/tps.png",
+            "home": false,
+            "screenSrc": "images/jobs/tpsmasp.png"
+        },
+        {
+            "id": 14,
+            "title": "Senzor de prezență DPD-SBR",
+            "category": "Testarea componentelor auto",
+            "description_Home": "Jobul DPD-SBR verifică funcționarea corectă a senzorului de prezență a pasagerilor din scaunele auto, verificând că starea de activare este corectă în funcție de greutatea încărcată.",
+            "imgSrc": "images/jobs/dpd-sbr.png",
+            "home": true,
+            "screenSrc": "images/jobs/dpd-sbrmasp.png"
+        },
+        {
+            "id": 15,
+            "title": "Dimensional",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Dimensional verifică dimensiunile unei componente prin plasarea acesteia pe un calibru cu bucșe de sprijin. Folosește un tastator pneumatic cu potențiometru liniar pentru a efectua măsurători în puncte specifice.",
+            "imgSrc": "images/jobs/dimensionale.png",
+            "home": false,
+            "screenSrc": "images/jobs/dimensionalemasp.png"
+        },
+        {
+            "id": 16,
+            "title": "Încărcare manuală",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Încărcare manuală verifică dacă forța de vârf, măsurată cu un instrument dinamometric cu celulă de sarcină, rămâne în limitele unui interval de valori prestabilite.",
+            "imgSrc": "images/jobs/caricomanuale.png",
+            "home": false,
+            "screenSrc": "images/jobs/caricomanualemasp.png"
+        },
+        {
+            "id": 17,
+            "title": "Încărcare",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Încărcare verifică dacă forța de vârf, măsurată printr-o celulă de sarcină plasată în fața unei sanie motorizate, rămâne în intervalul de referință predefinit.",
+            "imgSrc": "images/jobs/caricomanuale.png",
+            "home": false,
+            "screenSrc": "images/jobs/caricomasp.png"
+        },
+        {
+            "id": 18,
+            "title": "Cuplu",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Cuplu verifică și asigură că cuplul produs de un motorreductor, acționat de un motor pas cu pas pentru a roti un ax sau un buton, nu depășește limitele prestabilite.",
+            "imgSrc": "images/jobs/coppia.png",
+            "home": false,
+            "screenSrc": "images/jobs/coppiamasp.png"
+        },
+        {
+            "id": 19,
+            "title": "Motor",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Motor constă în monitorizarea curentului de vârf și/sau mediu absorbit de un motor DC pe o perioadă de timp definită, controlând că valorile obținute rămân în limitele prestabilite.",
+            "imgSrc": "images/jobs/motore.png",
+            "home": true,
+            "screenSrc": "images/jobs/motoremasp.png"
+        },
+        {
+            "id": 20,
+            "title": "Viziune",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Viziune capturează imagini ale produsului folosind până la patru camere LAN. Imaginile sunt stocate și/sau analizate pentru a extrage date utile folosind algoritmi de recunoaștere.",
+            "imgSrc": "images/jobs/fotocamera.png",
+            "home": true,
+            "screenSrc": "images/jobs/visionemasp.png"
+        },
+        {
+            "id": 21,
+            "title": "Objectivizare",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Objectivizare asistă operatorul în executarea sarcinilor specifice, cum ar fi confirmarea operațiunilor pe un monitor sau prin senzori, cântărirea cu scale electronice și controlul prin viziune artificială.",
+            "imgSrc": "images/jobs/oggettivazione.png",
+            "home": false,
+            "screenSrc": "images/jobs/oggettivazionemasp.png"
+        },
+        {
+            "id": 22,
+            "title": "Calitate",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Calitate permite operatorilor să identifice defectele în timpul controlului calității produsului, selectând anomaliile dintr-o listă predefinită, îmbunătățind eficacitatea procesului.",
+            "imgSrc": "images/jobs/qualita.png",
+            "home": false,
+            "screenSrc": "images/jobs/qualitamasp.png"
+        },
+        {
+            "id": 23,
+            "title": "Perete de calitate",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Perete de calitate evaluează calitatea produsului cu o imagine și un mesaj pentru a ghida operatorul în evaluarea și alegerea categoriei de neconformitate care urmează să fie înregistrată într-un raport.",
+            "imgSrc": "images/jobs/qualita.png",
+            "home": false,
+            "screenSrc": "images/jobs/qualitywallmasp.png"
+        },
+        {
+            "id": 24,
+            "title": "Scrap",
+            "category": "Controlul calității și verificare",
+            "description_Home": "Jobul Scrap facilitează identificarea și raportarea oricăror defecte în componentele destinate asamblării, permițând operatorilor să selecteze anomaliile dintr-o listă predefinită.",
+            "imgSrc": "images/jobs/scarto.png",
+            "home": false,
+            "screenSrc": "images/jobs/scartomasp.png"
+        },
+        {
+            "id": 25,
+            "title": "Logistică",
+            "category": "Gestionarea producției și logistică",
+            "description_Home": "Jobul Logistică permite operatorilor să raporteze lipsurile de materiale pentru prelucrare, facilitând cererea de reaprovizionare la stația de lucru și asigurând continuitatea producției.",
+            "imgSrc": "images/jobs/logistica.png",
+            "home": true,
+            "screenSrc": "images/jobs/logisticamasp.png"
+        },
+        {
+            "id": 26,
+            "title": "Întreținere",
+            "category": "Gestionarea producției și logistică",
+            "description_Home": "Jobul Întreținere permite raportarea problemelor la stația de lucru, indicate ca 'Mașină operațională', permițând lucrul continuu, sau 'Mașină oprită', oprind ciclul de producție.",
+            "imgSrc": "images/jobs/manutenzione.png",
+            "home": true,
+            "screenSrc": "images/jobs/manutenzionemasp.png"
+        },
+        {
+            "id": 27,
+            "title": "Raport",
+            "category": "Gestionarea producției și logistică",
+            "description_Home": "Jobul Raport afișează o imagine și un mesaj pentru a ghida operatorul în introducerea unei descrieri a unui parametru sau selectarea acestuia dintr-o listă predefinită pentru a fi înregistrat într-un raport.",
+            "imgSrc": "images/jobs/report.png",
+            "home": false,
+            "screenSrc": "images/jobs/reportmasp.png"
+        },
+        {
+            "id": 28,
+            "title": "Imprimare",
+            "category": "Gestionarea producției și logistică",
+            "description_Home": "Jobul Imprimare permite crearea de etichete personalizate, configurabile în termeni de dimensiune, dispunere de borduri sau linii, texte simple sau cu date de procesare, coduri de bare și logo-uri încărcate din fișiere.",
+            "imgSrc": "images/jobs/stampa.png",
+            "home": false,
+            "screenSrc": "images/jobs/stampamasp.png"
+        },
+        {
+            "id": 29,
+            "title": "Blocare",
+            "category": "Gestionarea posturilor de lucru și proceduri",
+            "description_Home": "Jobul Blocare gestionează flexibil mișcarea unui cilindru pneumatic folosind electrovalve pentru a controla mișcarea înainte și înapoi, monitorizând cele două poziții cu senzori de proximitate.",
+            "imgSrc": "images/jobs/bloccaggio.png",
+            "home": false,
+            "screenSrc": "images/jobs/bloccaggiomasp.png"
+        },
+        {
+            "id": 30,
+            "title": "Macara",
+            "category": "Gestionarea posturilor de lucru și proceduri",
+            "description_Home": "Jobul Macara controlează automat mișcarea unei macarale, activând electrovalvele de ridicare, coborâre și blocare. Poziția este monitorizată prin doi senzori de proximitate de sfârșit de cursă.",
+            "imgSrc": "images/jobs/paranco.png",
+            "home": true,
+            "screenSrc": "images/jobs/parancomasp.png"
+        },
+        {
+            "id": 31,
+            "title": "Intrare-ieșire",
+            "category": "Gestionarea posturilor de lucru și proceduri",
+            "description_Home": "Jobul Intrare-ieșire gestionează activarea și dezactivarea secvențială și temporizată a ieșirilor stației de control pe baza stării intrărilor și a parametrilor de configurare.",
+            "imgSrc": "images/jobs/inputoutput.png",
+            "home": false,
+            "screenSrc": "images/jobs/inputoutputmasp.png"
+        },
+        {
+            "id": 32,
+            "title": "Săritura",
+            "category": "Gestionarea posturilor de lucru și proceduri",
+            "description_Home": "Jobul Săritura permite trecerea la un alt job în fișierul de configurare în mod independent sau în funcție de rezultatul jobului anterior. Este posibil, de asemenea, să închideți operația, simulând sfârșitul.",
+            "imgSrc": "images/jobs/jump.png",
+            "home": false,
+            "screenSrc": "images/jobs/jumpmasp.png"
+        },
+        {
+            "id": 33,
+            "title": "Timer",
+            "category": "Gestionarea posturilor de lucru și proceduri",
+            "description_Home": "Jobul Timer poate întrerupe ciclul pentru o perioadă setată sau permite continuarea lucrului în timp ce timpul este contorizat în fundal, modificând în final starea unei ieșiri.",
+            "imgSrc": "images/jobs/timer.png",
+            "home": false,
+            "screenSrc": "images/jobs/timermasp.png"
+        },
+        {
+            "id": 34,
+            "title": "SCU",
+            "category": "Unități de control electronic",
+            "description_Home": "Jobul SCU configurează și verifică scaunele auto gestionate de unități de control electronice cu bus CAN. Efectuează diagnostice avansate, analizează numerele de serie hardware și software și calibrează mișcările.",
+            "imgSrc": "images/jobs/scu.png",
+            "home": false,
+            "screenSrc": "images/jobs/scumasp.png"
+        },
+        {
+            "id": 35,
+            "title": "OCS Bodysense",
+            "category": "Unități de control electronic",
+            "description_Home": "Jobul OCS-Bodysense gestionează unitățile de control electronice pentru scaune auto cu tehnologie OCS (Occupant Classification Sensing), efectuând configurații, calibrare și verificări ale detectării corecte a greutăților.",
+            "imgSrc": "images/jobs/ocsbodysense.png",
+            "home": false,
+            "screenSrc": "images/jobs/ocsbodysensemasp.png"
+        },
+        {
+            "id": 36,
+            "title": "ECU Heater",
+            "category": "Unități de control electronic",
+            "description_Home": "Jobul ECU-Heater verifică încălzitoarele auto gestionate de unități de control electronice cu interfață LIN, trimițând comenzi de activare cu control suplimentar al curentului absorbit.",
+            "imgSrc": "images/jobs/heater.png",
+            "home": true,
+            "screenSrc": "images/jobs/heatermasp.png"
+        },
+        {
+            "id": 37,
+            "title": "ECU Massaging",
+            "category": "Unități de control electronic",
+            "description_Home": "Jobul ECU-Massaging controlează unitățile de control electronice cu interfață LIN pentru sistemul de masaj al scaunelor auto, trimițând comenzi de activare și monitorizând răspunsurile primite.",
+            "imgSrc": "images/jobs/ecumassaggiante.png",
+            "home": false,
+            "screenSrc": "images/jobs/ecumassaggiantemasp.png"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "intro": {
+        "header": "Placă de Control Electronic Multifuncțională",
+        "desc_1": "Această placă este soluția hardware și firmware de la Scanteq pentru sisteme complexe de control în timp real, integrând un microprocesor ARM rapid, un FPGA (Field Programmable Logic Array) puternic și periferice specifice. Plugin poate fi utilizat eficient într-o gamă largă de echipamente industriale care necesită putere de calcul ridicată, implementare de hardware și firmware embedded și interfețe analogice și digitale pentru a realiza funcții adecvate pentru diverse aplicații, cum ar fi:",
+        "data": [
+            {
+                "icona": "images/hardware/controllodigitale/motore.png",
+                "descrizione": "Controlul motorului cu cuplu direct sau Space Vector",
+                "delay": "0ms"
+            },
+            {
+                "icona": "images/hardware/controllodigitale/passopasso.png",
+                "descrizione": "Controlul motorului pas cu pas",
+                "delay": "200ms"
+            },
+            {
+                "icona": "images/hardware/controllodigitale/convertitore.png",
+                "descrizione": "Convertoare de putere complexe",
+                "delay": "400ms"
+            },
+            {
+                "icona": "images/hardware/controllodigitale/stampa.png",
+                "descrizione": "Sisteme de control pentru capete de imprimare termice și cu jet de cerneală",
+                "delay": "600ms"
+            }
+        ],
+        "desc_2": "Integrarea tehnologiei Plugin permite clienților noștri să se concentreze pe dezvoltarea comportamentelor specifice aplicației lor fără a pierde timp prețios în dezvoltarea și depanarea unei plăci de control complexe. Folosind această strategie, nu numai că măresc valoarea adăugată a produselor și reduc drastic timpul de lansare, dar obțin și un cost de dezvoltare mult mai mic."
+    },
+    "caratteristiche": {
+        "header": "Soluție Embedded Puternică și Flexibilă",
+        "data": [
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Microcontroler ARM Rapid cu Periferice Bogate",
+                "immagineSrc": "images/hardware/controllodigitale/cortex.png",
+                "altSrc": "Microcontroler ARM Rapid cu Periferice Bogate",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-layers",
+                        "descrizione": "După un studiu atent al pieței, inginerii Scanteq au ales microcontrolerul NXP LPC4078FBD144 ca nucleu al plăcii. Unitatea sa de control este un procesor ARM Cortex-M4 pentru aplicații embedded care necesită un nivel înalt de integrare și o disipare redusă a puterii."
+                    },
+                    {
+                        "iconaClasse": "flaticon-improve",
+                        "descrizione": "Procesorul ARM Cortex-M4 oferă o combinație de performanțe ridicate și consum redus de energie, făcându-l ideal pentru o gamă largă de aplicații embedded. Această alegere permite Scanteq să garanteze o platformă versatilă și puternică pentru clienții săi."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "FPGA de Înaltă Performanță",
+                "immagineSrc": "images/hardware/controllodigitale/fpga.png",
+                "altSrc": "FPGA de Înaltă Performanță",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-engineer",
+                        "descrizione": "Designul plăcii prevede utilizarea unui FPGA pentru sisteme de control complexe care necesită periferice configurabile. Inginerii Scanteq au selectat FPGA-ul Xilinx Spartan 6 pentru capacitățile sale de integrare a sistemului cu cel mai mic cost pentru aplicații de volum mare."
+                    },
+                    {
+                        "iconaClasse": "flaticon-technical-support",
+                        "descrizione": "FPGA-ul Spartan 6 este cunoscut pentru flexibilitatea sa și capacitatea de a gestiona sarcini complexe în timp real. Acest lucru îl face deosebit de potrivit pentru aplicații care necesită un grad înalt de personalizare și viteză de execuție."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Left",
+                "titolo": "Convertoare Analogic-Digitale",
+                "immagineSrc": "images/hardware/controllodigitale/converti.png",
+                "altSrc": "Convertoare Analogic-Digitale",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-skills",
+                        "descrizione": "Placa este echipată cu convertoare analogic-digitale, un senzor de temperatură, un senzor accelerometric și multe surse de alimentare cu comutare reglementate pentru a controla echipamente complexe. Aceste componente permit măsurarea în timp real a semnalelor necesare algoritmilor de control."
+                    },
+                    {
+                        "iconaClasse": "flaticon-security",
+                        "descrizione": "Prezența diverselor senzori și convertoare A/D asigură precizia necesară pentru a monitoriza și controla hardware-ul în mod eficient. Sursele de alimentare cu comutare reglementate asigură că toate componentele primesc o tensiune stabilă, esențială pentru funcționarea corectă a plăcii."
+                    }
+                ]
+            },
+            {
+                "margin": true,
+                "fade": "Right",
+                "titolo": "Porturi de Comunicare și Periferice",
+                "immagineSrc": "images/hardware/controllodigitale/porte.png",
+                "altSrc": "Porturi de Comunicare și Periferice",
+                "dettagli": [
+                    {
+                        "iconaClasse": "flaticon-rss",
+                        "descrizione": "Placa a fost proiectată pentru a comunica cu multe periferice prin magistrale standard și pentru a interacționa cu operatorul într-un mod user-friendly. Include porturi Ethernet, USB, carduri Micro-SD, porturi seriale RS232 și RS485."
+                    },
+                    {
+                        "iconaClasse": "flaticon-check-mark",
+                        "descrizione": "În plus, prezența unui port CAN, I2C și SPI permite o interacțiune versatilă cu o gamă largă de dispozitive externe. Acest set de porturi și magistrale de comunicare face ca placa să fie extrem de flexibilă și potrivită pentru multiple aplicații industriale și de control."
+                    }
+                ]
+            }
+        ]
+    },
+    "button_indietro": "Înapoi"
+}

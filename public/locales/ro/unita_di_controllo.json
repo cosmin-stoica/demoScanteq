@@ -1,0 +1,89 @@
+{
+    "intro":{
+        "header": "Unitate de control",
+        "desc_1": "Scanteq își propune să fie un partener pentru întreprinderile mici și mijlocii care văd în adăugarea tehnologiei informației în sistemele de producție o oportunitate de creștere strategică.",
+        "desc_2": "Următoarea imagine arată o platformă hardware și software simplă pentru control industrial. Stâlpul de aluminiu include un ecran, un cititor de coduri de bare, o imprimantă, un cititor de amprente, o priză de alimentare și un PC industrial Minibox, oferind o soluție compactă și eficientă pentru gestionarea proceselor industriale."
+    },
+    "i_nostri_prodotti":{
+        "header": "Produsele noastre",
+        "data": [
+            {
+              "margin": false,
+              "fade": "Left", 
+              "titolo": "MiniBox",
+              "immagineSrc": "images/hardware/unitadicontrollo/minibox.png",
+              "altSrc": "MiniBox",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "MiniBox este proiectat pentru a oferi control industrial avansat cu fiabilitate ridicată și performanțe înalte. Echipat cu o placă de bază Advantech și procesoare Intel, asigură o funcționare optimă chiar și în medii dificile. Este ideal pentru instalarea în panouri electrice, gestionând procese industriale și sisteme de vedere artificială."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "Integrarea și întreținerea MiniBox sunt simple datorită designului modular. Accesul la componentele interne facilitează intervențiile tehnice și instalarea modulelor suplimentare. Porturile USB de serviciu de pe panoul frontal fac ușoare operațiunile de asistență tehnică​​."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Left", 
+              "titolo": "Mini",
+              "immagineSrc": "images/hardware/unitadicontrollo/mini.png",
+              "altSrc": "Mini",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "Sistemul Mini oferă o soluție de control industrial compactă, cu performanțe ridicate și fiabilitate. Echipat cu procesoare Intel și plăci de bază Advantech, funcționează eficient chiar și în condiții extreme. Designul ergonomic permite montarea pe sisteme de suspensie fixe sau mobile, crescând versatilitatea."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "Structura modulară a Mini și accesul rapid la componentele interne prin deschiderea frontală facilitează integrarea și întreținerea. Porturile USB de serviciu de pe panoul frontal simplifică operațiunile tehnice, făcând acest sistem ideal pentru aplicații industriale care necesită performanțe fiabile și gestionarea ușoară a perifericelor​​."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Right", 
+              "titolo": "IO24 Box",
+              "immagineSrc": "images/hardware/unitadicontrollo/io24.png",
+              "altSrc": "Interfață utilizator",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "În unele cazuri, este convenabil să montați placa IO24ADC sau una dintre celelalte plăci lângă punctul unde sunt situate perifericele. Această abordare facilitează accesul și reduce lungimea cablurilor, îmbunătățind eficiența generală a sistemului de control industrial."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "Pentru aceste situații, a fost proiectată o carcasă specială din plastic, denumită IO24 Box, care poate fi realizată cu o imprimantă 3D. Această carcasă oferă o soluție practică și personalizabilă pentru protejarea și montarea plăcilor electronice în apropierea perifericelor, asigurând o mai mare comoditate și flexibilitate."
+                }
+              ]
+            },
+            {
+              "margin": true,
+              "fade": "Left", 
+              "titolo": "Totem",
+              "immagineSrc": "images/hardware/unitadicontrollo/totem.png",
+              "altSrc": "Totem",
+              "dettagli": [
+                {
+                  "iconaClasse": "flaticon-development",
+                  "descrizione":
+                    "Totem este o soluție IT completă cu design ergonomic și funcții avansate. Dispune de un monitor LCD IPS integrat de 21 de inci cu ecran tactil capacitiv, ideal pentru medii industriale care necesită o interfață utilizator intuitivă."
+                },
+                {
+                  "iconaClasse": "flaticon-physics",
+                  "descrizione":
+                    "Proiectat pentru a fi montat pe sisteme de suspensie fixe sau mobile, oferă flexibilitate și ușurință în utilizare. Cu un spațiu intern amplu pentru module suplimentare și acces rapid prin deschiderea frontală, Totem facilitează integrarea diverselor periferice hardware, făcându-l perfect pentru aplicații industriale complexe.​"
+                }
+              ]
+            }
+          ]
+    },
+    "button_avanti": "Înainte"
+}

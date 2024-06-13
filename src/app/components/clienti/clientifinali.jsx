@@ -1,18 +1,20 @@
 import React from "react";
 import ItodoImage from "../../elements/itodo-img";
+import { useTranslation } from 'react-i18next';
 
 function ClientiFinali() {
 
+    const { t } = useTranslation();
+
     return <>
         <div className="riquadroTestoClientiFinali wow fadeInDown" data-wow-duration="2000ms">
-            Nel settore dell'Automotive, della Componentistica per Automotive e delle Lavorazioni Meccaniche, la nostra azienda ha fornito le tecnologie per la creazione di banchi di montaggio e collaudo. Questi sistemi utilizzano le operazioni disponibili nella Piattaforma MASP e sono in grado di interfacciarsi con i sistemi MES (Manufacturing Execution System) e ERP (Enterprise Resources Planning) dei nostri clienti.
-        </div>
+            {t("home.clienti.automotive_componentistica_desc")}</div>
         <div className="clientifinalipane">
 
             <div className="clientefinalediv menomarginclienti wow fadeInLeft" data-wow-duration="1500ms">
                 <ItodoImage className="iconaclienti" src="images/clienti/autoprodotti.png"></ItodoImage>
                 <div className="primapartecliente">
-                    Automotive e Componentistica per Automotive
+                    {t("home.clienti.automotive_componentistica_title")}
                 </div>
                 <div className="logoparte">
                     <ItodoImage src="images/clienti/lamborghini.png"></ItodoImage>
@@ -29,7 +31,7 @@ function ClientiFinali() {
             <div className="clientefinalediv wow fadeInRight" data-wow-duration="1500ms">
                 <ItodoImage className="iconaclienti" src="images/clienti/processo.png"></ItodoImage>
                 <div className="primapartecliente">
-                    Lavorazioni Meccaniche
+                    {t("home.clienti.lavorazioni_meccaniche_title")}
                 </div>
                 <div className="logoparte">
                     <ItodoImage src="images/clienti/proma.png"></ItodoImage>
@@ -43,7 +45,7 @@ function ClientiFinali() {
 
 
             <div className="riquadroTestoClientiFinali margin-top50 wow fadeInDown" data-wow-duration="2000ms">
-                Scanteq ha fornito la soluzione hardware e software per l'imaging e la stampa digitale, agevolando lo sviluppo rapido dello scanner multifunzione denominato scAn4 per il cliente. Questo dispositivo è impiegato per la digitalizzazione e l'elaborazione di documenti e assegni, il riconoscimento della codeline magnetica E13B e CMC7, la lettura dei biglietti di lotteria, la verifica delle banconote e la stampa a getto d'inchiostro sul retro degli articoli di carta.
+                {t("home.clienti.automazione_ufficio_desc")}
             </div>
 
 
@@ -51,7 +53,7 @@ function ClientiFinali() {
             <div className="clientefinalediv wow fadeInLeft" data-wow-duration="1500ms">
                 <ItodoImage className="iconaclienti" src="images/clienti/ufficio.png"></ItodoImage>
                 <div className="primapartecliente">
-                    Automazione d’ufficio
+                    {t("home.clienti.automazione_ufficio_title")}
                 </div>
                 <div className="logoparte">
                     <ItodoImage src="images/clienti/musafree.png"></ItodoImage>
@@ -60,7 +62,7 @@ function ClientiFinali() {
 
 
             <div className="riquadroTestoClientiFinali margin-top50 wow fadeInDown" data-wow-duration="2000ms">
-                Il "Dipartimento di Ingegneria Elettrica" del "Politecnico di Torino" ha scelto la nostra soluzione di Controllo Digitale come scheda elettronica per controllare in tempo reale i convertitori elettronici di potenza in un sistema di ricarica senza fili per le batterie delle auto elettriche. Finanziato con fondi europei, questo progetto è parte di una collaborazione internazionale con istituti di ricerca e università.
+                {t("home.clienti.istruzione_ricerca_desc")}
             </div>
 
 
@@ -68,12 +70,12 @@ function ClientiFinali() {
             <div className="clientefinalediv wow fadeInRight" data-wow-duration="1500ms">
                 <ItodoImage className="iconaclienti" src="images/clienti/ricerca.png"></ItodoImage>
                 <div className="primapartecliente">
-                    Istruzione e ricerca
+                {t("home.clienti.istruzione_ricerca_title")}
                 </div>
                 <div className="logoparte">
                     <ItodoImage src="images/clienti/polito.png"></ItodoImage>
                 </div>
-               
+
             </div>
 
         </div>
