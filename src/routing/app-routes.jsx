@@ -55,6 +55,7 @@ import SchedaDigitaleHome from "../app/components/scheda_digitale/scheda_digital
 import ImaginaHome from "../app/components/imagina/imaginahome";
 import PrendiParametriDoc from "../app/components/halconfig/prendiparametridoc";
 import Loader from "../app/elements/loader";
+import Job_Config_Home from "../app/components/jobconfig/job_config_home";
 
 
 function PrivateRoute2({ children }) {
@@ -133,6 +134,7 @@ function AppRoutes() {
       <Route path="/masp-tracciabilita" element={<MaspTracciabilita></MaspTracciabilita>} />
       <Route path="/mes" element={<MesComm></MesComm>}></Route>
       <Route path="/halconfig" element={<HalConfigHome></HalConfigHome>}></Route>
+      <Route path="/jobconfig" element={<Job_Config_Home></Job_Config_Home>}></Route>
       <Route path="/parametri" element={<PrendiParametriDoc></PrendiParametriDoc>}></Route>
 
       <Route path="/unitadicontrollo" element={<UnitaControlloHome></UnitaControlloHome>}></Route>
@@ -140,6 +142,7 @@ function AppRoutes() {
       <Route path="/scheda-controllo-digitale" element={<SchedaDigitaleHome></SchedaDigitaleHome>}></Route>
 
       <Route path="/loader" element={<Loader></Loader>}></Route>
+
     </Routes>
 
   );

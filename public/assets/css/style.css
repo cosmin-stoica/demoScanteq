@@ -10667,7 +10667,16 @@ INPUT ANIMATION
 }
 
 #logoscanteqloading {
-  filter: brightness(300);
+  width: 17vw;
+  height: auto;
+}
+
+@media screen and (max-width:800px) {
+
+  #logoscanteqloading {
+    width: 30vw;
+  }
+  
 }
 
 .textleader {

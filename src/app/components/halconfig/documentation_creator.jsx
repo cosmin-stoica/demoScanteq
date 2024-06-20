@@ -3,8 +3,11 @@ import { Document, Packer, Paragraph, Table, TableOfContents, HeadingLevel, Tabl
 import { saveAs } from 'file-saver';
 import ConfermaAction from '../../elements/confermaAction';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const DocumentationCreator = ({ jobArrays, className }) => {
+
+    const navigate = useNavigate();
 
     const [dataDoc, setDataDoc] = useState([]);
     useEffect(() => {
@@ -59,6 +62,10 @@ const DocumentationCreator = ({ jobArrays, className }) => {
             window.alert('Errore nell\'aggiornamento della versione:', error);
             return false;
         }
+    }
+
+    const AvviaCreazioneJob = () => {
+        navigate("/jobconfig");
     }
 
     const AvviaCreazione = () => {
@@ -1290,7 +1297,10 @@ const DocumentationCreator = ({ jobArrays, className }) => {
             </div>
             }
 
+            <div className='width100 perflex'>
+            <button className= { `${className} margin-right50`} onClick={AvviaCreazioneJob}>Crea Job</button>
             <button className={className} onClick={AvviaCreazione}>Crea Documentazione</button>
+            </div>
             {conferma &&
                 <ConfermaAction
                     title="Conferma"

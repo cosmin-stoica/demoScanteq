@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ConfigCreator = ({ isHal, array, title }) => {
+const ConfigCreator = ({ isHal, array, title, isJobConfig, onJobConfigString }) => {
     const initialState = array.reduce((acc, item) => {
         if (item.tipo === "boolean") {
             acc[item.nome] = '1';
@@ -13,7 +13,6 @@ const ConfigCreator = ({ isHal, array, title }) => {
         }
         return acc;
     }, {});
-
 
     const [formData, setFormData] = useState(initialState);
 
@@ -34,46 +33,44 @@ const ConfigCreator = ({ isHal, array, title }) => {
         let iniContent = "null";
 
         if (isHal) {
-            const divisoreGrosso = ";=============================================";
+            const divisoreGrosso = ";===========================================================";
             const halHeader = `[HAL ${title}]`;
             const iniContentArray = array.map(item =>
                 `${item.nome}= ${formData[item.nome]}`
             );
             iniContent = divisoreGrosso + "\n" + halHeader + "\n" + divisoreGrosso + "\n" + iniContentArray.join('\n');
-        }
-        else {
-            const divisoreGrosso = ";=============================================";
+        } else {
+            const divisoreGrosso = ";===========================================================";
             const jobHeader = "[JOB 1]";
-            const jobDeclaration = `Tipo Job = ${title}`; 
+            const jobDeclaration = `Tipo Job = ${title}`;
             const iniContentArray = array.map(item =>
                 item.tipo === "divisore" ? ';-----------------------------------------------------------' : `${item.nome}= ${formData[item.nome]}`
             );
             iniContent = divisoreGrosso + "\n" + jobHeader + "\n" + divisoreGrosso + "\n" + jobDeclaration + "\n" + iniContentArray.join('\n');
         }
 
+        if (isJobConfig && onJobConfigString) {
+            iniContent = iniContent + "\n" + ';-----------------------------------------------------------' + "\n";
+            onJobConfigString(iniContent);
+        } else {
+            const blob = new Blob([iniContent], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
 
-        console.log(iniContent);
-
-        const blob = new Blob([iniContent], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
-
-        const a = document.createElement('a');
-        a.href = url;
-        if (isHal) {
-            a.download = `HAL Config ${title}.ini`;
+            const a = document.createElement('a');
+            a.href = url;
+            if (isHal) {
+                a.download = `HAL Config ${title}.ini`;
+            } else {
+                a.download = `Job Config ${title}.ini`;
+            }
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
         }
-        else {
-            a.download = `Job Config ${title}.ini`;
-        }
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
 
         console.log(formData);
     };
-
-
 
     return (
         <div className="halconfigprova-div">
@@ -125,8 +122,10 @@ const ConfigCreator = ({ isHal, array, title }) => {
 
                 <div className="width100 perflex margin-top50">
                     {isHal ? <button className="creahal-btn" type="submit">Crea Hal</button>
-                        :
-                        <button className="creahal-btn" type="submit">Crea Job</button>}
+                        : isJobConfig ?
+                            <button className="creahal-btn" type="submit">Aggiungi Job</button>
+                            :
+                            <button className="creahal-btn" type="submit">Crea Job</button>}
                 </div>
             </form>
         </div>

@@ -1511,7 +1511,18 @@ section.cardJob {
 }
 
 
+.margin-right50 {
+  margin-right: 50px;
+}
 
+
+.height100 {
+  height: 100%;
+}
+
+.height100vh {
+  height: 100vh;
+}
 
 .width100 {
   width: 100%;
@@ -3960,7 +3971,7 @@ section.cardJob {
   align-items: stretch;
   gap: 20px;
   position: absolute;
-  bottom:30px;
+  bottom: 30px;
 }
 
 .hal-config-chooser-div div {
@@ -4063,31 +4074,31 @@ section.cardJob {
   border-radius: 5px;
 }
 
-.hal-job-presente{
+.hal-job-presente {
   background-color: rgb(47, 204, 81);
   border-radius: 3px;
   margin: 10px;
   padding: 5px 15px 5px 15px;
 }
 
-.hal-job-assente{
+.hal-job-assente {
   background-color: rgb(235, 110, 110);
   padding: 5px 15px 5px 15px;
   border-radius: 3px;
   margin: 10px;
 }
 
-.hal-config-div-presenza-hal-job-div{
+.hal-config-div-presenza-hal-job-div {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hal-config-chooser-description-div{
+.hal-config-chooser-description-div {
   width: 85%;
   background-color: white;
-  color:#535353;
+  color: #535353;
   padding: 30px;
   font-size: 17px;
   height: 270px;
@@ -4097,13 +4108,13 @@ section.cardJob {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
 }
 
-.hal-config-chooser-description-div h1{
+.hal-config-chooser-description-div h1 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  color:#535353;
+  color: #535353;
 }
 
 
@@ -4148,13 +4159,13 @@ section.cardJob {
   transition: color 0.3s, transform 0.3s;
 }
 
-.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+.custom-checkbox input[type="checkbox"]:checked+.checkmark {
   background-color: #333;
   border-color: #333;
   transform: scale(1.1) rotateZ(360deg) rotateY(360deg);
 }
 
-.custom-checkbox input[type="checkbox"]:checked + .checkmark::before {
+.custom-checkbox input[type="checkbox"]:checked+.checkmark::before {
   color: #fff;
 }
 
@@ -4168,18 +4179,18 @@ section.cardJob {
   transform: scale(1.05);
 }
 
-.custom-checkbox input[type="checkbox"]:focus + .checkmark {
+.custom-checkbox input[type="checkbox"]:focus+.checkmark {
   box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
   outline: none;
 }
 
 .custom-checkbox .checkmark,
-.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+.custom-checkbox input[type="checkbox"]:checked+.checkmark {
   transition: background-color 1.3s, border-color 1.3s, color 1.3s, transform 0.3s;
 }
 
 
-.hal-selectioner-upper{
+.hal-selectioner-upper {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -4192,100 +4203,416 @@ section.cardJob {
   margin: 10px 50px 50px 50px;
 }
 
-.hal-selectioner-upper-buttons{
+.hal-selectioner-upper-buttons {
   margin-left: 50px;
   margin-top: 20px;
 }
 
-.hal-selectioner-upper-buttons button{
+.hal-selectioner-upper-buttons button {
   background-color: var(--primary);
-  color:white;
-  border:none;
+  color: white;
+  border: none;
   border-radius: 5px;
   padding: 3px 10px 3px 10px;
 }
 
-.hal-selectioner{
+.hal-selectioner {
   display: flex;
 }
 
-.hal-selectioner div{
+.hal-selectioner div {
   width: 100%;
   font-size: 17px;
 }
 
-.halconfigaperto{
-overflow: auto;
+.halconfigaperto {
+  overflow: auto;
 }
 
 
-.crea-documentazione-inner-button{
-    background-color: rgb(23, 211, 70);
-    padding: 30px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 20px;
-    transition: all 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-  }
-  
-  .crea-documentazione-inner-button:hover {
-    background-color: white;
-    color: black;
-    transition: all 0.3s ease;
-  }
+.crea-documentazione-inner-button {
+  background-color: rgb(23, 211, 70);
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 
-.hal-selectioner-upper-upper{
+.crea-documentazione-inner-button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.hal-selectioner-upper-upper {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.newmarginhal{
+.newmarginhal {
   margin: 0px;
   margin-bottom: 15px;
   width: 100%;
 }
 
 
-.hal-config-versione-div label{
+.hal-config-versione-div label {
   width: 100px;
 }
 
-.hal-config-versione-div input{
+.hal-config-versione-div input {
   width: 160px;
 }
 
-.hal-config-titolo-div label{
+.hal-config-titolo-div label {
   width: 100px;
 }
 
-.hal-config-disclaimer-div{
+.hal-config-disclaimer-div {
   display: flex;
 }
 
-.hal-config-disclaimer-div label{
+.hal-config-disclaimer-div label {
   width: 100px;
 }
 
-.hal-config-disclaimer-div textarea{
+.hal-config-disclaimer-div textarea {
   width: 80%;
   height: 120px;
 }
 
-.color-white{
-  color:white;
+.color-white {
+  color: white;
 }
 
-.color-black{
-  color:black;
+.color-black {
+  color: black;
 }
 
-.c-name-outside img{
+.c-name-outside img {
   width: 13px;
+}
+
+
+
+
+
+.loading {
+  color: rgb(180, 180, 180);
+}
+
+
+
+
+
+.loader {
+  display: block;
+  width: 12em;
+  height: 12em;
+  overflow: visible;
+}
+
+.loader path.fill {
+  fill: #2Af2;
+  animation: fill 2s ease-in-out infinite;
+}
+
+.loader .dash path {
+  stroke: #2AF;
+  stroke-width: 1px;
+  stroke-linecap: round;
+  animation: dashArray var(--sped, 7s) ease-in-out infinite,
+    dashOffset var(--sped, 7s) linear infinite;
+}
+
+.loader .dash path.aaa {
+  stroke-width: 2px;
+  stroke-linecap: butt;
+  clip-path: path('M 20.4603 48.5493 L 16.6461 46.9584 C 17.3209 48.3794 18.4917 49.5682 20.0447 50.2206 C 23.4007 51.6328 27.2707 50.0262 28.6694 46.6367 C 29.3464 44.9966 29.3509 43.1867 28.6806 41.5422 C 28.0103 39.8977 26.7434 38.6151 25.119 37.9315 C 23.5035 37.2544 21.7741 37.279 20.2547 37.8576 L 24.1961 39.5022 C 26.6719 40.5434 27.8427 43.4124 26.8104 45.9105 C 25.7803 48.4085 22.936 49.5905 20.4603 48.5493 Z');
+}
+
+.loader .dash path.big {
+  stroke-width: 2px;
+  filter: drop-shadow(0 0 2px #2AF);
+}
+
+@keyframes dashArray {
+  0% {
+    stroke-dasharray: 0 1 359 0;
+  }
+
+  50% {
+    stroke-dasharray: 0 359 1 0;
+  }
+
+  100% {
+    stroke-dasharray: 359 1 0 0;
+  }
+}
+
+@keyframes dashOffset {
+  0% {
+    stroke-dashoffset: -5;
+  }
+
+  100% {
+    stroke-dashoffset: -365;
+  }
+}
+
+@keyframes fill {
+
+  30%,
+  55% {
+    fill: #2AF0;
+  }
+}
+
+.sezione-generale-div {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.sezione-generale-div h1 {
+  font-size: 20px;
+  color: #545354;
+  padding-top: 10px;
+}
+
+.sezione-generale-form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sezione-generale-checkbox{
+  width: 25%;
+  min-height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sezione-generale-form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.sezione-generale-form-group p {
+  min-width: 200px;
+  max-width: 200px;
+  flex: 1;
+  text-align: left; /* Assicura che il testo sia allineato a sinistra */
+  color:black;
+  font-size: 17px;
+}
+
+
+.sezione-generale-form-group label {
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.sezione-generale-form-group input {
+  flex: 2;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.sezione-job-div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 20px;
+  width: 50%;
+  height: 82vh;
+}
+
+.sezione-job-div-scegli div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.sezione-job-div-vedi {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  border-left: 2px solid black;
+}
+
+.sezione-job-div-vedi h1{
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: var(--primary);
+}
+
+.sezione-job-index-job{
+  background-color: var(--primary);
+  padding: 4px;
+  color:white;
+  border-radius: 3px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:grab;
+}
+
+.sezione-job-name-job{
+  color:black;
+  font-size: 17px;
+}
+
+.sezione-job-vedibtn{
+  background-color: var(--primary);
+  color:white;
+  border: none;
+  border-radius: 3px;
+}
+
+.sezione-job-eliminabtn{
+  background-color: rgb(141, 20, 20);
+  color:white;
+  border: none;
+  border-radius: 3px;
+}
+
+
+.sezione-job-div-vedi div {
+  width: 100%;
+}
+
+.sezione-job-div-vedi-jobdiv {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.sezione-job-div-vedi-divperul {
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+}
+
+.sezione-job-div-vedi-jobdiv button {
+  margin-left: auto;
+  display: flex;
+}
+
+.modal-job {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content-job {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 50%;
+}
+
+.modal-content-job textarea {
+  width: 100%;
+  height: 350px;
+}
+
+.close-job {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-job:hover,
+.close-job:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.job-checkbox-included{
+  max-width: 15px;
+  font-size: 17px;
+}
+
+.crea-job-button {
+  background-color: rgb(23, 211, 70);
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.crea-job-button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
 }
