@@ -1,35 +1,35 @@
 {
   "header": {
     "home": "Home",
-    "chi_siamo": "About us",
+    "chi_siamo": "About Us",
     "servizi": "Services",
     "area_personale": "Personal Area",
-    "contattaci": "Contact us",
-    "masp_caratteristiche": "Characteristics",
+    "contattaci": "Contact Us",
+    "masp_caratteristiche": "Features",
     "masp_operazioni": "Operations",
     "masp_tracciabilità": "Traceability",
-    "unità_di_controllo": "Control unit (PC)",
-    "schede_per_automazione": "Automation electronic boards",
-    "scheda_di_controllo_digitale": "Digital control board"
+    "unità_di_controllo": "Control Unit (PC)",
+    "schede_per_automazione": "Automation Boards",
+    "scheda_di_controllo_digitale": "Digital Control Board"
   },
   "home": {
     "slider": {
-      "slide_1_title": "INDUSTRIAL AUTOMATION",
+      "slide_1_title":"INDUSTRIAL AUTOMATION",
       "slide_1_subtitle": "MASP Platform",
-      "slide_1_desc": "We bring your company towards Industry 4.0",
+      "slide_1_desc": "We bring your company to Industry 4.0",
       "slide_1_button": "See More",
-      "slide_2_title": "OFFICE AUTOMATION",
+      "slide_2_title":"OFFICE AUTOMATION",
       "slide_2_subtitle": "Imagina Platform",
-      "slide_2_desc": "We make your processes automatic",
+      "slide_2_desc": "We automate your processes",
       "slide_2_button": "See More"
     },
     "chi_siamo": {
-      "header": "About us",
-      "title": "The history of Scanteq",
-      "desc_1": "Scanteq was founded in Turin in 2010 as a sole proprietorship specializing in the development of office automation technologies. Initially, the company focused on providing proprietary software and hardware for creating document digitization devices and inkjet printing.",
-      "desc_2": "Subsequently, the company entered a new phase of development in collaboration with Tecno Italia Srl of Orbassano, establishing a partnership that led to the diversification of activities, including the design of software and hardware solutions for screwing systems. This expansion allowed Scanteq to broaden its range of products, opening up new opportunities in the field of industrial automation. Each year, the company provides dozens of cutting-edge solutions for workstation control within complex production lines for major Italian manufacturing companies.",
-      "contatto": "Phone contact",
-      "esperienza": "14 Years of experience"
+      "header": "About Us",
+      "title": "The Story of Scanteq",
+      "desc_1": "Scanteq was founded in Turin, the beating heart of the Italian industry, with the mission to develop cutting-edge technologies in the field of automation. Since its early years, the company has dedicated its resources to creating advanced software and hardware solutions, focusing mainly on document digitization and inkjet and thermal paper printing technologies. These functionalities are part of Scanteq's main offerings under the name of the Imagina platform, with thousands of licenses sold.",
+      "desc_2": "Subsequently, the company embarked on a new phase of development that led to the diversification of its activities, including the design of solutions for industrial automation in its portfolio. Among these stands out the MASP (Mounting Assisted Software Platform), which enables the flexible and efficient implementation of advanced control systems for production lines, effectively combining software and hardware tools and significantly improving the efficiency and quality of production processes. Thanks to the remarkable versatility and scalability of the MASP platform, which has been well-received by the market, Scanteq provides and installs dozens of cutting-edge solutions annually with its partners, serving major manufacturing companies both Italian and international. We are proud to offer a small but significant contribution to the manufacturing of important products in the Italian and European automotive industry. Renowned brands such as Lamborghini, Ferrari, Maserati, McLaren, Alpine, Cupra, Abarth, Alfa Romeo, Ducati, Agusta, and many others benefit from the innovative solutions developed by Scanteq, demonstrating the value and quality of our technologies in the automotive sector.",
+      "contatto": "Phone Contact",
+      "esperienza": "14 Years of Experience"
     },
     "primo_piano": {
       "header": "Featured Products",
@@ -37,56 +37,56 @@
         "header": "MASP Platform",
         "title": "Advanced Automation for Industry 4.0",
         "desc_1": "In the context of automation for Industry 4.0, the MASP (Mounting Assisted Software Platform) is proposed, which allows the flexible and efficient implementation of control systems with advanced technological content within production lines through an effective combination of proprietary software and hardware tools.",
-        "desc_2": "The operation is based on the execution in a predetermined order of a series of operations, called Jobs, which represent steps carried out by the software, electronic, and electromechanical parts, with or without operator intervention, necessary to achieve a final result.",
-        "desc_3": "The main advantages of using the MASP platform include guided operation and customization, automation of procedures, operator safety, result traceability, and interfacing with MES (Manufacturing Execution System) and ERP (Enterprise Resources Planning) systems.",
-        "button": "See more"
-      },
-      "supervisor": {
-        "header": "Supervisor",
-        "title": "Control, Traceability, and Maintenance in a Single Hub",
-        "desc": "Supervisor is a web tool connected to the MASP platform that, through its three interconnected hubs - Traceability, Control, and Maintenance, ensures the management of data collected during operations, optimal operational control, and effective maintenance.",
-        "control_title": "Control",
-        "control_desc": "The Control Hub provides immediate control over the operational status of workstations, allowing for rapid identification and resolution of anomalies, as well as system performance optimization.",
-        "traceability_title": "Traceability",
-        "traceability_desc": "The Traceability Hub enables detailed and real-time monitoring of data, improving information accuracy and allowing for more effective control of processes and operations.",
-        "maintenance_title": "Maintenance",
-        "maintenance_desc": "Finally, the Maintenance Hub supports preventive maintenance with advanced tools that keep workstations efficient and reduce downtime through remote monitoring.",
+        "desc_2": "The operation is based on the execution in a predetermined order of a series of operations, called Jobs, which represent steps performed by the software, electronic, and electromechanical parts, with or without operator intervention, necessary to achieve a final result.",
+        "desc_3": "The main advantages of using the MASP platform include guided operation and customization, procedure automation, operator safety, result traceability, and interfacing with MES (Manufacturing Execution System) and ERP (Enterprise Resources Planning) systems.",
         "button": "See More"
       },
-      "mes": {
+      "supervisor":{
+        "header": "Supervisor",
+        "title": "Control, Traceability, and Maintenance in One Hub",
+        "desc_1": "The Supervisor is a web tool connected to the MASP platform that, through its three interconnected hubs, Traceability, Control, and Maintenance, ensures the management of data collected during operations, optimal operational control, and effective maintenance.",
+        "control_title": "Control",
+        "control_desc": "The Control Hub provides immediate control over the operational status of stations, allowing for rapid identification and resolution of anomalies, as well as system performance optimization.",
+        "traceability_title": "Traceability",
+        "traceability_desc": "The Traceability Hub enables detailed and real-time data monitoring, improving the accuracy of information and allowing for more effective control of processes and operations.",
+        "maintenance_title": "Maintenance",
+        "maintenance_desc": "Finally, the Maintenance Hub supports preventive maintenance with advanced tools that keep stations efficient and reduce downtime thanks to remote monitoring.",
+        "button": "See More"
+      },
+      "mes":{
         "header": "Mes",
         "title": "Traceability and Control for Efficient Production",
-        "desc_1": "Mes is a web platform interconnected with MASP, designed to accurately track the work cycles that workstations perform at each stage of the production process.",
-        "desc_2": "The management of tasks, orders, components, and auxiliary information enables total control of production, even remotely. Work cycles can be created and sent directly to the company network, making them easily accessible from workstations.",
-        "desc_3": "With this integrated management, production control becomes simple and efficient. From work cycles to the sharing of crucial information, our system offers the flexibility and practicality needed by small and medium-sized businesses to optimize their operations smoothly and effortlessly.",
+        "desc_1": "The Mes is a web platform interconnected to the MASP and designed to precisely track the work cycles that stations perform at each stage of the production process.",
+        "desc_2": "The management of processes, orders, components, and auxiliary information allows for total production control even remotely. Work cycles can be created and sent directly to the company network, making them easily accessible from stations.",
+        "desc_3": "With this integrated management, production control becomes simple and efficient. From work cycles to the sharing of crucial information, our system offers the flexibility and practicality needed by small and medium-sized companies to optimize business operations smoothly and effortlessly.",
         "button": "See More"
       },
       "piattaforma_imagina": {
         "header": "Imagina Platform",
-        "title_1": "Simplify the Office with ScanQuest Software",
-        "desc_1": "Our ScanQuest software and the ScanApi Software Development Kit (SDK) have been developed to facilitate office operations through devices such as automatic feed scanners and inkjet printers. These tools are designed to automate digitization tasks, allowing users to convert paper documents, photographs, and other materials into digital format with ease and precision.",
-        "title_2": "Digitization and Printing with the Imagina Card",
-        "desc_2": "Thanks to our technology, Imagina devices implement sophisticated recognition algorithms for barcodes, printed and handwritten characters. This allows users to quickly extract relevant information from digitized documents. Additionally, files can be converted to black and white, stored in various formats such as BMP, JPEG, TIFF, and PDF, and easily edited and shared electronically, greatly enhancing office productivity.",
+        "scanquest_title": "Simplify the Office with ScanQuest Software",
+        "scanquest_desc_1": "Our ScanQuest software and ScanApi Software Development Kit (SDK) have been developed to facilitate office operations through automatic feeder scanners and inkjet printers. These tools are designed to automate digitization tasks, allowing users to easily and accurately convert paper documents, photos, and other materials into digital format.",
+        "scheda_title": "Digitization and Printing with the Imagina Board",
+        "scheda_desc_1": "Thanks to our technology, Imagina devices implement sophisticated recognition algorithms for barcodes, printed and handwritten characters. This allows users to quickly extract relevant information from digitized documents. Additionally, files can be converted to black and white, archived in various formats such as BMP, JPEG, TIFF, and PDF, and easily edited and shared electronically, significantly improving office productivity.",
         "button": "See More"
       },
       "schede_automazione": {
         "header": "Industrial Automation Boards",
         "io24_title": "IO24ADC",
-        "io24_desc": "The IO24ADC electronic board is used in the industrial control sector to effectively manage digital inputs and outputs from 0 to 24VDC. It is equipped with 24 protected inputs and 24 protected outputs and also supports the conversion of 5 analog-to-digital channels, offering greater versatility with an expansion port for connecting additional modules. Possible connections to the control PC are made through USB, RS232, or CAN ports, all galvanically isolated for increased protection.",
+        "io24_desc_1": "The IO24ADC electronic board is used in the industrial control sector to effectively manage digital inputs and outputs from 0 to 24VDC. It is equipped with 24 protected inputs and 24 outputs and also supports the conversion of 5 analog-to-digital channels, offering greater versatility with an expansion port for connecting additional modules. Possible connections to the control PC are made through USB, RS232, or CAN ports, all galvanically isolated for greater protection.",
         "encoder_title": "ENCODER 4",
-        "encoder_desc": "The ENCODER 4 module, integrated into our Industry 4.0 project, allows precise angle monitoring through four absolute encoders or the reading of coordinates from four digital optical scales. This connects directly to the control PC via the IO24ADC board and its digital expansion port, enriching our range of solutions and offering robust tools for industrial process management.",
+        "encoder_desc_1": "The ENCODER 4 module, integrated into our Industry 4.0 project, allows precise monitoring of angles through four absolute encoders or reading coordinates from four digital optical lines. This connects directly to the control PC through the IO24ADC board and its digital expansion port, enriching our range of solutions and providing operators with robust tools for managing industrial processes.",
         "cora_title": "CORA",
-        "cora_desc": "The CORA electronic board allows for current reading, transforming the measured value into a voltage that will be digitized through one of the ADC conversion channels of the IO24ADC board. It features a galvanically isolated transducer capable of reading unidirectional or bidirectional currents up to a maximum of 19.2A. The output voltage, proportional to the measured current, ranges from 0V to 3.3V, making it compatible with the analog-to-digital converters of the IO24ADC board.",
+        "cora_desc_1": "The CORA electronic board allows the reading of currents, transforming the measured value into a voltage that will be digitized through one of the ADC conversion channels of the IO24ADC board. It features a galvanically isolated transducer capable of reading unidirectional or bidirectional currents up to a maximum of 19.2A. The output voltage, proportional to the measured current, varies between 0V and 3.3V, making it compatible with the analog-to-digital converters of the IO24ADC board.",
         "button": "See More"
       }
     },
     "servizi": {
-      "header": "Our services",
+      "header": "Our Services",
       "data": [
         {
           "id": 1,
           "title": "Product Development",
-          "description": "Scanteq develops innovative products for itself and its customers with an integrated architecture of hardware, firmware, and software. We offer comprehensive expertise and provide UL, FCC, and CE documentation and certifications, ensuring high-quality products.",
+          "description": "Scanteq develops, for itself and its clients, innovative products with an integrated architecture of hardware, firmware, and software. We offer comprehensive skills and provide UL, FCC, and CE documentation and certifications, ensuring high-quality products.",
           "icon": "flaticon-monitor"
         },
         {
@@ -97,8 +97,8 @@
         },
         {
           "id": 3,
-          "title": "Software, Firmware Development",
-          "description": "We develop software and firmware for various platforms, supporting modern operating systems and interfacing with hardware peripherals. We are experts in device drivers, libraries (DLL), and complex user interfaces (GUI), offering support in testing and distribution.",
+          "title": "Software and Firmware Development",
+          "description": "Finally, we develop software and firmware for various platforms, supporting modern operating systems and interfacing with hardware peripherals. We are experts in device drivers, libraries (DLL), and complex user interfaces (GUI), offering support in testing and distribution.",
           "icon": "flaticon-coding"
         }
       ]
@@ -107,35 +107,36 @@
       "header_1": "Our Partners",
       "header_2": "Our End Customers",
       "tecno_italia": "Tecno Italia, located in Orbassano, specializes in the distribution of reaction arms and handling equipment in the industrial sector, offering comprehensive after-sales services, including training, technical assistance, and a vast inventory of spare parts to optimize industrial production.",
-      "miba": "Founded in 1984, Miba is the sole owner of the THOR brand and specializes in the design and production of industrial equipment. Since 2006, it has been the exclusive distributor in Italy for Eepos, Liftkon, and Vetter products, collaborating with leading European automotive companies.",
+      "miba": "Founded in 1984, Miba is the sole holder of the THOR brand and specializes in the design and manufacture of industrial equipment. Since 2006, it has been the exclusive distributor in Italy for Eepos, Liftkon, and Vetter products, collaborating with major European automotive companies.",
       "automotive_componentistica_title": "Automotive and Automotive Components",
-      "automotive_componentistica_desc": "In the Automotive, Automotive Components, and Mechanical Processing sectors, our company has provided technologies for the creation of assembly and testing benches. These systems use the operations available on the MASP Platform and can interface with our clients' MES (Manufacturing Execution System) and ERP (Enterprise Resource Planning) systems.",
+      "automotive_componentistica_desc": "In the Automotive, Automotive Components, and Mechanical Processing sectors, our company has provided the technologies for the creation of assembly and testing benches. These systems utilize the operations available in the MASP Platform and can interface with our clients' MES (Manufacturing Execution System) and ERP (Enterprise Resources Planning) systems.",
       "lavorazioni_meccaniche_title": "Mechanical Processing",
       "automazione_ufficio_title": "Office Automation",
-      "automazione_ufficio_desc": "Scanteq provided the hardware and software solution for imaging and digital printing, facilitating the rapid development of the multifunction scanner called scAn4 for the client. This device is used for the digitization and processing of documents and checks, the recognition of E13B and CMC7 magnetic codelines, lottery ticket reading, banknote verification, and inkjet printing on the back of paper items.",
+      "automazione_ufficio_desc": "Scanteq provided the hardware and software solution for imaging and digital printing, facilitating the rapid development of the multifunction scanner called scAn4 for the client. This device is used for digitizing and processing documents and checks, recognizing the E13B and CMC7 magnetic codeline, reading lottery tickets, verifying banknotes, and inkjet printing on the back of paper items.",
       "istruzione_ricerca_title": "Education and Research",
-      "istruzione_ricerca_desc": "The Department of Electrical Engineering at the Politecnico di Torino chose our Digital Control solution as an electronic board to control power electronic converters in real-time in a wireless charging system for electric car batteries. Funded with European funds, this project is part of an international collaboration with research institutes and universities."
+      "istruzione_ricerca_desc": "The Department of Electrical Engineering at the Polytechnic University of Turin chose our Digital Control solution as the electronic board to control power electronic converters in real-time in a wireless charging system for electric car batteries. Funded with European funds, this project is part of an international collaboration with research institutes and universities."
     },
-    "perche_sceglierci": {
+    "perche_sceglierci":{
       "header": "Why Choose Us",
-      "desc": "Scanteq offers over a decade of experience in industrial and office automation. Our proven expertise and constant commitment to innovation ensure successful tailor-made solutions.",
-      "lista": [
+      "desc_1": "Scanteq offers over a decade of experience in industrial and office automation. Our proven expertise and constant commitment to innovation guarantee successful tailor-made solutions.",
+      "lista":[
         {
-          "desc": "Technical excellence"
+          "desc": "Technical Excellence"
         },
         {
-          "desc": "Proven experience"
+          "desc": "Proven Experience"
         },
         {
-          "desc": "Continuous innovation"
+          "desc": "Continuous Innovation"
         },
         {
-          "desc": "Customized solutions"
+          "desc": "Solution Customization"
         },
         {
-          "desc": "Proactive customer support"
+          "desc": "Proactive Customer Support"
         }
       ]
+
     }
   }
 }

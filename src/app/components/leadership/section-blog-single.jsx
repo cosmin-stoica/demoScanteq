@@ -6,6 +6,22 @@ function SectionBlogSingle() {
 
     const { t } = useTranslation("leadership");
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("desc_");
+
+
     return (
         <>
             <div className="blog-single-space">
@@ -25,24 +41,9 @@ function SectionBlogSingle() {
                     </div>
 
                     <div className="sx-post-text normalfont">
-                        <p>
-                            {t("desc_1")}
-                        </p>
-                        <p>
-                            {t("desc_2")}
-                        </p>
-                        <p>
-                            {t("desc_3")}
-                        </p>
-                        <p>
-                            {t("desc_4")}
-                        </p>
-                        <p>
-                            {t("desc_5")}
-                        </p>
-                        <p>
-                            {t("desc_6")}
-                        </p>
+                        {descriptions.map((desc, index) => (
+                            <p key={index}>{desc}</p>
+                        ))}
                     </div>
                 </div>
             </div>

@@ -2,14 +2,14 @@
     "intro": {
         "header": "Integrated Production Management",
         "title": "Complete Integrated Production Management Solution",
-        "desc": "This tool offers you the ability to make informed decisions to optimize system performance, ensuring efficient resource management and overall increased productivity."
+        "desc_1": "This tool offers you the ability to make informed decisions to optimize system performance, ensuring efficient resource management and overall increased productivity."
     },
     "prequel": {
         "processes_title": "Processes",
         "orders_title": "Orders",
         "components_title": "Components",
         "info_title": "Auxiliary Info",
-        "desc": "The MES is a web platform connected to MASP to track work cycles and manage orders, components, and auxiliary information. It offers total remote control of production, allowing you to easily create and share work cycles. Ideal for small and medium-sized businesses, it simplifies production control and optimizes business operations."
+        "desc_1": "The MES is a web platform connected to MASP to track work cycles and manage orders, components, and auxiliary information. It offers total remote control of production, allowing you to easily create and share work cycles. Ideal for small and medium-sized businesses, it simplifies production control and optimizes business operations."
     },
     "declaration": {
         "data": [

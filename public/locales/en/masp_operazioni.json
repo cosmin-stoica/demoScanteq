@@ -1,7 +1,7 @@
 {
     "header": {
         "header": "Categories of Operations",
-        "title": "The operations, called Jobs, can be divided into six categories respectively:",
+        "title_1": "The operations, called Jobs, can be divided into six categories respectively:",
         "automation_and_assembly_title": "AUTOMATION AND ASSEMBLY",
         "automation_and_assembly_desc": "These jobs include technologies and processes designed to automate and optimize industrial assembly operations, improving efficiency and precision.",
         "automotive_component_testing_title": "AUTOMOTIVE COMPONENT TESTING",

@@ -1,7 +1,7 @@
 {
     "header": {
         "header": "Categorie di Operazioni",
-        "title": "Le operazioni, denominate Job, possono essere divise rispettivamente in sei categorie:",
+        "title_1": "Le operazioni, denominate Job, possono essere divise rispettivamente in sei categorie:",
         "automation_and_assembly_title": "AUTOMAZIONE E ASSEMBLAGGIO",
         "automation_and_assembly_desc": "Questi job comprendono tecnologie e processi progettati per automatizzare e ottimizzare le operazioni di assemblaggio industriale, migliorando efficienza e precisione.",
         "automotive_component_testing_title": "COLLAUDO COMPONENTI AUTOMOTIVE",

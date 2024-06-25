@@ -1,6 +1,7 @@
 window.dataDoc = [
   {
     Name: "Avvitatura",
+    Group: "Automazione e Assemblaggio",
     Hal: [
       { nome: "bIsUsedAvv1", tipo: "boolean", tooltip: "desc" },
       { nome: "bIsUsedAvv2", tipo: "boolean", tooltip: "desc" },
@@ -31,6 +32,7 @@ window.dataDoc = [
   },
   {
     Name: "Rivettatura",
+    Group: "Automazione e Assemblaggio",
     Hal: [
       { nome: "bIsUsedRiv", tipo: "boolean", tooltip: "desc" },
       { nome: "bIsUsedRiv2", tipo: "boolean", tooltip: "desc" },
@@ -61,6 +63,7 @@ window.dataDoc = [
   },
   {
     Name: "Jump",
+    Group: "Gestione delle postazioni e delle procedure",
     Hal: [
       { nome: "bIsUsedJump1", tipo: "boolean", tooltip: "desc" },
       { nome: "bIsUsedJump2", tipo: "boolean", tooltip: "desc" },

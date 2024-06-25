@@ -2,14 +2,14 @@
     "intro": {
         "header": "Gestion Intégrée de la Production",
         "title": "Solution Complète de Gestion Intégrée de la Production",
-        "desc": "Cet outil vous offre la possibilité de prendre des décisions éclairées pour optimiser les performances du système, garantissant une gestion efficace des ressources et une productivité globale accrue."
+        "desc_1": "Cet outil vous offre la possibilité de prendre des décisions éclairées pour optimiser les performances du système, garantissant une gestion efficace des ressources et une productivité globale accrue."
     },
     "prequel": {
         "processes_title": "Processus",
         "orders_title": "Commandes",
         "components_title": "Composants",
         "info_title": "Infos Auxiliaires",
-        "desc": "Le MES est une plateforme web connectée au MASP pour suivre les cycles de travail et gérer les commandes, les composants et les informations auxiliaires. Il offre un contrôle total de la production à distance, permettant de créer et de partager facilement des cycles de travail. Idéal pour les petites et moyennes entreprises, il simplifie le contrôle de la production et optimise les opérations commerciales."
+        "desc_1": "Le MES est une plateforme web connectée au MASP pour suivre les cycles de travail et gérer les commandes, les composants et les informations auxiliaires. Il offre un contrôle total de la production à distance, permettant de créer et de partager facilement des cycles de travail. Idéal pour les petites et moyennes entreprises, il simplifie le contrôle de la production et optimise les opérations commerciales."
     },
     "declaration": {
         "data": [

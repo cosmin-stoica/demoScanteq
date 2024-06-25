@@ -1,82 +1,82 @@
 {
   "header": {
-    "home": "Home",
-    "chi_siamo": "Cine Suntem",
+    "home": "Acasă",
+    "chi_siamo": "Despre noi",
     "servizi": "Servicii",
-    "area_personale": "Zona personala",
-    "contattaci": "Contactează-Ne",
+    "area_personale": "Zona Personală",
+    "contattaci": "Contactează-ne",
     "masp_caratteristiche": "Caracteristici",
     "masp_operazioni": "Operațiuni",
     "masp_tracciabilità": "Trasabilitate",
-    "unità_di_controllo": "Unități de comandă(PC)",
-    "schede_per_automazione": "Placa pentru automatizari",
-    "scheda_di_controllo_digitale": "Placa de control digital"
+    "unità_di_controllo": "Unitate de control (PC)",
+    "schede_per_automazione": "Plăci pentru automatizare",
+    "scheda_di_controllo_digitale": "Placă de control digital"
   },
   "home": {
     "slider": {
-      "slide_1_title": "AUTOMATIZARE INDUSTRIALĂ",
+      "slide_1_title":"AUTOMATIZARE INDUSTRIALĂ",
       "slide_1_subtitle": "Platforma MASP",
-      "slide_1_desc": "Îndreptăm compania ta către Industria 4.0",
+      "slide_1_desc": "Aducem compania ta în era industriei 4.0",
       "slide_1_button": "Vezi mai mult",
-      "slide_2_title": "AUTOMATIZARE DE BIROU",
+      "slide_2_title":"AUTOMATIZARE DE BIROU",
       "slide_2_subtitle": "Platforma Imagina",
-      "slide_2_desc": "Facem procesele tale automate",
+      "slide_2_desc": "Automatizăm procesele tale",
       "slide_2_button": "Vezi mai mult"
     },
     "chi_siamo": {
-      "header": "Cine suntem",
+      "header": "Despre noi",
       "title": "Istoria Scanteq",
-      "desc_1": "Scanteq a fost fondată la Torino în 2010 ca o întreprindere individuală specializată în dezvoltarea tehnologiilor de automatizare a birourilor. Inițial, compania s-a concentrat pe furnizarea de software și hardware proprietar pentru crearea de dispozitive de digitalizare a documentelor și imprimare cu jet de cerneală.",
-      "desc_2": "Ulterior, compania a intrat într-o nouă fază de dezvoltare în colaborare cu Tecno Italia Srl din Orbassano, stabilind un parteneriat care a dus la diversificarea activităților, incluzând proiectarea de soluții software și hardware pentru sistemele de înșurubare. Această extindere a permis Scanteq să își lărgească gama de produse, deschizând noi oportunități în domeniul automatizării industriale. În fiecare an, compania oferă zeci de soluții de ultimă generație pentru controlul posturilor de lucru în cadrul liniilor de producție complexe pentru companii mari de producție italiene.",
+      "desc_1": "Scanteq a fost fondată la Torino, în inima industriei italiene, cu misiunea de a dezvolta tehnologii de vârf în domeniul automatizării. Încă din primii ani de activitate, compania și-a dedicat resursele pentru crearea de soluții software și hardware avansate, concentrându-se în principal pe digitalizarea documentelor și tehnologiile de imprimare cu jet de cerneală și pe hârtie termică. Aceste funcționalități fac parte din principalele oferte Scanteq sub numele platformei Imagina, cu mii de licențe vândute.",
+      "desc_2": "Ulterior, compania a intrat într-o nouă fază de dezvoltare care a condus la diversificarea activităților sale, incluzând în portofoliul său proiectarea de soluții pentru automatizarea industrială. Printre acestea se numără platforma MASP (Mounting Assisted Software Platform), care permite implementarea flexibilă și eficientă a sistemelor de control avansate pentru liniile de producție, combinând eficient instrumentele software și hardware și îmbunătățind semnificativ eficiența și calitatea proceselor de producție. Datorită versatilității și scalabilității remarcabile a platformei MASP, care a fost bine primită pe piață, Scanteq furnizează și instalează anual zeci de soluții de ultimă oră împreună cu partenerii săi, servind companii de producție importante atât italiene, cât și internaționale. Suntem mândri să oferim o contribuție mică, dar semnificativă, la fabricarea unor produse importante din industria auto italiană și europeană. Mărci renumite precum Lamborghini, Ferrari, Maserati, McLaren, Alpine, Cupra, Abarth, Alfa Romeo, Ducati, Agusta și multe altele beneficiază de soluțiile inovatoare dezvoltate de Scanteq, demonstrând valoarea și calitatea tehnologiilor noastre în sectorul auto.",
       "contatto": "Contact telefonic",
-      "esperienza": "14 ani de experiență"
+      "esperienza": "14 Ani de experiență"
     },
     "primo_piano": {
-      "header": "Produse de top",
+      "header": "Produse în prim plan",
       "piattaforma_masp": {
         "header": "Platforma MASP",
         "title": "Automatizare avansată pentru Industria 4.0",
-        "desc_1": "În contextul automatizării pentru Industria 4.0, este propusă platforma MASP (Mounting Assisted Software Platform), care permite implementarea flexibilă și eficientă a sistemelor de control cu conținut tehnologic avansat în liniile de producție printr-o combinație eficientă de instrumente software și hardware proprietare.",
-        "desc_2": "Funcționarea se bazează pe executarea într-o ordine prestabilită a unei serii de operațiuni, numite Joburi, care reprezintă pași efectuați de partea software, electronică și electromecanică, cu sau fără intervenția operatorului, necesare pentru a atinge un rezultat final.",
-        "desc_3": "Principalele avantaje ale utilizării platformei MASP includ operarea ghidată și personalizarea acestora, automatizarea procedurilor, siguranța operatorilor, trasabilitatea rezultatelor și interfațarea cu sistemele de tip MES (Manufacturing Execution System) și ERP (Enterprise Resources Planning).",
+        "desc_1": "În contextul automatizării pentru Industria 4.0, este propusă platforma MASP (Mounting Assisted Software Platform), care permite implementarea flexibilă și eficientă a sistemelor de control cu conținut tehnologic avansat în cadrul liniilor de producție printr-o combinație eficientă de instrumente software și hardware proprietare.",
+        "desc_2": "Funcționarea se bazează pe executarea într-o ordine predeterminată a unei serii de operațiuni, denumite Job, care reprezintă pașii efectuați de partea software, electronică și electromecanică, cu sau fără intervenția operatorului, necesare pentru a atinge un rezultat final.",
+        "desc_3": "Principalele avantaje ale utilizării platformei MASP includ conducerea ghidată a operațiunilor și personalizarea acestora, automatizarea procedurilor, siguranța operatorilor, trasabilitatea rezultatelor și interfațarea cu sisteme de tip MES (Manufacturing Execution System) și ERP (Enterprise Resources Planning).",
         "button": "Vezi mai mult"
       },
-      "supervisor": {
+      "supervisor":{
         "header": "Supervisor",
-        "title": "Control, trasabilitate și întreținere într-un singur Hub",
-        "desc": "Supervisor este un instrument web conectat la platforma MASP care, prin intermediul celor trei hub-uri interconectate - Trasabilitate, Control și Întreținere, asigură gestionarea datelor colectate în timpul operațiunilor, controlul operațional optim și întreținerea eficientă.",
+        "title": "Control, trasabilitate și mentenanță într-un singur Hub",
+        "desc_1": "Supervisor este un instrument web conectat la platforma MASP care, prin cele trei hub-uri interconectate ale sale, Traceability, Control și Maintenance, garantează gestionarea datelor colectate în timpul operațiunilor, controlul operativ optim și o mentenanță eficientă.",
         "control_title": "Control",
-        "control_desc": "Hub-ul de Control oferă control imediat asupra stării operaționale a stațiilor de lucru, permițând identificarea și rezolvarea rapidă a anomaliilor, precum și optimizarea performanței sistemului.",
-        "traceability_title": "Trasabilitate",
-        "traceability_desc": "Hub-ul de Trasabilitate permite monitorizarea detaliată și în timp real a datelor, îmbunătățind acuratețea informațiilor și permițând un control mai eficient al proceselor și operațiunilor.",
-        "maintenance_title": "Întreținere",
-        "maintenance_desc": "În cele din urmă, Hub-ul de Întreținere sprijină întreținerea preventivă cu instrumente avansate care mențin stațiile de lucru eficiente și reduc timpul de nefuncționare prin monitorizare la distanță.",
+        "control_desc": "Control Hub oferă un control imediat asupra stării operative a posturilor, permițând identificarea și rezolvarea rapidă a anomaliilor, precum și optimizarea performanțelor sistemului.",
+        "traceability_title": "Traceability",
+        "traceability_desc": "Traceability Hub permite monitorizarea detaliată și în timp real a datelor, îmbunătățind precizia informațiilor și permițând un control mai eficient al proceselor și operațiunilor.",
+        "maintenance_title": "Maintenance",
+        "maintenance_desc": "În cele din urmă, Maintenance Hub suportă mentenanța preventivă cu instrumente avansate care mențin posturile eficiente și reduc timpii de inactivitate datorită monitorizării la distanță.",
         "button": "Vezi mai mult"
       },
-      "mes": {
+      "mes":{
         "header": "Mes",
         "title": "Trasabilitate și control pentru o producție eficientă",
-        "desc_1": "Mes este o platformă web interconectată cu MASP, proiectată pentru a urmări cu precizie ciclurile de lucru pe care stațiile de lucru le efectuează în fiecare etapă a procesului de producție.",
-        "desc_2": "Gestionarea lucrărilor, comenzilor, componentelor și informațiilor auxiliare permite un control total al producției, chiar și de la distanță. Ciclurile de lucru pot fi create și trimise direct în rețeaua companiei, făcându-le ușor accesibile de la stațiile de lucru.",
-        "desc_3": "Cu această gestionare integrată, controlul producției devine simplu și eficient. De la ciclurile de lucru la partajarea informațiilor cruciale, sistemul nostru oferă flexibilitatea și practicitatea necesare întreprinderilor mici și mijlocii pentru a-și optimiza operațiunile fără eforturi excesive.",
+        "desc_1": "Mes este o platformă web interconectată la MASP și proiectată pentru a urmări cu precizie ciclurile de lucru pe care posturile le efectuează în fiecare etapă a procesului de producție.",
+        "desc_2": "Gestionarea lucrărilor, comenzilor, componentelor și informațiilor auxiliare permite un control total al producției chiar și de la distanță. Se pot crea cicluri de lucru și trimite direct în rețeaua companiei, făcându-le ușor accesibile din posturi.",
+        "desc_3": "Cu această gestionare integrată, controlul producției devine simplu și eficient. De la ciclurile de lucru la partajarea informațiilor esențiale, sistemul nostru oferă flexibilitatea și practicitatea necesare micilor și mijlociilor companii pentru a optimiza operațiunile fără eforturi excesive.",
         "button": "Vezi mai mult"
       },
       "piattaforma_imagina": {
         "header": "Platforma Imagina",
-        "title_1": "Simplifică biroul cu software-ul ScanQuest",
-        "desc_1": "Software-ul nostru ScanQuest și kitul de dezvoltare software (SDK) ScanApi au fost dezvoltate pentru a facilita operațiunile de birou prin dispozitive precum scanere cu alimentare automată și imprimante cu jet de cerneală. Aceste instrumente sunt concepute pentru a automatiza sarcinile de digitalizare, permițând utilizatorilor să convertească documente pe hârtie, fotografii și alte materiale în format digital cu ușurință și precizie.",
-        "title_2": "Digitalizare și imprimare cu cardul Imagina",
-        "desc_2": "Datorită tehnologiei noastre, dispozitivele Imagina implementează algoritmi sofisticați de recunoaștere pentru coduri de bare, caractere tipărite și scrise de mână. Acest lucru permite utilizatorilor să extragă rapid informațiile relevante din documentele digitalizate. În plus, fișierele pot fi convertite în alb-negru, stocate în diferite formate precum BMP, JPEG, TIFF și PDF și pot fi ușor editate și partajate electronic, îmbunătățind considerabil productivitatea în birou.",
+        "scanquest_title": "Simplifică biroul cu software-ul ScanQuest",
+        "scanquest_desc_1": "Software-ul nostru ScanQuest și Software Development Kit (SDK) ScanApi au fost dezvoltate pentru a facilita operațiunile de birou prin dispozitive scanner cu alimentare automată și imprimante cu jet de cerneală. Aceste instrumente sunt proiectate pentru a automatiza sarcinile de digitalizare, permițând utilizatorilor să convertească documente pe hârtie, fotografii și alte materiale în format digital cu ușurință și precizie extremă.",
+        "scheda_title": "Digitalizare și imprimare cu placa Imagina",
+        "scheda_desc_1": "Datorită tehnologiei noastre, dispozitivele Imagina implementează algoritmi sofisticați de recunoaștere pentru coduri de bare, caractere tipărite și scrise de mână. Acest lucru permite utilizatorilor să extragă rapid informații relevante din documentele digitalizate. În plus, fișierele pot fi convertite în alb-negru, arhivate în diferite formate, cum ar fi BMP, JPEG, TIFF și PDF, și ușor modificate și partajate în format electronic, îmbunătățind considerabil productivitatea în birou.",
         "button": "Vezi mai mult"
       },
       "schede_automazione": {
         "header": "Plăci pentru Automatizare Industrială",
         "io24_title": "IO24ADC",
-        "io24_desc": "Placa electronică IO24ADC este utilizată în domeniul controlului industrial pentru a gestiona eficient intrările și ieșirile digitale de la 0 la 24VDC. Este echipată cu 24 de intrări și 24 de ieșiri protejate și suportă, de asemenea, conversia a 5 canale analogic-digitale, oferind o versatilitate mai mare cu un port de expansiune pentru conectarea la module suplimentare. Posibilele conexiuni la PC-ul de control se realizează prin porturi USB, RS232 sau CAN, toate izolate galvanic pentru o protecție sporită.",
+        "io24_desc_1": "Placa electronică IO24ADC este utilizată în sectorul controlului industrial pentru a gestiona eficient intrările și ieșirile digitale de la 0 la 24VDC. Este dotată cu 24 de intrări și 24 de ieșiri protejate și suportă conversia a 5 canale analogico-digitale, oferind o versatilitate sporită cu un port de expansiune pentru conectarea la module suplimentare. Conexiunile posibile la PC-ul de control se realizează prin porturi USB, RS232 sau CAN, toate izolate galvanic pentru o protecție sporită.",
         "encoder_title": "ENCODER 4",
-        "encoder_desc": "Modulul ENCODER 4, integrat în proiectul nostru pentru Industria 4.0, permite monitorizarea precisă a unghiurilor prin patru encodere absolute sau citirea coordonatelor de la patru rigle optice digitale. Acesta se conectează direct la PC-ul de control prin placa IO24ADC și portul său de expansiune digitală, îmbogățind astfel gama noastră de soluții și oferind operatorilor instrumente robuste pentru gestionarea proceselor industriale.",
+        "encoder_desc_1": "Modulul ENCODER 4, integrat în proiectul nostru pentru Industria 4.0, permite monitorizarea precisă a unghiurilor prin patru encodere absolute sau citirea coordonatelor de la patru rigle optice digitale. Acesta se conectează direct la PC-ul de control prin placa IO24ADC și portul său de expansiune digital, îmbogățind astfel gama noastră de soluții și oferind operatorilor instrumente robuste pentru gestionarea proceselor industriale.",
         "cora_title": "CORA",
-        "cora_desc": "Placa electronică CORA permite citirea curenților, transformând valoarea măsurată într-o tensiune care va fi digitalizată prin unul dintre canalele de conversie ADC ale plăcii IO24ADC. Dispune de un transductor izolat galvanic capabil să citească curenți unidirecționali sau bidirecționali de până la un maxim de 19.2A. Tensiunea de ieșire, proporțională cu curentul măsurat, variază între 0V și 3.3V, făcând-o compatibilă cu convertoarele analogic-digitale ale plăcii IO24ADC.",
+        "cora_desc_1": "Placa electronică CORA permite citirea curenților, transformând valoarea măsurată într-o tensiune care va fi digitalizată prin intermediul unuia dintre canalele de conversie ADC ale plăcii IO24ADC. Dispune de un transductor izolat galvanic capabil să citească curenți unidirecționali sau bidirecționali până la un maxim de 19.2A. Tensiunea de ieșire, proporțională cu curentul măsurat, variază între 0V și 3.3V, făcând-o compatibilă cu convertoarele analogico-digitale ale plăcii IO24ADC.",
         "button": "Vezi mai mult"
       }
     },
@@ -85,41 +85,41 @@
       "data": [
         {
           "id": 1,
-          "title": "Dezvoltare de produse",
-          "description": "Scanteq dezvoltă produse inovatoare pentru sine și pentru clienții săi, cu o arhitectură integrată de hardware, firmware și software. Oferim expertiză completă și furnizăm documentație și certificări UL, FCC și CE, asigurând produse de înaltă calitate.",
+          "title": "Dezvoltare produse",
+          "description": "Scanteq dezvoltă, pentru sine și pentru clienții săi, produse inovatoare cu arhitectură integrată de hardware, firmware și software. Oferim competențe complete și furnizăm documentație și certificări UL, FCC și CE, garantând produse de înaltă calitate.",
           "icon": "flaticon-monitor"
         },
         {
           "id": 2,
           "title": "Proiectare hardware",
-          "description": "Experți în electronică, proiectăm circuite analogice, digitale și de putere. Oferim competențe avansate în crearea de scheme electronice și layout-uri, asigurând soluții inovatoare, fiabile și de înaltă calitate pentru a satisface nevoile clienților noștri.",
+          "description": "Experți în electronică, proiectăm circuite analogice, digitale și de putere. Oferim competențe avansate în crearea de scheme electronice și layout, garantând soluții inovatoare, fiabile și de înaltă calitate pentru a satisface nevoile clienților noștri.",
           "icon": "flaticon-engineer"
         },
         {
           "id": 3,
           "title": "Dezvoltare software și firmware",
-          "description": "Dezvoltăm software și firmware pentru diverse platforme, susținând sisteme de operare moderne și interfațarea cu periferice hardware. Suntem experți în drivere de dispozitive, biblioteci (DLL) și interfețe complexe de utilizator (GUI), oferind suport în testare și distribuție.",
+          "description": "În cele din urmă, dezvoltăm software și firmware pentru diverse platforme, suportând sisteme de operare moderne și interfațări cu periferice hardware. Suntem experți în device driver, librării (DLL) și interfețe utilizator complexe (GUI), oferind suport în testare și distribuție.",
           "icon": "flaticon-coding"
         }
       ]
     },
     "clienti": {
-      "header_1": "Partenerii Noștri",
-      "header_2": "Clienții Noștri Finali",
-      "tecno_italia": "Tecno Italia, situată în Orbassano, este specializată în distribuția de brațe de reacție și echipamente de manipulare în sectorul industrial, oferind servicii complete post-vânzare, inclusiv instruire, asistență tehnică și un vast inventar de piese de schimb pentru optimizarea producției industriale.",
-      "miba": "Fondată în 1984, Miba este singurul deținător al mărcii THOR și este specializată în proiectarea și producția de echipamente industriale. Din 2006, este distribuitorul exclusiv în Italia pentru produsele Eepos, Liftkon și Vetter, colaborând cu principalele companii auto europene.",
-      "automotive_componentistica_title": "Automotive și Componentă Auto",
-      "automotive_componentistica_desc": "În sectorul Automotive, Componentă Auto și Prelucrări Mecanice, compania noastră a furnizat tehnologii pentru crearea de bănci de asamblare și testare. Aceste sisteme utilizează operațiunile disponibile pe Platforma MASP și se pot interfața cu sistemele MES (Manufacturing Execution System) și ERP (Enterprise Resource Planning) ale clienților noștri.",
+      "header_1": "Partenerii noștri",
+      "header_2": "Clienții noștri finali",
+      "tecno_italia": "Tecno Italia, situată în Orbassano, este specializată în distribuția de brațe de reacție și echipamente pentru manipulare în sectorul industrial, oferind servicii post-vânzare complete, inclusiv formare, asistență tehnică și un inventar vast de piese de schimb pentru a optimiza producția industrială.",
+      "miba": "Fondată în 1984, Miba este singurul deținător al mărcii THOR și se specializează în proiectarea și producția de echipamente industriale. Din 2006, este distribuitorul exclusiv în Italia pentru produsele Eepos, Liftkon și Vetter, colaborând cu principalele companii auto europene.",
+      "automotive_componentistica_title": "Automotive și Componente pentru Automotive",
+      "automotive_componentistica_desc": "În sectorul Automotive, Componente pentru Automotive și Prelucrări Mecanice, compania noastră a furnizat tehnologiile pentru crearea de bănci de montaj și testare. Aceste sisteme utilizează operațiunile disponibile în Platforma MASP și sunt capabile să interfațeze cu sistemele MES (Manufacturing Execution System) și ERP (Enterprise Resources Planning) ale clienților noștri.",
       "lavorazioni_meccaniche_title": "Prelucrări Mecanice",
-      "automazione_ufficio_title": "Automatizarea Biroului",
-      "automazione_ufficio_desc": "Scanteq a furnizat soluția hardware și software pentru imagistică și imprimare digitală, facilitând dezvoltarea rapidă a scannerului multifuncțional numit scAn4 pentru client. Acest dispozitiv este utilizat pentru digitizarea și procesarea documentelor și cecurilor, recunoașterea codurilor magnetice E13B și CMC7, citirea biletelor de loterie, verificarea bancnotelor și imprimarea cu jet de cerneală pe spatele articolelor de hârtie.",
-      "istruzione_ricerca_title": "Educație și Cercetare",
-      "istruzione_ricerca_desc": "Departamentul de Inginerie Electrică al Politecnico di Torino a ales soluția noastră de Control Digital ca placă electronică pentru a controla în timp real convertoarele electronice de putere într-un sistem de încărcare wireless pentru bateriile mașinilor electrice. Finanțat cu fonduri europene, acest proiect face parte dintr-o colaborare internațională cu institute de cercetare și universități."
+      "automazione_ufficio_title": "Automatizare de Birou",
+      "automazione_ufficio_desc": "Scanteq a furnizat soluția hardware și software pentru imaging și imprimare digitală, facilitând dezvoltarea rapidă a scannerului multifuncțional denumit scAn4 pentru client. Acest dispozitiv este utilizat pentru digitalizarea și procesarea documentelor și cecurilor, recunoașterea codelinei magnetice E13B și CMC7, citirea biletelor de loterie, verificarea bancnotelor și imprimarea cu jet de cerneală pe spatele articolelor de hârtie.",
+      "istruzione_ricerca_title": "Educație și cercetare",
+      "istruzione_ricerca_desc": "Departamentul de Inginerie Electrică al Politehnicii din Torino a ales soluția noastră de Control Digital ca placă electronică pentru a controla în timp real convertoarele electronice de putere într-un sistem de încărcare fără fir pentru bateriile mașinilor electrice. Finanțat cu fonduri europene, acest proiect face parte dintr-o colaborare internațională cu institute de cercetare și universități."
     },
-    "perche_sceglierci": {
-      "header": "De ce să ne alegeți",
-      "desc": "Scanteq oferă peste un deceniu de experiență în automatizarea industrială și de birou. Expertiza noastră dovedită și angajamentul constant pentru inovație asigură soluții personalizate de succes.",
-      "lista": [
+    "perche_sceglierci":{
+      "header": "De ce să ne alegi",
+      "desc_1": "Scanteq oferă peste un deceniu de experiență în automatizarea industrială și de birou. Competența noastră dovedită și angajamentul constant pentru inovație garantează soluții personalizate de succes.",
+      "lista":[
         {
           "desc": "Excelență tehnică"
         },
@@ -130,12 +130,13 @@
           "desc": "Inovație continuă"
         },
         {
-          "desc": "Soluții personalizate"
+          "desc": "Personalizarea soluțiilor"
         },
         {
           "desc": "Suport proactiv pentru clienți"
         }
       ]
+
     }
   }
 }

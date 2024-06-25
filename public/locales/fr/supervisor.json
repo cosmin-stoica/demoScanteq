@@ -2,13 +2,13 @@
     "intro": {
         "header": "Surveillance Avancée",
         "title": "Bienvenue sur Supervisor, la plateforme 4.0 de pointe qui révolutionne la gestion des données et des opérations dans vos postes.",
-        "desc": "Nous connectons et centralisons les informations en temps réel pour vous offrir une vue complète et immédiate de votre système. Grâce à ses trois hubs distincts, Supervisor vous offre un contrôle sans précédent sur la traçabilité, l'état opérationnel et la maintenance préventive."
+        "desc_1": "Nous connectons et centralisons les informations en temps réel pour vous offrir une vue complète et immédiate de votre système. Grâce à ses trois hubs distincts, Supervisor vous offre un contrôle sans précédent sur la traçabilité, l'état opérationnel et la maintenance préventive."
     },
     "prequel": {
         "control_title": "Control Hub",
         "traceability_title": "Traceability Hub",
         "maintenance_title": "Maintenance Hub",
-        "desc": "Le système de gestion avancée Supervisor offre un contrôle total et efficace des opérations grâce à trois hubs fondamentaux. Ces outils assurent la traçabilité des données, la surveillance opérationnelle en temps réel et la gestion proactive de la maintenance. Grâce à une visualisation détaillée et en temps opportun, Supervisor améliore la précision des informations, identifie rapidement les anomalies et réduit les temps d'arrêt, optimisant ainsi l'efficacité globale du système."
+        "desc_1": "Le système de gestion avancée Supervisor offre un contrôle total et efficace des opérations grâce à trois hubs fondamentaux. Ces outils assurent la traçabilité des données, la surveillance opérationnelle en temps réel et la gestion proactive de la maintenance. Grâce à une visualisation détaillée et en temps opportun, Supervisor améliore la précision des informations, identifie rapidement les anomalies et réduit les temps d'arrêt, optimisant ainsi l'efficacité globale du système."
     },
     "declaration": {
         "data": [

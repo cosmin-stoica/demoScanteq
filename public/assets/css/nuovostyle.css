@@ -4377,7 +4377,7 @@ section.cardJob {
 }
 
 .sezione-generale-div {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
   display: flex;
@@ -4400,7 +4400,7 @@ section.cardJob {
   border-radius: 5px;
 }
 
-.sezione-generale-checkbox{
+.sezione-generale-checkbox {
   width: 25%;
   min-height: 10px;
   display: flex;
@@ -4420,8 +4420,9 @@ section.cardJob {
   min-width: 200px;
   max-width: 200px;
   flex: 1;
-  text-align: left; /* Assicura che il testo sia allineato a sinistra */
-  color:black;
+  text-align: left;
+  /* Assicura che il testo sia allineato a sinistra */
+  color: black;
   font-size: 17px;
 }
 
@@ -4455,7 +4456,7 @@ button[type="submit"]:hover {
 }
 
 .sezione-job-div {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
@@ -4473,7 +4474,6 @@ button[type="submit"]:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   width: 100%;
   height: 100%;
 }
@@ -4489,40 +4489,40 @@ button[type="submit"]:hover {
   border-left: 2px solid black;
 }
 
-.sezione-job-div-vedi h1{
+.sezione-job-div-vedi h1 {
   font-size: 20px;
   padding: 10px;
   color: white;
   background-color: var(--primary);
 }
 
-.sezione-job-index-job{
+.sezione-job-index-job {
   background-color: var(--primary);
   padding: 4px;
-  color:white;
+  color: white;
   border-radius: 3px;
   width: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor:grab;
+  cursor: grab;
 }
 
-.sezione-job-name-job{
-  color:black;
+.sezione-job-name-job {
+  color: black;
   font-size: 17px;
 }
 
-.sezione-job-vedibtn{
+.sezione-job-vedibtn {
   background-color: var(--primary);
-  color:white;
+  color: white;
   border: none;
   border-radius: 3px;
 }
 
-.sezione-job-eliminabtn{
+.sezione-job-eliminabtn {
   background-color: rgb(141, 20, 20);
-  color:white;
+  color: white;
   border: none;
   border-radius: 3px;
 }
@@ -4592,7 +4592,7 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-.job-checkbox-included{
+.job-checkbox-included {
   max-width: 15px;
   font-size: 17px;
 }
@@ -4615,4 +4615,131 @@ button[type="submit"]:hover {
   background-color: white;
   color: black;
   transition: all 0.3s ease;
+}
+
+.sezione-job-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* Puoi regolare questo valore per cambiare la distanza tra i pulsanti */
+}
+
+.sezione-job-vedibtn,
+.sezione-job-eliminabtn {
+  flex: 1;
+  text-align: center;
+}
+
+
+.sezione-job-div-vedi-jobdiv.dragging {
+  cursor: grabbing;
+}
+
+.sezione-job-div-vedi-jobdiv.not-dragging {
+  cursor: grab;
+}
+
+
+.job-chooser-pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job-chooser-div {
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 230px;
+  height: 230px;
+  position: relative;
+  cursor: pointer;
+}
+
+.job-chooser-div i {
+  padding-bottom: 20px;
+  height: 100%;
+  color:white;
+}
+
+.job-chooser-div span {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  text-align: center;
+}
+
+.job-chooser-div-upper {
+  display: flex;
+  gap: 20px;
+  width: 100%;  
+}
+
+.job-chooser-indietro-button {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.job-list-upper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.job-list {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  gap:40px;
+}
+
+
+.job-list-item img{
+  filter: invert(100%) brightness(200%);
+  padding-bottom: 10px;
+}
+
+
+.job-list-item {
+  padding: 20px;
+  background-color: var(--primary);
+  border-radius: 10px;
+  font-size: 23px;
+  min-height: 170px;
+  min-width: 170px;
+  max-height: 170px;
+  max-width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  color:white;
 }

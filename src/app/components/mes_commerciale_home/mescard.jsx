@@ -6,6 +6,21 @@ const MesCard = () => {
 
     const { t } = useTranslation();
 
+    const getIncrementalDescriptions = () => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`home.primo_piano.mes.desc_${i}`)) && desc !== `home.primo_piano.mes.desc_${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions();
+
     return (
         <div id="clienti" className="perflex width100">
             <div className="perflex">
@@ -60,17 +75,9 @@ const MesCard = () => {
                                     <div className="secondapartetesto wow fadeInDown" data-wow-duration="2000ms">
                                         <span class="card-titleMAIM">{t("home.primo_piano.mes.title")}</span>
                                         <div id="piattaformap" className="sx-about-bx3-content">
-                                            <p class="card-contentMAIM">
-                                                {t("home.primo_piano.mes.desc_1")}
-                                            </p>
-
-                                            <p class="card-contentMAIM">
-                                                {t("home.primo_piano.mes.desc_2")}
-                                            </p>
-
-                                            <p class="card-contentMAIM">
-                                                {t("home.primo_piano.mes.desc_3")}
-                                            </p>
+                                            {descriptions.map((desc, index) => (
+                                                <p class="card-contentMAIM" key={index}>{desc}</p>
+                                            ))}
 
                                         </div>
                                     </div>

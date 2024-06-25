@@ -1,7 +1,7 @@
 {
     "intro": {
         "header": "Cartes pour l'automatisation",
-        "desc": "Nos solutions pour le contrôle industriel comprennent les cartes IO24ADC, ENCODER 4 et CORA. Ces modules offrent des fonctionnalités avancées pour la gestion des entrées et sorties numériques, la surveillance précise des angles et la lecture précise des courants, garantissant fiabilité et facilité d'intégration dans les systèmes d'automatisation."
+        "desc_1": "Nos solutions pour le contrôle industriel comprennent les cartes IO24ADC, ENCODER 4 et CORA. Ces modules offrent des fonctionnalités avancées pour la gestion des entrées et sorties numériques, la surveillance précise des angles et la lecture précise des courants, garantissant fiabilité et facilité d'intégration dans les systèmes d'automatisation."
     },
     "prequel": {
         "data": [

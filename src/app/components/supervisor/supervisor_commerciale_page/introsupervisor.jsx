@@ -5,6 +5,21 @@ const IntroSupervisor = () => {
 
     const { t } = useTranslation("supervisor");
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("intro.desc_");
+
     return (
         <>
 
@@ -20,7 +35,9 @@ const IntroSupervisor = () => {
                         </div>
                         <div className="masp-prequel-div-parteP">
                             <p className="upper-supervisor-p">{t("intro.title")}</p>
-                            <p>{t("intro.desc")}</p>
+                            {descriptions.map((desc, index) => (
+                                <p key={index}>{desc}</p>
+                            ))}
                         </div>
                     </div>
                 </div>

@@ -1,8 +1,23 @@
 import ItodoImage from "../../elements/itodo-img";
 import { useTranslation } from 'react-i18next';
 const MesCategoriePrequel = () => {
-    
+
     const { t } = useTranslation("mes");
+
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("prequel.desc_");
 
     return (
         <>
@@ -43,7 +58,9 @@ const MesCategoriePrequel = () => {
                 <div className="section-full wow fadeInDown" data-wow-delay="900ms" data-wow-duration="1500ms">
                     <div className="width100 perflex">
                         <div className="mes-descrizione">
-                            <p>{t("prequel.desc")}</p>
+                            {descriptions.map((desc, index) => (
+                                <p key={index}>{desc}</p>
+                            ))}
                         </div>
                     </div>
                 </div>

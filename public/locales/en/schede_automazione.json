@@ -1,7 +1,7 @@
 {
     "intro": {
         "header": "Automation Boards",
-        "desc": "Our industrial control solutions include the IO24ADC, ENCODER 4, and CORA boards. These modules offer advanced features for managing digital inputs and outputs, precise angle monitoring, and accurate current reading, ensuring reliability and ease of integration into automation systems."
+        "desc_1": "Our industrial control solutions include the IO24ADC, ENCODER 4, and CORA boards. These modules offer advanced features for managing digital inputs and outputs, precise angle monitoring, and accurate current reading, ensuring reliability and ease of integration into automation systems."
     },
     "prequel": {
         "data": [

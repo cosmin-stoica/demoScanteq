@@ -5,6 +5,21 @@ const MaspPrequel = () => {
 
   const { t } = useTranslation("masp_caratteristiche");
 
+  const getIncrementalDescriptions = (variabile) => {
+    let descriptions = [];
+    let i = 1;
+    let desc;
+
+    while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+      descriptions.push(desc);
+      i++;
+    }
+
+    return descriptions;
+  };
+
+  const descriptions = getIncrementalDescriptions("prequel.desc_");
+
   return (
     <>
       <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
@@ -18,8 +33,9 @@ const MaspPrequel = () => {
             <ItodoImage src="/images/masp/masp.png"></ItodoImage>
           </div>
           <div className="masp-prequel-div-parteP">
-            <p>{t("prequel.desc_1")}</p>
-            <p>{t("prequel.desc_2")}</p>
+            {descriptions.map((desc, index) => (
+              <p key={index}>{desc}</p>
+            ))}
           </div>
         </div>
       </div>

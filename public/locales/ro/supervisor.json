@@ -2,13 +2,13 @@
     "intro": {
         "header": "Monitorizare Avansată",
         "title": "Bun venit la Supervisor, platforma 4.0 de ultimă generație care revoluționează gestionarea datelor și operațiunilor la posturile dvs. de lucru.",
-        "desc": "Conectăm și centralizăm informațiile în timp real pentru a vă oferi o vedere completă și imediată a sistemului dvs. Prin cele trei hub-uri distincte, Supervisor vă oferă un control fără precedent asupra trasabilității, stării operaționale și întreținerii preventive."
+        "desc_1": "Conectăm și centralizăm informațiile în timp real pentru a vă oferi o vedere completă și imediată a sistemului dvs. Prin cele trei hub-uri distincte, Supervisor vă oferă un control fără precedent asupra trasabilității, stării operaționale și întreținerii preventive."
     },
     "prequel": {
         "control_title": "Control Hub",
         "traceability_title": "Traceability Hub",
         "maintenance_title": "Maintenance Hub",
-        "desc": "Sistemul avansat de management Supervisor oferă un control total și eficient al operațiunilor prin trei hub-uri fundamentale. Aceste instrumente asigură trasabilitatea datelor, monitorizarea operațională în timp real și gestionarea proactivă a întreținerii. Cu o vizualizare detaliată și promptă, Supervisor îmbunătățește acuratețea informațiilor, identifică rapid anomaliile și reduce timpul de nefuncționare, optimizând eficiența generală a sistemului."
+        "desc_1": "Sistemul avansat de management Supervisor oferă un control total și eficient al operațiunilor prin trei hub-uri fundamentale. Aceste instrumente asigură trasabilitatea datelor, monitorizarea operațională în timp real și gestionarea proactivă a întreținerii. Cu o vizualizare detaliată și promptă, Supervisor îmbunătățește acuratețea informațiilor, identifică rapid anomaliile și reduce timpul de nefuncționare, optimizând eficiența generală a sistemului."
     },
     "declaration": {
         "data": [

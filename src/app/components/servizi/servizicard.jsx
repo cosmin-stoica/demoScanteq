@@ -5,6 +5,23 @@ const ServiziCard = () => {
 
     const { t } = useTranslation("servizi");
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptionsFirst = getIncrementalDescriptions("first_container.desc_");
+    const descriptionsSecond = getIncrementalDescriptions("second_container.desc_");
+    const descriptionsThird = getIncrementalDescriptions("third_container.desc_");
+
     return (
         <>
             <div className="section-full p-t110 p-b80 sx-why-chooseus-outer sx-bg-light bg-white">
@@ -20,13 +37,9 @@ const ServiziCard = () => {
                             <ItodoImage className="servizio-card-img" src="images/servizi/projectt.png" alt="servizio-img"></ItodoImage>
                             <div className="servizio-card-secondaparte">
                                 <div className="servizio-card-title">{t("first_container.header")}</div>
-                                <p>
-                                    {t("first_container.desc_1")}
-                                </p>
-                                <p>
-                                    {t("first_container.desc_2")}
-                                </p>
-
+                                {descriptionsFirst.map((desc, index) => (
+                                    <p key={index}>{desc}</p>
+                                ))}
 
 
                             </div>
@@ -65,12 +78,9 @@ const ServiziCard = () => {
                                 <div className="servizio-card-title">
                                     {t("second_container.header")}
                                 </div>
-                                <p>
-                                    {t("second_container.desc_1")}
-                                </p>
-                                <p>
-                                    {t("second_container.desc_2")}
-                                </p>
+                                {descriptionsSecond.map((desc, index) => (
+                                    <p key={index}>{desc}</p>
+                                ))}
 
 
 
@@ -111,11 +121,12 @@ const ServiziCard = () => {
                             <ItodoImage className="servizio-card-img" src="images/servizi/software.png" alt="servizio-img"></ItodoImage>
                             <div className="servizio-card-secondaparte">
                                 <div className="servizio-card-title">
-                                {t("third_container.header")}
+                                    {t("third_container.header")}
                                 </div>
-                                <p>
-                                {t("third_container.desc_1")}
-                                </p>
+                                {descriptionsThird.map((desc, index) => (
+                                    <p key={index}>{desc}</p>
+                                ))}
+
 
                             </div>
 

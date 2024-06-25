@@ -1,7 +1,7 @@
 {
     "intro": {
         "header": "Carte de contrôle électronique multifonction",
-        "desc_1": "Cette carte est la solution matérielle et firmware de Scanteq pour les systèmes de contrôle complexes en temps réel, intégrant un microprocesseur ARM rapide, une puissante FPGA (Field Programmable Logic Array) et des périphériques spécifiques. Plugin peut être utilisé efficacement dans une large gamme d'équipements industriels nécessitant une puissance de calcul élevée, une implémentation de matériel et firmware embarqués, ainsi que des interfaces analogiques et numériques pour réaliser des fonctions appropriées à diverses applications, par exemple :",
+        "upper_desc_1": "Cette carte est la solution matérielle et firmware de Scanteq pour les systèmes de contrôle complexes en temps réel, intégrant un microprocesseur ARM rapide, une puissante FPGA (Field Programmable Logic Array) et des périphériques spécifiques. Plugin peut être utilisé efficacement dans une large gamme d'équipements industriels nécessitant une puissance de calcul élevée, une implémentation de matériel et firmware embarqués, ainsi que des interfaces analogiques et numériques pour réaliser des fonctions appropriées à diverses applications, par exemple :",
         "data": [
             {
                 "icona": "images/hardware/controllodigitale/motore.png",
@@ -24,7 +24,7 @@
                 "delay": "600ms"
             }
         ],
-        "desc_2": "L'intégration de la technologie Plugin permet à nos clients de se concentrer sur le développement des comportements spécifiques de leur application sans perdre de temps précieux dans le développement et le débogage d'une carte de contrôle complexe. En utilisant cette stratégie, non seulement ils augmentent la valeur ajoutée de leurs produits et réduisent drastiquement le temps de commercialisation, mais ils obtiennent également un coût de développement bien inférieur."
+        "lower_desc_1": "L'intégration de la technologie Plugin permet à nos clients de se concentrer sur le développement des comportements spécifiques de leur application sans perdre de temps précieux dans le développement et le débogage d'une carte de contrôle complexe. En utilisant cette stratégie, non seulement ils augmentent la valeur ajoutée de leurs produits et réduisent drastiquement le temps de commercialisation, mais ils obtiennent également un coût de développement bien inférieur."
     },
     "caratteristiche": {
         "header": "Solution Embarquée Puissante et Flexible",

@@ -14,6 +14,21 @@ export function SectionWhyChooseUs2Inner() {
         console.error('La lista non è disponibile o non è un array.');
     }
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("home.perche_sceglierci.desc_");
+
 
     return (
         <>
@@ -30,9 +45,9 @@ export function SectionWhyChooseUs2Inner() {
                 </div>
                 <div className="col-lg-6 col-md-12">
                     <div className="sx-about-bx3-content">
-                        <p>
-                            {t('home.perche_sceglierci.desc')}
-                        </p>
+                        {descriptions.map((desc, index) => (
+                            <p key={index}>{desc}</p>
+                        ))}
 
                         <ul id="ulprodotto" className="sx-arrow-circle-checked">
                             {lista.map((data, index) => (

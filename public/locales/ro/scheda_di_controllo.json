@@ -1,7 +1,7 @@
 {
     "intro": {
         "header": "Placă de Control Electronic Multifuncțională",
-        "desc_1": "Această placă este soluția hardware și firmware de la Scanteq pentru sisteme complexe de control în timp real, integrând un microprocesor ARM rapid, un FPGA (Field Programmable Logic Array) puternic și periferice specifice. Plugin poate fi utilizat eficient într-o gamă largă de echipamente industriale care necesită putere de calcul ridicată, implementare de hardware și firmware embedded și interfețe analogice și digitale pentru a realiza funcții adecvate pentru diverse aplicații, cum ar fi:",
+        "upper_desc_1": "Această placă este soluția hardware și firmware de la Scanteq pentru sisteme complexe de control în timp real, integrând un microprocesor ARM rapid, un FPGA (Field Programmable Logic Array) puternic și periferice specifice. Plugin poate fi utilizat eficient într-o gamă largă de echipamente industriale care necesită putere de calcul ridicată, implementare de hardware și firmware embedded și interfețe analogice și digitale pentru a realiza funcții adecvate pentru diverse aplicații, cum ar fi:",
         "data": [
             {
                 "icona": "images/hardware/controllodigitale/motore.png",
@@ -24,7 +24,7 @@
                 "delay": "600ms"
             }
         ],
-        "desc_2": "Integrarea tehnologiei Plugin permite clienților noștri să se concentreze pe dezvoltarea comportamentelor specifice aplicației lor fără a pierde timp prețios în dezvoltarea și depanarea unei plăci de control complexe. Folosind această strategie, nu numai că măresc valoarea adăugată a produselor și reduc drastic timpul de lansare, dar obțin și un cost de dezvoltare mult mai mic."
+        "lower_desc_1": "Integrarea tehnologiei Plugin permite clienților noștri să se concentreze pe dezvoltarea comportamentelor specifice aplicației lor fără a pierde timp prețios în dezvoltarea și depanarea unei plăci de control complexe. Folosind această strategie, nu numai că măresc valoarea adăugată a produselor și reduc drastic timpul de lansare, dar obțin și un cost de dezvoltare mult mai mic."
     },
     "caratteristiche": {
         "header": "Soluție Embedded Puternică și Flexibilă",

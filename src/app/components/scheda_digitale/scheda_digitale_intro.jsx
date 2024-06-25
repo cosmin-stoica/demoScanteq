@@ -7,6 +7,23 @@ const SchedaDigitaleIntro = () => {
     const { t } = useTranslation("scheda_di_controllo");
     const introDataList = t('intro.data', { returnObjects: true });
 
+
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptionsUpper = getIncrementalDescriptions("intro.upper_desc_");
+    const descriptionsLower = getIncrementalDescriptions("intro.lower_desc_");
+
     return (
         <>
             <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
@@ -19,9 +36,9 @@ const SchedaDigitaleIntro = () => {
                 <div className="section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms">
                     <ItodoImage className="scheda-digitale" src="images/hardware/controllodigitale/schedafinita.png"></ItodoImage>
                 </div>
-                <div className="margin-top50">
-                {t("intro.desc_1")}
-                </div>
+                {descriptionsUpper.map((desc, index) => (
+                        <div className="margin-top50 section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms" key={index}>{desc}</div>
+                    ))}
 
                 <div className="scheda-digitale-intro-div-list margin-top50">
                     {introDataList.map((data, index) => (
@@ -33,9 +50,12 @@ const SchedaDigitaleIntro = () => {
                 </div>
 
                 <div className="width100 perflex">
-                    <div className="scheda-digitale-descrizione-aux margin-top50 section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms">
-                    {t("intro.desc_2")}
-                    </div>
+
+
+                    {descriptionsLower.map((desc, index) => (
+                        <div className="scheda-digitale-descrizione-aux margin-top50 section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms" key={index}>{desc}</div>
+                    ))}
+
                 </div>
             </div>
         </>

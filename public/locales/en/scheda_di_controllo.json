@@ -1,7 +1,7 @@
 {
     "intro": {
         "header": "Multifunctional Electronic Control Board",
-        "desc_1": "This board is Scanteq's hardware and firmware solution for complex real-time control systems, integrating a fast ARM microprocessor, a powerful FPGA (Field Programmable Logic Array), and specific peripherals. Plugin can be effectively used in a wide range of industrial equipment that requires high computing power, implementation of embedded hardware and firmware, and analog and digital interfaces to perform functions appropriate for various applications, such as:",
+        "upper_desc_1": "This board is Scanteq's hardware and firmware solution for complex real-time control systems, integrating a fast ARM microprocessor, a powerful FPGA (Field Programmable Logic Array), and specific peripherals. Plugin can be effectively used in a wide range of industrial equipment that requires high computing power, implementation of embedded hardware and firmware, and analog and digital interfaces to perform functions appropriate for various applications, such as:",
         "data": [
             {
                 "icona": "images/hardware/controllodigitale/motore.png",
@@ -24,7 +24,7 @@
                 "delay": "600ms"
             }
         ],
-        "desc_2": "The integration of Plugin technology allows our customers to focus on developing the specific behaviors of their application without wasting valuable time on developing and debugging a complex control board. Using this strategy, they not only increase the added value of the products and drastically reduce release time but also achieve a much lower development cost."
+        "lower_desc_1": "The integration of Plugin technology allows our customers to focus on developing the specific behaviors of their application without wasting valuable time on developing and debugging a complex control board. Using this strategy, they not only increase the added value of the products and drastically reduce release time but also achieve a much lower development cost."
     },
     "caratteristiche": {
         "header": "Powerful and Flexible Embedded Solution",

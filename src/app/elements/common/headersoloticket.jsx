@@ -119,6 +119,9 @@ function HeaderSoloTicket() {
                                         <NavLink to="/attivita">Attivita</NavLink>
                                     </li>}
                                     {isAdmin &&<li className="activesss">
+                                        <NavLink to="/jobconfig">Job Config</NavLink>
+                                    </li>}
+                                    {isAdmin &&<li className="activesss">
                                         <NavLink to="/halconfig">Config</NavLink>
                                     </li>}
                                     <li className="activesss">

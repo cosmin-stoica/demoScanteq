@@ -6,6 +6,20 @@ function MaspIntro() {
 
     const { t } = useTranslation();
 
+    const getIncrementalDescriptions = () => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`home.primo_piano.piattaforma_masp.desc_${i}`)) && desc !== `home.primo_piano.piattaforma_masp.desc_${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions();
 
     return (
         <>
@@ -59,16 +73,10 @@ function MaspIntro() {
                                         <div className="secondapartetesto wow fadeInLeft" data-wow-duration="2000ms">
                                             <span class="card-titleMAIM">{t("home.primo_piano.piattaforma_masp.title")}</span>
                                             <div id="piattaformap" className="sx-about-bx3-content">
-                                                <p class="card-contentMAIM">
-                                                    {t("home.primo_piano.piattaforma_masp.desc_1")}
-                                                </p>
-                                                <p class="card-contentMAIM">
-                                                    {t("home.primo_piano.piattaforma_masp.desc_2")}
-                                                </p>
-                                                {/*Questi Job, altamente configurabili, sono suddivisi in sei categorie: Automazione e Assemblaggio, Collaudo Componenti Automotive, Controllo di Qualità e Verifica, Gestione della Produzione e Logistica, Gestione delle Postazioni e delle Procedure, e Sistemi di Controllo Elettronico per Sedili.*/}
-                                                <p class="card-contentMAIM">
-                                                    {t("home.primo_piano.piattaforma_masp.desc_3")}
-                                                </p>
+
+                                                {descriptions.map((desc, index) => (
+                                                    <p class="card-contentMAIM" key={index}>{desc}</p>
+                                                ))}
                                             </div>
                                         </div>
 

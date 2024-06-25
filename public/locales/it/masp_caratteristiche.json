@@ -3,7 +3,7 @@
         "header": "Caratteristiche Principali",
         "desc_1": "Nel contesto dell'automazione per l'Industria 4.0, viene proposta la piattaforma MASP (Mounting Assisted Software Platform), che consente l'implementazione flessibile ed efficiente di sistemi di controllo con contenuti tecnologici avanzati all’interno delle linee di produzione attraverso una combinazione efficace di strumenti software e hardware proprietari.",
         "desc_2": "Il funzionamento si basa sull’esecuzione in ordine predeterminato di una serie di operazioni, denominate Job, che rappresentano passaggi effettuati dalla parte software, elettronica ed elettromeccanica, con o senza intervento dell’operatore, necessari per raggiungere un risultato finale."
-    },
+      },
     "characteristics":{
         "guided_conduct_title" : "CONDOTTA GUIDATA",
         "guided_conduct_desc" : "La correttezza delle operazioni è garantita da un'interfaccia utente intuitiva con pannelli automatici contenenti immagini e messaggi che guidano l'operatore in ogni fase del lavoro. Il sistema è efficace grazie a metodi di configurazione personalizzabili e semplici da implementare per immagini e messaggi. Inoltre, la piattaforma include un pannello per visualizzare istruzioni tramite immagini, file PDF e filmati, utili per la formazione del personale senza l'uso di materiale cartaceo, con tutti i relativi vantaggi.",

@@ -2,14 +2,14 @@
     "intro": {
         "header": "Management Integrat al Producției",
         "title": "Soluție Completă de Management Integrat al Producției",
-        "desc": "Acest instrument vă oferă posibilitatea de a lua decizii informate pentru a optimiza performanța sistemului, asigurând o gestionare eficientă a resurselor și o productivitate globală crescută."
+        "desc_1": "Acest instrument vă oferă posibilitatea de a lua decizii informate pentru a optimiza performanța sistemului, asigurând o gestionare eficientă a resurselor și o productivitate globală crescută."
     },
     "prequel": {
         "processes_title": "Procese",
         "orders_title": "Comenzi",
         "components_title": "Componente",
         "info_title": "Info Auxiliare",
-        "desc": "MES este o platformă web conectată la MASP pentru a urmări ciclurile de lucru și pentru a gestiona comenzile, componentele și informațiile auxiliare. Oferă control total asupra producției de la distanță, permițându-vă să creați și să partajați cicluri de lucru cu ușurință. Ideal pentru întreprinderile mici și mijlocii, simplifică controlul producției și optimizează operațiunile de afaceri."
+        "desc_1": "MES este o platformă web conectată la MASP pentru a urmări ciclurile de lucru și pentru a gestiona comenzile, componentele și informațiile auxiliare. Oferă control total asupra producției de la distanță, permițându-vă să creați și să partajați cicluri de lucru cu ușurință. Ideal pentru întreprinderile mici și mijlocii, simplifică controlul producției și optimizează operațiunile de afaceri."
     },
     "declaration": {
         "data": [

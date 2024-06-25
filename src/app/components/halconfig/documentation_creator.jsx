@@ -1298,7 +1298,7 @@ const DocumentationCreator = ({ jobArrays, className }) => {
             }
 
             <div className='width100 perflex'>
-            <button className= { `${className} margin-right50`} onClick={AvviaCreazioneJob}>Crea Job</button>
+            {/*<button className= { `${className} margin-right50`} onClick={AvviaCreazioneJob}>Crea Job</button>*/}
             <button className={className} onClick={AvviaCreazione}>Crea Documentazione</button>
             </div>
             {conferma &&

@@ -5,6 +5,21 @@ const HubPrequel = () => {
 
     const { t } = useTranslation("supervisor");
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("prequel.desc_");
+
     return (
         <>
             <div className="container">
@@ -35,11 +50,13 @@ const HubPrequel = () => {
 
 
                 <div className="section-full wow fadeInDown" data-wow-delay="1100ms" data-wow-duration="1500ms">
-                <div className="width100 perflex">
-                    <div className="supervisor-hub-prequel-descrizione-generale">
-                        <p>{t("prequel.desc")}</p>
+                    <div className="width100 perflex">
+                        <div className="supervisor-hub-prequel-descrizione-generale">
+                            {descriptions.map((desc, index) => (
+                                <p key={index}>{desc}</p>
+                            ))}
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </>

@@ -26,8 +26,8 @@
     "chi_siamo": {
       "header": "Chi siamo",
       "title": "La storia di Scanteq",
-      "desc_1": "Scanteq è stata fondata a Torino nel 2010 come ditta individuale specializzata nello sviluppo di tecnologie nell'ambito dell'automazione d'ufficio. All'inizio, l'azienda si concentrava sulla fornitura di software e hardware proprietari per la creazione di dispositivi per la digitalizzazione dei documenti e la stampa a getto d'inchiostro.",
-      "desc_2": "Successivamente, la società ha intrapreso una nuova fase di sviluppo in collaborazione con Tecno Italia Srl di Orbassano, stabilendo una partnership che ha portato alla diversificazione delle attività, includendo la progettazione di soluzioni software e hardware destinate ai sistemi di avvitatura. Questa espansione ha consentito a Scanteq di ampliare la propria gamma di prodotti, aprendo nuove opportunità nel campo dell'automazione industriale. Ogni anno, l'azienda fornisce decine di soluzioni all'avanguardia per il controllo di postazioni all'interno di linee di produzione complesse per importanti aziende manifatturiere italiane.",
+      "desc_1": "Scanteq è stata fondata a Torino, nel cuore pulsante dell'industria italiana, con la missione di sviluppare tecnologie all'avanguardia nel settore dell'automazione. Fin dai primi anni di attività, l'azienda ha dedicato le sue risorse alla creazione di soluzioni software e hardware avanzate, focalizzandosi principalmente sulla digitalizzazione dei documenti e sulle tecnologie di stampa a getto d'inchiostro e su carta termica. Queste funzionalità fanno parte delle principali proposte di Scanteq sotto il nome di piattaforma Imagina, con migliaia di licenze vendute.",
+      "desc_2": "In seguito, l'azienda ha intrapreso una nuova fase di sviluppo che ha portato alla diversificazione delle sue attività, includendo nel proprio portafoglio la progettazione di soluzioni per l'automazione industriale. Tra queste spica la piattaforma MASP (Mounting Assisted Software Platform) che consente l'implementazione flessibile ed efficiente di sistemi di controllo avanzati per le linee di produzione, combinando strumenti software e hardware in modo efficace e migliorando significativamente l'efficienza e la qualità dei processi produttivi. Grazie alla notevole versatilità e scalabilità della piattaforma MASP, che ha ottenuto un'ottima accoglienza dal mercato, Scanteq fornisce e installa ogni anno decine di soluzioni all'avanguardia insieme ai suoi partner, servendo importanti aziende manifatturiere sia italiane che internazionali. Siamo orgogliosi di fornire un piccolo ma significativo contributo alla fabbricazione di importanti prodotti dell'industria automotive italiana ed europea. Marchi rinomati come Lamborghini, Ferrari, Maserati, McLaren, Alpine, Cupra, Abarth, Alfa Romeo, Ducati, Agusta e altri ancora beneficiano delle soluzioni innovative sviluppate da Scanteq, dimostrando il valore e la qualità delle nostre tecnologie nel settore automobilistico.",
       "contatto": "Contatto telefonico",
       "esperienza": "14 Anni di esperienza"
     },
@@ -44,7 +44,7 @@
       "supervisor":{
         "header": "Supervisor",
         "title": "Controllo, tracciabilità e manutenzione in un unico Hub",
-        "desc": "Il Supervisor è uno strumento web collegato alla piattaforma MASP che, attraverso i suoi tre hub interconnessi, Traceability, Control e Maintenance, garantisce la gestione dei dati raccolti durante le operazioni, il controllo operativo ottimale e una manutenzione efficace.",
+        "desc_1": "Il Supervisor è uno strumento web collegato alla piattaforma MASP che, attraverso i suoi tre hub interconnessi, Traceability, Control e Maintenance, garantisce la gestione dei dati raccolti durante le operazioni, il controllo operativo ottimale e una manutenzione efficace.",
         "control_title": "Control",
         "control_desc": "Il Control Hub offre un controllo immediato sullo stato operativo delle postazioni, consentendo la rapida identificazione e risoluzione di anomalie, nonché l'ottimizzazione delle prestazioni del sistema.",
         "traceability_title": "Traceability",
@@ -63,20 +63,20 @@
       },
       "piattaforma_imagina": {
         "header": "Piattaforma Imagina",
-        "title_1": "Semplifica l'ufficio con il software ScanQuest",
-        "desc_1": "Il nostro software ScanQuest e il Software Development Kit (SDK) ScanApi sono stati sviluppati per agevolare le operazioni d'ufficio tramite dispositivi scanner con alimentazione automatica e stampanti a getto d'inchiostro. Questi strumenti sono progettati per automatizzare i compiti di digitalizzazione, permettendo agli utenti di convertire documenti cartacei, fotografie e altri materiali in formato digitale con estrema facilità e precisione.",
-        "title_2": "Digitalizzazione e stampa con la scheda Imagina",
-        "desc_2": "Grazie alla nostra tecnologia, i dispositivi Imagina implementano sofisticati algoritmi di riconoscimento per codici a barre, caratteri stampati e scritti a mano. Questo consente agli utenti di estrarre rapidamente informazioni rilevanti dai documenti digitalizzati. Inoltre, i file possono essere convertiti in bianco e nero, archiviati in vari formati come BMP, JPEG, TIFF e PDF, e facilmente modificati e condivisi in formato elettronico, migliorando notevolmente la produttività in ufficio.",
+        "scanquest_title": "Semplifica l'ufficio con il software ScanQuest",
+        "scanquest_desc_1": "Il nostro software ScanQuest e il Software Development Kit (SDK) ScanApi sono stati sviluppati per agevolare le operazioni d'ufficio tramite dispositivi scanner con alimentazione automatica e stampanti a getto d'inchiostro. Questi strumenti sono progettati per automatizzare i compiti di digitalizzazione, permettendo agli utenti di convertire documenti cartacei, fotografie e altri materiali in formato digitale con estrema facilità e precisione.",   
+        "scheda_title": "Digitalizzazione e stampa con la scheda Imagina",
+        "scheda_desc_1": "Grazie alla nostra tecnologia, i dispositivi Imagina implementano sofisticati algoritmi di riconoscimento per codici a barre, caratteri stampati e scritti a mano. Questo consente agli utenti di estrarre rapidamente informazioni rilevanti dai documenti digitalizzati. Inoltre, i file possono essere convertiti in bianco e nero, archiviati in vari formati come BMP, JPEG, TIFF e PDF, e facilmente modificati e condivisi in formato elettronico, migliorando notevolmente la produttività in ufficio.",
         "button": "Vedi di più"
       },
       "schede_automazione": {
         "header": "Schede per Automazione Industriale",
         "io24_title": "IO24ADC",
-        "io24_desc": "La scheda elettronica IO24ADC è utilizzata nel settore del controllo industriale per gestire efficacemente ingressi e uscite digitali da 0 a 24VDC. E’ dotata di 24 ingressi e 24 uscite protette e supporta anche la conversione di 5 canali analogico-digitali, offrendo maggiore versatilità con una porta di espansione per il collegamento a moduli aggiuntivi. Le possibili connessioni al PC di controllo avvengono attraverso porte USB, RS232 o CAN, tutte galvanicamente isolate per una maggiore protezione.",
+        "io24_desc_1": "La scheda elettronica IO24ADC è utilizzata nel settore del controllo industriale per gestire efficacemente ingressi e uscite digitali da 0 a 24VDC. E’ dotata di 24 ingressi e 24 uscite protette e supporta anche la conversione di 5 canali analogico-digitali, offrendo maggiore versatilità con una porta di espansione per il collegamento a moduli aggiuntivi. Le possibili connessioni al PC di controllo avvengono attraverso porte USB, RS232 o CAN, tutte galvanicamente isolate per una maggiore protezione.",
         "encoder_title": "ENCODER 4",
-        "encoder_desc": "Il modulo ENCODER 4, integrato nel nostro progetto per l'Industria 4.0, permette il monitoraggio accurato degli angoli attraverso quattro encoder assoluti o la lettura delle coordinate da quattro righe ottiche digitali. Questo si collega direttamente al PC di controllo mediante la scheda IO24ADC e la sua porta di espansione digitale, arricchendo così la nostra gamma di soluzioni e offrendo agli operatori strumenti robusti per la gestione dei processi industriali.",
+        "encoder_desc_1": "Il modulo ENCODER 4, integrato nel nostro progetto per l'Industria 4.0, permette il monitoraggio accurato degli angoli attraverso quattro encoder assoluti o la lettura delle coordinate da quattro righe ottiche digitali. Questo si collega direttamente al PC di controllo mediante la scheda IO24ADC e la sua porta di espansione digitale, arricchendo così la nostra gamma di soluzioni e offrendo agli operatori strumenti robusti per la gestione dei processi industriali.",
         "cora_title": "CORA",
-        "cora_desc": "La scheda elettronica CORA consente di leggere correnti, trasformando il valore misurato in una tensione che sarà digitalizzata tramite uno dei canali di conversione ADC della scheda IO24ADC. Dispone di un trasduttore isolato galvanicamente in grado leggere correnti unidirezionali o bidirezionali fino a un massimo di 19.2A. La tensione di uscita, proporzionale alla corrente misurata, varia tra 0V e 3.3V, rendendola compatibile con i convertitori analogico-digitali della scheda IO24ADC.",
+        "cora_desc_1": "La scheda elettronica CORA consente di leggere correnti, trasformando il valore misurato in una tensione che sarà digitalizzata tramite uno dei canali di conversione ADC della scheda IO24ADC. Dispone di un trasduttore isolato galvanicamente in grado leggere correnti unidirezionali o bidirezionali fino a un massimo di 19.2A. La tensione di uscita, proporzionale alla corrente misurata, varia tra 0V e 3.3V, rendendola compatibile con i convertitori analogico-digitali della scheda IO24ADC.",
         "button": "Vedi di più"
       }
     },
@@ -118,7 +118,7 @@
     },
     "perche_sceglierci":{
       "header": "Perchè sceglierci",
-      "desc": "La Scanteq ofre oltre un decennio di esperienza nell'automazione industriale e d'ufficio. La nostra comprovata competenza e il costante impegno per l'innovazione garantiscono soluzioni su misura di successo.",
+      "desc_1": "La Scanteq ofre oltre un decennio di esperienza nell'automazione industriale e d'ufficio. La nostra comprovata competenza e il costante impegno per l'innovazione garantiscono soluzioni su misura di successo.",
       "lista":[
         {
           "desc": "Eccellenza tecnica"

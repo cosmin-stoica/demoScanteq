@@ -3,6 +3,21 @@ import { useTranslation } from 'react-i18next';
 function SectionAboutCompany2Inner() {
     const { t, i18n } = useTranslation();
 
+    const getIncrementalDescriptions = () => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`home.chi_siamo.desc_${i}`)) && desc !== `home.chi_siamo.desc_${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions();
+
     return (
         <>
             <div id="aboutpane" className="sx-about-bx3-content-wrap">
@@ -34,11 +49,9 @@ function SectionAboutCompany2Inner() {
                         <div className="sx-about-bx3-content">
                             <span className="sx-title-2">{t('home.chi_siamo.title')}
                             </span>
-                            <p>
-                            {t('home.chi_siamo.desc_1')}
-                            </p>
-                            <p>{t('home.chi_siamo.desc_2')}
-                            </p>
+                            {descriptions.map((desc, index) => (
+                                <p key={index}>{desc}</p>
+                            ))}
                             <div className="row sx-about-icon-bx3-column">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="sx-icon-bx-3">

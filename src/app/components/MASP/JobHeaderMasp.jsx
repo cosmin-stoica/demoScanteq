@@ -5,13 +5,30 @@ const JobHeaderMasp = () => {
 
     const { t } = useTranslation("masp_operazioni");
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("header.title_");
+
     return (<>
         <div className="section-full wow fadeInRight" data-wow-duration="2000ms">
             <h1 className="TitoloCapitolo">{t("header.header")}</h1>
         </div>
 
         <div className="desccond">
-            <p>{t("header.title")}</p>
+            {descriptions.map((desc, index) => (
+                <p key={index}>{desc}</p>
+            ))}
         </div>
 
         <div className="div-header-job-card">

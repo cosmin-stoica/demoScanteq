@@ -6,6 +6,23 @@ const ImaginaIntro = () => {
 
     const { t } = useTranslation("imagina");
 
+
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("intro.desc_");
+
+
     return (
         <>
 
@@ -21,15 +38,9 @@ const ImaginaIntro = () => {
                         <div className="width100 perflex">
                             <ItodoImage className="servizio-card-img-imagina" src="images/case-study/automazione/scheda.jpg" alt="imagina-img"></ItodoImage>
                         </div>
-                        <p className="margin-top50">
-                            {t("intro.desc_1")}
-                        </p>
-                        <p>
-                            {t("intro.desc_2")}
-                        </p>
-
-
-
+                        {descriptions.map((desc, index) => (
+                            <p className={index === 0 ? "margin-top50" : ''} key={index}>{desc}</p>
+                        ))}
                     </div>
 
                 </div>

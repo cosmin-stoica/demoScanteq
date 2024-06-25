@@ -6,6 +6,22 @@ function SectionOurInfo1() {
     const { t } = useTranslation("vision");
 
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions("intro.desc_");
+
+
     return (
         <>
             <div className="sx-mv-bx1-content-wrap">
@@ -14,18 +30,18 @@ function SectionOurInfo1() {
                         <div className="sx-about-bx1-content">
                             <h2 className="sx-title">{t("intro.header")}</h2>
                             <span className="sx-title-2">{t("intro.title")}</span>
-                            <p className="normalfont">
-                            {t("intro.desc")}                            
-                            </p>
+                            {descriptions.map((desc, index) => (
+                                <p class="normalfont" key={index}>{desc}</p>
+                            ))}
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="containertraccia">
-                        <div className="sx-mv-bx1-media">
-                            <div className="sx-dot-bx-right"><ItodoImage src="images/about/dotted-pic.png" alt="image" /></div>
-                            <div className="sx-mv-img-outer">
-                                <div className="sx-mv-img-section-2">
-                                    <ItodoImage src="images/about/p1-1.jpg" alt="image" />
+                            <div className="sx-mv-bx1-media">
+                                <div className="sx-dot-bx-right"><ItodoImage src="images/about/dotted-pic.png" alt="image" /></div>
+                                <div className="sx-mv-img-outer">
+                                    <div className="sx-mv-img-section-2">
+                                        <ItodoImage src="images/about/p1-1.jpg" alt="image" />
                                     </div>
                                 </div>
                                 {/*<div className="sx-mv-img-section-1-wrap">

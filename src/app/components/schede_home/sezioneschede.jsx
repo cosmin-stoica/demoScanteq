@@ -7,11 +7,24 @@ function SezioneSchede() {
 
     const { t } = useTranslation();
 
+    const getIncrementalDescriptions = (variabile) => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`${variabile}${i}`)) && desc !== `${variabile}${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptionsio24 = getIncrementalDescriptions("home.primo_piano.schede_automazione.io24_desc_");
+    const descriptionsencoder = getIncrementalDescriptions("home.primo_piano.schede_automazione.encoder_desc_");
+    const descriptionscora = getIncrementalDescriptions("home.primo_piano.schede_automazione.cora_desc_");
+
     return <>
-
-
-
-
 
 
         <div id="clienti" className="perflex width100">
@@ -64,9 +77,9 @@ function SezioneSchede() {
                                     <div className="secondapartetesto width100">
                                         <span class="card-titleMAIM">{t("home.primo_piano.schede_automazione.io24_title")}</span>
                                         <div id="piattaformap" className="sx-about-bx3-content">
-                                            <p class="card-contentMAIM">
-                                                {t("home.primo_piano.schede_automazione.io24_desc")}
-                                            </p>
+                                            {descriptionsio24.map((desc, index) => (
+                                                <p class="card-contentMAIM" key={index}>{desc}</p>
+                                            ))}
 
                                         </div>
                                     </div>
@@ -81,9 +94,9 @@ function SezioneSchede() {
                                     <div className="width100">
                                         <div className="sx-about-bx3-content">
                                             <span class="card-titleMAIM">{t("home.primo_piano.schede_automazione.encoder_title")}</span>
-                                            <p class="card-contentMAIM">
-                                            {t("home.primo_piano.schede_automazione.encoder_desc")}
-                                            </p>
+                                            {descriptionsencoder.map((desc, index) => (
+                                                <p class="card-contentMAIM" key={index}>{desc}</p>
+                                            ))}
 
                                         </div>
                                     </div>
@@ -100,9 +113,9 @@ function SezioneSchede() {
                                     <div className="width100">
                                         <div className="sx-about-bx3-content">
                                             <span class="card-titleMAIM">{t("home.primo_piano.schede_automazione.cora_title")}</span>
-                                            <p class="card-contentMAIM">
-                                            {t("home.primo_piano.schede_automazione.cora_desc")}
-                                            </p>
+                                            {descriptionscora.map((desc, index) => (
+                                                <p class="card-contentMAIM" key={index}>{desc}</p>
+                                            ))}
 
                                         </div>
                                     </div>

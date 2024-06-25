@@ -1,7 +1,7 @@
 {
     "header": {
         "header": "Categorii de Operațiuni",
-        "title": "Operațiunile, denumite Joburi, pot fi împărțite respectiv în șase categorii:",
+        "title_1": "Operațiunile, denumite Joburi, pot fi împărțite respectiv în șase categorii:",
         "automation_and_assembly_title": "AUTOMATIZARE ȘI ASAMBLARE",
         "automation_and_assembly_desc": "Aceste joburi includ tehnologii și procese concepute pentru a automatiza și optimiza operațiunile de asamblare industrială, îmbunătățind eficiența și precizia.",
         "automotive_component_testing_title": "TESTAREA COMPONENTELOR AUTOMOTIVE",

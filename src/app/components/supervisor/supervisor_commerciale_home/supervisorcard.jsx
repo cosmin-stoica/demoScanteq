@@ -8,6 +8,22 @@ const SupervisorCard = () => {
 
     const { t } = useTranslation();
 
+    const getIncrementalDescriptions = () => {
+        let descriptions = [];
+        let i = 1;
+        let desc;
+
+        while ((desc = t(`home.primo_piano.supervisor.desc_${i}`)) && desc !== `home.primo_piano.supervisor.desc_${i}`) {
+            descriptions.push(desc);
+            i++;
+        }
+
+        return descriptions;
+    };
+
+    const descriptions = getIncrementalDescriptions();
+
+
 
     return (
         <div id="clientiwhite" className="perflex width100">
@@ -63,9 +79,10 @@ const SupervisorCard = () => {
                                     <div className="secondapartetesto wow fadeInDown" data-wow-duration="2000ms">
                                         <span class="card-titleMAIM">{t("home.primo_piano.supervisor.title")}</span>
                                         <div id="piattaformap" className="sx-about-bx3-content">
-                                            <p class="card-contentMAIM">
-                                                {t("home.primo_piano.supervisor.desc")}
-                                            </p>
+                                           
+                                        {descriptions.map((desc, index) => (
+                                                    <p class="card-contentMAIM" key={index}>{desc}</p>
+                                                ))}
                                             <div className="perglihubdiv">
                                                 <HubCard zindex="zindex10" icon="flaticon-data" title={t("home.primo_piano.supervisor.control_title")} desc={t("home.primo_piano.supervisor.control_desc")}></HubCard>
                                                 <HubCard zindex="zindex1" icon="flaticon-monitor-1" title={t("home.primo_piano.supervisor.traceability_title")} desc={t("home.primo_piano.supervisor.traceability_desc")}></HubCard>
