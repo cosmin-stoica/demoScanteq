@@ -28,21 +28,21 @@ const HubPrequel = () => {
                     <div className="section-full wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div className="hub-prequel-div-inner">
                             <i className="flaticon-data"></i>
-                            <p>{t("prequel.control_title")}</p>
+                            <p className='font-primary'>{t("prequel.control_title")}</p>
                         </div>
                     </div>
 
                     <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
                         <div className="hub-prequel-div-inner">
                             <i className="flaticon-monitor-1"></i>
-                            <p>{t("prequel.traceability_title")}</p>
+                            <p className='font-primary'>{t("prequel.traceability_title")}</p>
                         </div>
                     </div>
 
                     <div className="section-full wow fadeInRight" data-wow-delay="1000ms" data-wow-duration="1500ms">
                         <div className="hub-prequel-div-inner">
                             <i className="flaticon-technical-support"></i>
-                            <p>{t("prequel.maintenance_title")}</p>
+                            <p className='font-primary'>{t("prequel.maintenance_title")}</p>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const HubPrequel = () => {
                     <div className="width100 perflex">
                         <div className="supervisor-hub-prequel-descrizione-generale">
                             {descriptions.map((desc, index) => (
-                                <p key={index}>{desc}</p>
+                                <p className='font-primary' key={index}>{desc}</p>
                             ))}
                         </div>
                     </div>

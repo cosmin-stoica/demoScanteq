@@ -2,6 +2,7 @@
   "header": {
     "home": "Home",
     "chi_siamo": "About Us",
+    "la_nostra_storia": "Our story",
     "servizi": "Services",
     "area_personale": "Personal Area",
     "contattaci": "Contact Us",
@@ -38,7 +39,6 @@
         "title": "Advanced Automation for Industry 4.0",
         "desc_1": "In the context of automation for Industry 4.0, the MASP (Mounting Assisted Software Platform) is proposed, which allows the flexible and efficient implementation of control systems with advanced technological content within production lines through an effective combination of proprietary software and hardware tools.",
         "desc_2": "The operation is based on the execution in a predetermined order of a series of operations, called Jobs, which represent steps performed by the software, electronic, and electromechanical parts, with or without operator intervention, necessary to achieve a final result.",
-        "desc_3": "The main advantages of using the MASP platform include guided operation and customization, procedure automation, operator safety, result traceability, and interfacing with MES (Manufacturing Execution System) and ERP (Enterprise Resources Planning) systems.",
         "button": "See More"
       },
       "supervisor":{

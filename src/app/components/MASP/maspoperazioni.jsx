@@ -9,9 +9,7 @@ function MaspOperazioni() {
 
          
             <div className="section-full p-t100 p-b70 mobile-page-padding containerjobheadermasp">
-                <div className="container">
                     <JobHeaderMasp></JobHeaderMasp>
-                </div>
             </div>
 
             <div id="containerinterfaccia" className="section-full p-t100 p-b70 mobile-page-padding">

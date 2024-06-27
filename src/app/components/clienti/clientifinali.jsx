@@ -12,7 +12,9 @@ function ClientiFinali() {
         <div className="clientifinalipane">
 
             <div className="clientefinalediv menomarginclienti wow fadeInLeft" data-wow-duration="1500ms">
-                <ItodoImage className="iconaclienti" src="images/clienti/autoprodotti.png"></ItodoImage>
+                <div className="iconaclienti-round">
+                    <ItodoImage className="iconaclienti" src="images/clienti/autoprodotti.png"></ItodoImage>
+                </div>
                 <div className="primapartecliente">
                     {t("home.clienti.automotive_componentistica_title")}
                 </div>
@@ -70,7 +72,7 @@ function ClientiFinali() {
             <div className="clientefinalediv wow fadeInRight" data-wow-duration="1500ms">
                 <ItodoImage className="iconaclienti" src="images/clienti/ricerca.png"></ItodoImage>
                 <div className="primapartecliente">
-                {t("home.clienti.istruzione_ricerca_title")}
+                    {t("home.clienti.istruzione_ricerca_title")}
                 </div>
                 <div className="logoparte">
                     <ItodoImage src="images/clienti/polito.png"></ItodoImage>

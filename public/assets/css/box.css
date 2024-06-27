@@ -75,13 +75,13 @@
   }
   
   .boxes .box > div:nth-child(2) {
-    --background: var(--primary);
+    --background: var(--third-dark);
     --right: 0;
     --rotateY: 90deg;
   }
   
   .boxes .box > div:nth-child(3) {
-    --background: #447cf5;
+    --background: var(--third);
     --rotateX: -90deg;
   }
   

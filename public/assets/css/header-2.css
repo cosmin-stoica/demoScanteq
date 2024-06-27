@@ -549,7 +549,7 @@ HEADER (top part of page)
 
 .header-style2 .is-fixed .main-bar {position: fixed;top: 0;left: 0;}
 .header-style2 .is-fixed .extra-nav {padding: 13px 0;}
-.header-style2 .is-fixed .color-fill.main-bar {  background-color:#0F4BB9;}
+.header-style2 .is-fixed .color-fill.main-bar {  background-color:var(--primary);}
 
 @media (max-width: 991px) {
 	.header-style2.mobile-sider-drawer-menu .header-nav {

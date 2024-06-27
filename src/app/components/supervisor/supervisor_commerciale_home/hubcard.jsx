@@ -1,10 +1,12 @@
 
-const HubCard = ({zindex, icon,title,desc}) => {
+const HubCard = ({ zindex, icon, title, desc }) => {
     return (
 
         <div id={zindex} className="supervisor-category-card">
             <div className="supervisor-iconbox">
-            <i className={icon} />
+                <div className="orange-circle">
+                    <i className={icon} />
+                </div>
             </div>
             <h1>{title}</h1>
             <p>{desc}</p>

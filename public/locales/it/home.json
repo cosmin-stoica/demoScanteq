@@ -2,6 +2,7 @@
   "header": {
     "home": "Home",
     "chi_siamo": "Chi siamo",
+    "la_nostra_storia": "La nostra storia",
     "servizi": "Servizi",
     "area_personale": "Area Personale",
     "contattaci": "Contattaci",
@@ -38,7 +39,6 @@
         "title": "Automazione avanzata per l'Industria 4.0",
         "desc_1": "Nel contesto dell'automazione per l'Industria 4.0, viene proposta la piattaforma MASP (Mounting Assisted Software Platform), che consente l'implementazione flessibile ed efficiente di sistemi di controllo con contenuti tecnologici avanzati all’interno delle linee di produzione attraverso una combinazione efficace di strumenti software e hardware proprietari.",
         "desc_2": "Il funzionamento si basa sull’esecuzione in ordine predeterminato di una serie di operazioni, denominate Job, che rappresentano passaggi effettuati dalla parte software, elettronica ed elettromeccanica, con o senza intervento dell’operatore, necessari per raggiungere un risultato finale.        ",
-        "desc_3": "I vantaggi principali dell’utilizzo della piattaforma MASP includono la condotta guidata delle operazioni e la loro personalizzazione, l'automazione delle procedure, la sicurezza degli operatori, la tracciabilità dei risultati e l'interfacciamento con sistemi di tipo MES (Manufacturing Execution System) e ERP (Enterprise Resources Planning).",
         "button": "Vedi di più" 
       },
       "supervisor":{
@@ -70,7 +70,7 @@
         "button": "Vedi di più"
       },
       "schede_automazione": {
-        "header": "Schede per Automazione Industriale",
+        "header": "Schede Elettroniche per Automazione Industriale",
         "io24_title": "IO24ADC",
         "io24_desc_1": "La scheda elettronica IO24ADC è utilizzata nel settore del controllo industriale per gestire efficacemente ingressi e uscite digitali da 0 a 24VDC. E’ dotata di 24 ingressi e 24 uscite protette e supporta anche la conversione di 5 canali analogico-digitali, offrendo maggiore versatilità con una porta di espansione per il collegamento a moduli aggiuntivi. Le possibili connessioni al PC di controllo avvengono attraverso porte USB, RS232 o CAN, tutte galvanicamente isolate per una maggiore protezione.",
         "encoder_title": "ENCODER 4",

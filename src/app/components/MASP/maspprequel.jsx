@@ -34,7 +34,7 @@ const MaspPrequel = () => {
           </div>
           <div className="masp-prequel-div-parteP">
             {descriptions.map((desc, index) => (
-              <p key={index}>{desc}</p>
+              <p className="font-primary" key={index}>{desc}</p>
             ))}
           </div>
         </div>

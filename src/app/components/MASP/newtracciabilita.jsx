@@ -12,14 +12,15 @@ const NewTracciabilita = () => {
 
             <div className="tracciabilita-div">
                 <div className="tracciabilita-div-inner">
+                    
                     <i className="flaticon-smart-contracts"></i>
-                    <p>
+                    <p className='font-primary'>
                         {t("desc_1")}
                     </p>
                 </div>
                 <div className="tracciabilita-div-inner">
                     <i className="flaticon-cloud-computing"></i>
-                    <p>
+                    <p className='font-primary'>
                         {t("desc_2")}
                     </p>
                 </div>

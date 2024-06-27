@@ -13,10 +13,15 @@ Version: 1.0
 @import url(header-3.css);
 
 :root {
-  --primary: #0f4bb9;
+  /*--primary: #0f4bb9;*/
+  /*--primary: #0f3377;*/
+  --primary: rgb(0,18,84);
+  --primary-light: rgb(24, 53, 157);
   --secondary: #202122;
   --secondary-light: #666666;
   --white: #fff;
+  --third: rgb(238,53,42);
+  --third-dark: rgb(166, 43, 36);
 
   --title-color: #202122;
   --title-family: "Manrope", sans-serif;
@@ -450,6 +455,7 @@ dl dd {
   margin: 0 0 30px 0;
   padding: 0;
   list-style: none;
+  color: var(--primary);
 }
 
 .sx-arrow-circle-checked li {
@@ -460,6 +466,7 @@ dl dd {
   font-size: 18px;
   line-height: 36px;
   color: var(--title-color);
+  color: var(--primary);
 }
 .sx-arrow-circle-checked li:before {
   font-family: "feather" !important;
@@ -468,7 +475,15 @@ dl dd {
   left: 0;
   top: 3px;
   display: block;
-  color: var(--primary);
+  color: white;
+  background-color: var(--primary);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
 }
 
 /*-------------------------------------
@@ -2657,7 +2672,7 @@ ol.list-num-count.list-outline-none > li:before {
 
   font-weight: 800;
   font-size: 32px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 .section-head .sx-head-l-title .sx-title2,
 .section-head2 .sx-head-l-title .sx-title2 {
@@ -2665,7 +2680,7 @@ ol.list-num-count.list-outline-none > li:before {
   margin-bottom: 0px;
   font-weight: 800;
   font-size: 60px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 @media only screen and (max-width: 1024px) {
   .section-head .sx-head-l-title .sx-title2,
@@ -5293,7 +5308,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .footer-dark .footer-top {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #0f4bb9;
+  background-color: var(--primary);
 }
 @media only screen and (max-width: 991px) {
   .footer-dark .footer-top {
@@ -5349,7 +5364,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 /*Footer newsletter*/
 
 .sx-f-nl-section {
-  background-color: #0c2f70;
+  background-color: var(--primary-light);
   padding: 25px 0px 25px 0px;
 }
 @media only screen and (max-width: 991px) {
@@ -7937,7 +7952,7 @@ New Template Css Start
 
 .sx-about-bx1-content .sx-title {
   font-size: 60px;
-  color: var(--secondary);
+  color: var(--primary);
   margin-bottom: 15px;
   font-family: var(--title-family);
   font-weight: 800;
@@ -8057,6 +8072,7 @@ New Template Css Start
 
 .sx-about-bx3-content p{
   font-size: 17px;
+  color: var(--primary);
 }
 
 .sx-about-bx3-content-wrap {
@@ -9098,14 +9114,15 @@ New Template Css Start
 .slider-large-title{
   text-transform: uppercase;
   font-weight: 800;
-  color: var(--white);
+  color: var(--third);
   font-size: 30px;
 }
 
 .sx-bnr-2-wrap-outer .sx-bnr-2-info {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   color: var(--white);
+  font-weight: 300;
   margin-bottom: 50px;
 }
 .sx-bnr-2-wrap-outer .sx-bnr-2-wrap .site-button {
@@ -10135,8 +10152,8 @@ New Template Css Start
 }
 
 .sx-our-info-content ul li:hover {
-  scale: 1.1;
   transition: all 0.3s ease;
+
 }
 
 .sx-our-info-content .sx-our-info-content-list {
@@ -10146,7 +10163,7 @@ New Template Css Start
 
 .sx-our-info-content .sx-our-info-content-list .sx-sub-title {
   display: block;
-  color: var(--secondary-light);
+  color: var(--primary);
   font-size: 17px;
   margin-bottom: 15px;
 }
@@ -10155,7 +10172,7 @@ New Template Css Start
   font-family: var(--title-family);
   font-weight: 600;
   font-size: 32px;
-  color: var(--secondary);
+  color: var(--primary);
   display: block;
   margin-bottom: 0px;
 }
@@ -10756,7 +10773,6 @@ INPUT ANIMATION
 
 #perche {
   background-color: white;
-  
 }
 
 #primo {
@@ -10838,10 +10854,6 @@ INPUT ANIMATION
   transition: background-color 1s, transform 1s;
 }
 
-.right:hover {
-  background: #f5f5f5;
-  transform: scale(1.1);
-}
 
 .right:hover #primo {
   color: black; /* Cambia il colore del testo del paragrafo al passaggio del mouse sul left */
@@ -11744,10 +11756,6 @@ th {
     border-bottom: 5px groove rgba(0, 89, 255, 0.751);
   }
 
-  .left:hover {
-    background: white;
-    transform: scale(1);
-  }
 
   .right {
     margin-bottom: 0px;
@@ -11761,10 +11769,7 @@ th {
     transition: background-color 1s, transform 1s;
   }
 
-  .right:hover {
-    background: white;
-    transform: scale(1);
-  }
+
 
   .carousel-container {
     width: 150%;
@@ -15402,4 +15407,24 @@ justify-content: center;
   .panecharts{
     display: none;
   }
+}
+
+.for-mobile-view{
+  width: 80%;
+}
+
+
+@media (max-width: 780px) {
+  .for-mobile-view{
+    width: 95%;
+  }
+  
+}
+
+.sx-sub-title{
+  color: red;
+}
+
+.sx-bx-title{
+color: red;
 }

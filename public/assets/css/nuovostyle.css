@@ -788,11 +788,12 @@
   /* border-radius: 10px; */
   border: 3px solid rgb(255, 255, 255);
   transform-style: preserve-3d;
-  background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
+  /*background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
     repeating-linear-gradient(45deg, #f3f3f3 -6.25% 6.25%, #ffffff 0 18.75%);
   background-size: 60px 60px;
   background-position: 0 0, 0 0;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0;*/
+  background-color: white;
   width: 100%;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   transition: all 0.5s ease-in-out;
@@ -852,12 +853,17 @@
   font-weight: 800;
   transition: all 0.5s ease-in-out;
   transform: translate3d(0px, 0px, 50px);
+  color: var(--primary);
 }
 
 .content-boxMAIM .card-titleMAIM:hover {
   transform: translate3d(0px, 0px, 60px);
 }
 
+.card-contentMAIM {
+  color: var(--primary);
+  font-size: 17px;
+}
 
 
 .content-boxMAIM .card-contentMAIM:hover {
@@ -1300,6 +1306,10 @@ section.cardJob {
   margin-bottom: 100px;
 }
 
+.margin-bottom50 {
+  margin-bottom: 50px;
+}
+
 .margin-top100 {
   margin-top: 100px;
 }
@@ -1533,8 +1543,14 @@ section.cardJob {
 }
 
 .width80 {
-  width: 90%;
+  width: 80%;
 }
+
+
+.width70 {
+  width: 70%;
+}
+
 
 
 .maspimagehome {
@@ -1564,16 +1580,19 @@ section.cardJob {
 
 
 .bottoneRead {
-  background-color: white;
-  color: black;
+  background-color: var(--third);
+  color: rgb(255, 255, 255);
   padding: 20px;
   font-size: 17px;
   border-radius: 30px;
   transition: all 0.2s ease;
+  font-weight: 600;
+  border-radius: 60px;
+  border: none;
 }
 
 .bottoneRead:hover {
-  background-color: var(--primary);
+  background-color: var(--third-dark);
   color: white;
   transition: all 0.2s ease;
 }
@@ -1582,7 +1601,6 @@ section.cardJob {
 
   .abbassaSlider {
     height: 70vh;
-    margin-bottom: -70px;
   }
 
   .automazioneScritte {
@@ -1598,6 +1616,7 @@ section.cardJob {
   }
 }
 
+
 .TitoloCapitolo {
   padding: 10px;
   width: 100%;
@@ -1605,6 +1624,7 @@ section.cardJob {
   color: black;
   font-weight: 900;
   margin-bottom: 20px;
+  color: var(--primary);
 }
 
 .leoperazionititolo {
@@ -1655,18 +1675,22 @@ section.cardJob {
   cursor: pointer;
   margin-top: 1rem;
   display: inline-block;
-  font-weight: 900;
-  font-size: 9px;
+  font-weight: 700;
+  font-size: 10px;
   text-transform: uppercase;
   color: white;
   /* border-radius: 5px; */
-  background: var(--primary);
+  background: var(--third);
   padding: 0.5rem 0.7rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   transform: translate3d(0px, 0px, 20px);
+  border: none;
+  border-radius: 60px;
 }
 
 #seemoreUpgrade:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--third-dark);
   transform: translate3d(0px, 0px, 60px);
 }
 
@@ -1763,8 +1787,9 @@ section.cardJob {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 17px;
   padding: 20px;
+  color: var(--primary);
 }
 
 .containerpartnergrosso {
@@ -1812,6 +1837,7 @@ section.cardJob {
   min-width: 100%;
   word-break: break-word;
   padding-bottom: 10px;
+  color: var(--primary);
 }
 
 .logoparte {
@@ -1837,8 +1863,12 @@ section.cardJob {
 .iconaclienti {
   position: absolute;
   top: -10px;
-  width: 80px;
+  width: 100px;
   left: -40px;
+  background-color: var(--third);
+  border-radius: 50%;
+  padding: 20px;
+  filter: drop-shadow(0 0 1rem rgb(0, 0, 0, 0.35));
 }
 
 @media screen and (max-width:1000px) {
@@ -1883,7 +1913,7 @@ section.cardJob {
 .jobBox {
   background-color: rgb(255, 255, 255);
   width: 300px;
-  height: 320px;
+  height: 390px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1906,6 +1936,7 @@ section.cardJob {
   font-weight: 500;
   font-size: 18px;
   padding-top: 10px;
+  color: var(--primary);
 }
 
 .categoriajobBox {
@@ -1917,12 +1948,18 @@ section.cardJob {
 
 .descrizionejobBox {
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
+  color: var(--primary);
 }
 
 .iconserviceshome {
   font-size: 70px;
   color: #0f4bb9;
+}
+
+.iconserviceshome i {
+  color: white;
+  font-size: 50px;
 }
 
 #servicesdiv {
@@ -1950,12 +1987,11 @@ section.cardJob {
   background-color: white;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   padding: 40px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 17px;
   text-align: center;
   border-radius: 15px;
   margin-bottom: 50px;
-
+  color: var(--primary);
 }
 
 #schedecontainer {
@@ -1997,6 +2033,7 @@ section.cardJob {
 
 .supervisor-category-card p {
   text-align: center;
+  color: var(--primary);
 }
 
 .supervisor-category-card i {
@@ -2005,7 +2042,7 @@ section.cardJob {
 }
 
 .supervisor-category-card h1 {
-  color: #535353;
+  color: var(--primary);
   font-size: 18px;
   font-weight: 700;
 }
@@ -2016,6 +2053,14 @@ section.cardJob {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.supervisor-iconbox i {
+  color: white;
+  background-color: var(--third);
+  padding: 35px;
+  border-radius: 50%;
+  font-size: 50px;
 }
 
 #zindex10 {
@@ -2053,16 +2098,15 @@ section.cardJob {
   width: 300px;
   height: 380px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-.header-job-card i {
-  font-size: 100px;
-}
-
 
 .header-job-card h1 {
   padding-top: 20px;
-  color: #0f4bb9;
+  color: var(--primary);
   text-transform: uppercase;
   width: 100%;
   font-size: 17px;
@@ -2073,6 +2117,7 @@ section.cardJob {
   text-align: center;
   width: 100%;
   font-size: 17px;
+  color: var(--primary);
 }
 
 .div-header-job-card {
@@ -2121,6 +2166,7 @@ section.cardJob {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 20px;
+  color: var(--primary);
 }
 
 .servizio-card-lista ul {
@@ -2279,6 +2325,7 @@ section.cardJob {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--primary);
 }
 
 
@@ -3721,12 +3768,15 @@ section.cardJob {
 
 .normalfont {
   font-size: 17px;
+  color: var(--primary);
 }
 
 .CardMaimTitleTop {
   font-size: 30px;
   font-weight: 700;
   top: 0;
+  color: var(--primary);
+
 }
 
 .tracctable-preview td {
@@ -4469,6 +4519,16 @@ button[type="submit"]:hover {
   height: 82vh;
 }
 
+.sezione-job-div-scegli {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 .sezione-job-div-scegli div {
   display: flex;
   flex-direction: column;
@@ -4597,11 +4657,23 @@ button[type="submit"]:hover {
   font-size: 17px;
 }
 
+.sezione-job-vedibtn-outer {
+  width: 100%;
+  margin-left: -20px;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
 .crea-job-button {
   background-color: rgb(23, 211, 70);
   padding: 5px;
   border: none;
-  border-radius: 10px;
+  border-radius: 3px;
   color: white;
   font-size: 20px;
   transition: all 0.3s ease;
@@ -4609,12 +4681,15 @@ button[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-left: -20px;
 }
 
-.crea-job-button:hover {
+.crea-job-button:hover,
+.sezione-job-vedibtn-outer:hover {
   background-color: white;
   color: black;
   transition: all 0.3s ease;
+  border-radius: 15px;
 }
 
 .sezione-job-buttons {
@@ -4676,7 +4751,7 @@ button[type="submit"]:hover {
 .job-chooser-div i {
   padding-bottom: 20px;
   height: 100%;
-  color:white;
+  color: white;
 }
 
 .job-chooser-div span {
@@ -4688,7 +4763,7 @@ button[type="submit"]:hover {
 .job-chooser-div-upper {
   display: flex;
   gap: 20px;
-  width: 100%;  
+  width: 100%;
 }
 
 .job-chooser-indietro-button {
@@ -4701,7 +4776,7 @@ button[type="submit"]:hover {
   border-radius: 5px;
 }
 
-.job-list-upper{
+.job-list-upper {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -4716,11 +4791,11 @@ button[type="submit"]:hover {
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  gap:40px;
+  gap: 40px;
 }
 
 
-.job-list-item img{
+.job-list-item img {
   filter: invert(100%) brightness(200%);
   padding-bottom: 10px;
 }
@@ -4741,5 +4816,219 @@ button[type="submit"]:hover {
   flex-direction: column;
   text-align: center;
   cursor: pointer;
-  color:white;
+  color: white;
+}
+
+
+.card-viewer-div {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+
+.card-viewer-upper-part {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.card-viewer-upper-part-title {
+  color: var(--primary);
+  font-size: 50px;
+  font-weight: 600;
+  height: 100%;
+  line-height: 1.1;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+  word-break: break-word;
+  width: 50%;
+}
+
+.card-viewer-upper-part-desc {
+  color: var(--primary);
+  font-size: 23px;
+  height: 100%;
+  line-height: 1.2;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+  word-break: break-word;
+  width: 80%;
+}
+
+
+
+.orange-circle {
+  padding: 30px;
+  background-color: var(--third);
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 50px;
+  filter: drop-shadow(0 0 1rem rgb(0, 0, 0, 0.35));
+}
+
+.primary-circle {
+  padding: 30px;
+  background-color: var(--primary);
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 50px;
+  filter: drop-shadow(0 0 1rem rgb(0, 0, 0, 0.35));
+}
+
+.card-viewer-lower-part {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-viewer-lower-part-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-top: 30px;
+}
+
+.card-viewer-lower-part-card {
+  flex: 0 1 auto;
+  width: 250px;
+}
+
+.card-viewer-lower-part-card-title {
+  color: var(--primary-light);
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.card-viewer-lower-part-card-desc {
+  color: var(--primary);
+  font-size: 17px;
+  padding-top: 10px;
+  min-height: 250px;
+}
+
+
+.header-job-card-icona {
+  color: white;
+  font-size: 50px;
+}
+
+.home-section-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.home-section-div-imgpart {
+  width: 70%;
+  height: 100%;
+}
+
+.home-section-img-principaleright {
+  float: left;
+  width: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+
+.home-section-img-principaleleft {
+  float: right;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+
+.home-section-div-textpart {
+  width: 75%;
+  padding: 0px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+}
+
+.home-section-div-textpart-title {
+  color: var(--primary);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: left;
+  box-sizing: border-box;
+  word-break: break-word;
+  width: 70%;
+}
+
+.home-section-div-textpart-desc{
+  color: var(--primary);
+  font-size: 17px;
+  padding-top: 20px;
+  width: 80%;
+}
+
+@media screen and (max-width:1200px) {
+  .home-section-div {
+    flex-direction: column;
+  }
+}
+
+.flip-row{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.perche-sceglierci-div{
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.perche-sceglierci-div-img {
+  right: -100px; 
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
+  width: 50%; 
+  height: auto;
+}
+
+.perche-sceglierci-div-text{
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.sx-our-info-content-list h3{
+  color:red;
+}
+
+.font-primary{
+  color: var(--primary);
+}
+
+.font-white{
+  color: var(--primary);
 }

@@ -1,5 +1,7 @@
 import ItodoImage from "../../elements/itodo-img";
 import { useTranslation } from 'react-i18next';
+import Title from "../../elements/title";
+import PercheSceglierciNew from "./perche_sceglierci_new";
 
 export function SectionWhyChooseUs2Inner() {
 
@@ -31,14 +33,13 @@ export function SectionWhyChooseUs2Inner() {
 
 
     return (
-        <>
+        <> 
             <div className="row">
-                <h1 className="TitoloCapitolo">{t('home.perche_sceglierci.header')}</h1>
                 <div className="col-lg-6 col-md-12">
                     <div className="sx-about-bx4-media">
                         <div className="sx-ab4-img-outer">
                             <div className="sx-ab4-media">
-                                <ItodoImage src="images/about/sceglierci.png" alt="media" />
+                                <ItodoImage src="images/about/sceglierci.jpg" alt="media" />
                             </div>
                         </div>
                     </div>
@@ -66,18 +67,12 @@ export function SectionWhyChooseUs2Inner() {
 }
 
 function SectionWhyChooseUs2() {
+
+    const { t } = useTranslation();
+
     return (
         <>
-            <div id="perche" className="section-full  p-t110 p-b80 sx-bg-light sx-about-bx4-outer">
-                <div className="container">
-                    <div className="section-content">
-                        <div className="sx-about-bx4-content-wrap p-b70">
-                            <SectionWhyChooseUs2Inner />
-                        </div>
-                        {/*testimonial section */}
-                    </div>
-                </div>
-            </div>
+                        <PercheSceglierciNew></PercheSceglierciNew>
         </>
     )
 }

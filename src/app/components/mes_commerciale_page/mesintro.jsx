@@ -33,9 +33,9 @@ const MesIntro = () => {
                             <ItodoImage src="/images/mes/mesLogo.png"></ItodoImage>
                         </div>
                         <div className="masp-prequel-div-parteP">
-                            <p className="upper-supervisor-p">{t("intro.title")}</p>
+                            <p className="upper-supervisor-p font-primary">{t("intro.title")}</p>
                             {descriptions.map((desc, index) => (
-                                <p key={index}>{desc}</p>
+                                <p className="font-primary" key={index}>{desc}</p>
                             ))}
                         </div>
                     </div>

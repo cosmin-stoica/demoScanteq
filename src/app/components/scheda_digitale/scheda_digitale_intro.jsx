@@ -37,14 +37,14 @@ const SchedaDigitaleIntro = () => {
                     <ItodoImage className="scheda-digitale" src="images/hardware/controllodigitale/schedafinita.png"></ItodoImage>
                 </div>
                 {descriptionsUpper.map((desc, index) => (
-                        <div className="margin-top50 section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms" key={index}>{desc}</div>
+                        <div className="margin-top50 section-full wow fadeInDown width100 perflex font-primary" data-wow-duration="1500ms" key={index}>{desc}</div>
                     ))}
 
                 <div className="scheda-digitale-intro-div-list margin-top50">
                     {introDataList.map((data, index) => (
                         <div className="section-full wow fadeInRight" data-wow-delay={data.delay} data-wow-duration="1000ms">
                             <ItodoImage src={data.icona}></ItodoImage>
-                            <p>{data.descrizione}</p>
+                            <p className="font-primary">{data.descrizione}</p>
                         </div>
                     ))}
                 </div>
@@ -53,7 +53,7 @@ const SchedaDigitaleIntro = () => {
 
 
                     {descriptionsLower.map((desc, index) => (
-                        <div className="scheda-digitale-descrizione-aux margin-top50 section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms" key={index}>{desc}</div>
+                        <div className="font-primary scheda-digitale-descrizione-aux margin-top50 section-full wow fadeInDown width100 perflex" data-wow-duration="1500ms" key={index}>{desc}</div>
                     ))}
 
                 </div>

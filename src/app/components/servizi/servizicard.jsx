@@ -38,7 +38,7 @@ const ServiziCard = () => {
                             <div className="servizio-card-secondaparte">
                                 <div className="servizio-card-title">{t("first_container.header")}</div>
                                 {descriptionsFirst.map((desc, index) => (
-                                    <p key={index}>{desc}</p>
+                                    <p className="font-primary" key={index}>{desc}</p>
                                 ))}
 
 
@@ -47,18 +47,18 @@ const ServiziCard = () => {
                         </div>
                         <div className="servizio-card-lista">
                             <div className="servizio-card-lista-lowerdiv">
-                                <i className="flaticon-profit primolista" />
-                                <div className="servizio-card-lista-lowerdiv-title">{t("first_container.box_title_1")}</div>
+                                <i className="flaticon-profit primolista font-primary" />
+                                <div className="servizio-card-lista-lowerdiv-title font-primary">{t("first_container.box_title_1")}</div>
                                 <ul>
-                                    <li>{t("first_container.box_desc_1.list_1")}</li>
-                                    <li>{t("first_container.box_desc_1.list_2")}</li>
-                                    <li>{t("first_container.box_desc_1.list_3")}</li>
+                                    <li className="font-primary">{t("first_container.box_desc_1.list_1")}</li>
+                                    <li className="font-primary">{t("first_container.box_desc_1.list_2")}</li>
+                                    <li className="font-primary">{t("first_container.box_desc_1.list_3")}</li>
                                 </ul>
                             </div>
 
                             <div className="servizio-card-lista-lowerdiv">
                                 <i className="flaticon-engineer primolista" />
-                                <div className="servizio-card-lista-lowerdiv-title">{t("first_container.box_title_2")}</div>
+                                <div className="font-primary servizio-card-lista-lowerdiv-title">{t("first_container.box_title_2")}</div>
                                 <ul>
                                     <li>{t("first_container.box_desc_2.list_1")}</li>
                                     <li>{t("first_container.box_desc_2.list_2")}</li>
@@ -79,7 +79,7 @@ const ServiziCard = () => {
                                     {t("second_container.header")}
                                 </div>
                                 {descriptionsSecond.map((desc, index) => (
-                                    <p key={index}>{desc}</p>
+                                    <p className="font-primary" key={index}>{desc}</p>
                                 ))}
 
 
@@ -91,23 +91,23 @@ const ServiziCard = () => {
                         <div className="servizio-card-lista">
                             <div className="servizio-card-lista-lowerdiv">
                                 <i className="flaticon-physics secondalista" />
-                                <div className="servizio-card-lista-lowerdiv-title">{t("second_container.list_1")}</div>
+                                <div className="servizio-card-lista-lowerdiv-title font-primary">{t("second_container.list_1")}</div>
                             </div>
                             <div className="servizio-card-lista-lowerdiv">
                                 <i className="flaticon-physics secondalista" />
-                                <div className="servizio-card-lista-lowerdiv-title">{t("second_container.list_2")}</div>
+                                <div className="servizio-card-lista-lowerdiv-title font-primary">{t("second_container.list_2")}</div>
                             </div>
                             <div className="servizio-card-lista-lowerdiv">
                                 <i className="flaticon-physics secondalista" />
-                                <div className="servizio-card-lista-lowerdiv-title">{t("second_container.list_3")}</div>
+                                <div className="servizio-card-lista-lowerdiv-title font-primary ">{t("second_container.list_3")}</div>
                             </div>
                             <div className="servizio-card-lista-lowerdiv">
                                 <i className="flaticon-physics secondalista" />
-                                <div className="servizio-card-lista-lowerdiv-title">{t("second_container.list_4")}</div>
+                                <div className="servizio-card-lista-lowerdiv-title font-primary">{t("second_container.list_4")}</div>
                             </div>
                             <div className="servizio-card-lista-lowerdiv">
                                 <i className="flaticon-physics secondalista" />
-                                <div className="servizio-card-lista-lowerdiv-title">{t("second_container.list_5")}</div>
+                                <div className="servizio-card-lista-lowerdiv-title font-primary">{t("second_container.list_5")}</div>
                             </div>
 
 
@@ -120,11 +120,11 @@ const ServiziCard = () => {
 
                             <ItodoImage className="servizio-card-img" src="images/servizi/software.png" alt="servizio-img"></ItodoImage>
                             <div className="servizio-card-secondaparte">
-                                <div className="servizio-card-title">
+                                <div className="servizio-card-title font-primary">
                                     {t("third_container.header")}
                                 </div>
                                 {descriptionsThird.map((desc, index) => (
-                                    <p key={index}>{desc}</p>
+                                    <p className="font-primary" key={index}>{desc}</p>
                                 ))}
 
 

@@ -27,7 +27,9 @@ const HubDeclaration = () => {
                                     {data.dettagli.map((dettaglio, dettaglioIndex) => (
                                         <div key={dettaglioIndex} className="masp-card-secondaparte-div">
                                             <div className="masp-card-secondaparte-div-divi">
+                                                <div className="orange-circle">
                                                 <i className={dettaglio.iconaClasse} />
+                                                </div>
                                             </div>
                                             <p>{dettaglio.descrizione}</p>
                                         </div>

@@ -7,7 +7,7 @@ const ControlEsempi = () => {
 
     return (
         <>
-            <div className="titolo-supervisor-preview width100 perflex margin-top50">
+            <div className="titolo-supervisor-preview width100 perflex margin-top50 font-primary">
                 {t("declaration.control_hub_example.title")}
             </div>
             <div className="postazioni-supervisorcomm-div-upper">

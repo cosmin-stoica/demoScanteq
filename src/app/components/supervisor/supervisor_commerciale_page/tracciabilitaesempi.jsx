@@ -6,7 +6,7 @@ const TracciabilitaEsempi = () => {
 
     return (
         <>
-            <div className="titolo-supervisor-preview width100 perflex margin-top50">
+            <div className="titolo-supervisor-preview width100 perflex margin-top50 font-primary">
                 {t("declaration.traceability_hub_example.heater.title")}
             </div>
             <div className="tracctable-preview-upper width100 overflow-auto">
@@ -103,7 +103,7 @@ const TracciabilitaEsempi = () => {
                 </table>
             </div>
 
-            <div className="titolo-supervisor-preview width100 perflex margin-top50">
+            <div className="titolo-supervisor-preview width100 perflex margin-top50 font-primary">
                 {t("declaration.traceability_hub_example.screwings.title")}
             </div>
             <div className="tracctable-preview-upper width100 overflow-auto">
@@ -227,7 +227,7 @@ const TracciabilitaEsempi = () => {
 
 
 
-            <div className="titolo-supervisor-preview width100 perflex margin-top50">
+            <div className="titolo-supervisor-preview width100 perflex margin-top50 font-primary" >
                 {t("declaration.traceability_hub_example.results.title")}
             </div>
             <div className="tracctable-preview-upper width100 overflow-auto">

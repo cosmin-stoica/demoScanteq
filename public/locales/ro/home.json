@@ -2,6 +2,7 @@
   "header": {
     "home": "Acasă",
     "chi_siamo": "Despre noi",
+    "la_nostra_storia": "Historia noastră",
     "servizi": "Servicii",
     "area_personale": "Zona Personală",
     "contattaci": "Contactează-ne",
@@ -38,7 +39,6 @@
         "title": "Automatizare avansată pentru Industria 4.0",
         "desc_1": "În contextul automatizării pentru Industria 4.0, este propusă platforma MASP (Mounting Assisted Software Platform), care permite implementarea flexibilă și eficientă a sistemelor de control cu conținut tehnologic avansat în cadrul liniilor de producție printr-o combinație eficientă de instrumente software și hardware proprietare.",
         "desc_2": "Funcționarea se bazează pe executarea într-o ordine predeterminată a unei serii de operațiuni, denumite Job, care reprezintă pașii efectuați de partea software, electronică și electromecanică, cu sau fără intervenția operatorului, necesare pentru a atinge un rezultat final.",
-        "desc_3": "Principalele avantaje ale utilizării platformei MASP includ conducerea ghidată a operațiunilor și personalizarea acestora, automatizarea procedurilor, siguranța operatorilor, trasabilitatea rezultatelor și interfațarea cu sisteme de tip MES (Manufacturing Execution System) și ERP (Enterprise Resources Planning).",
         "button": "Vezi mai mult"
       },
       "supervisor":{

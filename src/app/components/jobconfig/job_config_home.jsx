@@ -21,8 +21,8 @@ const Job_Config_Home = () => {
         setJobs(prevJobs => [...prevJobs, newJob]);
     };
 
-    const handleJobConfigString = (configString) => {
-        addJob(selectedName, configString);
+    const handleJobConfigString = (name, configString) => {
+        addJob(name, configString);
         apriChiudiDiv();
     };
 
@@ -425,7 +425,7 @@ const Job_Config_Home = () => {
                         </div>
                         <div className="sezione-job-div">
                             <div className="sezione-job-div-scegli">
-                                <div>
+                                {/*<div>
                                     <label htmlFor="dataSelect">Scegli un job</label>
                                     <select id="dataSelect" value={selectedName} onChange={handleChangeJob}>
                                         <option value="">Seleziona il job</option>
@@ -435,9 +435,9 @@ const Job_Config_Home = () => {
                                             </option>
                                         ))}
                                     </select>
-                                </div>
+                                    </div>*/}
                                 <div onClick={apriChiudiDiv}>
-                                    <button className="sezione-job-vedibtn" >Aggiungi Job</button>
+                                    <button className="sezione-job-vedibtn-outer" >Aggiungi Job</button>
                                 </div>
                                 <div className="width100 perflex">
                                     <button className='crea-job-button' onClick={handleDownload}>Crea Job Config</button>
@@ -476,16 +476,9 @@ const Job_Config_Home = () => {
                         <span onClick={apriChiudiDiv} className='chiudiDiv'>
                             &times;
                         </span>
-                        {/*<ConfigCreator
-                            isHal={false}
-                            array={selectedJob}
-                            title={selectedName}
-                            isJobConfig={true}
-                            onJobConfigString={handleJobConfigString}
-                ></ConfigCreator>*/}
-                        <JobCreatorChooser
-                         >
-                        </JobCreatorChooser>
+                        {<JobCreatorChooser
+                          onJobConfigString={handleJobConfigString}>
+                        </JobCreatorChooser>}
                     </div>
                 )}
             </DndProvider>

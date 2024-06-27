@@ -1,18 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import ItodoImage from '../../elements/itodo-img';
 
-const JobCreatorChooser = () => {
+const JobCreatorChooser = ({ onJobConfigString }) => {
     const [selectedJob, setSelectedJob] = useState(null);
     const [filteredJobs, setFilteredJobs] = useState([]);
     const [realSelection, setRealSelection] = useState(null);
 
+    const [state,setState] = useState(0);
+
     const dataDoc = window.Doc;
+
+    const handleConfigString = (configString) => {
+        onJobConfigString(realSelection.Name, configString);
+    };
 
     const jobCategories = [
         { icon: 'flaticon-development', title: 'Automazione e Assemblaggio' },
         { icon: 'flaticon-skills', title: 'Collaudo Componenti Automotive' },
         { icon: 'flaticon-data', title: 'Controllo di Qualità e Verifica' },
-        { icon: 'flaticon-supply-chain', title: 'Gestione Produzione e Logistica'},
+        { icon: 'flaticon-supply-chain', title: 'Gestione Produzione e Logistica' },
         { icon: 'flaticon-employee', title: 'Gestione Postazioni e Procedure' },
         { icon: 'flaticon-touch', title: 'Unità di Controllo Elettronico' },
     ];
@@ -26,11 +32,21 @@ const JobCreatorChooser = () => {
 
     const handleJobClick = (jobTitle) => {
         setSelectedJob(jobTitle);
+        setState(1);
     };
 
     const handleBackClick = () => {
-        setSelectedJob(null);
-        setFilteredJobs([]);
+
+        if(state === 2){
+            setRealSelection(null);
+            setState(state - 1);
+        }
+        else if (state === 1){
+            setSelectedJob(null);
+            setRealSelection(null);
+            setFilteredJobs([]);
+            setState(state - 1);
+        }
     };
 
 
@@ -51,9 +67,9 @@ const JobCreatorChooser = () => {
             }
             return acc;
         }, {});
-    
+
         const [formData, setFormData] = useState(initialState);
-    
+
         const handleChange = (event, nome, tipo) => {
             const value = tipo === "boolean" ? event.target.value
                 : tipo === "intero" ? parseInt(event.target.value, 10)
@@ -64,12 +80,12 @@ const JobCreatorChooser = () => {
                 [nome]: value
             });
         };
-    
+
         const handleSubmit = (event) => {
             event.preventDefault();
-    
+
             let iniContent = "null";
-    
+
             if (isHal) {
                 const divisoreGrosso = ";===========================================================";
                 const halHeader = `[HAL ${title}]`;
@@ -86,14 +102,14 @@ const JobCreatorChooser = () => {
                 );
                 iniContent = divisoreGrosso + "\n" + jobHeader + "\n" + divisoreGrosso + "\n" + jobDeclaration + "\n" + iniContentArray.join('\n');
             }
-    
+
             if (isJobConfig && onJobConfigString) {
                 iniContent = iniContent + "\n" + ';-----------------------------------------------------------' + "\n";
                 onJobConfigString(iniContent);
             } else {
                 const blob = new Blob([iniContent], { type: 'text/plain' });
                 const url = URL.createObjectURL(blob);
-    
+
                 const a = document.createElement('a');
                 a.href = url;
                 if (isHal) {
@@ -106,10 +122,10 @@ const JobCreatorChooser = () => {
                 document.body.removeChild(a);
                 URL.revokeObjectURL(url);
             }
-    
+
             console.log(formData);
         };
-    
+
         return (
             <div className="halconfigprova-div">
                 <form onSubmit={handleSubmit}>
@@ -157,7 +173,7 @@ const JobCreatorChooser = () => {
                             </div>
                         )
                     ))}
-    
+
                     <div className="width100 perflex margin-top50">
                         {isHal ? <button className="creahal-btn" type="submit">Crea Hal</button>
                             : isJobConfig ?
@@ -169,11 +185,30 @@ const JobCreatorChooser = () => {
             </div>
         );
     };
-     
 
 
 
 
+    const handleJobLowerClick = (value) => {
+        try {
+            const jobDoc = window.dataDoc;
+
+            const result = jobDoc.find(job => job.Name === value);
+
+            if (result) {
+                setRealSelection(result);
+
+                console.log('result', result);
+                console.log('job', result.Job);
+                console.log('name', result.Name);
+                setState(2);
+            } else {
+                console.log('No matching job found for the given value.');
+            }
+        } catch (error) {
+            console.error('An error occurred while searching for the job:', error);
+        }
+    };
 
 
 
@@ -181,7 +216,7 @@ const JobCreatorChooser = () => {
         <>
             <div className="job-chooser-pane">
                 {selectedJob !== null && <button className='job-chooser-indietro-button' onClick={handleBackClick}>Indietro</button>}
-                {selectedJob === null ? (
+                {state === 0 ? (
                     <div className='job-chooser-div-upper'>
                         {jobCategories.map(category => (
                             <div
@@ -195,22 +230,29 @@ const JobCreatorChooser = () => {
                         ))}
                     </div>
                 ) : (
-                    <div className='job-list-upper'>
-                        <h2>{selectedJob}</h2>
-                        <div className='job-list'>
-                            {filteredJobs.map((job, index) => (
-                                <div key={index} className='job-list-item'>
-                                    <ItodoImage src={job.icona} style={{width: '50px'}} ></ItodoImage>
-                                    {job.title}
-                                </div>
-                            ))}
-                        </div>
-                    </div>
+                    <>
+                        {state === 1  && <div className='job-list-upper'>
+                            <h2>{selectedJob}</h2>
+                            <div className='job-list'>
+                                {filteredJobs.map((job, index) => (
+                                    <div onClick={() => handleJobLowerClick(job.title)} key={index} className='job-list-item'>
+                                        <ItodoImage src={job.icona} style={{ width: '50px' }} ></ItodoImage>
+                                        {job.title}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>}
+                    </>
                 )}
-                {realSelection !== null && 
-                <ConfigCreator>
-                    </ConfigCreator>}
             </div>
+            {state === 2 && 
+                    <ConfigCreator
+                        isHal={false}
+                        array={realSelection.Job}
+                        title={realSelection.Name}
+                        isJobConfig={true}
+                        onJobConfigString={handleConfigString}
+                    ></ConfigCreator>}
         </>
     );
 

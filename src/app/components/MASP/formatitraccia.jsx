@@ -32,7 +32,9 @@ const FormatiTraccia = () => {
                                 {data.dettagli.map((dettaglio, dettaglioIndex) => (
                                     <div key={dettaglioIndex} className="masp-card-secondaparte-div">
                                         <div className="masp-card-secondaparte-div-divi">
-                                            <i className={dettaglio.iconaClasse} />
+                                            <div className="orange-circle">
+                                                <i className={dettaglio.iconaClasse} />
+                                            </div>
                                         </div>
                                         <p>{dettaglio.descrizione}</p>
                                     </div>

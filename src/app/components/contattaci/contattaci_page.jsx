@@ -62,9 +62,9 @@ function ContattaciPage() {
               <div className="col-lg-8 col-md-12  m-b30">
                 <div className="contact-info">
                   <div className="section-head left">
-                    <div className="sx-head-s-title">{t("upper_header")}</div>
+                    <div className="sx-head-s-title font-primary">{t("upper_header")}</div>
                     <div className="sx-head-l-title">
-                      <h2 className="sx-title">{t("header")}</h2>
+                      <h2 className="sx-title font-primary">{t("header")}</h2>
                     </div>
                   </div>
                   <div id="contattipane" className="container">

@@ -28,7 +28,7 @@ function SectionSlider2() {
                     autoplay-disable-on-interaction="true"
                     class="swiper-wrapper"
                 >
-                    <swiper-slide class="sx-bnr-2-wrap swiper-slide overlay-overlay" style={{ backgroundImage: `url(${publicUrlFor("images/main-slider/slider2/slide1nuova.png")})` }}>
+                    <swiper-slide class="sx-bnr-2-wrap swiper-slide overlay-overlay" style={{ backgroundImage: `url(${publicUrlFor("images/main-slider/slider2/slide1.jpg")})` }}>
                         <div className="sx-bg-overlay opacity-0 sx-bg-primary" />
                         <div className="container">
                             <div className="automazioneScritte sx-bnr-2-content">
@@ -52,7 +52,7 @@ function SectionSlider2() {
                             <ItodoImage src="images/main-slider/slider2/sm-pic1.png" alt="" />
                         </div>
                     </swiper-slide>
-                    <swiper-slide class="sx-bnr-2-wrap swiper-slide overlay-overlay" style={{ backgroundImage: `url(${publicUrlFor("images/main-slider/slider2/slide2nuova.png")})` }}>
+                    <swiper-slide class="sx-bnr-2-wrap swiper-slide overlay-overlay" style={{ backgroundImage: `url(${publicUrlFor("images/main-slider/slider2/slide2.jpg")})` }}>
                         <div className="sx-bg-overlay opacity-0 sx-bg-primary" />
                         <div className="container">
                             <div className="automazioneScritte sx-bnr-2-content">

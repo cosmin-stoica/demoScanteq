@@ -39,7 +39,7 @@ const ImaginaIntro = () => {
                             <ItodoImage className="servizio-card-img-imagina" src="images/case-study/automazione/scheda.jpg" alt="imagina-img"></ItodoImage>
                         </div>
                         {descriptions.map((desc, index) => (
-                            <p className={index === 0 ? "margin-top50" : ''} key={index}>{desc}</p>
+                            <p className={`${index === 0 ? "margin-top50" : ''} font-primary`} key={index}>{desc}</p>
                         ))}
                     </div>
 

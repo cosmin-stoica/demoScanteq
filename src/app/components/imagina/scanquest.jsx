@@ -12,7 +12,7 @@ const ScanQuest = () => {
             </div>
 
             <div className="scanquest-div">
-                <p>{t("scanquest.title")}</p>
+                <p className="font-primary">{t("scanquest.title")}</p>
                 <div className="row sx-single-small-media">
                     <div className="col-md-6 col-sm-4">
                         <div className="sx-box m-b30">

@@ -53,13 +53,17 @@ const IntroUnita = () => {
                             <div className="servizio-card-secondapartemasp">
                                 <div className="masp-card-secondaparte-div">
                                     <div className="masp-card-secondaparte-div-divi">
-                                        <i className="flaticon-growth" />
+                                        <div className="orange-circle">
+                                            <i className="flaticon-growth" />
+                                        </div>
                                     </div>
                                     <p> {t("intro.desc_1")}</p>
                                 </div>
                                 <div className="masp-card-secondaparte-div">
                                     <div className="masp-card-secondaparte-div-divi">
-                                        <i className="flaticon-development" />
+                                        <div className="orange-circle">
+                                            <i className="flaticon-development" />
+                                        </div>
                                     </div>
                                     <p>{t("intro.desc_2")}</p>
                                 </div>

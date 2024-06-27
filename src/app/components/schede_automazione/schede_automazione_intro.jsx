@@ -38,7 +38,7 @@ const SchedeAutomazioneIntro = () => {
                             <ItodoImage src="images/hardware/schedeautomazione/schede_insieme.png" alt="schede_image"></ItodoImage>
                         </div>
                         {descriptions.map((desc, index) => (
-                                <div className="text-container" key={index}>{desc}</div>
+                                <div className="text-container font-primary" key={index}>{desc}</div>
                             ))}
                     </div>
                 </div>

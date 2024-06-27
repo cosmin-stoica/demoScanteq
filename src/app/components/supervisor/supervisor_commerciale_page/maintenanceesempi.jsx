@@ -194,7 +194,7 @@ const MaintenanceEsempi = () => {
 
   return (
     <>
-      <div className="titolo-supervisor-preview width100 perflex margin-top50">
+      <div className="titolo-supervisor-preview width100 perflex margin-top50 font-primary">
         {t("declaration.maintenance_hub_example.title")}
       </div>
       <div className="paneanalisiscegli-preview">
@@ -216,7 +216,7 @@ const MaintenanceEsempi = () => {
       </div>
 
 
-      <div className="titolo-supervisor-preview width100 perflex margin-top50">
+      <div className="titolo-supervisor-preview width100 perflex margin-top50 font-primary">
       {t("declaration.maintenance_hub_example.log_title")}
       </div>
 
