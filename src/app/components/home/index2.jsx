@@ -35,7 +35,7 @@ function Home2Page() {
       <MesHomeCard></MesHomeCard>
       <SchedeHomeCard></SchedeHomeCard>
       <ServicesHome></ServicesHome>
-  <Clienti_Component></Clienti_Component>
+  <Clienti_Component partner={true}></Clienti_Component>
       <PercheSceglierciNew></PercheSceglierciNew>
       {/*<SectionWhyChooseUs2 />*/}
     </>

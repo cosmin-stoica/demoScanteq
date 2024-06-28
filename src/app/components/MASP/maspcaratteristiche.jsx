@@ -9,16 +9,12 @@ function MaspCaratteristiche() {
         <>
             {<Banner _data={bannerData.autoindustriale} />}
 
-            <div id="cont22" className="section-full p-t100 p-b70 mobile-page-padding ">
-                <div className="container">
-                    {<MaspPrequel></MaspPrequel>}
-                </div>
+            <div className="bg-gray-light">
+                {<MaspPrequel></MaspPrequel>}
             </div>
 
-            <div id="cont22" className="section-full p-t100 p-b70 mobile-page-padding">
-                <div className="container">
+            <div className="section-full p-t100 p-b70 mobile-page-padding bg-gray-light">
                     {<CaratteristicheMASP></CaratteristicheMASP>}
-                </div>
             </div>
             <div className="section-full p-t100 p-b70 mobile-page-padding containerjobheadermasp">
                 <div className="container">

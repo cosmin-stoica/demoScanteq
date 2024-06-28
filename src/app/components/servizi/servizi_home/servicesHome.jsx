@@ -5,12 +5,12 @@ import Title from "../../../elements/title";
 function ServicesHome() {
     const { t, i18n } = useTranslation();
 
-     const services = t('home.servizi.data', { returnObjects: true });
+    const services = t('home.servizi.data', { returnObjects: true });
 
-     if (!Array.isArray(services)) {
-         console.error("Expected 'services' to be an array but got:", services);
-         return null; 
-     }
+    if (!Array.isArray(services)) {
+        console.error("Expected 'services' to be an array but got:", services);
+        return null;
+    }
 
 
 
@@ -20,12 +20,12 @@ function ServicesHome() {
                 {/*<div className="section-head center">
                     <h1 className="TitoloCapitolo">{t('home.servizi.header')}</h1>
     </div>*/}
-    <Title title={t('home.servizi.header')} addClass="margin-bottom50"></Title>
+                <Title title={t('home.servizi.header')} addClass="margin-bottom50"></Title>
                 <div className="jobBoxesDiv">
                     {services.map(job => (
                         <div className="jobBox wow fadeInLeft" data-wow-duration="1500ms" key={job.id}>
                             <div className="orange-circle">
-                            <span className="iconserviceshome"><i className={job.icon} /></span>
+                                <span className="iconserviceshome"><i className={job.icon} /></span>
                             </div>
                             <span className="titolojobBox">
                                 {job.title}

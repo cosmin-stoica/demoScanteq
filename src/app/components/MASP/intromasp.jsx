@@ -13,6 +13,21 @@ const IntroMasp = () => {
     } else {
         console.error('La lista non è disponibile o non è un array.');
     }
+    
+    const CardList = [
+        {
+          src: "/images/masp/masp_white.png",
+          width: "50%",
+          widthLower: "40%",
+          color1: "rgba(255, 142, 142, 0.3)",
+          color2: "rgba(238, 53, 42, 0.3)",
+          colorBackGround: "rgb(0,12,84)",
+          transitionSeconds: "1000",
+          transitionSecondsCss: "1s",
+          fixedSeconds: "500",
+          totalSeconds: "4000"
+        }
+      ]
 
     return (
         <>
