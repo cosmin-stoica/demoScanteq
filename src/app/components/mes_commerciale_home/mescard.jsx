@@ -83,7 +83,7 @@ const MesCard = () => {
                                     </div>
 
                                 </div>
-                                <NavLink to="/mes"><span id="seemoreUpgrade">{t("home.primo_piano.mes.button")}</span></NavLink>
+                                <NavLink to="/mes"><span id="button-third">{t("home.primo_piano.mes.button")}</span></NavLink>
                             </div>
                         </div>
                     </div>

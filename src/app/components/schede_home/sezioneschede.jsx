@@ -122,7 +122,7 @@ function SezioneSchede() {
 
                                 </div>
 
-                                <NavLink to="/schede-automazione"><span id="seemoreUpgrade" class="see-moreMAIM">{t("home.primo_piano.schede_automazione.button")}</span></NavLink>
+                                <NavLink to="/schede-automazione"><span id="button-third" class="see-moreMAIM">{t("home.primo_piano.schede_automazione.button")}</span></NavLink>
                             </div>
 
                             {/*<div class="date-boxMAIM">
@@ -196,7 +196,7 @@ function SezioneSchede() {
                 </div>
 
 
-                <NavLink to="/schede-hardware"><span id="seemoreUpgrade" class="see-moreMAIM">Vedi di più</span></NavLink>
+                <NavLink to="/schede-hardware"><span id="button-third" class="see-moreMAIM">Vedi di più</span></NavLink>
 
             </div>
 

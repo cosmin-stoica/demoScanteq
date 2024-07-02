@@ -54,7 +54,7 @@
         "button": "Vedi di più",
         "dataImg":[
           {
-            "src": "/images/logo.png",
+            "src": "/images/supervisor/circolare.png",
             "width": "100%",
             "widthLower": "70%",
             "color1": "rgba(12, 142, 142, 0.3)",
@@ -65,7 +65,8 @@
             "fixedSeconds": "500",
             "totalSeconds": "4000"
           }
-        ]
+        ],
+        "logoImg": "/images/supervisor/supervisor_white.png"
       },
       "mes":{
         "header": "Mes",
@@ -73,7 +74,22 @@
         "desc_1": "Il Mes è una piattaforma web interconnessa al MASP e progettata per tracciare con precisione i cicli lavorativi che le postazioni effettuano in ogni fase del processo produttivo.",
         "desc_2": "La gestione delle lavorazioni, delle commesse, dei componenti e delle informazioni ausiliarie consente un controllo totale della produzione anche da remoto. Si possono creare cicli di lavoro e inviarli direttamente nella rete aziendale, rendendoli facilmente accessibili dalle postazioni.",
         "desc_3": "Con questa gestione integrata, il controllo della produzione diventa semplice ed efficiente. Dai cicli di lavoro alla condivisione delle informazioni cruciali, il nostro sistema offre la flessibilità e la praticità necessarie alle piccole e medie aziende per ottimizzare le operazioni aziendali in modo fluido e senza sforzi eccessivi.",
-        "button": "Vedi di più"
+        "button": "Vedi di più",
+        "dataImg":[
+          {
+            "src": "/images/mes/mes.png",
+            "width": "70%",
+            "widthLower": "70%",
+            "color1": "rgba(12, 142, 142, 0.3)",
+            "color2": "rgba(238, 53, 42, 0.3)",
+            "colorBackGround": "rgb(0,12,84)",
+            "transitionSeconds": "1000",
+            "transitionSecondsCss": "1s",
+            "fixedSeconds": "500",
+            "totalSeconds": "4000"
+          }
+        ],
+        "logoImg": "/images/mes/mes_white.png"
       },
       "piattaforma_imagina": {
         "header": "Piattaforma Imagina",
@@ -91,7 +107,21 @@
         "encoder_desc_1": "Il modulo ENCODER 4, integrato nel nostro progetto per l'Industria 4.0, permette il monitoraggio accurato degli angoli attraverso quattro encoder assoluti o la lettura delle coordinate da quattro righe ottiche digitali. Questo si collega direttamente al PC di controllo mediante la scheda IO24ADC e la sua porta di espansione digitale, arricchendo così la nostra gamma di soluzioni e offrendo agli operatori strumenti robusti per la gestione dei processi industriali.",
         "cora_title": "CORA",
         "cora_desc_1": "La scheda elettronica CORA consente di leggere correnti, trasformando il valore misurato in una tensione che sarà digitalizzata tramite uno dei canali di conversione ADC della scheda IO24ADC. Dispone di un trasduttore isolato galvanicamente in grado leggere correnti unidirezionali o bidirezionali fino a un massimo di 19.2A. La tensione di uscita, proporzionale alla corrente misurata, varia tra 0V e 3.3V, rendendola compatibile con i convertitori analogico-digitali della scheda IO24ADC.",
-        "button": "Vedi di più"
+        "button": "Vedi di più",
+        "dataImg":[
+          {
+            "src": "images/case-study-2/schede_insieme.png",
+            "width": "50%",
+            "widthLower": "70%",
+            "color1": "rgba(12, 142, 142, 0.3)",
+            "color2": "rgba(238, 53, 42, 0.3)",
+            "colorBackGround": "rgb(0,12,84)",
+            "transitionSeconds": "1000",
+            "transitionSecondsCss": "1s",
+            "fixedSeconds": "500",
+            "totalSeconds": "4000"
+          }
+        ]
       }
     },
     "servizi": {

@@ -101,7 +101,7 @@ function MaspImaginaNew() {
 
                                     </div>
 
-                                    <NavLink to="/imagina"><span id="seemoreUpgrade" class="see-moreMAIM">{t("home.primo_piano.piattaforma_imagina.button")}</span></NavLink>
+                                    <NavLink to="/imagina"><span id="button-third" class="see-moreMAIM">{t("home.primo_piano.piattaforma_imagina.button")}</span></NavLink>
                                 </div>
 
                                 {/*<div class="date-boxMAIM">

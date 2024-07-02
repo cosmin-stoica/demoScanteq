@@ -81,7 +81,7 @@ function MaspIntro() {
                                         </div>
 
                                     </div>
-                                    <NavLink to="/masp-caratteristiche"><span id="seemoreUpgrade">{t("home.primo_piano.piattaforma_masp.button")}</span></NavLink>
+                                    <NavLink to="/masp-caratteristiche"><span id="button-third">{t("home.primo_piano.piattaforma_masp.button")}</span></NavLink>
                                 </div>
                             </div>
                         </div>

@@ -52,7 +52,7 @@ const CaratteristicheMASP = () => {
                     <p>
                         {t("characteristics.traceability_of_results_desc")}
                     </p>
-                    {/*<NavLink to="/supervisor" ><button id="seemoreUpgrade">{t("characteristics.traceability_of_results_button")}</button></NavLink>*/}
+                    {/*<NavLink to="/supervisor" ><button id="button-third">{t("characteristics.traceability_of_results_button")}</button></NavLink>*/}
                 </div>
 
             </div>

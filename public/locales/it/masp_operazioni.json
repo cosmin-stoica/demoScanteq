@@ -1,7 +1,9 @@
 {
     "header": {
         "header": "Categorie di Operazioni",
-        "title_1": "Le operazioni, denominate Job, possono essere divise rispettivamente in sei categorie:",
+        "title_1": "I settori dell'automazione e dell'assemblaggio stanno rivoluzionando l'industria con tecnologie all'avanguardia che migliorano l'efficienza e la precisione delle operazioni. Dal collaudo dei componenti automotive alla gestione della produzione e della logistica, questi job garantiscono sicurezza, qualità e ottimizzazione dei processi.",
+        "title_2": "La gestione delle postazioni e delle procedure e il controllo delle unità elettroniche assicurano un prestazioni ottimali, rendendo questi ruoli fondamentali per il successo industriale moderno.",
+        "title_3": "Le operazioni, denominate Job, possono essere divise rispettivamente in sei categorie.",
         "automation_and_assembly_title": "AUTOMAZIONE E ASSEMBLAGGIO",
         "automation_and_assembly_desc": "Questi job comprendono tecnologie e processi progettati per automatizzare e ottimizzare le operazioni di assemblaggio industriale, migliorando efficienza e precisione.",
         "automotive_component_testing_title": "COLLAUDO COMPONENTI AUTOMOTIVE",

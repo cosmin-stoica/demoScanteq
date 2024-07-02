@@ -9,11 +9,9 @@ function MaspTracciabilita() {
         <>
             {<Banner _data={bannerData.autoindustriale} />}
 
-            <div id="containertracciabilità" className="section-full p-t100 p-b70 mobile-page-padding">
-                <div className="container">
+            <div>
                     <NewTracciabilita></NewTracciabilita>
                     <FormatiTraccia></FormatiTraccia>
-                </div>
             </div>
 
         </>

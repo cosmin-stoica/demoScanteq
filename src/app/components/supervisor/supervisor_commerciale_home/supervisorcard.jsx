@@ -92,7 +92,7 @@ const SupervisorCard = () => {
                                     </div>
 
                                 </div>
-                                <NavLink to="/supervisor"><span id="seemoreUpgrade">{t("home.primo_piano.supervisor.button")}</span></NavLink>
+                                <NavLink to="/supervisor"><span id="button-third">{t("home.primo_piano.supervisor.button")}</span></NavLink>
                             </div>
                         </div>
                     </div>

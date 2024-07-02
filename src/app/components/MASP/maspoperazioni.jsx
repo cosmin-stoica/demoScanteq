@@ -8,7 +8,7 @@ function MaspOperazioni() {
             {<Banner _data={bannerData.autoindustriale} />}
 
          
-            <div className="section-full p-t100 p-b70 mobile-page-padding containerjobheadermasp">
+            <div className="margin-bottom100">
                     <JobHeaderMasp></JobHeaderMasp>
             </div>
 

@@ -18,7 +18,7 @@ const CardViewer = ({ cards,buttonText,addClass,isFa }) => {
                                 {card.desc}
                             </div>
                             {buttonText && <NavLink to={card.link}>
-                                <span id="seemoreUpgrade" className="see-moreMAIM">{buttonText}</span>
+                                <span id="button-third" className="see-moreMAIM">{buttonText}</span>
                             </NavLink>}
                         </div>
                     ))}

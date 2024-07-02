@@ -2,7 +2,7 @@ import HomeSection from "../../elements/homeSection";
 import { useTranslation } from 'react-i18next';
 
 const SchedeHomeCard = () => {
-  
+
     const { t } = useTranslation();
 
     const getIncrementalDescriptions = (variabile) => {
@@ -32,10 +32,11 @@ const SchedeHomeCard = () => {
 
                         <HomeSection
                             title={t("home.primo_piano.schede_automazione.header")}
+                            imgSrcList={t('home.primo_piano.schede_automazione.dataImg', { returnObjects: true })}
                             descriptionList={descriptionList}
+                            putBackground={true}
                             buttonText={t("home.primo_piano.schede_automazione.button")}
-                            buttonLink="/mes"
-                            imgSrc="images/case-study-2/principale_home.png"
+                            buttonLink="/schede-automazione"
                             flip={true}
                         >
                         </HomeSection>

@@ -1,13 +1,36 @@
+import { useState, useEffect } from "react";
 import ItodoImage from "./itodo-img";
+import JobViewerCard from "./jobViewerCard";
+import axios from "axios";
 
+const JobCard = ({ title, description, imgSrc }) => {
+    const [openView, setOpenView] = useState(false);
+    const [hasImages, setHasImages] = useState(false);
 
-const JobCard = ({title,description,imgSrc}) => {
+    useEffect(() => {
+        const checkImages = async () => {
+            try {
+                const response = await axios.get(`/assets/images/jobs/carousel/${title}`);
+                setHasImages(response.status === 200);
+            } catch (error) {
+                setHasImages(false);
+            }
+        };
+
+        checkImages();
+    }, [title]);
+
+    const openJobViewerCard = () => {
+        setOpenView(!openView);
+    };
+
     return (
         <>
             <div className="card-viewer-lower-part-card">
                 <div className="primary-circle">
                     <ItodoImage className="immaginebianca" src={imgSrc}></ItodoImage>
                 </div>
+                {hasImages && <button onClick={openJobViewerCard} id="button-third">Vedi di più</button>}
                 <div className="card-viewer-lower-part-card-title">
                     {title}
                 </div>
@@ -15,6 +38,8 @@ const JobCard = ({title,description,imgSrc}) => {
                     {description}
                 </div>
             </div>
+
+            {openView && <JobViewerCard title={title} desc={description} exitCallback={openJobViewerCard}></JobViewerCard>}
         </>
     );
 }

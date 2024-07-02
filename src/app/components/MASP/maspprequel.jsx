@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import NewHeaderTitle from "../../elements/common/newHeaderTitle";
+import NewHeaderTitle from "../../elements/newHeaderTitle";
 
 const MaspPrequel = () => {
 
@@ -28,8 +28,10 @@ const MaspPrequel = () => {
     <NewHeaderTitle
     title={t("prequel.header")}
     descList={descriptions}
-    buttonText="Contattaci"
-    imgSrc="/images/masp/masp.png"
+    buttonText="Maggiori informazioni"
+    imgSrc="assets/images/masp/masp.png"
+    imgSrcRidimensionabile="/assets/images/masp/masp.png"
+    imgSrcRidimensionabileBackground="/assets/images/masp/masp.png"
     />
 
     </>

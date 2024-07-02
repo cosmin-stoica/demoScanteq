@@ -16,6 +16,7 @@ Version: 1.0
   /*--primary: #0f4bb9;*/
   /*--primary: #0f3377;*/
   --primary: rgb(0,18,84);
+  --primary-dark: rgb(0, 10, 48);
   --primary-light: rgb(24, 53, 157);
   --secondary: #202122;
   --secondary-light: #666666;
@@ -47,6 +48,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  cursor: url('/assets/prova.cur'), auto;
 }
 
 @media (min-width: 1200px) {
@@ -129,19 +131,20 @@ summary {
   clear: both;
 }
 
+
 ::selection {
-  background: var(--title-color);
-  color: var(--white);
+  background: var(--third); 
+  color: white;
 }
 
 ::-moz-selection {
-  background: var(--title-color);
-  color: var(--white);
+  background: var(--third); 
+  color: white;
 }
 
 ::-webkit-selection {
-  background: var(--title-color);
-  color: var(--white);
+  background: var(--third); 
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -3639,7 +3642,6 @@ input[type=radio]:checked+label:before {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  text-transform: capitalize;
 }
 
 .widget_services ul li a span {

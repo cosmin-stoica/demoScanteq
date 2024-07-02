@@ -1,6 +1,7 @@
 
 import { useTranslation } from 'react-i18next';
 import Title from "../../elements/title";
+import NewHeaderTitle from '../../elements/newHeaderTitle';
 
 const JobHeaderMasp = () => {
 
@@ -22,18 +23,29 @@ const JobHeaderMasp = () => {
     const descriptions = getIncrementalDescriptions("header.title_");
 
     return (<>
-        <Title title={t("header.header")}></Title>
+
+
+        <NewHeaderTitle
+            title={t("header.header")}
+            descList={descriptions}
+            buttonText="Maggiori informazioni"
+            imgSrc="assets/images/masp/robot.png"
+            imgSrcRidimensionabile="/assets/images/masp/robot.png"
+            imgSrcRidimensionabileBackground="/assets/images/masp/robotlogo.png"
+        />
+
+        {/*<Title title={t("header.header")}></Title>
         {/*<div className="section-full wow fadeInRight" data-wow-duration="2000ms">
             <h1 className="TitoloCapitolo">{t("header.header")}</h1>
-        </div>*/}
+        </div>*
         <div className="container">
             <div className="desccond">
                 {descriptions.map((desc, index) => (
                     <p key={index}>{desc}</p>
                 ))}
-            </div>
-
-            <div className="div-header-job-card">
+            </div>*/}
+        <div className="width100 perflex">
+            <div className="div-header-job-card width90 margin-top100">
 
                 <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                     <div className="header-job-card">
@@ -120,7 +132,7 @@ const JobHeaderMasp = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     </>
     );
 

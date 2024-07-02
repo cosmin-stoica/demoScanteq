@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import ItodoImage from "./itodo-img";
 import BannerCard from "./bannerCard";
 
-const HomeSection = ({ title, descriptionList, buttonText, buttonLink, imgSrc, imgSrcList, flip, putBackground, backgroundColor  }) => {
+const HomeSection = ({ title, descriptionList, buttonText, buttonLink, imgSrc, imgSrcList, flip, putBackground, backgroundColor, imgLogo  }) => {
     const textPartRef = useRef(null);
     const [textPartHeight, setTextPartHeight] = useState(0);
 
@@ -26,7 +26,7 @@ const HomeSection = ({ title, descriptionList, buttonText, buttonLink, imgSrc, i
                     <ItodoImage className={flip ? "home-section-img-principaleleft" : "home-section-img-principaleright"} src={imgSrc}></ItodoImage>
                 </div>
             )}
-            {putBackground && imgSrcList && <BannerCard List={imgSrcList} containerHeight={textPartHeight} flip={flip} />}
+            {putBackground && imgSrcList && <BannerCard List={imgSrcList} containerHeight={textPartHeight} flip={flip} imgLogo={imgLogo}/>}
             <div className="home-section-div-textpart" ref={textPartRef}>
                 {title && <div className="home-section-div-textpart-title">{title}</div>}
                 {descriptionList && descriptionList.map((desc, index) => (
@@ -35,7 +35,7 @@ const HomeSection = ({ title, descriptionList, buttonText, buttonLink, imgSrc, i
                 {buttonText && (
                     <div className="home-section-div-textpart-button">
                         <NavLink to={buttonLink}>
-                            <button id="seemoreUpgrade" className="see-moreMAIM">{buttonText}</button>
+                            <button id="button-third" className="see-moreMAIM">{buttonText}</button>
                         </NavLink>
                     </div>
                 )}

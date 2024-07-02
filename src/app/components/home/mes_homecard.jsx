@@ -26,14 +26,18 @@ const MesHomeCard = () => {
                 <div className="perflex">
                     <div className="wow fadeInDown" data-wow-duration="2000ms">
 
-                        <HomeSection
+                        
+                    <HomeSection
                             title={t("home.primo_piano.mes.title")}
+                            imgSrcList={t('home.primo_piano.mes.dataImg', { returnObjects: true })}
                             descriptionList={descriptionList}
+                            putBackground={true}
                             buttonText={t("home.primo_piano.mes.button")}
                             buttonLink="/mes"
-                            imgSrc="images/mes/principale_home.png"ù
+                            imgLogo={t("home.primo_piano.mes.logoImg")}
                         >
                         </HomeSection>
+
                     </div>
                 </div>
             </div>

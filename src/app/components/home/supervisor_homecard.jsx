@@ -63,6 +63,7 @@ const SupervisorHomeCard = () => {
                             buttonLink="/supervisor"
                             backgroundColor={'white'}
                             flip={true}
+                            imgLogo={t("home.primo_piano.supervisor.logoImg")}
                         >
                         </HomeSection>
                         
