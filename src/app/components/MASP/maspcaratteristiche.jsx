@@ -13,13 +13,15 @@ function MaspCaratteristiche() {
                 {<MaspPrequel></MaspPrequel>}
             </div>
 
-            <div className="section-full p-t100 p-b70 mobile-page-padding bg-gray-light">
+            <div className="section-full p-t100 p-b70 mobile-page-padding bg-gray-light perflex">
+                <div className="width90 perflex ">
                     {<CaratteristicheMASP></CaratteristicheMASP>}
+                </div>
             </div>
             <div className="section-full p-t100 p-b70 mobile-page-padding containerjobheadermasp">
-                <div className="container">
-                    <IntroMasp></IntroMasp>
-                </div>
+                {/*<div className="container">*/}
+                <IntroMasp></IntroMasp>
+                {/*</div>*/}
             </div>
         </>
     )

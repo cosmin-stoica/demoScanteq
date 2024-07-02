@@ -862,7 +862,7 @@
 
 .card-contentMAIM {
   color: var(--primary);
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 
@@ -1259,7 +1259,7 @@ section.cardJob {
   z-index: 2;
   width: 37%;
   text-align: center;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   filter: opacity(0);
   transition: all 0.5s ease;
 }
@@ -1273,7 +1273,7 @@ section.cardJob {
   z-index: 2;
   width: 37%;
   text-align: center;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   filter: opacity(0);
   transition: all 0.5s ease;
 }
@@ -1583,7 +1583,7 @@ section.cardJob {
   background-color: var(--third);
   color: rgb(255, 255, 255);
   padding: 20px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   border-radius: 30px;
   transition: all 0.2s ease;
   font-weight: 600;
@@ -1722,7 +1722,7 @@ section.cardJob {
 
 .divintermezzo p {
   padding-left: 15px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   width: 100%;
 
 }
@@ -1787,7 +1787,7 @@ section.cardJob {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   padding: 20px;
   color: var(--primary);
 }
@@ -1947,7 +1947,7 @@ section.cardJob {
 
 .descrizionejobBox {
   text-align: center;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   color: var(--primary);
 }
 
@@ -1986,7 +1986,7 @@ section.cardJob {
   background-color: white;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   padding: 40px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   text-align: center;
   border-radius: 15px;
   margin-bottom: 50px;
@@ -2108,14 +2108,14 @@ section.cardJob {
   color: var(--primary);
   text-transform: uppercase;
   width: 100%;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   font-weight: 1000;
 }
 
 .header-job-card p {
   text-align: center;
   width: 100%;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   color: var(--primary);
 }
 
@@ -2171,7 +2171,7 @@ section.cardJob {
 .servizio-card-lista ul {
   height: 100%;
   width: 100%;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   list-style-type: none;
 }
 
@@ -2349,7 +2349,7 @@ section.cardJob {
 }
 
 .servizio-card-secondapartemasp p {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 @media screen and (max-width:1100px) {
@@ -3261,7 +3261,7 @@ section.cardJob {
 
 .masp-prequel-div-parteP {
   padding: 30px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 .masp-btn-avanti {
@@ -3335,7 +3335,7 @@ section.cardJob {
 
 
 .tracciabilita-div-inner p {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   width: 100%;
   text-align: center;
 }
@@ -3450,7 +3450,7 @@ section.cardJob {
   border-radius: 15px;
   box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
   margin-top: 70px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   text-align: center;
 }
 
@@ -3632,7 +3632,7 @@ section.cardJob {
   width: 100%;
   display: flex;
   color: black;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   flex-flow: row;
 }
 
@@ -3747,7 +3747,7 @@ section.cardJob {
 }
 
 .categoria-div p {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   font-weight: 800;
 }
 
@@ -3761,12 +3761,12 @@ section.cardJob {
 }
 
 .mes-descrizione p {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   text-align: center;
 }
 
 .normalfont {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   color: var(--primary);
 }
 
@@ -3822,7 +3822,7 @@ section.cardJob {
 }
 
 .creacommessa-btn h2 {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   color: #535353;
   text-align: center;
   transition: all 0.3s ease;
@@ -4009,7 +4009,7 @@ section.cardJob {
 }
 
 .scanquest-div p {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 .hal-config-chooser-div {
@@ -4149,7 +4149,7 @@ section.cardJob {
   background-color: white;
   color: #535353;
   padding: 30px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   height: 270px;
   overflow: auto;
   text-align: center;
@@ -4271,7 +4271,7 @@ section.cardJob {
 
 .hal-selectioner div {
   width: 100%;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 .halconfigaperto {
@@ -4472,7 +4472,7 @@ section.cardJob {
   text-align: left;
   /* Assicura che il testo sia allineato a sinistra */
   color: black;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 
@@ -4569,7 +4569,7 @@ button[type="submit"]:hover {
 
 .sezione-job-name-job {
   color: black;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 .sezione-job-vedibtn {
@@ -4653,7 +4653,7 @@ button[type="submit"]:hover {
 
 .job-checkbox-included {
   max-width: 15px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
 }
 
 .sezione-job-vedibtn-outer {
@@ -4922,7 +4922,7 @@ button[type="submit"]:hover {
 
 .card-viewer-lower-part-card-desc {
   color: var(--primary);
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   padding-top: 10px;
   min-height: 250px;
 }
@@ -4937,15 +4937,25 @@ button[type="submit"]:hover {
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
+.home-section-div-textpart {
+  flex: 1;
+}
+
 .home-section-div-imgpart {
-  width: 70%;
+  width: 45%;
   height: 100%;
 }
 
+.banner-card-img {
+  max-width: 100%;
+  object-fit: cover;
+}
 
 .home-section-img-principaleright {
   float: left;
@@ -4987,7 +4997,7 @@ button[type="submit"]:hover {
 
 .home-section-div-textpart-desc {
   color: var(--primary);
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   padding-top: 20px;
   width: 80%;
 }
@@ -5031,7 +5041,7 @@ button[type="submit"]:hover {
 
 @media screen and (max-width:900px) {
 
-  .perche-sceglierci-div{
+  .perche-sceglierci-div {
     flex-direction: column;
   }
 
@@ -5053,7 +5063,11 @@ button[type="submit"]:hover {
     width: 100%;
   }
 
-  .home-section-div-textpart{
+  .new-header-title {
+    width: 100%;
+  }
+
+  .home-section-div-textpart {
     width: 100%;
     padding: 0px;
     display: flex;
@@ -5062,7 +5076,7 @@ button[type="submit"]:hover {
     align-items: center;
   }
 
-  .home-section-div-textpart-title{
+  .home-section-div-textpart-title {
     width: 100%;
     text-align: center;
     padding-top: 30px;
@@ -5070,6 +5084,7 @@ button[type="submit"]:hover {
 
   .home-section-div {
     flex-direction: column;
+
   }
 
   .flip-row {
@@ -5093,52 +5108,147 @@ button[type="submit"]:hover {
     height: 300px;
     object-fit: cover;
     display: block;
+
   }
 
-  .banner-card-background{
-    width: 100%;
-    height: 300px;
+  .banner-card-background {
+    max-height: 300px;
+    width: auto;
+  }
+
+
+  .banner-card-img {
+    max-height: 300px;
+    object-fit: cover;
   }
 
 }
 
 
-.banner-card-background{
+.banner-card-background {
   background-color: var(--primary);
   width: 80%;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   position: relative;
   overflow: hidden;
-  max-height: auto;
+  flex: 1;
 }
 
-.banner-card-img{
+.banner-card-img {
   z-index: 100;
-  
+
 }
 
-.banner-card-firstcircle{
+.banner-card-firstcircle {
   position: absolute;
   width: 50%;
-  padding-top: 50%; 
+  padding-top: 50%;
   background-color: rgba(142, 142, 142, 0.3);
   border-radius: 50%;
   z-index: 1;
-  right:-10%;
-  bottom:-7%;
+  right: -10%;
+  bottom: -7%;
 }
 
-.banner-card-secondcircle{
+.banner-card-secondcircle {
   position: absolute;
   width: 40%;
-  padding-top: 40%; 
+  padding-top: 40%;
   background-color: rgba(238, 53, 42, 0.3);
   border-radius: 50%;
   z-index: 2;
-  right:20%;
-  bottom:-15%;
+  right: 20%;
+  bottom: -15%;
+}
+
+
+.new-header-div {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.new-header-div-first {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16vw;
+}
+
+.new-header-title {
+  color: var(--primary);
+  font-size: 4vw;
+  font-weight: 600;
+  height: 100%;
+  line-height: 1.1;
+  text-align: left;
+  box-sizing: border-box;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.new-header-desc p {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.new-header-div-first button {
+  background-color: var(--third);
+  color: white;
+  border: none;
+  width: 150px;
+  height: 70px;
+  font-size: var(--fontSizePar);
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+.new-header-div-second {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.new-header-div-second img {
+  width: 27vw;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+  .new-header-title {
+    font-size: 6vw;
+  }
+
+
+  .new-header-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .new-header-div-second{
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .new-header-div-second img {
+    width: 37vw;
+  } 
+}
+
+
+@media screen and (max-width: 500px) {
+  .new-header-title {
+    font-size: 8vw;
+  }
 }

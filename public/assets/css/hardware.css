@@ -14,7 +14,7 @@
 }
 
 .introunita-div div {
-    font-size: 17px;
+    font-size: var(--fontSizePar);
     text-align: left;
     display: flex;
 }
@@ -63,7 +63,7 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
     padding: 20px;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: var(--fontSizePar);
     
 }
 
@@ -101,7 +101,7 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
     padding: 30px;
     border-radius: 15px;
-    font-size: 17px;
+    font-size: var(--fontSizePar);
     text-align: center;
     display: flex;
     flex-direction: column;

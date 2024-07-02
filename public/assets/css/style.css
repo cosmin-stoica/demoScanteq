@@ -30,6 +30,8 @@ Version: 1.0
 
   --bg-light: #fafafa;
   --transition: all 0.3s linear;
+
+  --fontSizePar: 20px;
 }
 
 /*____GENERAL 
@@ -8071,7 +8073,7 @@ New Template Css Start
 }
 
 .sx-about-bx3-content p{
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   color: var(--primary);
 }
 
@@ -8149,7 +8151,7 @@ New Template Css Start
 .sx-ab-circle-box-content .sx-exp {
   font-family: var(--title-family);
   font-weight: 800;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.1em;
@@ -10164,7 +10166,7 @@ New Template Css Start
 .sx-our-info-content .sx-our-info-content-list .sx-sub-title {
   display: block;
   color: var(--primary);
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   margin-bottom: 15px;
 }
 
@@ -12739,7 +12741,7 @@ h3 {
 }
 
 .custom-nav-item a {
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   display: block;
   color: #fff;
   text-decoration: none;
@@ -13587,7 +13589,7 @@ h1 {
   background-color: rgb(255, 255, 255, 0.8);
   margin-top: 70px;
   padding: 20px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   display: flex;
   justify-content: space-around;
 }
@@ -13624,7 +13626,7 @@ h1 {
   background-color: rgb(255, 255, 255, 0.8);
   margin-top: 70px;
   padding: 20px;
-  font-size: 17px;
+  font-size: var(--fontSizePar);
   display: flex;
   justify-content: space-around;
 }
@@ -14897,7 +14899,7 @@ p{
 #perpdiv p{
   width: 60%;
   color:white;
-  font-size:17px;
+  font-size: var(--fontSizePar);
   margin-top: 70px;
   text-align: center;
 }
@@ -14921,7 +14923,7 @@ p{
 
 .contenitoreperitrespecifici div p {
   text-align: center;
-  font-size:17px;
+  font-size: var(--fontSizePar);
 }
 
 #quartocapitolo{
@@ -14951,14 +14953,14 @@ p{
 #testopaneotto p{
   width: 70%;
   text-align: center;
-  font-size:17px;
+  font-size: var(--fontSizePar);
 }
 
 #testopanedieci{
   color:white;
   position: absolute;
   top:35%;
-  font-size:17px;
+  font-size: var(--fontSizePar);
   width: 100%;
   display: flex;
   justify-content: center;

@@ -51,7 +51,21 @@
         "traceability_desc": "Il Traceability Hub permette un monitoraggio dettagliato e in tempo reale dei dati, migliorando la precisione delle informazioni e consentendo un controllo più efficace dei processi e delle operazioni.",
         "maintenance_title": "Maintenance",
         "maintenance_desc": "Infine, il Maintenance Hub supporta la manutenzione preventiva con strumenti avanzati che mantengono le postazioni efficienti e riducono i tempi di inattività grazie al monitoraggio remoto." ,
-        "button": "Vedi di più"
+        "button": "Vedi di più",
+        "dataImg":[
+          {
+            "src": "/images/logo.png",
+            "width": "100%",
+            "widthLower": "70%",
+            "color1": "rgba(12, 142, 142, 0.3)",
+            "color2": "rgba(238, 53, 42, 0.3)",
+            "colorBackGround": "rgb(0,12,84)",
+            "transitionSeconds": "1000",
+            "transitionSecondsCss": "1s",
+            "fixedSeconds": "500",
+            "totalSeconds": "4000"
+          }
+        ]
       },
       "mes":{
         "header": "Mes",

@@ -148,7 +148,6 @@ function ManagerAttivita({ azienda }) {
     let includesAzienda;
 
     if (azienda === 'Tutti') {
-      // Mostra tutti i risultati senza filtrare per azienda
       return includesOfferta && includesCliente && includesCommittente && includesOrdine && includesTitolo;
     } else if (azienda === 'Altro') {
       const esclusi = ['sabelt', 'aras', 'lamborghini', 'proma', 'proma grugliasco', 'lear', 'lear melfi'];
@@ -166,17 +165,15 @@ function ManagerAttivita({ azienda }) {
 
 
   const sortedRisultati = filteredRisultati.map(risultato => {
-    // Controlla se Offerta esiste e non è vuota, altrimenti usa un valore di default
     const offertaNumerica = risultato.NumeroOfferta ? parseFloat(risultato.NumeroOfferta.replace('.', '')) : 0;
     return {
       ...risultato,
       offertaNumerica: offertaNumerica
     };
-  }).sort((b,a) => a.offertaNumerica - b.offertaNumerica);
-  
-  // Usa slice per selezionare la parte visibile dell'array ordinato
+  }).sort((b, a) => a.offertaNumerica - b.offertaNumerica);
+
   const visibleRisultati = sortedRisultati.slice(startIndex, endIndex);
-  
+
 
 
   const handleCheckboxChange = (id) => {
@@ -207,7 +204,6 @@ function ManagerAttivita({ azienda }) {
     const allIds = risultati.map(risultato => risultato.ID);
     const allSelected = allIds.every(id => selectedRows.includes(id));
 
-    // If all are selected, unselect all; otherwise, select all
     const updatedSelection = allSelected ? [] : allIds;
 
     setSelectedRows(updatedSelection);
@@ -217,12 +213,10 @@ function ManagerAttivita({ azienda }) {
     if (selectedRows.length > 0) {
       const userConfirmed = window.confirm("Sei sicuro di voler eliminare le righe selezionate?");
       if (userConfirmed) {
-        // Fai la chiamata DELETE al backend per eliminare le righe
         axios.delete('https://www.scanteq.com/php/attivita.php', { data: { idsToDelete: selectedRows } })
           .then((response) => {
             console.log(response);
             setRisultati(response.data);
-            // Deseleziona tutte le righe dopo l'eliminazione
             setSelectedRows([]);
           })
           .catch((error) => {
@@ -236,7 +230,8 @@ function ManagerAttivita({ azienda }) {
     setIsEditMode(!isEditMode);
   };
 
-  const handleSaveChanges = () => {
+
+  const handleSaveChanges = async () => {
     if (selectedRows.length > 0) {
       if (!isDataChanged) {
         window.alert("Nessuna modifica apportata.");
@@ -247,26 +242,54 @@ function ManagerAttivita({ azienda }) {
       if (userConfirmed) {
         const modifiedData = risultati.filter((risultato) => selectedRows.includes(risultato.ID));
 
-        // Esegui la richiesta al tuo backend per aggiornare i dati
-        axios
-          .put('https://www.scanteq.com/php/attivita.php', { modifiedData })
-          .then((response) => {
-            console.log(modifiedData);
-            console.log("Risposta dal backend:", response.data);
-            // Aggiorna i risultati dopo il salvataggio delle modifiche
-            setRisultati(response.data);
-            // Disattiva la modalità di modifica e deseleziona tutte le righe
-            setIsEditMode(false);
-            setSelectedRows([]);
-            // Resetta lo stato di isDataChanged
-            setIsDataChanged(false);
-          })
-          .catch((error) => {
-            console.error('Errore nella richiesta AJAX per aggiornamento: ', error);
+        try {
+          // Controlla se NumeroOfferta è cambiato
+          const changedRows = modifiedData.filter((data) => {
+            const originalData = risultati.find((risultato) => risultato.ID === data.ID);
+            return originalData.NumeroOfferta !== data.NumeroOfferta;
           });
+
+          // Rinominare le cartelle in Firebase Storage se NumeroOfferta è cambiato
+          for (const row of changedRows) {
+            const originalData = risultati.find((risultato) => risultato.ID === row.ID);
+            const oldFolderName = `offerte/${originalData.NumeroOfferta}`;
+            const newFolderName = `offerte/${row.NumeroOfferta}`;
+
+            // Ottieni tutti i file nella vecchia cartella
+            const oldFolderRef = storage.ref(oldFolderName);
+            const files = await oldFolderRef.listAll();
+
+            for (const fileRef of files.items) {
+              const file = await fileRef.getMetadata();
+              const oldFilePath = fileRef.fullPath;
+              const newFilePath = oldFilePath.replace(oldFolderName, newFolderName);
+
+              // Copia ogni file nella nuova cartella
+              const newFileRef = storage.ref(newFilePath);
+              await newFileRef.putString(await fileRef.getDownloadURL(), 'data_url');
+
+              // Elimina il file dalla vecchia cartella
+              await fileRef.delete();
+            }
+          }
+
+          // Invia i dati modificati al backend
+          const response = await axios.put('https://www.scanteq.com/php/attivita.php', { modifiedData });
+          console.log(modifiedData);
+          console.log("Risposta dal backend:", response.data);
+          setRisultati(response.data);
+          setIsEditMode(false);
+          setSelectedRows([]);
+          setIsDataChanged(false);
+
+        } catch (error) {
+          console.error('Errore nella richiesta AJAX per aggiornamento: ', error);
+          window.alert('Si è verificato un errore durante il salvataggio delle modifiche.');
+        }
       }
     }
   };
+
 
 
 
@@ -407,8 +430,6 @@ function ManagerAttivita({ azienda }) {
     setIsEditing(false);
 
     const modifiedData = [selectedRisutato];
-    //selectedRisutato.ID = parseInt(selectedRisutato.ID);
-
 
     axios
       .put('https://www.scanteq.com/php/attivita.php', { modifiedData })

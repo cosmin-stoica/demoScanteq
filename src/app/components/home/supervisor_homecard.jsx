@@ -43,21 +43,29 @@ const SupervisorHomeCard = () => {
         },
     ]
 
+
+    const supervisorData = t("home.primo_piano.supervisor.dataImg");
+    console.log("supervisorData", supervisorData);
     return (
         <>
             <div className="perflex width100">
                 <div className="perflex">
                     <div className="wow fadeInDown" data-wow-duration="2000ms">
 
+
+
                         <HomeSection
                             title={t("home.primo_piano.supervisor.title")}
+                            imgSrcList={t('home.primo_piano.supervisor.dataImg', { returnObjects: true })}
                             descriptionList={descriptionList}
+                            putBackground={true}
                             buttonText={t("home.primo_piano.supervisor.button")}
                             buttonLink="/supervisor"
-                            imgSrc="images/supervisor/principale_home.png"
+                            backgroundColor={'white'}
                             flip={true}
                         >
                         </HomeSection>
+                        
                         <CardViewer cards={cardData} isFa={false}></CardViewer>
                     </div>
                 </div>

@@ -869,7 +869,7 @@
 	hyphens: auto;
 }
 #lcl_title {
-	font-size: 17px;
+	font-size: var(--fontSizePar);
     font-weight: bold;
     line-height: normal;
     margin-bottom: 4px;
