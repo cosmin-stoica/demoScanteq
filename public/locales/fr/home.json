@@ -51,7 +51,22 @@
         "traceability_desc": "Le Traceability Hub permet une surveillance détaillée et en temps réel des données, améliorant la précision des informations et permettant un contrôle plus efficace des processus et des opérations.",
         "maintenance_title": "Maintenance",
         "maintenance_desc": "Enfin, le Maintenance Hub supporte la maintenance préventive avec des outils avancés qui maintiennent les postes efficaces et réduisent les temps d'arrêt grâce à la surveillance à distance.",
-        "button": "Voir plus"
+        "button": "Voir plus",
+        "dataImg":[
+          {
+            "src": "/images/supervisor/circolare.png",
+            "width": "100%",
+            "widthLower": "70%",
+            "color1": "rgba(12, 142, 142, 0.3)",
+            "color2": "rgba(238, 53, 42, 0.3)",
+            "colorBackGround": "rgb(0,12,84)",
+            "transitionSeconds": "1000",
+            "transitionSecondsCss": "1s",
+            "fixedSeconds": "500",
+            "totalSeconds": "4000"
+          }
+        ],
+        "logoImg": "/images/supervisor/supervisor_white.png"
       },
       "mes":{
         "header": "Mes",
@@ -59,7 +74,22 @@
         "desc_1": "Le Mes est une plateforme web interconnectée au MASP et conçue pour suivre avec précision les cycles de travail que les postes effectuent à chaque étape du processus de production.",
         "desc_2": "La gestion des travaux, des commandes, des composants et des informations auxiliaires permet un contrôle total de la production même à distance. Les cycles de travail peuvent être créés et envoyés directement dans le réseau de l'entreprise, les rendant facilement accessibles depuis les postes.",
         "desc_3": "Avec cette gestion intégrée, le contrôle de la production devient simple et efficace. Des cycles de travail au partage des informations cruciales, notre système offre la flexibilité et la praticité nécessaires aux petites et moyennes entreprises pour optimiser les opérations sans effort excessif.",
-        "button": "Voir plus"
+        "button": "Voir plus",
+        "dataImg":[
+          {
+            "src": "/images/mes/mes.png",
+            "width": "70%",
+            "widthLower": "70%",
+            "color1": "rgba(12, 142, 142, 0.3)",
+            "color2": "rgba(238, 53, 42, 0.3)",
+            "colorBackGround": "rgb(0,12,84)",
+            "transitionSeconds": "1000",
+            "transitionSecondsCss": "1s",
+            "fixedSeconds": "500",
+            "totalSeconds": "4000"
+          }
+        ],
+        "logoImg": "/images/mes/mes_white.png"
       },
       "piattaforma_imagina": {
         "header": "Plateforme Imagina",
@@ -77,7 +107,21 @@
         "encoder_desc_1": "Le module ENCODER 4, intégré dans notre projet pour l'industrie 4.0, permet la surveillance précise des angles grâce à quatre encodeurs absolus ou la lecture des coordonnées à partir de quatre règles optiques numériques. Cela se connecte directement au PC de contrôle via la carte IO24ADC et son port d'expansion numérique, enrichissant ainsi notre gamme de solutions et offrant aux opérateurs des outils robustes pour la gestion des processus industriels.",
         "cora_title": "CORA",
         "cora_desc_1": "La carte électronique CORA permet la lecture des courants, transformant la valeur mesurée en une tension qui sera numérisée via l'un des canaux de conversion ADC de la carte IO24ADC. Elle dispose d'un transducteur isolé galvaniquement capable de lire des courants unidirectionnels ou bidirectionnels jusqu'à un maximum de 19.2A. La tension de sortie, proportionnelle au courant mesuré, varie entre 0V et 3.3V, la rendant compatible avec les convertisseurs analogique-numériques de la carte IO24ADC.",
-        "button": "Voir plus"
+        "button": "Voir plus",
+        "dataImg":[
+          {
+            "src": "images/case-study-2/schede_insieme.png",
+            "width": "50%",
+            "widthLower": "70%",
+            "color1": "rgba(12, 142, 142, 0.3)",
+            "color2": "rgba(238, 53, 42, 0.3)",
+            "colorBackGround": "rgb(0,12,84)",
+            "transitionSeconds": "1000",
+            "transitionSecondsCss": "1s",
+            "fixedSeconds": "500",
+            "totalSeconds": "4000"
+          }
+        ]
       }
     },
     "servizi": {

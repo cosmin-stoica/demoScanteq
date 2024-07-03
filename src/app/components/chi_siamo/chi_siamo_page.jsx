@@ -8,12 +8,25 @@ import SectionAboutCompany5 from "./section-about-company5";
 import Clienti_Component from "../clienti/clienti_component";
 import ServicesHome from "../servizi/servizi_home/servicesHome";
 import ChiSiamoBanner from "./chi_siamo_banner";
+import { useLocation } from 'react-router-dom';
 
 function Chi_Siamo_Page() {
 
     useEffect(() => {
         loadScript("js/custom.js")
     })
+
+    const location = useLocation();
+
+    useEffect(() => {
+        const hash = location.hash;
+        if (hash) {
+            const element = document.querySelector(hash);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location]);
 
     return (
         <>
