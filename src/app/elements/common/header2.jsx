@@ -14,7 +14,7 @@ function Header2() {
     const auth = getAuth();
 
     const { t, i18n } = useTranslation();
-    const [selectedLanguage, setSelectedLanguage] = useState('IT');
+    const [selectedLanguage, setSelectedLanguage] = useState('it');
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
@@ -87,7 +87,12 @@ function Header2() {
                                             <button className="sl-nav-1-btn dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <div className="perflex width100">
                                                     <div className="c-name c-name-outside">
-                                                        <ItodoImage src={`images/flag/${selectedLanguage}.png`} alt="alt" />
+                                                        <ItodoImage
+                                                            src={["ro", "en", "fr"].includes(selectedLanguage) ? `images/flag/${selectedLanguage}.png` : 'images/flag/it.png'}
+                                                            alt="flag"
+                                                        />
+
+
                                                     </div>
                                                 </div>
                                                 <span className="color-white">{selectedLanguage}</span>
@@ -156,7 +161,7 @@ function Header2() {
                                     <li>
                                         <NavLink >{t('header.chi_siamo')}</NavLink>
                                         <ul className="sub-menu">
-                                        <li><NavLink to="/about-us">{t('header.la_nostra_storia')}</NavLink></li>
+                                            <li><NavLink to="/about-us">{t('header.la_nostra_storia')}</NavLink></li>
                                             <li><NavLink to="/mission">Vision</NavLink></li>
                                             <li><NavLink to="/leadership">Leadership</NavLink></li>
                                         </ul>
