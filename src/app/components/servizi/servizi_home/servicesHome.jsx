@@ -17,9 +17,6 @@ function ServicesHome() {
     return (
         <div id="servicesdiv" className="perflex width100">
             <div className="width90 perflexcolumn wow fadeInDown" data-wow-duration="1500ms">
-                {/*<div className="section-head center">
-                    <h1 className="TitoloCapitolo">{t('home.servizi.header')}</h1>
-    </div>*/}
                 <Title title={t('home.servizi.header')} addClass="margin-bottom50"></Title>
                 <div className="jobBoxesDiv">
                     {services.map(job => (

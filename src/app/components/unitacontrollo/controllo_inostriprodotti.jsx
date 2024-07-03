@@ -1,6 +1,7 @@
 import ItodoImage from "../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import Title from "../../elements/title";
 
 const Controllo_I_Nostri_Prodotti = () => {
 
@@ -11,7 +12,7 @@ const Controllo_I_Nostri_Prodotti = () => {
         <>
             <div>
                 <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                    <h1 className="TitoloCapitolo">{t("i_nostri_prodotti.header")}</h1>
+                    <Title title={t("i_nostri_prodotti.header")}></Title>
                 </div>
 
                 {iNostriProdottiData.map((data, index) => (

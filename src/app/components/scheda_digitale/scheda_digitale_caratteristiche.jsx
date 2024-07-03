@@ -2,6 +2,7 @@ import React from "react";
 import ItodoImage from "../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import Title from "../../elements/title";
 
 const SchedaDigitaleCaratteristiche = () => {
     
@@ -11,7 +12,7 @@ const SchedaDigitaleCaratteristiche = () => {
     return (
         <>
             <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                <h1 className="TitoloCapitolo">{t('caratteristiche.header')}</h1>
+                <Title title={t('caratteristiche.header')}></Title>
             </div>
 
             {descrizioneData.map((data, index) => (

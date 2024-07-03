@@ -7,6 +7,7 @@ import  Clienti_Component  from "../clienti/clienti_component";
 import { bannerData } from "../../../globals/banner";
 import { useEffect } from "react";
 import { loadScript } from "../../../globals/constants";
+import ServicesHome from "../servizi/servizi_home/servicesHome";
 
 function MissionVisionPage() {
 
@@ -18,7 +19,8 @@ function MissionVisionPage() {
         <>
             <Banner _data={bannerData.mission} />
             <SectionAboutCompany4 />
-            <SectionOurInfo2/ >
+            {/*<SectionOurInfo2/ >*/}
+            <ServicesHome></ServicesHome>
             <SectionVideo2 />
             <SectionWhyChooseUs2></SectionWhyChooseUs2>
 

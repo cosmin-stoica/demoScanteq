@@ -1,5 +1,6 @@
 import ItodoImage from "../../elements/itodo-img";
 import { useTranslation } from 'react-i18next';
+import Title from "../../elements/title";
 
 const ScanQuest = () => {
 
@@ -8,7 +9,7 @@ const ScanQuest = () => {
     return (
         <>
             <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
-                <h1 className="TitoloCapitolo">{t("scanquest.header")}</h1>
+                <Title title={t("scanquest.header")}></Title>
             </div>
 
             <div className="scanquest-div">

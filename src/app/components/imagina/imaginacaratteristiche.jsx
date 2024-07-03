@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import Title from '../../elements/title';
 
 const ImaginaCaratteristiche = () => {
 
@@ -8,7 +9,7 @@ const ImaginaCaratteristiche = () => {
         <>
 
             <div className="section-full wow fadeInLeft" data-wow-duration="1500ms">
-                <h1 className="TitoloCapitolo">{t("caratteristiche.header")}</h1>
+                <Title title={t('caratteristiche.header')}></Title>
             </div>
 
 

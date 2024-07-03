@@ -148,7 +148,7 @@ function SezioneSchede() {
 
 
         {/*<div id="containerSchede" className="section-full wow fadeInLeft" data-wow-duration="1000ms">
-            <h1 className="TitoloCapitolo">Schede elettriche per l'automazione</h1>
+
 
 
             <div className="perleschedeDiv wow fadeInDown" data-wow-duration="1000ms">

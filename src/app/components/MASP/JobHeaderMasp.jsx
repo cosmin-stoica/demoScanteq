@@ -36,7 +36,6 @@ const JobHeaderMasp = () => {
 
         {/*<Title title={t("header.header")}></Title>
         {/*<div className="section-full wow fadeInRight" data-wow-duration="2000ms">
-            <h1 className="TitoloCapitolo">{t("header.header")}</h1>
         </div>*
         <div className="container">
             <div className="desccond">

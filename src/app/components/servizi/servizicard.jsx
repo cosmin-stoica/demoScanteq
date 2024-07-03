@@ -1,5 +1,6 @@
 import ItodoImage from "../../elements/itodo-img";
 import { useTranslation } from 'react-i18next';
+import Title from "../../elements/title";
 
 const ServiziCard = () => {
 
@@ -28,7 +29,7 @@ const ServiziCard = () => {
                 <div className="container">
                     {/* TITLE START */}
                     <div className="section-head center">
-                        <h1 className="TitoloCapitolo">{t("header")}</h1>
+                        <Title title={t("header")}></Title>
                     </div>
 
                     <div className="servizio-card-upper">

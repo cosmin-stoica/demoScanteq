@@ -1,5 +1,6 @@
 import ItodoImage from "../../elements/itodo-img";
 import { useTranslation } from 'react-i18next';
+import Title from "../../elements/title";
 function SectionAboutCompany2Inner() {
     const { t, i18n } = useTranslation();
 
@@ -23,7 +24,7 @@ function SectionAboutCompany2Inner() {
             <div id="aboutpane" className="sx-about-bx3-content-wrap">
 
                 <div className="row">
-                    <h1 className="TitoloCapitolo">{t('home.chi_siamo.header')}</h1>
+                    <Title title={t('home.chi_siamo.header')}></Title>
                     <div className="col-lg-6 col-md-12">
                         <div className="sx-about-bx3-media">
                             <div className="sx-dot-bx1"><ItodoImage src="images/about/dotted-pic2.png" alt="image" /></div>

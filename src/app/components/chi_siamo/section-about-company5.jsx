@@ -5,7 +5,7 @@ function SectionAboutCompany5() {
         <>
             <div className="section-full  p-t110 p-b80 bg-white sx-about-bx3-outer">
                 <div className="container">
-                    <div className="section-content">
+                    <div className="section-content margin-top50">
                         <SectionAboutCompany2Inner />
                     </div>
                 </div>

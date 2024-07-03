@@ -1,5 +1,6 @@
 import ItodoImage from "../../elements/itodo-img";
 import { useTranslation } from 'react-i18next';
+import Title from "../../elements/title";
 
 const MesIntro = () => {
 
@@ -24,7 +25,7 @@ const MesIntro = () => {
         <>
             <div className="container">
                 <div className="section-full wow fadeInDown" data-wow-duration="1500ms">
-                    <h1 className="TitoloCapitolo">{t("intro.header")}</h1>
+                    <Title title={t("intro.header")}></Title>
                 </div>
                 <div className="section-full wow fadeInRight" data-wow-duration="1500ms">
 
