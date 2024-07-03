@@ -20,7 +20,6 @@ function MissionVisionPage() {
             <SectionAboutCompany4 />
             <SectionOurInfo2/ >
             <SectionVideo2 />
-            <Clienti_Component></Clienti_Component>
             <SectionWhyChooseUs2></SectionWhyChooseUs2>
 
         </>

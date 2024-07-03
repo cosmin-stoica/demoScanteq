@@ -15,7 +15,7 @@ const ImaginaCaratteristiche = () => {
             <div className="div-header-job-card">
                 <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                     <div className="header-job-card caratteristiche-card">
-                        <i className="header-job-card-icona flaticon-support" />
+                        <i className="header-job-card-icona-primary flaticon-support" />
                         <h1>
                             {t("caratteristiche.title_1")}
                         </h1>
@@ -26,7 +26,7 @@ const ImaginaCaratteristiche = () => {
                 </div>
                 <div className="section-full wow fadeInLeft" data-wow-duration="1000ms">
                     <div className="header-job-card caratteristiche-card">
-                        <i className="header-job-card-icona flaticon-development" />
+                        <i className="header-job-card-icona-primary flaticon-development" />
                         <h1>
                             {t("caratteristiche.title_2")}
                         </h1>

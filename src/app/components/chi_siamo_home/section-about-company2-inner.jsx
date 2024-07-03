@@ -30,7 +30,7 @@ function SectionAboutCompany2Inner() {
                             <div className="sx-dot-bx2"><ItodoImage src="images/about/dotted-pic2.png" alt="image" /></div>
                             <div id="divmage" className="sx-ab3-img-outer">
                                 <div className="sx-ab3-media">
-                                    <ItodoImage className="aboutlogo2" src="images/about/chisiamo.png" alt="media" />
+                                    <ItodoImage className="aboutlogo2" src="images/about/mole.png" alt="media" />
                                     {/*<ItodoImage className="aboutlogo" src="images/logo.png" alt="media" />*/}
                                 </div>
                             </div>

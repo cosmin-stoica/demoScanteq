@@ -17,7 +17,7 @@ Version: 1.0
   /*--primary: #0f3377;*/
   --primary: rgb(0,18,84);
   --primary-dark: rgb(0, 10, 48);
-  --primary-light: rgb(24, 53, 157);
+  --primary-light: rgb(255, 255, 255);
   --secondary: #202122;
   --secondary-light: #666666;
   --white: #fff;
@@ -3244,12 +3244,12 @@ ol.list-num-count.list-outline-none > li:before {
   font-size: 16px;
   line-height: 20px;
   text-transform: capitalize;
-  color: var(--secondary-light);
-  background-color: rgb(255, 255, 255);
+  color: white;
   border-radius: 100px;
   padding: 25px 60px;
   display: inline-flex;
   align-items: center;
+  background-color: var(--primary-light);
 }
 
 .sx-breadcrumb li {

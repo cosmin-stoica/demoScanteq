@@ -10,7 +10,7 @@ import i18n from "./globals/traduttore/i18n";
 function App() {
   const [isLoading, setLoading] = useState(true);
   const [authChecked, setAuthChecked] = useState(false);
-  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [mediaLoaded, setMediaLoaded] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -45,48 +45,62 @@ function App() {
   useEffect(() => {
     if (authChecked) {
       const images = document.querySelectorAll("img");
-      const totalImages = images.length;
-      let loadedImages = 0;
+      const videos = document.querySelectorAll("video");
+      const totalMedia = images.length + videos.length;
+      let loadedMedia = 0;
 
-      if (totalImages === 0) {
-        setImagesLoaded(true);
-        return; // No images to load, mark as loaded
+      if (totalMedia === 0) {
+        setMediaLoaded(true);
+        return; // No images or videos to load, mark as loaded
       }
 
-      const imageLoaded = () => {
-        loadedImages += 1;
-        if (loadedImages === totalImages) {
-          setImagesLoaded(true);
+      const mediaLoaded = () => {
+        loadedMedia += 1;
+        if (loadedMedia === totalMedia) {
+          setMediaLoaded(true);
         }
       };
 
-      setImagesLoaded(false); // Reset the images loaded state when the route changes
+      setMediaLoaded(false); // Reset the media loaded state when the route changes
 
       images.forEach((img) => {
         if (img.complete) {
-          imageLoaded();
+          mediaLoaded();
         } else {
-          img.addEventListener("load", imageLoaded);
-          img.addEventListener("error", imageLoaded); // Consider the image loaded even if there's an error
+          img.addEventListener("load", mediaLoaded);
+          img.addEventListener("error", mediaLoaded); // Consider the image loaded even if there's an error
+        }
+      });
+
+      videos.forEach((video) => {
+        if (video.readyState >= 3) { // HAVE_FUTURE_DATA or more indicates enough data to start playing
+          mediaLoaded();
+        } else {
+          video.addEventListener("loadeddata", mediaLoaded);
+          video.addEventListener("error", mediaLoaded); // Consider the video loaded even if there's an error
         }
       });
 
       const timeoutId = setTimeout(() => {
-        setImagesLoaded(true);
+        setMediaLoaded(true);
       }, 3000); // Reduced timeout to 3 seconds
 
       // Clean up event listeners when the component unmounts
       return () => {
         clearTimeout(timeoutId);
         images.forEach((img) => {
-          img.removeEventListener("load", imageLoaded);
-          img.removeEventListener("error", imageLoaded);
+          img.removeEventListener("load", mediaLoaded);
+          img.removeEventListener("error", mediaLoaded);
+        });
+        videos.forEach((video) => {
+          video.removeEventListener("loadeddata", mediaLoaded);
+          video.removeEventListener("error", mediaLoaded);
         });
       };
     }
   }, [authChecked, location]);
 
-  if (isLoading || !authChecked || !imagesLoaded) {
+  if (isLoading || !authChecked || !mediaLoaded) {
     return <Loader />;
   }
 

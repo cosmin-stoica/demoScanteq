@@ -1675,9 +1675,8 @@ section.cardJob {
   cursor: pointer;
   margin-top: 1rem;
   display: inline-block;
-  font-weight: 700;
-  font-size: 10px;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
   color: white;
   /* border-radius: 5px; */
   background: var(--third);
@@ -1698,9 +1697,8 @@ section.cardJob {
   cursor: pointer;
   margin-top: 1rem;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 10px;
-  text-transform: uppercase;
   color: white;
   /* border-radius: 5px; */
   background: var(--primary);
@@ -1722,10 +1720,9 @@ section.cardJob {
   cursor: pointer;
   margin-top: 1rem;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 10px;
-  text-transform: uppercase;
-  color: white;
+  color: rgb(255, 255, 255);
   /* border-radius: 5px; */
   background: var(--primary-light);
   padding: 0.5rem 0.7rem;
@@ -3317,10 +3314,11 @@ section.cardJob {
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 5px;
+  border-radius: 30px;
   background-color: var(--primary);
   color: var(--white);
   width: 100px;
+  font-size: 15px;
 }
 
 
@@ -3429,7 +3427,7 @@ section.cardJob {
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 5px;
+  border-radius: 30px;
   background-color: black;
   color: var(--white);
   margin-right: 20px;
@@ -4973,7 +4971,7 @@ button[type="submit"]:hover {
 }
 
 .card-viewer-lower-part-card-title {
-  color: var(--primary-light);
+  color: var(--primary);
   font-size: 25px;
   font-weight: 700;
   padding-top: 30px;
@@ -4992,6 +4990,12 @@ button[type="submit"]:hover {
   color: white;
   font-size: 50px;
 }
+
+.header-job-card-icona-primary {
+  color: var(--primary);
+  font-size: 90px;
+}
+
 
 .home-section-div {
   width: 100%;
@@ -5073,18 +5077,39 @@ button[type="submit"]:hover {
   padding-bottom: 100px;
 }
 
+
 .perche-sceglierci-div-img {
   right: -100px;
   border-top-right-radius: 300px;
   border-bottom-right-radius: 300px;
-  width: 50%;
-  height: auto;
+  object-fit: cover;
 }
 
 .perche-sceglierci-div-text {
   padding-left: 30px;
   padding-top: 40px;
+  height: 100%;
 }
+
+.perche-sceglierci-div-imgdiv {
+  height: 100%;
+}
+
+.demo-sceglierci {
+  width: 100%;
+  min-height: 100%;
+}
+
+.demo-sceglierci-inner {
+  width: 100%;
+  min-height: 100%;
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
+  background-image: url("../images/about/sceglierci.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .sx-our-info-content-list h3 {
   color: red;
@@ -5114,7 +5139,6 @@ button[type="submit"]:hover {
   }
 
 }
-
 
 @media screen and (max-width:1200px) {
 
@@ -5371,7 +5395,7 @@ button[type="submit"]:hover {
   padding-bottom: 20px;
 }
 
-.carousel-job-viewer{
+.carousel-job-viewer {
   width: 100%;
   height: 100%;
   display: flex;
@@ -5380,7 +5404,7 @@ button[type="submit"]:hover {
   flex-direction: column;
 }
 
-.job-viewer-card-title-img{
+.job-viewer-card-title-img {
   max-width: 50%;
   max-height: 50%;
 }
@@ -5392,4 +5416,86 @@ button[type="submit"]:hover {
 
 .carousel-job-viewer .carousel .thumbs {
   justify-content: center;
+}
+
+
+
+.chi-siamo-banner {
+  height: 100vh;
+  background-color: var(--primary);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-background {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(2, 40, 255, 0.3);
+  pointer-events: none;
+  filter: blur(1);
+}
+
+.chi-siamo-banner-content {
+  color: white;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chi-siamo-banner img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.aboutlogo2 {
+  width: 80%;
+}
+
+
+.chi-siamo-banner-content-title {
+  font-size: 60px;
+  width: 50%;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.chi-siamo-banner-content-desc {
+  width: 50%;
+  font-size: var(--fontSizePar);
+  padding-top: 40px;
+}
+
+.chi-siamo-banner-content-btnwrapper{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.chi-siamo-banner-content-btnwrapper button{
+  border-radius: 30px;
+  border:none;
+  background-color: var(--primary);
+  color:white;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 40px;
+  font-size: var(--fontSizePar);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 30px -10px;
 }

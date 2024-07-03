@@ -9,7 +9,7 @@ import ServiziCard from "./servizicard";
 
 function ServiziHome() {
 
-    useEffect(()=>{
+    useEffect(() => {
         loadScript("js/custom.js")
     })
 
@@ -18,9 +18,8 @@ function ServiziHome() {
             <Banner _data={bannerData.services} />
             <ServiziCard></ServiziCard>
             <SectionVideo2 />
-            <Clienti_Component />
             <SectionWhyChooseUs4 />
-     
+
         </>
     )
 }
