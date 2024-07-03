@@ -20,8 +20,13 @@ const BannerCard = ({ List, containerHeight, flip, imgLogo }) => {
         }
     }, [List.length, currentIndex, List]);
 
-    const { src, width, widthLower, color1, color2, colorBackGround, transitionSecondsCss } = List[currentIndex];
+    let src, width, widthLower, color1, color2, colorBackGround, transitionSecondsCss;
 
+    try {
+        ({ src, width, widthLower, color1, color2, colorBackGround, transitionSecondsCss } = List[currentIndex]);
+    } catch (error) {
+        console.error('BANNERCARD si è verificato un errore:', error);
+    }
 
 
     return (

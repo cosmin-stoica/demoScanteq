@@ -25,8 +25,6 @@
                 "margin": false,
                 "fade": "Left",
                 "titolo": "Interface Utilisateur",
-                "immagineSrc": "images/masp/principale.png",
-                "altSrc": "Interface Utilisateur",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-layers",
@@ -36,14 +34,62 @@
                         "iconaClasse": "flaticon-web-plugin",
                         "descrizione": "La configuration de l'interface utilisateur est gérée via des fichiers qui permettent d'activer ou de désactiver les différents panneaux et contrôles, offrant flexibilité et personnalisation pour adapter l'application aux besoins spécifiques des utilisateurs."
                     }
+                ],
+                "data": [
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/1.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/2.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/3.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/4.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    }
                 ]
             },
             {
                 "margin": true,
                 "fade": "Right",
                 "titolo": "Authentification des Utilisateurs",
-                "immagineSrc": "images/masp/login.png",
-                "altSrc": "Authentification des Utilisateurs",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-promotion",
@@ -53,14 +99,50 @@
                         "iconaClasse": "flaticon-programmer",
                         "descrizione": "Depuis l'écran principal, en cliquant sur Login, le panneau avec la liste des utilisateurs enregistrés s'ouvre. Pour accéder, il faut sélectionner l'utilisateur, entrer le code PIN à l'écran et appuyer sur Login. Alternativement, le login peut se faire en scannant le code badge de l'opérateur avec le lecteur de codes-barres pendant que la fenêtre de login est ouverte."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/auth/1.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/auth/2.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/auth/3.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
                 "fade": "Left",
                 "titolo": "Démarrage du Travail",
-                "immagineSrc": "images/masp/avviolavorazione.png",
-                "altSrc": "Démarrage du Travail",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-laptop",
@@ -74,7 +156,57 @@
                         "iconaClasse": "flaticon-layers",
                         "descrizione": "Une autre option est la sélection à partir d'une liste prédéfinie. Dans ce cas, l'utilisateur peut choisir le cycle de travail souhaité à partir d'une liste prédéfinie, affichant toutes les options disponibles de manière claire et organisée."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
@@ -112,7 +244,57 @@
                         "iconaClasse": "flaticon-profit",
                         "descrizione": "Les fichiers .ini contiennent des sections générales et spécifiques pour chaque job, permettant de définir de nombreux paramètres. Cela offre un haut degré de personnalisation et de contrôle, adaptant le logiciel aux besoins spécifiques des utilisateurs."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/job/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             }
         ],
         "button": "Suivant"

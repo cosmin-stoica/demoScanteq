@@ -25,8 +25,6 @@
                 "margin": false,
                 "fade": "Left",
                 "titolo": "User Interface",
-                "immagineSrc": "images/masp/principale.png",
-                "altSrc": "User Interface",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-layers",
@@ -36,14 +34,62 @@
                         "iconaClasse": "flaticon-web-plugin",
                         "descrizione": "The user interface configuration is managed through files that allow the activation or deactivation of various panels and controls, offering flexibility and customization to adapt the application to the specific needs of users."
                     }
+                ],
+                "data": [
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/1.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/2.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/3.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/4.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    }
                 ]
             },
             {
                 "margin": true,
                 "fade": "Right",
                 "titolo": "User Authentication",
-                "immagineSrc": "images/masp/login.png",
-                "altSrc": "User Authentication",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-promotion",
@@ -53,14 +99,50 @@
                         "iconaClasse": "flaticon-programmer",
                         "descrizione": "From the main screen, clicking on Login opens the panel with the list of registered users. To log in, select the user, enter the on-screen PIN, and press Login. Alternatively, login can occur by scanning the operator's badge code with the barcode reader while the Login window is open."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/auth/1.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/auth/2.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/auth/3.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
                 "fade": "Left",
                 "titolo": "Start of Processing",
-                "immagineSrc": "images/masp/avviolavorazione.png",
-                "altSrc": "Start of Processing",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-laptop",
@@ -74,14 +156,62 @@
                         "iconaClasse": "flaticon-layers",
                         "descrizione": "Another option is selection from a preset list. In this case, the user can choose the desired processing cycle from a predefined list, displaying all available options clearly and organized."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
                 "fade": "Right",
                 "titolo": "Diagnostic Panels",
-                "immagineSrc": "images/masp/diagnostica.png",
-                "altSrc": "Diagnostic Panels",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-category",
@@ -95,7 +225,57 @@
                         "iconaClasse": "flaticon-development",
                         "descrizione": "The detailed interface of the diagnostic panels allows for control and maintenance of peripherals. Users can perform advanced diagnostic and monitoring operations to maintain system efficiency."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
@@ -112,7 +292,57 @@
                         "iconaClasse": "flaticon-profit",
                         "descrizione": "The .ini files contain general and specific sections for each job, allowing for the setting of numerous parameters. This allows for a high degree of customization and control, adapting the software to the specific needs of users."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/job/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             }
         ],
         "button": "Next"

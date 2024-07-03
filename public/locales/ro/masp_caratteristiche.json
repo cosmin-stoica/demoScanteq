@@ -25,8 +25,6 @@
                 "margin": false,
                 "fade": "Left",
                 "titolo": "Interfața Utilizatorului",
-                "immagineSrc": "images/masp/principale.png",
-                "altSrc": "Interfața Utilizatorului",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-layers",
@@ -36,14 +34,62 @@
                         "iconaClasse": "flaticon-web-plugin",
                         "descrizione": "Configurarea interfeței utilizatorului este gestionată prin fișiere care permit activarea sau dezactivarea diverselor panouri și controale, oferind flexibilitate și personalizare pentru a adapta aplicația la nevoile specifice ale utilizatorilor."
                     }
+                ],
+                "data": [
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/1.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/2.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/3.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    },
+                    {
+                        "src": "/images/masp/caratteristiche/interfaccia/4.png",
+                        "width": "85%",
+                        "widthLower": "70%",
+                        "color1": "rgba(255, 142, 142, 0.3)",
+                        "color2": "rgba(238, 53, 42, 0.3)",
+                        "colorBackGround": "rgb(0,12,84)",
+                        "transitionSeconds": "1000",
+                        "transitionSecondsCss": "1s",
+                        "fixedSeconds": "500",
+                        "totalSeconds": "4000"
+                    }
                 ]
             },
             {
                 "margin": true,
                 "fade": "Right",
                 "titolo": "Autentificarea Utilizatorilor",
-                "immagineSrc": "images/masp/login.png",
-                "altSrc": "Autentificarea Utilizatorilor",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-promotion",
@@ -53,14 +99,50 @@
                         "iconaClasse": "flaticon-programmer",
                         "descrizione": "Din ecranul principal, făcând clic pe Login se deschide panoul cu lista utilizatorilor înregistrați. Pentru a accesa, selectați utilizatorul, introduceți PIN-ul pe ecran și apăsați Login. Alternativ, autentificarea poate avea loc prin scanarea codului de badge al operatorului cu cititorul de coduri de bare în timp ce fereastra de login este deschisă."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/auth/1.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/auth/2.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/auth/3.png",
+                      "width": "85%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
                 "fade": "Left",
                 "titolo": "Începerea Procesării",
-                "immagineSrc": "images/masp/avviolavorazione.png",
-                "altSrc": "Începerea Procesării",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-laptop",
@@ -74,14 +156,62 @@
                         "iconaClasse": "flaticon-layers",
                         "descrizione": "O altă opțiune este selectarea dintr-o listă prestabilită. În acest caz, utilizatorul poate alege ciclul de procesare dorit dintr-o listă predefinită, afișând toate opțiunile disponibile într-un mod clar și organizat."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/avvio/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
                 "fade": "Right",
                 "titolo": "Panourile de Diagnostic",
-                "immagineSrc": "images/masp/diagnostica.png",
-                "altSrc": "Panourile de Diagnostic",
                 "dettagli": [
                     {
                         "iconaClasse": "flaticon-category",
@@ -95,7 +225,57 @@
                         "iconaClasse": "flaticon-development",
                         "descrizione": "Interfața detaliată a panourilor de diagnostic permite controlul și întreținerea perifericelor. Utilizatorii pot efectua operațiuni avansate de diagnostic și monitorizare pentru a menține eficiența sistemului."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/diagnostica/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             },
             {
                 "margin": true,
@@ -112,7 +292,57 @@
                         "iconaClasse": "flaticon-profit",
                         "descrizione": "Fișierele .ini conțin secțiuni generale și specifice pentru fiecare job, permițând setarea numeroșilor parametri. Acest lucru permite un grad înalt de personalizare și control, adaptând software-ul la nevoile specifice ale utilizatorilor."
                     }
-                ]
+                ],
+                "data": [
+                    {
+                      "src": "/images/masp/caratteristiche/job/1.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/2.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/3.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    },
+                    {
+                      "src": "/images/masp/caratteristiche/job/4.png",
+                      "width": "90%",
+                      "widthLower": "70%",
+                      "color1": "rgba(255, 142, 142, 0.3)",
+                      "color2": "rgba(238, 53, 42, 0.3)",
+                      "colorBackGround": "rgb(0,12,84)",
+                      "transitionSeconds": "1000",
+                      "transitionSecondsCss": "1s",
+                      "fixedSeconds": "500",
+                      "totalSeconds": "4000"
+                    }
+                  ]
             }
         ],
         "button": "Înainte"
