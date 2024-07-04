@@ -1,6 +1,7 @@
 import ItodoImage from "../../elements/itodo-img";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import HomeSection from "../../elements/homeSection";
 
 const FormatiTraccia = () => {
 
@@ -19,6 +20,17 @@ const FormatiTraccia = () => {
     return (
         <>
             {tracciabilitaDataIntro.map((data, index) => (
+                <HomeSection
+                    title={data.titolo}
+                    imgSrcList={data.data}
+                    putBackground={true}
+                    descriptionList={data.dettagli.map(item => item.descrizione)}
+                    backgroundColor={index % 2 === 0 ? 'white' : 'rgb(245,245,245)'}
+                    flip={index % 2 === 0}
+                />
+            ))}
+
+            {/*tracciabilitaDataIntro.map((data, index) => (
                 <div className={`section-full wow fadeIn${data.fade}`} data-wow-duration="1500ms">
                     <div key={index} className={`servizio-card-upper ${data.margin ? 'margin-top100' : ''}`}>
                         <div className="servizio-card-title masp-card-title width100 perflex">
@@ -69,9 +81,9 @@ const FormatiTraccia = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>*/}
 
-            <div className="width100 perflex margin-top100">
+            <div className="width100 perflex margin-top100 margin-bottom100">
                 <NavLink to="/masp-operazioni"><button className="masp-btn-indietro">{t("button_indietro")}</button></NavLink>
                 <NavLink to="/supervisor"><button className="masp-btn-avanti">{t("button_avanti")}</button></NavLink>
 

@@ -7,8 +7,6 @@
             "margin": true,
             "fade": "Left",
             "titolo": "CSV Files",
-            "immagineSrc": "images/masp/tracciabilita/csv.png",
-            "altSrc": "CSV Files",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-layers",
@@ -18,14 +16,26 @@
                     "iconaClasse": "flaticon-web-plugin",
                     "descrizione": "The generated CSV reports include details of each stage of the work cycle. A typical CSV file contains data related to the plant, workstation, date and time, operator, and test operation results, allowing precise and orderly traceability of the performed operations."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/csv.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Right",
             "titolo": "MySQL, SQL Server Databases",
-            "immagineSrc": "images/masp/tracciabilita/database.png",
-            "altSrc": "MySQL, SQL Server Databases",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-rss",
@@ -35,14 +45,26 @@
                     "iconaClasse": "flaticon-monitor",
                     "descrizione": "The data is recorded in the database to ensure complete traceability of operations. The stored information includes details of the assembly and testing operations, ensuring that all data is easily accessible and organized for future analysis and reviews."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/database.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Left",
             "titolo": "MES Systems",
-            "immagineSrc": "images/masp/tracciabilita/mes.png",
-            "altSrc": "MES Systems",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-laptop",
@@ -52,14 +74,26 @@
                     "iconaClasse": "flaticon-security",
                     "descrizione": "In HTTPS interfacing, data is transmitted using calls and formatted in JSON, while in the shared folders mode, data is saved as CSV files in a shared network. Both modes ensure precise traceability and easy integration with production management systems."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/mes.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Right",
             "titolo": "Thermal Paper Printing",
-            "immagineSrc": "images/masp/tracciabilita/printer.png",
-            "altSrc": "Thermal Paper Printing",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-chart",
@@ -68,6 +102,56 @@
                 {
                     "iconaClasse": "flaticon-survey",
                     "descrizione": "The printed labels include detailed information about the performed operations, ensuring immediate and precise visual traceability. This function allows having a physical documentation that accompanies the product during all stages of production and logistics."
+                }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/printer.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/16.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/17.png",
+                    "width": "50%",
+                    "widthLower": "40%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/18.png",
+                    "width": "30%",
+                    "widthLower": "20%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
                 }
             ]
         }

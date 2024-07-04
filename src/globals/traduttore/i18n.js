@@ -11,7 +11,7 @@ i18n
   .init({
     supportedLngs: ['en', 'it', 'ro', 'fr'], // Aggiungi le lingue che vuoi supportare
     fallbackLng: 'it',
-    ns: ['home', 'job', 'footer', 'vision', 'leadership', 'masp_caratteristiche', 'masp_operazioni', 'masp_tracciabilita', 'supervisor', 'mes', 'imagina', 'unita_di_controllo', 'schede_automazione', 'scheda_di_controllo', 'servizi', 'contattaci'], // Definisci i namespaces
+    ns: ['home', 'job', 'footer', 'vision', 'leadership', 'masp_caratteristiche', 'masp_operazioni', 'masp_tracciabilita', 'supervisor', 'mes', 'imagina', 'unita_di_controllo', 'schede_automazione', 'scheda_di_controllo', 'servizi', 'contattaci', 'chi_siamo'], // Definisci i namespaces
     defaultNS: 'home',
     detection: {
       order: ['cookie', 'localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],

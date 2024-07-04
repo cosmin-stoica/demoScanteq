@@ -5,12 +5,14 @@ import Header21Admin from "../app/elements/common/header21admin";
 import AppRoutes from "../routing/app-routes";
 import SupervisorHome from "../app/components/supervisor/supervisor_tecnico/supervisor_home";
 import LoginDeploy from "../app/components/login/logindeploy";
+import { Analytics } from "@vercel/analytics/react"
 
 function RootLayout() {
     const { pathname } = useLocation();
 
     return (
         <>
+        <Analytics></Analytics>
           <div className="page-wraper">
             {/* Utilizza un'istruzione if per controllare il pathname */}
             {pathname === '/login' ? (

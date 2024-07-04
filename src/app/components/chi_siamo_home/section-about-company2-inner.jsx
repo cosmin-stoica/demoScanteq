@@ -21,10 +21,9 @@ function SectionAboutCompany2Inner() {
 
     return (
         <>
-            <div id="aboutpane" className="sx-about-bx3-content-wrap">
+            <div className="sx-about-bx3-content-wrap">
 
                 <div className="row">
-                    <Title title={t('home.chi_siamo.header')}></Title>
                     <div className="col-lg-6 col-md-12">
                         <div className="sx-about-bx3-media">
                             <div className="sx-dot-bx1"><ItodoImage src="images/about/dotted-pic2.png" alt="image" /></div>
@@ -48,8 +47,9 @@ function SectionAboutCompany2Inner() {
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="sx-about-bx3-content">
-                            <span className="sx-title-2">{t('home.chi_siamo.title')}
-                            </span>
+                            {/*<span className="sx-title-2">{t('home.chi_siamo.title')}
+                            </span>*/}
+                            {/*<Title title={t('home.chi_siamo.title')}></Title>*/}
                             {descriptions.map((desc, index) => (
                                 <p key={index}>{desc}</p>
                             ))}

@@ -9,6 +9,7 @@ import Clienti_Component from "../clienti/clienti_component";
 import ServicesHome from "../servizi/servizi_home/servicesHome";
 import ChiSiamoBanner from "./chi_siamo_banner";
 import { useLocation } from 'react-router-dom';
+import CarsBanner from "./cars_banner";
 
 function Chi_Siamo_Page() {
 
@@ -33,6 +34,7 @@ function Chi_Siamo_Page() {
             <ChiSiamoBanner></ChiSiamoBanner>
             {/*<Banner _data={bannerData.about} />*/}
             <SectionAboutCompany5></SectionAboutCompany5>
+            <CarsBanner></CarsBanner>
             <ServicesHome></ServicesHome>
             <SectionVideo2 />
             <SectionWhyChooseUs4 />

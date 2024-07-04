@@ -7,8 +7,6 @@ function SectionAboutCompany2() {
                 <div className="container">
                     <div className="section-content">
                         <SectionAboutCompany2Inner />
-                        {/* COUNTER START */}
-                        {/* COUNTER  END */}
                     </div>
                 </div>
             </div>

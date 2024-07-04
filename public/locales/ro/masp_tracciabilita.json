@@ -7,8 +7,6 @@
             "margin": true,
             "fade": "Left",
             "titolo": "Fișiere CSV",
-            "immagineSrc": "images/masp/tracciabilita/csv.png",
-            "altSrc": "Fișiere CSV",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-layers",
@@ -18,14 +16,26 @@
                     "iconaClasse": "flaticon-web-plugin",
                     "descrizione": "Rapoartele CSV generate includ detalii despre fiecare etapă a ciclului de lucru. Un fișier CSV tipic conține date referitoare la fabrică, postul de lucru, data și ora, operatorul și rezultatele operațiunilor de testare, permițând o trasabilitate precisă și ordonată a operațiunilor desfășurate."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/csv.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Right",
             "titolo": "Baze de date MySQL, SQL Server",
-            "immagineSrc": "images/masp/tracciabilita/database.png",
-            "altSrc": "Baze de date MySQL, SQL Server",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-rss",
@@ -35,14 +45,26 @@
                     "iconaClasse": "flaticon-monitor",
                     "descrizione": "Datele sunt înregistrate în baza de date pentru a asigura o trasabilitate completă a operațiunilor. Informațiile stocate includ detalii despre operațiunile de montaj și testare, asigurând că toate datele sunt ușor accesibile și organizate pentru analize și revizuiri viitoare."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/database.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Left",
             "titolo": "Sisteme MES",
-            "immagineSrc": "images/masp/tracciabilita/mes.png",
-            "altSrc": "Sisteme MES",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-laptop",
@@ -52,14 +74,26 @@
                     "iconaClasse": "flaticon-security",
                     "descrizione": "În interfațarea HTTPS, datele sunt transmise folosind apeluri și formatate în JSON, în timp ce în modul cu foldere partajate, datele sunt salvate ca fișiere CSV într-o rețea partajată. Ambele moduri asigură o trasabilitate precisă și o integrare ușoară cu sistemele de gestionare a producției."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/mes.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Right",
             "titolo": "Imprimare pe hârtie termică",
-            "immagineSrc": "images/masp/tracciabilita/printer.png",
-            "altSrc": "Imprimare pe hârtie termică",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-chart",
@@ -68,6 +102,56 @@
                 {
                     "iconaClasse": "flaticon-survey",
                     "descrizione": "Etichetele tipărite includ informații detaliate despre operațiunile executate, asigurând o trasabilitate vizuală imediată și precisă. Această funcție permite obținerea unei documentații fizice care însoțește produsul în toate etapele producției și logisticii."
+                }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/printer.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/16.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/17.png",
+                    "width": "50%",
+                    "widthLower": "40%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/18.png",
+                    "width": "30%",
+                    "widthLower": "20%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
                 }
             ]
         }

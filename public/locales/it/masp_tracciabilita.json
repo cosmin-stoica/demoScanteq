@@ -7,8 +7,6 @@
             "margin": true,
             "fade": "Left",
             "titolo": "File CSV",
-            "immagineSrc": "images/masp/tracciabilita/csv.png",
-            "altSrc": "File CSV",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-layers",
@@ -18,14 +16,26 @@
                     "iconaClasse": "flaticon-web-plugin",
                     "descrizione": "I report CSV generati includono dettagli su ogni fase del ciclo di lavoro. Un esempio tipico di file CSV contiene dati relativi allo stabilimento, alla postazione, alla data e ora, all'operatore e ai risultati delle operazioni di collaudo, consentendo una tracciabilità precisa e ordinata delle operazioni svolte."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/csv.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Right",
             "titolo": "Database MySql, SQL Server",
-            "immagineSrc": "images/masp/tracciabilita/database.png",
-            "altSrc": "Database MySql, SQL Server",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-rss ",
@@ -35,14 +45,26 @@
                     "iconaClasse": "flaticon-monitor",
                     "descrizione": "I dati vengono registrati nel database per garantire una tracciabilità completa delle operazioni. Le informazioni archiviate includono dettagli sulle operazioni di montaggio e collaudo, assicurando che tutti i dati siano facilmente accessibili e organizzati per future analisi e revisioni."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/database.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Left",
             "titolo": "Sistemi Mes",
-            "immagineSrc": "images/masp/tracciabilita/mes.png",
-            "altSrc": "Sistemi Mes",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-laptop",
@@ -52,14 +74,26 @@
                     "iconaClasse": "flaticon-security",
                     "descrizione": "Nell'interfacciamento HTTPS, i dati vengono trasmessi utilizzando chiamate e formattati in JSON, mentre nella modalità con cartelle condivise, i dati vengono salvati come file CSV in una rete condivisa. Entrambe le modalità assicurano una tracciabilità precisa e una facile integrazione con i sistemi di gestione della produzione."
                 }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/mes.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                }
             ]
         },
         {
             "margin": true,
             "fade": "Right",
             "titolo": "Stampa su carta termica",
-            "immagineSrc": "images/masp/tracciabilita/printer.png",
-            "altSrc": "Stampa su carta termica",
             "dettagli": [
                 {
                     "iconaClasse": "flaticon-chart",
@@ -68,6 +102,56 @@
                 {
                     "iconaClasse": "flaticon-survey",
                     "descrizione": "Le etichette stampate includono informazioni dettagliate sulle operazioni eseguite, garantendo una tracciabilità visiva immediata e precisa. Questa funzione permette di avere una documentazione fisica che accompagna il prodotto durante tutte le fasi della produzione e della logistica."
+                }
+            ],
+            "data": [
+                {
+                    "src": "/images/masp/tracciabilita/printer.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/16.png",
+                    "width": "80%",
+                    "widthLower": "70%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/17.png",
+                    "width": "50%",
+                    "widthLower": "40%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
+                },
+                {
+                    "src": "/images/masp/tracciabilita/18.png",
+                    "width": "30%",
+                    "widthLower": "20%",
+                    "color1": "rgba(255, 142, 142, 0.3)",
+                    "color2": "rgba(238, 53, 42, 0.3)",
+                    "colorBackGround": "rgb(0,12,84)",
+                    "transitionSeconds": "1000",
+                    "transitionSecondsCss": "1s",
+                    "fixedSeconds": "500",
+                    "totalSeconds": "4000"
                 }
             ]
         }

@@ -159,9 +159,9 @@ function Header2() {
                                         <NavLink to="/">Home</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/about-us" >{t('header.chi_siamo')}</NavLink>
+                                        <NavLink>{t('header.chi_siamo')}</NavLink>
                                         <ul className="sub-menu">
-                                            <li><NavLink to="/about-us#aboutpane" >{t('header.la_nostra_storia')}</NavLink></li>
+                                            <li><NavLink to="/about-us" >{t('header.la_nostra_storia')}</NavLink></li>
                                             <li><NavLink to="/mission">Vision</NavLink></li>
                                             <li><NavLink to="/leadership">Leadership</NavLink></li>
                                         </ul>
