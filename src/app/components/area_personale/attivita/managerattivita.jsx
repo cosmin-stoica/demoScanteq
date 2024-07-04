@@ -274,7 +274,7 @@ function ManagerAttivita({ azienda }) {
           }
 
           // Invia i dati modificati al backend
-          const response = await axios.put('https://www.scanteq.com/php/attivita.php', { modifiedData });
+          const response = await axios.put('api/php/attivita.php', { modifiedData });
           console.log(modifiedData);
           console.log("Risposta dal backend:", response.data);
           setRisultati(response.data);
@@ -322,7 +322,7 @@ function ManagerAttivita({ azienda }) {
   );
 
   const handleAggiorna = () => {
-    axios.get('https://www.scanteq.com/php/attivita.php')
+    axios.get('api/php/attivita.php')
       .then((response) => {
         if (Array.isArray(response.data)) {
           const sortedData = response.data.sort((a, b) => {

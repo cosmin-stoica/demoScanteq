@@ -1,8 +1,19 @@
 import ItodoImage from "../../elements/itodo-img";
+import axios from "axios";
 
 const ChiSiamoBanner = () => {
 
     let variab = true;
+
+    const fetchAnalyticsData = async () => {
+        const response = await axios.get('/v1/analytics', {
+            headers: {
+                Authorization: `Bearer OmSLx8Uj068MwArWUmWAiVkU`,
+            },
+        });
+        return response.data;
+    };
+
 
     return (
         <>
@@ -24,6 +35,8 @@ const ChiSiamoBanner = () => {
                     </div>
                 </div>
             </div>
+            <button onClick={fetchAnalyticsData}>Demo</button>
+
         </>
     );
 };
