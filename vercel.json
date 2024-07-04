@@ -1,13 +1,9 @@
 {
   "version": 2,
-   "github": {
-    "enabled": true,
-    "repo": "cosmin-stoica/demoScanteq"
-  },
   "builds": [
     {
-      "src": "api/php/*.php",
-      "use": "vercel-php@0.3.6"
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
     },
     {
       "src": "src/package.json",
@@ -28,3 +24,4 @@
     }
   ]
 }
+

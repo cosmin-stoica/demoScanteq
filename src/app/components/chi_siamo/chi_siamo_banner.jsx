@@ -6,7 +6,7 @@ const ChiSiamoBanner = () => {
     let variab = true;
 
     const fetchAnalyticsData = async () => {
-        const response = await axios.get('/v1/analytics', {
+        const response = await axios.get('https://scanteq.com/php/checklist.php', {
             headers: {
                 Authorization: `Bearer OmSLx8Uj068MwArWUmWAiVkU`,
             },
