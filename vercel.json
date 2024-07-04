@@ -1,5 +1,9 @@
 {
   "version": 2,
+   "github": {
+    "enabled": true,
+    "repo": "cosmin-stoica/demoScanteq"
+  },
   "builds": [
     {
       "src": "api/php/*.php",

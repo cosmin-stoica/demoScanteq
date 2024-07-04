@@ -12,8 +12,11 @@ const JobCard = ({ title, description, imgSrc }) => {
             try {
                 const response = await axios.get(`/assets/images/jobs/carousel/${title}`);
                 setHasImages(response.status === 200);
+                console.log('YES!');
             } catch (error) {
                 setHasImages(false);
+                console.log('NO!',error);
+
             }
         };
 
